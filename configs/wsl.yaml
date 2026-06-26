@@ -1,0 +1,13 @@
+# Local (WSL) config: real data at a moderate scale that finishes on a laptop.
+# 3 seeds per (family, size); report the median in analysis.
+name: wsl
+timeout: 60          # seconds per (instance, solver)
+seeds: 3
+anytime: true        # record 10/30/60s incumbent checkpoints
+families:
+  gap:      [5, 10, 20, 40]
+  knapsack: [5, 10, 20, 40]
+  jobshop:  [3, 4, 5, 6]
+  config:   [8, 15, 25, 40, 60]
+  setcover: [6, 10, 16, 24]
+  bvcover:  [8, 12, 16, 24]   # OMT-only

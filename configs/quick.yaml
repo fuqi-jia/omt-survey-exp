@@ -1,0 +1,12 @@
+# Fast smoke config: validate the full pipeline end-to-end in a couple of minutes.
+name: quick
+timeout: 20          # seconds per (instance, solver)
+seeds: 1             # one seed per (family, size)
+anytime: true        # record 10/30/60s incumbent checkpoints
+families:
+  gap:      [5, 10]
+  knapsack: [5, 10]
+  jobshop:  [3, 4]
+  config:   [8, 15]
+  setcover: [6, 10]
+  bvcover:  [8, 12]   # OMT-only

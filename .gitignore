@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Local solver binaries (re-fetched by scripts/setup_env.sh)
+tools/
+
+# Regenerable encoding artifacts (rebuilt by gen_benchmarks.py).
+# manifest.json / results.* / tables / figures / summary.md ARE committed.
+runs/*/smt2/
+runs/*/lp/
+runs/*/mzn/
+runs/*/run.log
+
+# OS / editor
+.DS_Store

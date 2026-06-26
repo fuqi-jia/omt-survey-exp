@@ -1,0 +1,15 @@
+# Aggressive (server) config: pushes scale + timeout to separate the paradigms.
+# Intended to run on a server, not WSL. 5 seeds per (family, size); 120s timeout.
+# Use --resume so a long run survives interruption:
+#   python scripts/run_all.py --config configs/full.yaml --resume
+name: full
+timeout: 120         # seconds per (instance, solver)
+seeds: 5
+anytime: true
+families:
+  gap:      [10, 20, 40, 80, 120, 160]
+  knapsack: [10, 20, 40, 80, 120, 160]
+  jobshop:  [3, 4, 5, 6, 8, 10, 12]
+  config:   [15, 30, 60, 100, 150, 200]
+  setcover: [10, 20, 40, 60, 80]
+  bvcover:  [8, 16, 24, 32, 48, 64]   # OMT-only

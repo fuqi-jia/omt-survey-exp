@@ -1,0 +1,16 @@
+# Python deps for the OMT-survey experiment (install into .venv).
+# External binaries are NOT pip packages and must be on PATH separately:
+#   z3            (OMT)  -- apt/brew/github release
+#   minizinc      (CP)   -- with the Gecode solver; Chuffed optional
+#   optimathsat   (OMT)  -- fetched by scripts/setup_env.sh (1.7.4)
+# Gurobi / CPLEX are optional and auto-detected via PuLP if licensed.
+
+pulp>=2.8           # MILP modelling + CBC/HiGHS/SCIP/Gurobi/CPLEX backends
+ortools>=9.8        # CP-SAT (native CP solver)
+highspy>=1.5        # HiGHS backend for PuLP
+pyscipopt>=4.3      # SCIP backend for PuLP
+numpy>=1.24
+pandas>=2.0         # results aggregation
+matplotlib>=3.7     # figures
+pyyaml>=6.0         # config files
+psutil>=5.9         # peak-RSS sampling
