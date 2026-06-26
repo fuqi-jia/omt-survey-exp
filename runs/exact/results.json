@@ -1,0 +1,557 @@
+[
+ {
+  "n": 8,
+  "seed": 0,
+  "true_opt": 90071992547409950,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 90071992547409950
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 90071992547409950
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 90071992547409944,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 90071992547409944,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 90071992547409944,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 90071992547409950
+   }
+  }
+ },
+ {
+  "n": 8,
+  "seed": 1,
+  "true_opt": 90071992547409943,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 90071992547409943
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 90071992547409943
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 90071992547409937,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 90071992547409937,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 90071992547409937,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 90071992547409943
+   }
+  }
+ },
+ {
+  "n": 8,
+  "seed": 2,
+  "true_opt": 90071992547409935,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 90071992547409935
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 90071992547409935
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 90071992547409934,
+    "feasible": true,
+    "gap_to_opt": 1
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 90071992547409934,
+    "feasible": true,
+    "gap_to_opt": 1
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 90071992547409934,
+    "feasible": true,
+    "gap_to_opt": 1
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 90071992547409935
+   }
+  }
+ },
+ {
+  "n": 8,
+  "seed": 3,
+  "true_opt": 90071992547409939,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 90071992547409939
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 90071992547409939
+   },
+   "cbc": {
+    "exact_optimal": true,
+    "value": 90071992547409939,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "exact_optimal": true,
+    "value": 90071992547409939,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "exact_optimal": true,
+    "value": 90071992547409939,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 90071992547409939
+   }
+  }
+ },
+ {
+  "n": 8,
+  "seed": 4,
+  "true_opt": 90071992547409942,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 90071992547409942
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 90071992547409942
+   },
+   "cbc": {
+    "exact_optimal": true,
+    "value": 90071992547409942,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "exact_optimal": true,
+    "value": 90071992547409942,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "exact_optimal": true,
+    "value": 90071992547409942,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 90071992547409942
+   }
+  }
+ },
+ {
+  "n": 12,
+  "seed": 0,
+  "true_opt": 126100789566373926,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 126100789566373926
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 126100789566373926
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 126100789566373923,
+    "feasible": true,
+    "gap_to_opt": 3
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 126100789566373925,
+    "feasible": true,
+    "gap_to_opt": 1
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 126100789566373923,
+    "feasible": true,
+    "gap_to_opt": 3
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 126100789566373926
+   }
+  }
+ },
+ {
+  "n": 12,
+  "seed": 1,
+  "true_opt": 126100789566373922,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 126100789566373922
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 126100789566373922
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 126100789566373909,
+    "feasible": true,
+    "gap_to_opt": 13
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 126100789566373914,
+    "feasible": true,
+    "gap_to_opt": 8
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 126100789566373914,
+    "feasible": true,
+    "gap_to_opt": 8
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 126100789566373922
+   }
+  }
+ },
+ {
+  "n": 12,
+  "seed": 2,
+  "true_opt": 126100789566373914,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 126100789566373910,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 126100789566373911,
+    "feasible": true,
+    "gap_to_opt": 3
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 126100789566373910,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   }
+  }
+ },
+ {
+  "n": 12,
+  "seed": 3,
+  "true_opt": 126100789566373921,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 126100789566373921
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 126100789566373921
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 126100789566373917,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "highs": {
+    "exact_optimal": true,
+    "value": 126100789566373921,
+    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 126100789566373917,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 126100789566373921
+   }
+  }
+ },
+ {
+  "n": 12,
+  "seed": 4,
+  "true_opt": 126100789566373914,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 126100789566373906,
+    "feasible": true,
+    "gap_to_opt": 8
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 126100789566373913,
+    "feasible": true,
+    "gap_to_opt": 1
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 126100789566373908,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 126100789566373914
+   }
+  }
+ },
+ {
+  "n": 16,
+  "seed": 0,
+  "true_opt": 162129586585337902,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 162129586585337902
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 162129586585337902
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 162129586585337897,
+    "feasible": true,
+    "gap_to_opt": 5
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 162129586585337898,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 162129586585337894,
+    "feasible": true,
+    "gap_to_opt": 8
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 162129586585337902
+   }
+  }
+ },
+ {
+  "n": 16,
+  "seed": 1,
+  "true_opt": 162129586585337903,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 162129586585337903
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 162129586585337903
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 162129586585337891,
+    "feasible": true,
+    "gap_to_opt": 12
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 162129586585337897,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 162129586585337896,
+    "feasible": true,
+    "gap_to_opt": 7
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 162129586585337903
+   }
+  }
+ },
+ {
+  "n": 16,
+  "seed": 2,
+  "true_opt": 162129586585337894,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 162129586585337894
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 162129586585337894
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 162129586585337889,
+    "feasible": true,
+    "gap_to_opt": 5
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 162129586585337889,
+    "feasible": true,
+    "gap_to_opt": 5
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 162129586585337887,
+    "feasible": true,
+    "gap_to_opt": 7
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 162129586585337894
+   }
+  }
+ },
+ {
+  "n": 16,
+  "seed": 3,
+  "true_opt": 162129586585337901,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 162129586585337901
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 162129586585337901
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 162129586585337897,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 162129586585337898,
+    "feasible": true,
+    "gap_to_opt": 3
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 162129586585337898,
+    "feasible": true,
+    "gap_to_opt": 3
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 162129586585337901
+   }
+  }
+ },
+ {
+  "n": 16,
+  "seed": 4,
+  "true_opt": 162129586585337890,
+  "solvers": {
+   "z3": {
+    "exact_optimal": true,
+    "value": 162129586585337890
+   },
+   "optimathsat": {
+    "exact_optimal": true,
+    "value": 162129586585337890
+   },
+   "cbc": {
+    "exact_optimal": false,
+    "value": 162129586585337884,
+    "feasible": true,
+    "gap_to_opt": 6
+   },
+   "highs": {
+    "exact_optimal": false,
+    "value": 162129586585337886,
+    "feasible": true,
+    "gap_to_opt": 4
+   },
+   "scip": {
+    "exact_optimal": false,
+    "value": 162129586585337879,
+    "feasible": true,
+    "gap_to_opt": 11
+   },
+   "cpsat": {
+    "exact_optimal": true,
+    "value": 162129586585337890
+   }
+  }
+ }
+]
