@@ -12,11 +12,20 @@ the timing comparison is built on genuinely equivalent problems.
 | Paradigm | Solvers (auto-detected)            | Encoding             |
 |----------|------------------------------------|----------------------|
 | OMT      | νZ (Z3), OptiMathSAT               | SMT-LIB2 (`smt2/`)   |
-| MILP     | CBC, HiGHS, SCIP, *Gurobi, CPLEX*  | PuLP / big-M (`lp/`) |
+| MILP     | CBC, HiGHS, SCIP                    | PuLP direct (linear families) |
+| MILP     | CBC, HiGHS, SCIP                    | **Pyomo.GDP** big-M / hull (disjunctive family) |
+| MILP     | *Gurobi, CPLEX*                    | **native indicator constraints** |
 | CP       | Gecode, CP-SAT, *Chuffed*          | MiniZinc (`mzn/`) + native CP-SAT |
 
 *Italic* solvers are optional: used automatically if licensed/installed,
 skipped otherwise. So the **same code runs on a laptop and on a server.**
+
+To keep the MILP comparison credible, disjunctions are **not** hand-rolled: the
+job-shop big-M (and a convex-`hull` variant) come from the recognized
+**Pyomo.GDP** transformations, and Gurobi/CPLEX use their own **native indicator
+constraints** rather than a manual big-M. The pure-linear families have no
+encoding choice and stay on direct PuLP models. The disjunctive family therefore
+doubles as an *encoding study*: big-M vs. hull vs. indicator.
 
 ## Benchmark families
 
@@ -84,10 +93,10 @@ backends — it includes the Python interpreter baseline).
 experiments/
   __init__.py            SolverResult + stream_run (subprocess + anytime + RSS)
   benchmarks/families.py 6 structured-spec generators
-  encodings/             smt2 / milp(PuLP) / minizinc / cpsat(OR-Tools)
-  solvers/               omt / milp / cp adapters + detect_solvers()
+  encodings/             smt2 / milp(PuLP) / milp_gdp(Pyomo.GDP) / minizinc / cpsat
+  solvers/               omt / milp / milp_pyomo / milp_indicator / cp + detect_solvers()
 scripts/
   gen_benchmarks.py  run_all.py  analyze.py  setup_env.sh
-configs/   quick.yaml  wsl.yaml  full.yaml
+configs/   quick.yaml  wsl.yaml  full.yaml  probe.yaml
 runs/      <config>/  (generated)
 ```

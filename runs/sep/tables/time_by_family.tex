@@ -1,0 +1,31 @@
+\begin{table}[t]
+\centering
+\caption{Median solve time (s, single-thread). T/O = all seeds timed out; superscript $n/m$ = $n$ of $m$ seeds proved optimal.}
+\label{tab:exp-time}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{@{}lrrrrrrrrrrrrr@{}}
+\toprule
+Size & $\nu$Z & OptiMathSAT & CBC & HiGHS & SCIP & CBC(bigM) & HiGHS(bigM) & SCIP(bigM) & HiGHS(hull) & Gurobi(ind) & CPLEX(ind) & Gecode & CP-SAT \\
+\midrule
+\multicolumn{14}{@{}l}{Generalized assignment (A, linear)} \\
+80 & 7.480 & T/O & 0.170 & 0.130 & 0.170 & -- & -- & -- & -- & 0.064 & T/O & T/O & 0.141 \\
+160 & 16.725 & T/O & 0.522 & 0.504 & 0.315 & -- & -- & -- & -- & T/O & T/O & T/O & 1.624 \\
+320 & T/O & T/O & 0.658 & 1.939 & 1.103 & -- & -- & -- & -- & T/O & T/O & T/O & 1.322 \\
+\midrule
+\multicolumn{14}{@{}l}{Multidim. knapsack (A, linear)} \\
+320 & 4.343 & T/O & 0.095 & 0.113 & 0.016 & -- & -- & -- & -- & 0.004 & 0.007 & T/O & 0.118 \\
+640 & T/O & T/O & 0.103 & 0.083 & 0.075 & -- & -- & -- & -- & 0.007 & 0.016 & T/O & 0.578 \\
+\midrule
+\multicolumn{14}{@{}l}{Job-shop scheduling (B, disjunctive)} \\
+6 & 0.119 & 0.120 & -- & -- & -- & 1.876 & 0.979 & 0.025 & T/O & 0.031 & 0.099 & 0.119 & 0.010 \\
+8 & 0.757 & 0.717 & -- & -- & -- & 9.985 & 9.469 & 10.954 & T/O & 0.097 & 8.169 & 0.944 & 0.004 \\
+10 & T/O & T/O & -- & -- & -- & T/O & T/O & T/O & T/O & 0.750 & T/O & T/O & 0.005 \\
+\midrule
+\multicolumn{14}{@{}l}{System configuration (B, deps+mutex)} \\
+100 & 4.367 & 0.907 & 0.106 & 0.025 & 0.021 & -- & -- & -- & -- & 0.008 & 0.060 & T/O & 0.047 \\
+200 & T/O & 7.970 & 0.096 & 0.024 & 0.022 & -- & -- & -- & -- & 0.002 & 0.006 & T/O & 0.657 \\
+400 & T/O & T/O & 0.124 & 0.153 & 0.108 & -- & -- & -- & -- & 0.006 & 0.017 & T/O & T/O \\
+\bottomrule
+\end{tabular}
+\end{table}

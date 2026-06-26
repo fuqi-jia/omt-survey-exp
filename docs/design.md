@@ -18,8 +18,14 @@ Each instance is one structured `spec` (a plain dict, deterministic in
 * **OMT** — SMT-LIB2 with one `__obj` variable and `(minimize|maximize __obj)`,
   plus `:produce-models true` (OptiMathSAT requires it). Parsed uniformly from
   the `(__obj <value>)` line.
-* **MILP** — a PuLP model; disjunctions (job-shop no-overlap) use the classic
-  **big-M** trick — exactly the cost the survey contrasts against OMT.
+* **MILP (linear families)** — a direct PuLP model (standard LP, no disjunction).
+* **MILP (disjunctive family)** — the job-shop no-overlap is a genuine
+  disjunction, encoded with **Pyomo.GDP** and reformulated by recognized
+  transformations: `gdp.bigm` (textbook big-M) and `gdp.hull` (convex hull). We
+  deliberately do *not* hand-roll the big-M, for credibility. Commercial solvers
+  (Gurobi/CPLEX) instead use their **native indicator constraints**
+  (`addGenConstrIndicator` / `add_indicator`). The disjunctive family thus
+  doubles as an encoding study: big-M vs. hull vs. indicator.
 * **CP (MiniZinc)** — disjunctions written natively with `\/`; solved by Gecode
   / Chuffed.
 * **CP (CP-SAT)** — a native OR-Tools model; job-shop uses interval variables +
@@ -36,10 +42,10 @@ runner reports it loudly. This is what lets us trust the timing comparison.
 |----------|--------------|-------------------|---------------------------|
 | OMT      | νZ (Z3)      | SMT-LIB2 CLI      | final only                |
 | OMT      | OptiMathSAT  | SMT-LIB2 CLI (`-optimization=TRUE`) | final only |
-| MILP     | CBC          | PuLP (subprocess) | final only                |
-| MILP     | HiGHS        | PuLP (highspy)    | final only                |
-| MILP     | SCIP         | PuLP (pyscipopt)  | final only                |
-| MILP     | Gurobi/CPLEX | PuLP (if licensed)| final only                |
+| MILP     | CBC/HiGHS/SCIP | PuLP direct (linear families) | final only      |
+| MILP     | cbc/highs/scip-bigm | Pyomo.GDP big-M (job-shop) | final only        |
+| MILP     | highs-hull   | Pyomo.GDP convex hull (job-shop)  | final only        |
+| MILP     | gurobi/cplex-ind | native indicator (if licensed) | final only          |
 | CP       | Gecode       | MiniZinc CLI      | `--intermediate-solutions`|
 | CP       | Chuffed      | MiniZinc CLI (if installed) | `--intermediate-solutions` |
 | CP       | CP-SAT       | OR-Tools (native) | solution callback         |

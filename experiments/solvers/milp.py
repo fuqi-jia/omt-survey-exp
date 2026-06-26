@@ -58,11 +58,20 @@ def available_milp_keys():
     return keys
 
 
+# pure-linear families: the PuLP direct model is the standard, uncontroversial
+# encoding. The disjunctive family (job-shop) is handled by the recognized
+# Pyomo.GDP encodings instead of a hand-rolled big-M -- see solvers/milp_pyomo.
+LINEAR_FAMILIES = frozenset(MILP_FAMILIES - {"jobshop"})
+
+
 class MILPSolver:
     paradigm = "milp"
 
     def __init__(self, key):
         self.name = key
+
+    def applies_to(self, family):
+        return family in LINEAR_FAMILIES
 
     def solve(self, spec, files, timeout):
         import pulp

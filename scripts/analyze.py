@@ -27,16 +27,23 @@ import matplotlib.pyplot as plt  # noqa: E402
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 # canonical column order + display labels
-SOLVER_ORDER = ["z3", "optimathsat", "cbc", "highs", "scip", "gurobi", "cplex",
+SOLVER_ORDER = ["z3", "optimathsat",
+                "cbc", "highs", "scip",
+                "cbc-bigm", "highs-bigm", "scip-bigm", "highs-hull",
+                "gurobi-ind", "cplex-ind",
                 "gecode", "chuffed", "cpsat"]
 SOLVER_LABEL = {
     "z3": r"$\nu$Z", "optimathsat": "OptiMathSAT", "cbc": "CBC",
-    "highs": "HiGHS", "scip": "SCIP", "gurobi": "Gurobi", "cplex": "CPLEX",
+    "highs": "HiGHS", "scip": "SCIP",
+    "cbc-bigm": "CBC(bigM)", "highs-bigm": "HiGHS(bigM)",
+    "scip-bigm": "SCIP(bigM)", "highs-hull": "HiGHS(hull)",
+    "gurobi-ind": "Gurobi(ind)", "cplex-ind": "CPLEX(ind)",
     "gecode": "Gecode", "chuffed": "Chuffed", "cpsat": "CP-SAT",
 }
 PARADIGM = {"z3": "OMT", "optimathsat": "OMT", "cbc": "MILP", "highs": "MILP",
-            "scip": "MILP", "gurobi": "MILP", "cplex": "MILP",
-            "gecode": "CP", "chuffed": "CP", "cpsat": "CP"}
+            "scip": "MILP", "cbc-bigm": "MILP", "highs-bigm": "MILP",
+            "scip-bigm": "MILP", "highs-hull": "MILP", "gurobi-ind": "MILP",
+            "cplex-ind": "MILP", "gecode": "CP", "chuffed": "CP", "cpsat": "CP"}
 FAMILY_LABEL = {
     "gap": "Generalized assignment (A, linear)",
     "knapsack": "Multidim. knapsack (A, linear)",

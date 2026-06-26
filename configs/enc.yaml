@@ -1,0 +1,8 @@
+# Encoding contrast (big-M vs indicator on the SAME commercial solver) + OMT-only domain.
+name: enc
+timeout: 30
+seeds: 1
+anytime: true
+families:
+  jobshop:  [5, 6, 7, 8]
+  bvcover:  [16, 24, 32]

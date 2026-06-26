@@ -21,7 +21,9 @@
     3,
     4,
     5,
-    6
+    6,
+    7,
+    8
    ],
    "config": [
     8,
@@ -620,6 +622,102 @@
    "smt2": "smt2/B_jobshop_6_2.smt2",
    "lp": "lp/B_jobshop_6_2.lp",
    "mzn": "mzn/B_jobshop_6_2.mzn"
+  },
+  {
+   "name": "B_jobshop_7_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_0.smt2",
+   "lp": "lp/B_jobshop_7_0.lp",
+   "mzn": "mzn/B_jobshop_7_0.mzn"
+  },
+  {
+   "name": "B_jobshop_7_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_1.smt2",
+   "lp": "lp/B_jobshop_7_1.lp",
+   "mzn": "mzn/B_jobshop_7_1.mzn"
+  },
+  {
+   "name": "B_jobshop_7_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_2.smt2",
+   "lp": "lp/B_jobshop_7_2.lp",
+   "mzn": "mzn/B_jobshop_7_2.mzn"
+  },
+  {
+   "name": "B_jobshop_8_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_0.smt2",
+   "lp": "lp/B_jobshop_8_0.lp",
+   "mzn": "mzn/B_jobshop_8_0.mzn"
+  },
+  {
+   "name": "B_jobshop_8_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_1.smt2",
+   "lp": "lp/B_jobshop_8_1.lp",
+   "mzn": "mzn/B_jobshop_8_1.mzn"
+  },
+  {
+   "name": "B_jobshop_8_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_2.smt2",
+   "lp": "lp/B_jobshop_8_2.lp",
+   "mzn": "mzn/B_jobshop_8_2.mzn"
   },
   {
    "name": "B_config_8_0",

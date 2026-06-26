@@ -6,9 +6,17 @@
 # Gurobi / CPLEX are optional and auto-detected via PuLP if licensed.
 
 pulp>=2.8           # MILP modelling + CBC/HiGHS/SCIP/Gurobi/CPLEX backends
+pyomo>=6.7          # GDP disjunctions -> recognized big-M / hull reformulation
 ortools>=9.8        # CP-SAT (native CP solver)
 highspy>=1.5        # HiGHS backend for PuLP
 pyscipopt>=4.3      # SCIP backend for PuLP
+# optional commercial MILP (auto-detected; skipped if absent):
+#   cplex + docplex  -> `pip install cplex docplex` (pip = Community Edition,
+#                       capped at 1000 vars/constraints; full trial needs a
+#                       license from IBM). Enables the cplex-ind adapter.
+#   gurobipy         -> `pip install gurobipy` + a license (grbgetkey).
+#                       Enables the gurobi-ind adapter.
+
 numpy>=1.24
 pandas>=2.0         # results aggregation
 matplotlib>=3.7     # figures

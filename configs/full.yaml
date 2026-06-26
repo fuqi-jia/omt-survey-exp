@@ -1,15 +1,26 @@
-# Aggressive (server) config: pushes scale + timeout to separate the paradigms.
-# Intended to run on a server, not WSL. 5 seeds per (family, size); 120s timeout.
-# Use --resume so a long run survives interruption:
+# Aggressive (server) config -- sizes calibrated from configs/probe.yaml so each
+# family actually SEPARATES the paradigms (small scale shows no gap).
+#
+# Calibration (30s probe) showed the separation knees:
+#   gap       z3 times out ~320; MILP/CP-SAT cruise; Gecode/OptiMathSAT die early
+#   knapsack  z3 times out ~640; MILP/CP-SAT cruise; Gecode dead
+#   jobshop   big-M (CBC/HiGHS/SCIP) explodes 6->10; only CP-SAT stays flat; z3 dies ~10
+#   config    z3 dies ~200, CP-SAT ~400; MILP trivial to 800; Gecode dead
+#   setcover  z3/Gecode die ~160, CP-SAT ~320; MILP trivial
+#   bvcover   OMT scales fine (width alone does not stress it)
+#
+# Intended for a SERVER, not WSL. Expect ~6-10h single-threaded (many 120s
+# timeouts from OMT/Gecode on large instances -- that collapse IS the result).
+# To shorten: drop timeout to 60 or seeds to 2. Always use --resume:
 #   python scripts/run_all.py --config configs/full.yaml --resume
 name: full
-timeout: 120         # seconds per (instance, solver)
-seeds: 5
+timeout: 120
+seeds: 3
 anytime: true
 families:
-  gap:      [10, 20, 40, 80, 120, 160]
-  knapsack: [10, 20, 40, 80, 120, 160]
-  jobshop:  [3, 4, 5, 6, 8, 10, 12]
-  config:   [15, 30, 60, 100, 150, 200]
-  setcover: [10, 20, 40, 60, 80]
-  bvcover:  [8, 16, 24, 32, 48, 64]   # OMT-only
+  gap:      [40, 80, 160, 320]
+  knapsack: [40, 80, 160, 320, 640]
+  jobshop:  [3, 4, 5, 6, 7, 8, 9, 10]
+  config:   [40, 80, 150, 200, 300]
+  setcover: [40, 80, 160, 240, 320]
+  bvcover:  [16, 32, 64, 96, 128]   # OMT-only
