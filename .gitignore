@@ -16,3 +16,4 @@ runs/*/run.log
 
 # OS / editor
 .DS_Store
+.venv-cplex/
