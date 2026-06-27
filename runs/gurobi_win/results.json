@@ -11,26 +11,6 @@
  },
  {
   "family": "gap",
-  "n": 80,
-  "seed": 1,
-  "nvars": 1600,
-  "solve_s": 0.008,
-  "proved_optimal": true,
-  "objective": 128.0,
-  "exceeds_restricted_cap": false
- },
- {
-  "family": "gap",
-  "n": 80,
-  "seed": 2,
-  "nvars": 1600,
-  "solve_s": 0.007,
-  "proved_optimal": true,
-  "objective": 139.0,
-  "exceeds_restricted_cap": false
- },
- {
-  "family": "gap",
   "n": 160,
   "seed": 0,
   "nvars": 6400,
@@ -41,112 +21,102 @@
  },
  {
   "family": "gap",
-  "n": 160,
-  "seed": 1,
-  "nvars": 6400,
-  "solve_s": 0.034,
+  "n": 320,
+  "seed": 0,
+  "nvars": 25600,
+  "solve_s": 0.067,
   "proved_optimal": true,
-  "objective": 184.0,
+  "objective": 327.0,
   "exceeds_restricted_cap": true
  },
  {
   "family": "gap",
-  "n": 160,
-  "seed": 2,
-  "nvars": 6400,
-  "solve_s": 0.023,
+  "n": 640,
+  "seed": 0,
+  "nvars": 102400,
+  "solve_s": 0.274,
   "proved_optimal": true,
-  "objective": 193.0,
+  "objective": 640.0,
   "exceeds_restricted_cap": true
  },
  {
-  "family": "knapsack",
-  "n": 2000,
+  "family": "config",
+  "n": 100,
   "seed": 0,
-  "nvars": 2000,
-  "solve_s": 0.01,
+  "nvars": 100,
+  "solve_s": 0.006,
   "proved_optimal": true,
-  "objective": 16013.0,
+  "objective": 427.0,
   "exceeds_restricted_cap": false
  },
  {
-  "family": "knapsack",
-  "n": 2000,
-  "seed": 1,
-  "nvars": 2000,
-  "solve_s": 0.011,
-  "proved_optimal": true,
-  "objective": 16434.0,
-  "exceeds_restricted_cap": false
- },
- {
-  "family": "knapsack",
-  "n": 2000,
-  "seed": 2,
-  "nvars": 2000,
-  "solve_s": 0.01,
-  "proved_optimal": true,
-  "objective": 16006.0,
-  "exceeds_restricted_cap": false
- },
- {
-  "family": "knapsack",
-  "n": 4000,
+  "family": "config",
+  "n": 200,
   "seed": 0,
-  "nvars": 4000,
+  "nvars": 200,
+  "solve_s": 0.002,
+  "proved_optimal": true,
+  "objective": 873.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "config",
+  "n": 400,
+  "seed": 0,
+  "nvars": 400,
+  "solve_s": 0.004,
+  "proved_optimal": true,
+  "objective": 1722.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "config",
+  "n": 800,
+  "seed": 0,
+  "nvars": 800,
+  "solve_s": 0.007,
+  "proved_optimal": true,
+  "objective": 3282.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 320,
+  "seed": 0,
+  "nvars": 320,
+  "solve_s": 0.003,
+  "proved_optimal": true,
+  "objective": 2533.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 640,
+  "seed": 0,
+  "nvars": 640,
+  "solve_s": 0.004,
+  "proved_optimal": true,
+  "objective": 5078.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 1280,
+  "seed": 0,
+  "nvars": 1280,
+  "solve_s": 0.008,
+  "proved_optimal": true,
+  "objective": 10135.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 2560,
+  "seed": 0,
+  "nvars": 2560,
   "solve_s": 0.012,
   "proved_optimal": true,
-  "objective": 32049.0,
-  "exceeds_restricted_cap": true
- },
- {
-  "family": "knapsack",
-  "n": 4000,
-  "seed": 1,
-  "nvars": 4000,
-  "solve_s": 0.013,
-  "proved_optimal": true,
-  "objective": 32516.0,
-  "exceeds_restricted_cap": true
- },
- {
-  "family": "knapsack",
-  "n": 4000,
-  "seed": 2,
-  "nvars": 4000,
-  "solve_s": 0.011,
-  "proved_optimal": true,
-  "objective": 32446.0,
-  "exceeds_restricted_cap": true
- },
- {
-  "family": "knapsack",
-  "n": 8000,
-  "seed": 0,
-  "nvars": 8000,
-  "solve_s": 0.02,
-  "proved_optimal": true,
-  "objective": 64322.0,
-  "exceeds_restricted_cap": true
- },
- {
-  "family": "knapsack",
-  "n": 8000,
-  "seed": 1,
-  "nvars": 8000,
-  "solve_s": 0.019,
-  "proved_optimal": true,
-  "objective": 64907.0,
-  "exceeds_restricted_cap": true
- },
- {
-  "family": "knapsack",
-  "n": 8000,
-  "seed": 2,
-  "nvars": 8000,
-  "solve_s": 0.031,
-  "proved_optimal": true,
-  "objective": 64571.0,
+  "objective": 20382.0,
   "exceeds_restricted_cap": true
  }
 ]

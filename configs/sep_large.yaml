@@ -1,0 +1,10 @@
+# Larger-scale linear sizes extending sep.yaml, for the full-comparison table
+# (adds a Gurobi column via the Windows run). Single seed, 30s timeout.
+name: sep_large
+timeout: 30
+seeds: 1
+anytime: true
+families:
+  gap:      [640]
+  config:   [800]
+  knapsack: [1280, 2560]

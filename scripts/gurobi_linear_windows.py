@@ -30,11 +30,15 @@ from gurobipy import GRB
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-# Sizes chosen so the larger ones exceed the 2000-var restricted-license cap
-# (marked in the output), where only the full license can solve.
-SIZES = {"gap": [80, 160], "knapsack": [2000, 4000, 8000]}
-SEEDS = [0, 1, 2]
-TIMELIMIT = 120.0
+# Sizes: the separation table's sizes (gap 80/160/320, config 100/200/400,
+# knapsack 320/640) PLUS larger ones (some exceed the 2000-var restricted cap,
+# marked in the output, where only the full license can solve). Seed 0 and the
+# 30s timeout match the single-seed separation table (tab:exp-sep).
+SIZES = {"gap": [80, 160, 320, 640],
+         "config": [100, 200, 400, 800],
+         "knapsack": [320, 640, 1280, 2560]}
+SEEDS = [0]
+TIMELIMIT = 30.0
 RESTRICTED_CAP = 2000  # Gurobi free/pip restricted license variable limit
 
 
@@ -59,6 +63,17 @@ def spec_knapsack(n, seed):
     w = [[rng.randint(1, 10) for _ in range(n)] for _ in range(R)]
     C = [max(1, int(0.5 * sum(w[r]))) for r in range(R)]
     return {"family": "knapsack", "n": n, "seed": seed, "R": R, "v": v, "w": w, "C": C}
+
+
+def spec_config(n, seed):
+    rng = random.Random(seed)
+    cost = [rng.randint(5, 100) for _ in range(n)]
+    perf = [rng.randint(1, 50) for _ in range(n)]
+    deps = [(i, i + 1) for i in range(0, n - 1, 2)]
+    mutex = [(i, min(i + 2, n - 1)) for i in range(0, n - 1, 5) if i + 2 < n]
+    T = sum(perf) // 4
+    return {"family": "config", "n": n, "seed": seed, "cost": cost,
+            "perf": perf, "deps": deps, "mutex": mutex, "T": T}
 
 
 # ---- gurobipy models (standard formulation, matching the PuLP encoding) ----
@@ -89,7 +104,24 @@ def build_knapsack(spec):
     return md, n
 
 
-_BUILD = {"gap": (spec_gap, build_gap), "knapsack": (spec_knapsack, build_knapsack)}
+def build_config(spec):
+    n, cost, perf = spec["n"], spec["cost"], spec["perf"]
+    deps, mutex, T = spec["deps"], spec["mutex"], spec["T"]
+    md = gp.Model("config")
+    md.Params.OutputFlag = 0; md.Params.Threads = 1; md.Params.TimeLimit = TIMELIMIT
+    md.Params.MIPGap = 0.0; md.Params.MIPGapAbs = 0.0
+    sel = md.addVars(n, vtype=GRB.BINARY)
+    md.setObjective(gp.quicksum(cost[i] * sel[i] for i in range(n)), GRB.MINIMIZE)
+    md.addConstr(gp.quicksum(perf[i] * sel[i] for i in range(n)) >= T)
+    for (i, j) in deps:
+        md.addConstr(sel[i] <= sel[j])
+    for (i, j) in mutex:
+        md.addConstr(sel[i] + sel[j] <= 1)
+    return md, n
+
+
+_BUILD = {"gap": (spec_gap, build_gap), "knapsack": (spec_knapsack, build_knapsack),
+          "config": (spec_config, build_config)}
 
 
 def run_one(family, n, seed):

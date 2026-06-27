@@ -1,0 +1,86 @@
+{
+ "config": {
+  "name": "sep_large",
+  "timeout": 30,
+  "seeds": 1,
+  "anytime": true,
+  "families": {
+   "gap": [
+    640
+   ],
+   "config": [
+    800
+   ],
+   "knapsack": [
+    1280,
+    2560
+   ]
+  }
+ },
+ "instances": [
+  {
+   "name": "A_gap_640_0",
+   "family": "gap",
+   "category": "A",
+   "size": 640,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/A_gap_640_0.smt2",
+   "lp": "lp/A_gap_640_0.lp",
+   "mzn": "mzn/A_gap_640_0.mzn"
+  },
+  {
+   "name": "B_config_800_0",
+   "family": "config",
+   "category": "B",
+   "size": 800,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_config_800_0.smt2",
+   "lp": "lp/B_config_800_0.lp",
+   "mzn": "mzn/B_config_800_0.mzn"
+  },
+  {
+   "name": "A_knapsack_1280_0",
+   "family": "knapsack",
+   "category": "A",
+   "size": 1280,
+   "seed": 0,
+   "sense": "max",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/A_knapsack_1280_0.smt2",
+   "lp": "lp/A_knapsack_1280_0.lp",
+   "mzn": "mzn/A_knapsack_1280_0.mzn"
+  },
+  {
+   "name": "A_knapsack_2560_0",
+   "family": "knapsack",
+   "category": "A",
+   "size": 2560,
+   "seed": 0,
+   "sense": "max",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/A_knapsack_2560_0.smt2",
+   "lp": "lp/A_knapsack_2560_0.lp",
+   "mzn": "mzn/A_knapsack_2560_0.mzn"
+  }
+ ]
+}
