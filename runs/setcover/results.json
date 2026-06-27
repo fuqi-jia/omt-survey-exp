@@ -1,0 +1,1858 @@
+[
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.0681,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "z3",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:38Z",
+  "name": "B_setcover_48_0",
+  "solver": "z3"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.1195,
+  "memory_peak_mb": 7.98,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "optimathsat",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:38Z",
+  "name": "B_setcover_48_0",
+  "solver": "optimathsat"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.0968,
+  "memory_peak_mb": 58.03,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cbc",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:40Z",
+  "name": "B_setcover_48_0",
+  "solver": "cbc"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.0497,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "highs",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:41Z",
+  "name": "B_setcover_48_0",
+  "solver": "highs"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.1725,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "scip",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:43Z",
+  "name": "B_setcover_48_0",
+  "solver": "scip"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.0565,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gurobi-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:43Z",
+  "name": "B_setcover_48_0",
+  "solver": "gurobi-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.0407,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cplex-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:44Z",
+  "name": "B_setcover_48_0",
+  "solver": "cplex-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.1729,
+  "memory_peak_mb": 17.66,
+  "incumbents": [
+   [
+    0.1465,
+    86
+   ],
+   [
+    0.1465,
+    78
+   ],
+   [
+    0.1465,
+    77
+   ],
+   [
+    0.1466,
+    71
+   ],
+   [
+    0.1467,
+    69
+   ],
+   [
+    0.1467,
+    67
+   ],
+   [
+    0.1468,
+    65
+   ],
+   [
+    0.1469,
+    59
+   ],
+   [
+    0.147,
+    56
+   ],
+   [
+    0.1471,
+    55
+   ],
+   [
+    0.1471,
+    54
+   ],
+   [
+    0.1472,
+    52
+   ],
+   [
+    0.1472,
+    47
+   ]
+  ],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:47Z",
+  "name": "B_setcover_48_0",
+  "solver": "gecode"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 47,
+  "runtime_s": 0.186,
+  "memory_peak_mb": 90.36,
+  "incumbents": [
+   [
+    0.1588,
+    65
+   ],
+   [
+    0.1641,
+    63
+   ],
+   [
+    0.1643,
+    62
+   ],
+   [
+    0.1648,
+    56
+   ],
+   [
+    0.1649,
+    54
+   ],
+   [
+    0.1649,
+    52
+   ],
+   [
+    0.165,
+    47
+   ]
+  ],
+  "best_at_10s": 47,
+  "best_at_30s": 47,
+  "best_at_60s": 47,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 48,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:51Z",
+  "name": "B_setcover_48_0",
+  "solver": "cpsat"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0337,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "z3",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:52Z",
+  "name": "B_setcover_96_0",
+  "solver": "z3"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.2196,
+  "memory_peak_mb": 17.5,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "optimathsat",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:52Z",
+  "name": "B_setcover_96_0",
+  "solver": "optimathsat"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.1042,
+  "memory_peak_mb": 61.32,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cbc",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:54Z",
+  "name": "B_setcover_96_0",
+  "solver": "cbc"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0089,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "highs",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:56Z",
+  "name": "B_setcover_96_0",
+  "solver": "highs"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0096,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "scip",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:58Z",
+  "name": "B_setcover_96_0",
+  "solver": "scip"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0022,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gurobi-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:58Z",
+  "name": "B_setcover_96_0",
+  "solver": "gurobi-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0059,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cplex-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:42:58Z",
+  "name": "B_setcover_96_0",
+  "solver": "cplex-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.1162,
+  "memory_peak_mb": 14.95,
+  "incumbents": [
+   [
+    0.0748,
+    176
+   ],
+   [
+    0.0749,
+    173
+   ],
+   [
+    0.0749,
+    158
+   ],
+   [
+    0.075,
+    147
+   ],
+   [
+    0.0751,
+    144
+   ],
+   [
+    0.0752,
+    137
+   ],
+   [
+    0.0753,
+    135
+   ],
+   [
+    0.0754,
+    128
+   ],
+   [
+    0.0755,
+    123
+   ],
+   [
+    0.0755,
+    117
+   ],
+   [
+    0.0756,
+    109
+   ],
+   [
+    0.0757,
+    108
+   ],
+   [
+    0.0758,
+    107
+   ],
+   [
+    0.0758,
+    106
+   ],
+   [
+    0.076,
+    103
+   ],
+   [
+    0.076,
+    101
+   ],
+   [
+    0.0767,
+    98
+   ],
+   [
+    0.0768,
+    97
+   ],
+   [
+    0.0769,
+    94
+   ],
+   [
+    0.0769,
+    92
+   ],
+   [
+    0.0772,
+    91
+   ],
+   [
+    0.0773,
+    89
+   ],
+   [
+    0.0784,
+    88
+   ],
+   [
+    0.0786,
+    82
+   ],
+   [
+    0.0788,
+    81
+   ],
+   [
+    0.0789,
+    79
+   ],
+   [
+    0.079,
+    73
+   ],
+   [
+    0.0796,
+    72
+   ],
+   [
+    0.0797,
+    70
+   ],
+   [
+    0.0798,
+    68
+   ],
+   [
+    0.0799,
+    64
+   ],
+   [
+    0.08,
+    59
+   ],
+   [
+    0.0808,
+    58
+   ],
+   [
+    0.0811,
+    57
+   ],
+   [
+    0.0812,
+    56
+   ]
+  ],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:43:00Z",
+  "name": "B_setcover_96_0",
+  "solver": "gecode"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 56,
+  "runtime_s": 0.0107,
+  "memory_peak_mb": 0.0,
+  "incumbents": [
+   [
+    0.0033,
+    138
+   ],
+   [
+    0.0042,
+    122
+   ],
+   [
+    0.0044,
+    117
+   ],
+   [
+    0.0044,
+    114
+   ],
+   [
+    0.0044,
+    84
+   ],
+   [
+    0.0045,
+    83
+   ],
+   [
+    0.0057,
+    82
+   ],
+   [
+    0.0057,
+    80
+   ],
+   [
+    0.0063,
+    78
+   ],
+   [
+    0.0065,
+    77
+   ],
+   [
+    0.0067,
+    75
+   ],
+   [
+    0.0068,
+    72
+   ],
+   [
+    0.0075,
+    71
+   ],
+   [
+    0.0078,
+    69
+   ],
+   [
+    0.0079,
+    67
+   ],
+   [
+    0.008,
+    65
+   ],
+   [
+    0.01,
+    63
+   ],
+   [
+    0.0101,
+    59
+   ],
+   [
+    0.0103,
+    58
+   ],
+   [
+    0.0104,
+    56
+   ]
+  ],
+  "best_at_10s": 56,
+  "best_at_30s": 56,
+  "best_at_60s": 56,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 96,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:43:03Z",
+  "name": "B_setcover_96_0",
+  "solver": "cpsat"
+ },
+ {
+  "status": "TIMEOUT",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 30.0055,
+  "memory_peak_mb": 42.32,
+  "incumbents": [],
+  "best_at_10s": null,
+  "best_at_30s": null,
+  "best_at_60s": null,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "z3",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:43:04Z",
+  "name": "B_setcover_192_0",
+  "solver": "z3"
+ },
+ {
+  "status": "TIMEOUT",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 30.0112,
+  "memory_peak_mb": 31.68,
+  "incumbents": [],
+  "best_at_10s": null,
+  "best_at_30s": null,
+  "best_at_60s": null,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "optimathsat",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:43:32Z",
+  "name": "B_setcover_192_0",
+  "solver": "optimathsat"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.1777,
+  "memory_peak_mb": 69.8,
+  "incumbents": [],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cbc",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:00Z",
+  "name": "B_setcover_192_0",
+  "solver": "cbc"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.3412,
+  "memory_peak_mb": 82.48,
+  "incumbents": [],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "highs",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:02Z",
+  "name": "B_setcover_192_0",
+  "solver": "highs"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.6319,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "scip",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:04Z",
+  "name": "B_setcover_192_0",
+  "solver": "scip"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.0672,
+  "memory_peak_mb": 35.14,
+  "incumbents": [],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gurobi-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:05Z",
+  "name": "B_setcover_192_0",
+  "solver": "gurobi-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.0798,
+  "memory_peak_mb": 86.59,
+  "incumbents": [],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cplex-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:05Z",
+  "name": "B_setcover_192_0",
+  "solver": "cplex-ind"
+ },
+ {
+  "status": "SAT",
+  "proved_optimal": false,
+  "objective": 89,
+  "runtime_s": 30.0,
+  "memory_peak_mb": 40.69,
+  "incumbents": [
+   [
+    0.1042,
+    188
+   ],
+   [
+    0.1043,
+    185
+   ],
+   [
+    0.1044,
+    184
+   ],
+   [
+    0.1045,
+    179
+   ],
+   [
+    0.1046,
+    176
+   ],
+   [
+    0.1047,
+    173
+   ],
+   [
+    0.1048,
+    168
+   ],
+   [
+    0.1049,
+    165
+   ],
+   [
+    0.105,
+    160
+   ],
+   [
+    0.1051,
+    153
+   ],
+   [
+    0.1052,
+    150
+   ],
+   [
+    0.1053,
+    147
+   ],
+   [
+    0.1054,
+    144
+   ],
+   [
+    0.1075,
+    141
+   ],
+   [
+    0.1078,
+    140
+   ],
+   [
+    0.1079,
+    136
+   ],
+   [
+    0.1081,
+    135
+   ],
+   [
+    0.1132,
+    131
+   ],
+   [
+    0.1176,
+    130
+   ],
+   [
+    0.1356,
+    125
+   ],
+   [
+    0.1356,
+    122
+   ],
+   [
+    0.152,
+    121
+   ],
+   [
+    0.152,
+    119
+   ],
+   [
+    0.1594,
+    117
+   ],
+   [
+    0.1616,
+    114
+   ],
+   [
+    0.1634,
+    112
+   ],
+   [
+    0.1635,
+    110
+   ],
+   [
+    0.1636,
+    107
+   ],
+   [
+    0.1676,
+    105
+   ],
+   [
+    0.1686,
+    103
+   ],
+   [
+    0.1687,
+    101
+   ],
+   [
+    0.1708,
+    100
+   ],
+   [
+    0.1716,
+    98
+   ],
+   [
+    0.1718,
+    97
+   ],
+   [
+    2.0635,
+    90
+   ],
+   [
+    10.4471,
+    89
+   ]
+  ],
+  "best_at_10s": 90,
+  "best_at_30s": 89,
+  "best_at_60s": 89,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:09Z",
+  "name": "B_setcover_192_0",
+  "solver": "gecode"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.3283,
+  "memory_peak_mb": 95.7,
+  "incumbents": [
+   [
+    0.0075,
+    157
+   ],
+   [
+    0.0098,
+    147
+   ],
+   [
+    0.011,
+    143
+   ],
+   [
+    0.0111,
+    139
+   ],
+   [
+    0.0111,
+    127
+   ],
+   [
+    0.0112,
+    120
+   ],
+   [
+    0.0114,
+    116
+   ],
+   [
+    0.0124,
+    114
+   ],
+   [
+    0.0134,
+    112
+   ],
+   [
+    0.0137,
+    111
+   ],
+   [
+    0.014,
+    106
+   ],
+   [
+    0.0141,
+    103
+   ],
+   [
+    0.0142,
+    101
+   ],
+   [
+    0.0146,
+    99
+   ],
+   [
+    0.0147,
+    98
+   ],
+   [
+    0.0172,
+    97
+   ],
+   [
+    0.0175,
+    96
+   ],
+   [
+    0.0176,
+    95
+   ],
+   [
+    0.0183,
+    85
+   ],
+   [
+    0.0363,
+    79
+   ],
+   [
+    0.0373,
+    78
+   ],
+   [
+    0.0374,
+    76
+   ],
+   [
+    0.0378,
+    73
+   ],
+   [
+    0.0412,
+    66
+   ],
+   [
+    0.0486,
+    65
+   ],
+   [
+    0.0486,
+    63
+   ],
+   [
+    0.0494,
+    62
+   ],
+   [
+    0.0494,
+    61
+   ],
+   [
+    0.0495,
+    60
+   ],
+   [
+    0.0496,
+    59
+   ],
+   [
+    0.0651,
+    52
+   ],
+   [
+    0.0652,
+    50
+   ],
+   [
+    0.0655,
+    48
+   ],
+   [
+    0.0667,
+    45
+   ],
+   [
+    0.0668,
+    42
+   ],
+   [
+    0.0887,
+    40
+   ]
+  ],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 192,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:41Z",
+  "name": "B_setcover_192_0",
+  "solver": "cpsat"
+ },
+ {
+  "status": "TIMEOUT",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 30.0061,
+  "memory_peak_mb": 52.19,
+  "incumbents": [],
+  "best_at_10s": null,
+  "best_at_30s": null,
+  "best_at_60s": null,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "z3",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:44:41Z",
+  "name": "B_setcover_384_0",
+  "solver": "z3"
+ },
+ {
+  "status": "TIMEOUT",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 30.0086,
+  "memory_peak_mb": 58.32,
+  "incumbents": [],
+  "best_at_10s": null,
+  "best_at_30s": null,
+  "best_at_60s": null,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "optimathsat",
+  "paradigm": "omt",
+  "encoding_name": "smt2",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:09Z",
+  "name": "B_setcover_384_0",
+  "solver": "optimathsat"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 0.5452,
+  "memory_peak_mb": 75.0,
+  "incumbents": [],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cbc",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:38Z",
+  "name": "B_setcover_384_0",
+  "solver": "cbc"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 1.1209,
+  "memory_peak_mb": 145.64,
+  "incumbents": [],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "highs",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:40Z",
+  "name": "B_setcover_384_0",
+  "solver": "highs"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 0.5526,
+  "memory_peak_mb": 0.0,
+  "incumbents": [],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "scip",
+  "paradigm": "milp",
+  "encoding_name": "pulp",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:43Z",
+  "name": "B_setcover_384_0",
+  "solver": "scip"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 0.1503,
+  "memory_peak_mb": 38.72,
+  "incumbents": [],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gurobi-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:44Z",
+  "name": "B_setcover_384_0",
+  "solver": "gurobi-ind"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 0.102,
+  "memory_peak_mb": 90.12,
+  "incumbents": [],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cplex-ind",
+  "paradigm": "milp",
+  "encoding_name": "native-indicator",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:44Z",
+  "name": "B_setcover_384_0",
+  "solver": "cplex-ind"
+ },
+ {
+  "status": "SAT",
+  "proved_optimal": false,
+  "objective": 278,
+  "runtime_s": 30.0,
+  "memory_peak_mb": 46.15,
+  "incumbents": [
+   [
+    0.1328,
+    373
+   ],
+   [
+    0.1329,
+    359
+   ],
+   [
+    0.133,
+    354
+   ],
+   [
+    0.1332,
+    351
+   ],
+   [
+    0.1333,
+    350
+   ],
+   [
+    0.1335,
+    344
+   ],
+   [
+    0.1336,
+    341
+   ],
+   [
+    0.1368,
+    340
+   ],
+   [
+    0.1369,
+    332
+   ],
+   [
+    0.1373,
+    327
+   ],
+   [
+    0.1375,
+    322
+   ],
+   [
+    0.1452,
+    321
+   ],
+   [
+    0.1551,
+    315
+   ],
+   [
+    0.1553,
+    307
+   ],
+   [
+    0.1559,
+    303
+   ],
+   [
+    0.2166,
+    302
+   ],
+   [
+    0.27,
+    300
+   ],
+   [
+    0.2702,
+    298
+   ],
+   [
+    0.2704,
+    296
+   ],
+   [
+    2.3001,
+    295
+   ],
+   [
+    18.7755,
+    293
+   ],
+   [
+    18.8639,
+    291
+   ],
+   [
+    19.0564,
+    286
+   ],
+   [
+    19.0924,
+    284
+   ],
+   [
+    21.844,
+    283
+   ],
+   [
+    21.9614,
+    281
+   ],
+   [
+    26.1203,
+    278
+   ]
+  ],
+  "best_at_10s": 295,
+  "best_at_30s": 278,
+  "best_at_60s": 278,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:45:48Z",
+  "name": "B_setcover_384_0",
+  "solver": "gecode"
+ },
+ {
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 22,
+  "runtime_s": 1.3541,
+  "memory_peak_mb": 100.1,
+  "incumbents": [
+   [
+    0.0199,
+    215
+   ],
+   [
+    0.0288,
+    190
+   ],
+   [
+    0.0293,
+    187
+   ],
+   [
+    0.03,
+    186
+   ],
+   [
+    0.0488,
+    175
+   ],
+   [
+    0.049,
+    173
+   ],
+   [
+    0.0491,
+    163
+   ],
+   [
+    0.0494,
+    160
+   ],
+   [
+    0.0495,
+    156
+   ],
+   [
+    0.0496,
+    153
+   ],
+   [
+    0.0497,
+    151
+   ],
+   [
+    0.0499,
+    150
+   ],
+   [
+    0.05,
+    149
+   ],
+   [
+    0.0501,
+    148
+   ],
+   [
+    0.0503,
+    147
+   ],
+   [
+    0.0506,
+    137
+   ],
+   [
+    0.0509,
+    136
+   ],
+   [
+    0.051,
+    135
+   ],
+   [
+    0.0511,
+    133
+   ],
+   [
+    0.0511,
+    132
+   ],
+   [
+    0.0514,
+    130
+   ],
+   [
+    0.0515,
+    129
+   ],
+   [
+    0.0516,
+    125
+   ],
+   [
+    0.0517,
+    124
+   ],
+   [
+    0.0519,
+    122
+   ],
+   [
+    0.1568,
+    107
+   ],
+   [
+    0.1574,
+    103
+   ],
+   [
+    0.1575,
+    98
+   ],
+   [
+    0.1577,
+    87
+   ],
+   [
+    0.1581,
+    86
+   ],
+   [
+    0.1583,
+    83
+   ],
+   [
+    0.1586,
+    81
+   ],
+   [
+    0.1588,
+    80
+   ],
+   [
+    0.1591,
+    68
+   ],
+   [
+    0.1593,
+    65
+   ],
+   [
+    0.1594,
+    62
+   ],
+   [
+    0.1595,
+    61
+   ],
+   [
+    0.1603,
+    59
+   ],
+   [
+    0.1605,
+    58
+   ],
+   [
+    0.161,
+    57
+   ],
+   [
+    0.1611,
+    56
+   ],
+   [
+    0.1613,
+    53
+   ],
+   [
+    0.1616,
+    52
+   ],
+   [
+    0.1617,
+    51
+   ],
+   [
+    0.3561,
+    50
+   ],
+   [
+    0.3564,
+    49
+   ],
+   [
+    0.3564,
+    48
+   ],
+   [
+    0.3568,
+    47
+   ],
+   [
+    0.357,
+    45
+   ],
+   [
+    0.3572,
+    44
+   ],
+   [
+    0.6364,
+    36
+   ],
+   [
+    0.6826,
+    24
+   ],
+   [
+    0.6833,
+    23
+   ],
+   [
+    1.3382,
+    22
+   ]
+  ],
+  "best_at_10s": 22,
+  "best_at_30s": 22,
+  "best_at_60s": 22,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 384,
+  "seed": 0,
+  "timeout_s": 30.0,
+  "timestamp": "2026-06-27T07:46:22Z",
+  "name": "B_setcover_384_0",
+  "solver": "cpsat"
+ }
+]

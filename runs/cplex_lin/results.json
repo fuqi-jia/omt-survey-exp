@@ -1,0 +1,110 @@
+[
+ {
+  "family": "gap",
+  "n": 80,
+  "seed": 0,
+  "nvars": 1600,
+  "solve_s": 0.068,
+  "proved_optimal": true,
+  "objective": 120.0
+ },
+ {
+  "family": "gap",
+  "n": 160,
+  "seed": 0,
+  "nvars": 6400,
+  "solve_s": 0.077,
+  "proved_optimal": true,
+  "objective": 183.0
+ },
+ {
+  "family": "gap",
+  "n": 320,
+  "seed": 0,
+  "nvars": 25600,
+  "solve_s": 0.232,
+  "proved_optimal": true,
+  "objective": 327.0
+ },
+ {
+  "family": "gap",
+  "n": 640,
+  "seed": 0,
+  "nvars": 102400,
+  "solve_s": 0.885,
+  "proved_optimal": true,
+  "objective": 640.0
+ },
+ {
+  "family": "config",
+  "n": 100,
+  "seed": 0,
+  "nvars": 100,
+  "solve_s": 0.008,
+  "proved_optimal": true,
+  "objective": 427.0
+ },
+ {
+  "family": "config",
+  "n": 200,
+  "seed": 0,
+  "nvars": 200,
+  "solve_s": 0.004,
+  "proved_optimal": true,
+  "objective": 873.0
+ },
+ {
+  "family": "config",
+  "n": 400,
+  "seed": 0,
+  "nvars": 400,
+  "solve_s": 0.011,
+  "proved_optimal": true,
+  "objective": 1722.0
+ },
+ {
+  "family": "config",
+  "n": 800,
+  "seed": 0,
+  "nvars": 800,
+  "solve_s": 0.013,
+  "proved_optimal": true,
+  "objective": 3282.0
+ },
+ {
+  "family": "knapsack",
+  "n": 320,
+  "seed": 0,
+  "nvars": 320,
+  "solve_s": 0.006,
+  "proved_optimal": true,
+  "objective": 2533.0
+ },
+ {
+  "family": "knapsack",
+  "n": 640,
+  "seed": 0,
+  "nvars": 640,
+  "solve_s": 0.01,
+  "proved_optimal": true,
+  "objective": 5078.0
+ },
+ {
+  "family": "knapsack",
+  "n": 1280,
+  "seed": 0,
+  "nvars": 1280,
+  "solve_s": 0.014,
+  "proved_optimal": true,
+  "objective": 10135.0
+ },
+ {
+  "family": "knapsack",
+  "n": 2560,
+  "seed": 0,
+  "nvars": 2560,
+  "solve_s": 0.02,
+  "proved_optimal": true,
+  "objective": 20382.0
+ }
+]
