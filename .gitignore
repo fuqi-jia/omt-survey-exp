@@ -18,3 +18,4 @@ runs/*/run.log
 .DS_Store
 .venv-cplex/
 .venv-win/
+tools/cdcl_ocac/

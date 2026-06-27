@@ -32,13 +32,10 @@ import tempfile
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OMS = os.path.join(REPO, "tools", "optimathsat-1.7.4-linux-64-bit", "bin", "optimathsat")
-OCAC = os.environ.get("OCAC", os.path.join(
-    os.path.dirname(REPO), "omt-survey-exp", "tools", "cdcl_ocac", "bin", "cvc5"))
-# fall back to the scratch build if the packaged binary is absent
-if not os.path.exists(OCAC):
-    alt = "/tmp/claude-1000/-mnt-d-D-Study-ISCAS-projects-GOMT/8d1114e7-0044-4e46-967b-65e9399f3fbe/scratchpad/cdcl_ocac/build/bin/cvc5"
-    if os.path.exists(alt):
-        OCAC = alt
+# CDCL(OCAC) binary -- the complete OMT(NRA) solver. Set $OCAC, or drop the
+# prebuilt static Linux x86-64 binary at tools/cdcl_ocac/cvc5. Download it from:
+#   https://github.com/fuqi-jia/cdcl_ocac/releases/tag/v1.0.4-ocac-static
+OCAC = os.environ.get("OCAC") or os.path.join(REPO, "tools", "cdcl_ocac", "cvc5")
 
 
 # ---------------- instances ----------------
