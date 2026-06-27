@@ -1,0 +1,212 @@
+[
+ {
+  "solver": "z3",
+  "paradigm": "OMT",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-07": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-09": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-12": {
+    "x": 0,
+    "status": "exact-opt"
+   }
+  }
+ },
+ {
+  "solver": "optimathsat",
+  "paradigm": "OMT",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-07": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-09": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-12": {
+    "x": 0,
+    "status": "exact-opt"
+   }
+  }
+ },
+ {
+  "solver": "cbc",
+  "paradigm": "MILP",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-07": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-09": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-12": {
+    "x": 1,
+    "status": "infeasible"
+   }
+  }
+ },
+ {
+  "solver": "highs",
+  "paradigm": "MILP",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-07": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-09": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-12": {
+    "x": 1,
+    "status": "infeasible"
+   }
+  }
+ },
+ {
+  "solver": "scip",
+  "paradigm": "MILP",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-07": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-09": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-12": {
+    "x": 1,
+    "status": "infeasible"
+   }
+  }
+ },
+ {
+  "solver": "gurobi",
+  "paradigm": "MILP",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-07": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-09": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-12": {
+    "x": 1,
+    "status": "infeasible"
+   }
+  }
+ },
+ {
+  "solver": "cplex",
+  "paradigm": "MILP",
+  "by_delta": {
+   "1e-04": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-05": {
+    "x": 0,
+    "status": "exact-opt"
+   },
+   "1e-06": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-07": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-09": {
+    "x": 1,
+    "status": "infeasible"
+   },
+   "1e-12": {
+    "x": 1,
+    "status": "infeasible"
+   }
+  }
+ }
+]
