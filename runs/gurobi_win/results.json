@@ -1,0 +1,152 @@
+[
+ {
+  "family": "gap",
+  "n": 80,
+  "seed": 0,
+  "nvars": 1600,
+  "solve_s": 0.013,
+  "proved_optimal": true,
+  "objective": 120.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "gap",
+  "n": 80,
+  "seed": 1,
+  "nvars": 1600,
+  "solve_s": 0.008,
+  "proved_optimal": true,
+  "objective": 128.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "gap",
+  "n": 80,
+  "seed": 2,
+  "nvars": 1600,
+  "solve_s": 0.007,
+  "proved_optimal": true,
+  "objective": 139.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "gap",
+  "n": 160,
+  "seed": 0,
+  "nvars": 6400,
+  "solve_s": 0.022,
+  "proved_optimal": true,
+  "objective": 183.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "gap",
+  "n": 160,
+  "seed": 1,
+  "nvars": 6400,
+  "solve_s": 0.034,
+  "proved_optimal": true,
+  "objective": 184.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "gap",
+  "n": 160,
+  "seed": 2,
+  "nvars": 6400,
+  "solve_s": 0.023,
+  "proved_optimal": true,
+  "objective": 193.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 2000,
+  "seed": 0,
+  "nvars": 2000,
+  "solve_s": 0.01,
+  "proved_optimal": true,
+  "objective": 16013.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 2000,
+  "seed": 1,
+  "nvars": 2000,
+  "solve_s": 0.011,
+  "proved_optimal": true,
+  "objective": 16434.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 2000,
+  "seed": 2,
+  "nvars": 2000,
+  "solve_s": 0.01,
+  "proved_optimal": true,
+  "objective": 16006.0,
+  "exceeds_restricted_cap": false
+ },
+ {
+  "family": "knapsack",
+  "n": 4000,
+  "seed": 0,
+  "nvars": 4000,
+  "solve_s": 0.012,
+  "proved_optimal": true,
+  "objective": 32049.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 4000,
+  "seed": 1,
+  "nvars": 4000,
+  "solve_s": 0.013,
+  "proved_optimal": true,
+  "objective": 32516.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 4000,
+  "seed": 2,
+  "nvars": 4000,
+  "solve_s": 0.011,
+  "proved_optimal": true,
+  "objective": 32446.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 8000,
+  "seed": 0,
+  "nvars": 8000,
+  "solve_s": 0.02,
+  "proved_optimal": true,
+  "objective": 64322.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 8000,
+  "seed": 1,
+  "nvars": 8000,
+  "solve_s": 0.019,
+  "proved_optimal": true,
+  "objective": 64907.0,
+  "exceeds_restricted_cap": true
+ },
+ {
+  "family": "knapsack",
+  "n": 8000,
+  "seed": 2,
+  "nvars": 8000,
+  "solve_s": 0.031,
+  "proved_optimal": true,
+  "objective": 64571.0,
+  "exceeds_restricted_cap": true
+ }
+]
