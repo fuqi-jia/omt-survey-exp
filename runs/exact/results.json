@@ -1,556 +1,1811 @@
 [
  {
+  "exp": 40,
+  "n": 8,
+  "seed": 0,
+  "true_opt": 5497558138910,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5497558138910
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5497558138910
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 5497558138904,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 8,
+  "seed": 1,
+  "true_opt": 5497558138903,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5497558138903
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5497558138903
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 5497558138897,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 8,
+  "seed": 2,
+  "true_opt": 5497558138895,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5497558138895
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5497558138895
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 5497558138894,
+    "gap_to_opt": 1
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 8,
+  "seed": 3,
+  "true_opt": 5497558138899,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5497558138899
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5497558138899
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 8,
+  "seed": 4,
+  "true_opt": 5497558138902,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5497558138902
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5497558138902
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 12,
+  "seed": 0,
+  "true_opt": 7696581394470,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 7696581394470
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 7696581394470
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 7696581394467,
+    "gap_to_opt": 3
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 12,
+  "seed": 1,
+  "true_opt": 7696581394466,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 7696581394466
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 7696581394466
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 7696581394458,
+    "gap_to_opt": 8
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 12,
+  "seed": 2,
+  "true_opt": 7696581394458,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 7696581394458
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 7696581394458
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 7696581394454,
+    "gap_to_opt": 4
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 12,
+  "seed": 3,
+  "true_opt": 7696581394465,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 7696581394465
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 7696581394465
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 7696581394461,
+    "gap_to_opt": 4
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 40,
+  "n": 12,
+  "seed": 4,
+  "true_opt": 7696581394458,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 7696581394458
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 7696581394458
+   },
+   "cpsat": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 7696581394457,
+    "gap_to_opt": 1
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 7696581394452,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 54,
   "n": 8,
   "seed": 0,
   "true_opt": 90071992547409950,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409950
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409950
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 90071992547409950,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409944,
-    "feasible": true,
     "gap_to_opt": 6
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409944,
-    "feasible": true,
     "gap_to_opt": 6
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409944,
-    "feasible": true,
     "gap_to_opt": 6
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 90071992547409950
+   "cplex": {
+    "status": "wrong",
+    "value": 90071992547409944,
+    "gap_to_opt": 6
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 90071992547409944,
+    "gap_to_opt": 6
    }
   }
  },
  {
+  "exp": 54,
   "n": 8,
   "seed": 1,
   "true_opt": 90071992547409943,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409943
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409943
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 90071992547409943,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409937,
-    "feasible": true,
     "gap_to_opt": 6
    },
    "highs": {
-    "exact_optimal": false,
-    "value": 90071992547409937,
-    "feasible": true,
-    "gap_to_opt": 6
+    "status": "wrong",
+    "value": 90071992547409942,
+    "gap_to_opt": 1
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409937,
-    "feasible": true,
     "gap_to_opt": 6
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 90071992547409943
+   "cplex": {
+    "status": "exact",
+    "value": 90071992547409943,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 90071992547409943,
+    "gap_to_opt": 0
    }
   }
  },
  {
+  "exp": 54,
   "n": 8,
   "seed": 2,
   "true_opt": 90071992547409935,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409935
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409935
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 90071992547409935,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409934,
-    "feasible": true,
     "gap_to_opt": 1
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409934,
-    "feasible": true,
     "gap_to_opt": 1
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 90071992547409934,
-    "feasible": true,
     "gap_to_opt": 1
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 90071992547409935
+   "cplex": {
+    "status": "exact",
+    "value": 90071992547409935,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 90071992547409931,
+    "gap_to_opt": 4
    }
   }
  },
  {
+  "exp": 54,
   "n": 8,
   "seed": 3,
   "true_opt": 90071992547409939,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409939
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409939
    },
-   "cbc": {
-    "exact_optimal": true,
+   "cpsat": {
+    "status": "exact",
     "value": 90071992547409939,
-    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 90071992547409939,
     "gap_to_opt": 0
    },
    "highs": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409939,
-    "feasible": true,
     "gap_to_opt": 0
    },
    "scip": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409939,
-    "feasible": true,
     "gap_to_opt": 0
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 90071992547409939
+   "cplex": {
+    "status": "exact",
+    "value": 90071992547409939,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 90071992547409935,
+    "gap_to_opt": 4
    }
   }
  },
  {
+  "exp": 54,
   "n": 8,
   "seed": 4,
   "true_opt": 90071992547409942,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409942
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409942
    },
-   "cbc": {
-    "exact_optimal": true,
+   "cpsat": {
+    "status": "exact",
     "value": 90071992547409942,
-    "feasible": true,
+    "gap_to_opt": 0
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 90071992547409942,
     "gap_to_opt": 0
    },
    "highs": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409942,
-    "feasible": true,
     "gap_to_opt": 0
    },
    "scip": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 90071992547409942,
-    "feasible": true,
     "gap_to_opt": 0
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 90071992547409942
+   "cplex": {
+    "status": "exact",
+    "value": 90071992547409942,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 90071992547409942,
+    "gap_to_opt": 0
    }
   }
  },
  {
+  "exp": 54,
   "n": 12,
   "seed": 0,
   "true_opt": 126100789566373926,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373926
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373926
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 126100789566373926,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373923,
-    "feasible": true,
     "gap_to_opt": 3
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373925,
-    "feasible": true,
     "gap_to_opt": 1
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373923,
-    "feasible": true,
     "gap_to_opt": 3
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 126100789566373926
+   "cplex": {
+    "status": "wrong",
+    "value": 126100789566373923,
+    "gap_to_opt": 3
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373923,
+    "gap_to_opt": 3
    }
   }
  },
  {
+  "exp": 54,
   "n": 12,
   "seed": 1,
   "true_opt": 126100789566373922,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373922
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373922
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 126100789566373922,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373909,
-    "feasible": true,
     "gap_to_opt": 13
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373914,
-    "feasible": true,
     "gap_to_opt": 8
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373914,
-    "feasible": true,
     "gap_to_opt": 8
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 126100789566373922
+   "cplex": {
+    "status": "wrong",
+    "value": 126100789566373916,
+    "gap_to_opt": 6
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373916,
+    "gap_to_opt": 6
    }
   }
  },
  {
+  "exp": 54,
   "n": 12,
   "seed": 2,
   "true_opt": 126100789566373914,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373914
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373914
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 126100789566373914,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373910,
-    "feasible": true,
     "gap_to_opt": 4
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373911,
-    "feasible": true,
     "gap_to_opt": 3
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373910,
-    "feasible": true,
     "gap_to_opt": 4
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 126100789566373914
+   "cplex": {
+    "status": "wrong",
+    "value": 126100789566373910,
+    "gap_to_opt": 4
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373908,
+    "gap_to_opt": 6
    }
   }
  },
  {
+  "exp": 54,
   "n": 12,
   "seed": 3,
   "true_opt": 126100789566373921,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373921
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373921
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 126100789566373921,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373917,
-    "feasible": true,
     "gap_to_opt": 4
    },
    "highs": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373921,
-    "feasible": true,
     "gap_to_opt": 0
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373917,
-    "feasible": true,
     "gap_to_opt": 4
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 126100789566373921
+   "cplex": {
+    "status": "wrong",
+    "value": 126100789566373920,
+    "gap_to_opt": 1
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373917,
+    "gap_to_opt": 4
    }
   }
  },
  {
+  "exp": 54,
   "n": 12,
   "seed": 4,
   "true_opt": 126100789566373914,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373914
    },
    "optimathsat": {
-    "exact_optimal": true,
+    "status": "exact",
     "value": 126100789566373914
    },
+   "cpsat": {
+    "status": "exact",
+    "value": 126100789566373914,
+    "gap_to_opt": 0
+   },
    "cbc": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373906,
-    "feasible": true,
     "gap_to_opt": 8
    },
    "highs": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373913,
-    "feasible": true,
     "gap_to_opt": 1
    },
    "scip": {
-    "exact_optimal": false,
+    "status": "wrong",
     "value": 126100789566373908,
-    "feasible": true,
     "gap_to_opt": 6
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 126100789566373914
+   "cplex": {
+    "status": "wrong",
+    "value": 126100789566373913,
+    "gap_to_opt": 1
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373913,
+    "gap_to_opt": 1
    }
   }
  },
  {
-  "n": 16,
+  "exp": 60,
+  "n": 8,
   "seed": 0,
-  "true_opt": 162129586585337902,
+  "true_opt": 5764607523034234910,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
-    "value": 162129586585337902
+    "status": "exact",
+    "value": 5764607523034234910
    },
    "optimathsat": {
-    "exact_optimal": true,
-    "value": 162129586585337902
+    "status": "exact",
+    "value": 5764607523034234910
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
    },
    "cbc": {
-    "exact_optimal": false,
-    "value": 162129586585337897,
-    "feasible": true,
-    "gap_to_opt": 5
+    "status": "wrong",
+    "value": 5764607523034234904,
+    "gap_to_opt": 6
    },
    "highs": {
-    "exact_optimal": false,
-    "value": 162129586585337898,
-    "feasible": true,
-    "gap_to_opt": 4
+    "status": "wrong",
+    "value": 5764607523034234904,
+    "gap_to_opt": 6
    },
    "scip": {
-    "exact_optimal": false,
-    "value": 162129586585337894,
-    "feasible": true,
+    "status": "wrong",
+    "value": 5764607523034234904,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 5764607523034234903,
+    "gap_to_opt": 7
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234904,
+    "gap_to_opt": 6
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 8,
+  "seed": 1,
+  "true_opt": 5764607523034234903,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5764607523034234903
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5764607523034234903
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 5764607523034234897,
+    "gap_to_opt": 6
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 5764607523034234897,
+    "gap_to_opt": 6
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 5764607523034234897,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 5764607523034234895,
     "gap_to_opt": 8
    },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 162129586585337902
+   "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234894,
+    "gap_to_opt": 9
    }
   }
  },
  {
-  "n": 16,
-  "seed": 1,
-  "true_opt": 162129586585337903,
-  "solvers": {
-   "z3": {
-    "exact_optimal": true,
-    "value": 162129586585337903
-   },
-   "optimathsat": {
-    "exact_optimal": true,
-    "value": 162129586585337903
-   },
-   "cbc": {
-    "exact_optimal": false,
-    "value": 162129586585337891,
-    "feasible": true,
-    "gap_to_opt": 12
-   },
-   "highs": {
-    "exact_optimal": false,
-    "value": 162129586585337897,
-    "feasible": true,
-    "gap_to_opt": 6
-   },
-   "scip": {
-    "exact_optimal": false,
-    "value": 162129586585337896,
-    "feasible": true,
-    "gap_to_opt": 7
-   },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 162129586585337903
-   }
-  }
- },
- {
-  "n": 16,
+  "exp": 60,
+  "n": 8,
   "seed": 2,
-  "true_opt": 162129586585337894,
+  "true_opt": 5764607523034234895,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
-    "value": 162129586585337894
+    "status": "exact",
+    "value": 5764607523034234895
    },
    "optimathsat": {
-    "exact_optimal": true,
-    "value": 162129586585337894
-   },
-   "cbc": {
-    "exact_optimal": false,
-    "value": 162129586585337889,
-    "feasible": true,
-    "gap_to_opt": 5
-   },
-   "highs": {
-    "exact_optimal": false,
-    "value": 162129586585337889,
-    "feasible": true,
-    "gap_to_opt": 5
-   },
-   "scip": {
-    "exact_optimal": false,
-    "value": 162129586585337887,
-    "feasible": true,
-    "gap_to_opt": 7
+    "status": "exact",
+    "value": 5764607523034234895
    },
    "cpsat": {
-    "exact_optimal": true,
-    "value": 162129586585337894
-   }
-  }
- },
- {
-  "n": 16,
-  "seed": 3,
-  "true_opt": 162129586585337901,
-  "solvers": {
-   "z3": {
-    "exact_optimal": true,
-    "value": 162129586585337901
-   },
-   "optimathsat": {
-    "exact_optimal": true,
-    "value": 162129586585337901
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
    },
    "cbc": {
-    "exact_optimal": false,
-    "value": 162129586585337897,
-    "feasible": true,
+    "status": "wrong",
+    "value": 5764607523034234894,
+    "gap_to_opt": 1
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 5764607523034234894,
+    "gap_to_opt": 1
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 5764607523034234894,
+    "gap_to_opt": 1
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 5764607523034234890,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234891,
     "gap_to_opt": 4
-   },
-   "highs": {
-    "exact_optimal": false,
-    "value": 162129586585337898,
-    "feasible": true,
-    "gap_to_opt": 3
-   },
-   "scip": {
-    "exact_optimal": false,
-    "value": 162129586585337898,
-    "feasible": true,
-    "gap_to_opt": 3
-   },
-   "cpsat": {
-    "exact_optimal": true,
-    "value": 162129586585337901
    }
   }
  },
  {
-  "n": 16,
-  "seed": 4,
-  "true_opt": 162129586585337890,
+  "exp": 60,
+  "n": 8,
+  "seed": 3,
+  "true_opt": 5764607523034234899,
   "solvers": {
    "z3": {
-    "exact_optimal": true,
-    "value": 162129586585337890
+    "status": "exact",
+    "value": 5764607523034234899
    },
    "optimathsat": {
-    "exact_optimal": true,
-    "value": 162129586585337890
+    "status": "exact",
+    "value": 5764607523034234899
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
    },
    "cbc": {
-    "exact_optimal": false,
-    "value": 162129586585337884,
-    "feasible": true,
+    "status": "exact",
+    "value": 5764607523034234899,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5764607523034234899,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "exact",
+    "value": 5764607523034234899,
+    "gap_to_opt": 0
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 5764607523034234899,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234895,
+    "gap_to_opt": 4
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 8,
+  "seed": 4,
+  "true_opt": 5764607523034234902,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 5764607523034234902
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 5764607523034234902
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "exact",
+    "value": 5764607523034234902,
+    "gap_to_opt": 0
+   },
+   "highs": {
+    "status": "exact",
+    "value": 5764607523034234902,
+    "gap_to_opt": 0
+   },
+   "scip": {
+    "status": "exact",
+    "value": 5764607523034234902,
+    "gap_to_opt": 0
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 5764607523034234897,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 5764607523034234902,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 12,
+  "seed": 0,
+  "true_opt": 8070450532247928870,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8070450532247928870
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8070450532247928870
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 8070450532247928867,
+    "gap_to_opt": 3
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 8070450532247928867,
+    "gap_to_opt": 3
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 8070450532247928867,
+    "gap_to_opt": 3
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8070450532247928869,
+    "gap_to_opt": 1
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928867,
+    "gap_to_opt": 3
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 12,
+  "seed": 1,
+  "true_opt": 8070450532247928866,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8070450532247928866
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8070450532247928866
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 8070450532247928853,
+    "gap_to_opt": 13
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 8070450532247928858,
+    "gap_to_opt": 8
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 8070450532247928858,
+    "gap_to_opt": 8
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8070450532247928860,
     "gap_to_opt": 6
    },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928860,
+    "gap_to_opt": 6
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 12,
+  "seed": 2,
+  "true_opt": 8070450532247928858,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8070450532247928858
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8070450532247928858
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 8070450532247928854,
+    "gap_to_opt": 4
+   },
    "highs": {
-    "exact_optimal": false,
-    "value": 162129586585337886,
-    "feasible": true,
+    "status": "wrong",
+    "value": 8070450532247928850,
+    "gap_to_opt": 8
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 8070450532247928854,
+    "gap_to_opt": 4
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8070450532247928856,
+    "gap_to_opt": 2
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928853,
+    "gap_to_opt": 5
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 12,
+  "seed": 3,
+  "true_opt": 8070450532247928865,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8070450532247928865
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8070450532247928865
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 8070450532247928861,
+    "gap_to_opt": 4
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 8070450532247928861,
     "gap_to_opt": 4
    },
    "scip": {
-    "exact_optimal": false,
-    "value": 162129586585337879,
-    "feasible": true,
-    "gap_to_opt": 11
+    "status": "wrong",
+    "value": 8070450532247928861,
+    "gap_to_opt": 4
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8070450532247928860,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928861,
+    "gap_to_opt": 4
+   }
+  }
+ },
+ {
+  "exp": 60,
+  "n": 12,
+  "seed": 4,
+  "true_opt": 8070450532247928858,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8070450532247928858
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8070450532247928858
    },
    "cpsat": {
-    "exact_optimal": true,
-    "value": 162129586585337890
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "wrong",
+    "value": 8070450532247928850,
+    "gap_to_opt": 8
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 8070450532247928852,
+    "gap_to_opt": 6
+   },
+   "scip": {
+    "status": "wrong",
+    "value": 8070450532247928852,
+    "gap_to_opt": 6
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8070450532247928851,
+    "gap_to_opt": 7
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928852,
+    "gap_to_opt": 6
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 8,
+  "seed": 0,
+  "true_opt": 8034690221294951377709810461705813012611014968913964176506910,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506910
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506910
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 12855504354071922204335696738729300820177623950262342682411048,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 8034690221294951377709810461705813012611014968913964176506910
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506903,
+    "gap_to_opt": 7
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506904,
+    "gap_to_opt": 6
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 8,
+  "seed": 1,
+  "true_opt": 8034690221294951377709810461705813012611014968913964176506903,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506903
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506903
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 12855504354071922204335696738729300820177623950262342682411043,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 8034690221294951377709810461705813012611014968913964176506903
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506895,
+    "gap_to_opt": 8
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506894,
+    "gap_to_opt": 9
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 8,
+  "seed": 2,
+  "true_opt": 8034690221294951377709810461705813012611014968913964176506895,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506895
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506895
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 12855504354071922204335696738729300820177623950262342682411028,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 8034690221294951377709810461705813012611014968913964176506895
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506890,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506891,
+    "gap_to_opt": 4
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 8,
+  "seed": 3,
+  "true_opt": 8034690221294951377709810461705813012611014968913964176506899,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506899
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506899
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 12855504354071922204335696738729300820177623950262342682411037,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 8034690221294951377709810461705813012611014968913964176506899
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506899,
+    "gap_to_opt": 0
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506895,
+    "gap_to_opt": 4
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 8,
+  "seed": 4,
+  "true_opt": 8034690221294951377709810461705813012611014968913964176506902,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506902
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506902
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 12855504354071922204335696738729300820177623950262342682411033,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 8034690221294951377709810461705813012611014968913964176506902
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506897,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506902,
+    "gap_to_opt": 0
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 12,
+  "seed": 0,
+  "true_opt": 11248566309812931928793734646388138217655420956479549847109670,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109670
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109670
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 19283256531107883306503545108093951230266435925393514023616566,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 11248566309812931928793734646388138217655420956479549847109670
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109669,
+    "gap_to_opt": 1
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109667,
+    "gap_to_opt": 3
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 12,
+  "seed": 1,
+  "true_opt": 11248566309812931928793734646388138217655420956479549847109666,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109666
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109666
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 19283256531107883306503545108093951230266435925393514023616558,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 11248566309812931928793734646388138217655420956479549847109666
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109660,
+    "gap_to_opt": 6
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109660,
+    "gap_to_opt": 6
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 12,
+  "seed": 2,
+  "true_opt": 11248566309812931928793734646388138217655420956479549847109658,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 19283256531107883306503545108093951230266435925393514023616546,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109656,
+    "gap_to_opt": 2
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109653,
+    "gap_to_opt": 5
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 12,
+  "seed": 3,
+  "true_opt": 11248566309812931928793734646388138217655420956479549847109665,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109665
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109665
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 19283256531107883306503545108093951230266435925393514023616561,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 11248566309812931928793734646388138217655420956479549847109665
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109660,
+    "gap_to_opt": 5
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109661,
+    "gap_to_opt": 4
+   }
+  }
+ },
+ {
+  "exp": 200,
+  "n": 12,
+  "seed": 4,
+  "true_opt": 11248566309812931928793734646388138217655420956479549847109658,
+  "solvers": {
+   "z3": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "optimathsat": {
+    "status": "exact",
+    "value": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "cpsat": {
+    "status": "refused",
+    "note": "MODEL_INVALID (int64 range)"
+   },
+   "cbc": {
+    "status": "error",
+    "value": 19283256531107883306503545108093951230266435925393514023616547,
+    "note": "infeasible"
+   },
+   "highs": {
+    "status": "wrong",
+    "value": 0,
+    "gap_to_opt": 11248566309812931928793734646388138217655420956479549847109658
+   },
+   "scip": {
+    "status": "error",
+    "note": "SCIP: error in input data!"
+   },
+   "cplex": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109651,
+    "gap_to_opt": 7
+   },
+   "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109652,
+    "gap_to_opt": 6
    }
   }
  }

@@ -1,0 +1,242 @@
+{
+ "z3": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  }
+ },
+ "optimathsat": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  }
+ },
+ "cpsat": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 0,
+   "wrong": 0,
+   "refused": 10,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 0,
+   "wrong": 0,
+   "refused": 10,
+   "error": 0,
+   "total": 10
+  }
+ },
+ "cbc": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 0,
+   "wrong": 0,
+   "refused": 0,
+   "error": 10,
+   "total": 10
+  }
+ },
+ "highs": {
+  "40": {
+   "exact": 9,
+   "wrong": 1,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 3,
+   "wrong": 7,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 0,
+   "wrong": 10,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  }
+ },
+ "scip": {
+  "40": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 0,
+   "wrong": 0,
+   "refused": 0,
+   "error": 10,
+   "total": 10
+  }
+ },
+ "cplex": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 4,
+   "wrong": 6,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 1,
+   "wrong": 9,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 1,
+   "wrong": 9,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  }
+ },
+ "gurobi": {
+  "40": {
+   "exact": 10,
+   "wrong": 0,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "54": {
+   "exact": 2,
+   "wrong": 8,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "60": {
+   "exact": 1,
+   "wrong": 9,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  },
+  "200": {
+   "exact": 1,
+   "wrong": 9,
+   "refused": 0,
+   "error": 0,
+   "total": 10
+  }
+ }
+}
