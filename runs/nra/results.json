@@ -1,0 +1,68 @@
+[
+ {
+  "inst": "A_sqrt2",
+  "true": 1.4142135623730951,
+  "ocac": "algebraic",
+  "ocac_exact": true,
+  "optimathsat": "T/O",
+  "scipy": 1.4142135623732108,
+  "gurobi": 1.4142135623730951
+ },
+ {
+  "inst": "A_sqrt3",
+  "true": 1.7320508075688772,
+  "ocac": "algebraic",
+  "ocac_exact": true,
+  "optimathsat": "unknown",
+  "scipy": 1.7320508100151792,
+  "gurobi": 1.7320508075688772
+ },
+ {
+  "inst": "A_sqrt5",
+  "true": 2.23606797749979,
+  "ocac": "algebraic",
+  "ocac_exact": true,
+  "optimathsat": "T/O",
+  "scipy": 2.236067977522897,
+  "gurobi": 2.23606797749979
+ },
+ {
+  "inst": "A_sqrt7",
+  "true": 2.6457513110645907,
+  "ocac": "algebraic",
+  "ocac_exact": true,
+  "optimathsat": "unknown",
+  "scipy": 2.6457513171927647,
+  "gurobi": 2.6457513110645907
+ },
+ {
+  "inst": "B_5_9",
+  "global": 0.0,
+  "ocac": "exact",
+  "ocac_val": "0.0",
+  "optimathsat": "0",
+  "scipy_hi": 4.000000000698714,
+  "scipy_lo": 5.551115123125783e-17,
+  "gurobi": 0.0
+ },
+ {
+  "inst": "B_7_16",
+  "global": 0.0,
+  "ocac": "exact",
+  "ocac_val": "0.0",
+  "optimathsat": "0",
+  "scipy_hi": 5.0,
+  "scipy_lo": 5.551115123125783e-17,
+  "gurobi": 0.0
+ },
+ {
+  "inst": "B_9_25",
+  "global": 0.0,
+  "ocac": "exact",
+  "ocac_val": "0.0",
+  "optimathsat": "0",
+  "scipy_hi": 5.0,
+  "scipy_lo": 5.551115123125783e-17,
+  "gurobi": 0.0
+ }
+]
