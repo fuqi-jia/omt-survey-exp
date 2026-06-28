@@ -48,3 +48,9 @@ z3 `(error "out of memory")`、Gecode `Gecode::MemoryExhausted (Heap memory exha
 - 因此**"单机一次跑完含完整 Gurobi 的全矩阵"目前做不到**。两条路:
   1. **沿用现状**(论文即此法):WSL `.venv-cplex` 跑除 Gurobi 外的全部(含完整 CPLEX)+ Windows 单跑 Gurobi,再合并——已交叉校验目标值一致(见第三节)。
   2. 换一张**非 node-locked 的 Gurobi 许可证**(学术 named-user / WLS 浮动证),才能在 WSL 内跑完整 Gurobi、真正单机一次跑完。
+
+## 六、精确性实验补充:exact-SCIP(精确有理 MILP)
+
+为严格回答"精确 MILP 是否也精确"而非以限定词回避,从源码自建了 **SCIP 11.0.0 的 exact 求解模式**(`EXACTSOLVE=ON` + GMP/MPFR + 精确 SoPlex 9.0.0;构建步骤见 `tools/scip-exact/BUILD.md`,二进制 gitignore)。`scripts/exact_experiment.py` 新增 `scip-exact` 求解器(`SOLVERS` 中),数据回填 `runs/exact/`。
+
+结果(每格 10 实例):`scip-exact` 在 **2^40 / 2^54 / 2^60 均 10/10 精确**(浮点 MILP 在 2^54+ 已失效),证实**大系数失效源于浮点算术、而非 MILP 范式**;但 SCIP 将绝对值超过其有限值上限(`numerics/infinity` ≈ 1e20,不可调高过上限)的系数视为无穷而**拒绝读入**,故 **2^200 安全拒解**;唯有 OMT(任意精度有理,无此上限)在所有量级精确。论文 `tab:exp-exact`、`tab:exp-tools` 与 §8 结果段/观察3 已据此改写为严格四档结论,删去原"仅 OMT 精确"的过强表述。
