@@ -41,10 +41,10 @@ gurobi_win/cplex_lin 的 JSON schema 与主 harness 不同:`{family, n, seed, nv
 3 个 `MO` 格(νZ gap640、Gecode gap320/640)经 `error_message` 确认为**优雅 OOM 而非崩溃**:
 z3 `(error "out of memory")`、Gecode `Gecode::MemoryExhausted (Heap memory exhausted)`;由 `run_all.py` 的 `RLIMIT_AS=4 GB` 触发。属资源限额,非求解器缺陷。
 
-## 五、TODO:单机跑全矩阵(避免回退免费版)
+## 五、跑全矩阵的现状与限制
 
-要在一个 WSL 环境一次跑完全矩阵(含全许可证 Gurobi/CPLEX):
-
-- **Gurobi**:设 `GRB_LICENSE_FILE` 指向完整 `gurobi.lic`,同一 `gurobipy` 即用全许可证(无需换包)。
-- **CPLEX**:pip `cplex`(community)硬限 1000 变量、许可证无法解锁;须用 **CPLEX Studio 完整安装**的 Python API(参见 `.venv-cplex`,python 3.10)。让 `run_all.py` 在该环境调用完整 CPLEX。根目录已有安装包 `cplex_studio2210.linux_x86_64.bin`。
-- 接上后,`gurobi-ind`/`cplex-ind` 即可在大实例上正常求解,`gurobi_win`/`cplex_lin` 专跑可并入主矩阵。
+- **CPLEX(WSL 可用完整版)**:用 **`.venv-cplex`**(python 3.10 + CPLEX Studio 22.1 完整 API)即可无限制求解;`.venv-cplex/bin/python scripts/run_all.py …` 全程走完整 CPLEX。pip 的 `cplex`(community)硬限 1000 变量、**许可证无法解锁**,故默认 `.venv`(py3.12)仍是限额版——跑实验统一用 `.venv-cplex` 即可避免 CPLEX 回退。
+- **Gurobi(WSL 用不了完整版)**:完整许可证是 **NODE-locked 到 Windows 主机**(`gurobi.lic` TYPE=NODE),WSL2 主机 id 不同 → **WSL 的 gurobipy 仍是限额版,无法用完整许可证**。完整 Gurobi 只能在 Windows 上跑:`scripts/run_gurobi_windows.ps1` → `scripts/gurobi_linear_windows.py` → `runs/gurobi_win/`。
+- 因此**"单机一次跑完含完整 Gurobi 的全矩阵"目前做不到**。两条路:
+  1. **沿用现状**(论文即此法):WSL `.venv-cplex` 跑除 Gurobi 外的全部(含完整 CPLEX)+ Windows 单跑 Gurobi,再合并——已交叉校验目标值一致(见第三节)。
+  2. 换一张**非 node-locked 的 Gurobi 许可证**(学术 named-user / WLS 浮动证),才能在 WSL 内跑完整 Gurobi、真正单机一次跑完。
