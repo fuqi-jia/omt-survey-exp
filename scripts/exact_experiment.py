@@ -53,6 +53,8 @@ import tempfile
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 OMT_BIN = os.path.join(REPO, "tools", "optimathsat-1.7.4-linux-64-bit", "bin",
                        "optimathsat")
+SCIP_EXACT_BIN = os.environ.get("SCIP_EXACT",
+    os.path.join(REPO, "tools", "scip-exact", "scip"))
 
 # Coefficient magnitudes (exponents of 2) crossing every arithmetic boundary.
 #   40 : < 2**53 and < 2**63       -> representable; isolates tolerance/scaling
@@ -205,6 +207,41 @@ def solve_omt(inst, binary):
     val = int(m.group(1))
     return {"status": "exact" if val == inst["opt"] else "wrong", "value": val}
 
+# ---------------- exact-rational MILP (SCIP exact mode) ----------------
+def solve_scip_exact(inst):
+    """Exact rational MIP via SCIP's exact solving mode (SCIP>=10 built with
+    EXACTSOLVE + GMP + exact SoPlex; see tools/README). Coefficients are written
+    as exact integers in an LP file (SCIP's exact reader stores them as rationals,
+    verified). Classified by SCIP's reported Exact Primal Bound vs the true opt.
+    SCIP treats |value| >= numerics/infinity (~1e20) as infinite and refuses to
+    read -> SAFE REFUSAL at very large magnitudes (it never returns a wrong
+    answer)."""
+    if not os.path.exists(SCIP_EXACT_BIN):
+        return {"status": "error", "note": "exact-SCIP binary not found"}
+    n = inst["n"]
+    lp = ["Maximize",
+          " obj: " + " + ".join(f"{inst['val'][i]} x{i}" for i in range(n)),
+          "Subject to",
+          " cap: " + " + ".join(f"{inst['w'][i]} x{i}" for i in range(n)) + f" <= {inst['C']}",
+          "Binary", " " + " ".join(f"x{i}" for i in range(n)), "End"]
+    f = tempfile.NamedTemporaryFile("w", suffix=".lp", delete=False)
+    f.write("\n".join(lp)); f.close()
+    try:
+        out = subprocess.run([SCIP_EXACT_BIN, "-c", "set exact enable TRUE",
+              "-c", f"read {f.name}", "-c", "optimize", "-c", "quit"],
+              capture_output=True, text=True, timeout=120)
+    except Exception as e:
+        os.unlink(f.name); return {"status": "error", "note": str(e)[:80]}
+    os.unlink(f.name)
+    blob = out.stdout + out.stderr
+    if "error reading file" in blob or "objective value is infinite" in blob:
+        return {"status": "refused", "note": "coeff >= SCIP infinity (~1e20)"}
+    m = re.search(r"Exact Primal Bound\s*:\s*(-?\d+)", out.stdout)
+    if not m:
+        return {"status": "error", "note": "no exact bound parsed"}
+    val = int(m.group(1))
+    return {"status": "exact" if val == inst["opt"] else "wrong", "value": val}
+
 
 SOLVERS = [
     ("z3",          "OMT",  lambda inst: solve_omt(inst, "z3")),
@@ -215,6 +252,7 @@ SOLVERS = [
     ("scip",        "MILP", lambda inst: solve_milp_pulp(inst, "scip")),
     ("cplex",       "MILP", solve_cplex),
     ("gurobi",      "MILP", solve_gurobi),
+    ("scip-exact",  "MILP", solve_scip_exact),
 ]
 
 

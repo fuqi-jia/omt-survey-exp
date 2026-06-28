@@ -19,3 +19,4 @@ runs/*/run.log
 .venv-cplex/
 .venv-win/
 tools/cdcl_ocac/
+tools/scip-exact/scip
