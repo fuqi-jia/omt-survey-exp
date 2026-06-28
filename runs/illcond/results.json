@@ -72,6 +72,18 @@
   }
  },
  {
+  "solver": "gurobi-quad",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "wrong",
+   "12": "wrong",
+   "14": "wrong",
+   "16": "wrong"
+  }
+ },
+ {
   "solver": "cplex",
   "paradigm": "MILP",
   "by_n": {

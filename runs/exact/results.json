@@ -43,6 +43,11 @@
     "value": 5497558138910,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 5497558138910,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5497558138910
@@ -89,6 +94,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 5497558138903,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 5497558138903,
     "gap_to_opt": 0
@@ -143,6 +153,11 @@
     "value": 5497558138895,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 5497558138895,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5497558138895
@@ -189,6 +204,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 5497558138899,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 5497558138899,
     "gap_to_opt": 0
@@ -243,6 +263,11 @@
     "value": 5497558138902,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 5497558138902,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5497558138902
@@ -289,6 +314,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 7696581394470,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 7696581394470,
     "gap_to_opt": 0
@@ -343,6 +373,11 @@
     "value": 7696581394466,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 7696581394466,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 7696581394466
@@ -389,6 +424,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 7696581394458,
     "gap_to_opt": 0
@@ -443,6 +483,11 @@
     "value": 7696581394465,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 7696581394465,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 7696581394465
@@ -489,6 +534,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 7696581394458,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 7696581394458,
     "gap_to_opt": 0
@@ -543,6 +593,11 @@
     "value": 90071992547409944,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 90071992547409944,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "exact",
     "value": 90071992547409950
@@ -589,6 +644,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "exact",
+    "value": 90071992547409943,
+    "gap_to_opt": 0
+   },
+   "gurobi-quad": {
     "status": "exact",
     "value": 90071992547409943,
     "gap_to_opt": 0
@@ -643,6 +703,11 @@
     "value": 90071992547409931,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 90071992547409931,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "exact",
     "value": 90071992547409935
@@ -689,6 +754,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 90071992547409935,
+    "gap_to_opt": 4
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 90071992547409935,
     "gap_to_opt": 4
@@ -743,6 +813,11 @@
     "value": 90071992547409942,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 90071992547409942,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 90071992547409942
@@ -789,6 +864,11 @@
     "gap_to_opt": 3
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373923,
+    "gap_to_opt": 3
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 126100789566373923,
     "gap_to_opt": 3
@@ -843,6 +923,11 @@
     "value": 126100789566373916,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 126100789566373916,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "exact",
     "value": 126100789566373922
@@ -889,6 +974,11 @@
     "gap_to_opt": 4
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373908,
+    "gap_to_opt": 6
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 126100789566373908,
     "gap_to_opt": 6
@@ -943,6 +1033,11 @@
     "value": 126100789566373917,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 126100789566373917,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "exact",
     "value": 126100789566373921
@@ -989,6 +1084,11 @@
     "gap_to_opt": 1
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 126100789566373913,
+    "gap_to_opt": 1
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 126100789566373913,
     "gap_to_opt": 1
@@ -1042,6 +1142,11 @@
     "value": 5764607523034234904,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 5764607523034234904,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5764607523034234910
@@ -1087,6 +1192,11 @@
     "gap_to_opt": 8
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234894,
+    "gap_to_opt": 9
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 5764607523034234894,
     "gap_to_opt": 9
@@ -1140,6 +1250,11 @@
     "value": 5764607523034234891,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 5764607523034234891,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5764607523034234895
@@ -1185,6 +1300,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 5764607523034234895,
+    "gap_to_opt": 4
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 5764607523034234895,
     "gap_to_opt": 4
@@ -1238,6 +1358,11 @@
     "value": 5764607523034234902,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 5764607523034234902,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "exact",
     "value": 5764607523034234902
@@ -1283,6 +1408,11 @@
     "gap_to_opt": 1
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928867,
+    "gap_to_opt": 3
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 8070450532247928867,
     "gap_to_opt": 3
@@ -1336,6 +1466,11 @@
     "value": 8070450532247928860,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 8070450532247928860,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "exact",
     "value": 8070450532247928866
@@ -1381,6 +1516,11 @@
     "gap_to_opt": 2
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928853,
+    "gap_to_opt": 5
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 8070450532247928853,
     "gap_to_opt": 5
@@ -1434,6 +1574,11 @@
     "value": 8070450532247928861,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 8070450532247928861,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "exact",
     "value": 8070450532247928865
@@ -1479,6 +1624,11 @@
     "gap_to_opt": 7
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 8070450532247928852,
+    "gap_to_opt": 6
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 8070450532247928852,
     "gap_to_opt": 6
@@ -1531,6 +1681,11 @@
     "value": 8034690221294951377709810461705813012611014968913964176506904,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506904,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "refused",
     "note": "coeff >= SCIP infinity (~1e20)"
@@ -1575,6 +1730,11 @@
     "gap_to_opt": 8
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506894,
+    "gap_to_opt": 9
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 8034690221294951377709810461705813012611014968913964176506894,
     "gap_to_opt": 9
@@ -1627,6 +1787,11 @@
     "value": 8034690221294951377709810461705813012611014968913964176506891,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506891,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "refused",
     "note": "coeff >= SCIP infinity (~1e20)"
@@ -1671,6 +1836,11 @@
     "gap_to_opt": 0
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 8034690221294951377709810461705813012611014968913964176506895,
+    "gap_to_opt": 4
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 8034690221294951377709810461705813012611014968913964176506895,
     "gap_to_opt": 4
@@ -1723,6 +1893,11 @@
     "value": 8034690221294951377709810461705813012611014968913964176506902,
     "gap_to_opt": 0
    },
+   "gurobi-quad": {
+    "status": "exact",
+    "value": 8034690221294951377709810461705813012611014968913964176506902,
+    "gap_to_opt": 0
+   },
    "scip-exact": {
     "status": "refused",
     "note": "coeff >= SCIP infinity (~1e20)"
@@ -1767,6 +1942,11 @@
     "gap_to_opt": 1
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109667,
+    "gap_to_opt": 3
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 11248566309812931928793734646388138217655420956479549847109667,
     "gap_to_opt": 3
@@ -1819,6 +1999,11 @@
     "value": 11248566309812931928793734646388138217655420956479549847109660,
     "gap_to_opt": 6
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109660,
+    "gap_to_opt": 6
+   },
    "scip-exact": {
     "status": "refused",
     "note": "coeff >= SCIP infinity (~1e20)"
@@ -1863,6 +2048,11 @@
     "gap_to_opt": 2
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109653,
+    "gap_to_opt": 5
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 11248566309812931928793734646388138217655420956479549847109653,
     "gap_to_opt": 5
@@ -1915,6 +2105,11 @@
     "value": 11248566309812931928793734646388138217655420956479549847109661,
     "gap_to_opt": 4
    },
+   "gurobi-quad": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109661,
+    "gap_to_opt": 4
+   },
    "scip-exact": {
     "status": "refused",
     "note": "coeff >= SCIP infinity (~1e20)"
@@ -1959,6 +2154,11 @@
     "gap_to_opt": 7
    },
    "gurobi": {
+    "status": "wrong",
+    "value": 11248566309812931928793734646388138217655420956479549847109652,
+    "gap_to_opt": 6
+   },
+   "gurobi-quad": {
     "status": "wrong",
     "value": 11248566309812931928793734646388138217655420956479549847109652,
     "gap_to_opt": 6

@@ -125,6 +125,28 @@ def omt(n, binary):
     return classify(vals, n) if vals else "error"
 
 
+def gurobi_quad(n):
+    """Gurobi with quad-precision simplex (NumericFocus=3, Quad=1) — tests whether
+    higher precision helps on ill-conditioning. (Data: no change vs default — the
+    Hilbert entries are stored in double on input; ill-conditioning amplifies that
+    input perturbation regardless of solve precision.)"""
+    try:
+        import gurobipy as gp
+        from gurobipy import GRB
+        H, b = hilbert(n)
+        m = gp.Model(); m.Params.OutputFlag = 0
+        m.Params.NumericFocus = 3; m.Params.Quad = 1
+        x = [m.addVar(0, UB, vtype=GRB.INTEGER) for _ in range(n)]
+        for i in range(n):
+            m.addConstr(gp.quicksum(float(H[i][j]) * x[j] for j in range(n)) == float(b[i]))
+        m.optimize()
+        if m.SolCount == 0:
+            return "infeasible" if m.Status == GRB.INFEASIBLE else "error"
+        return classify([round(v.X) for v in x], n)
+    except Exception:
+        return "error"
+
+
 SOLVERS = [
     ("z3",          "OMT",  lambda n: omt(n, "z3")),
     ("optimathsat", "OMT",  lambda n: omt(n, OMT_BIN)),
@@ -132,6 +154,7 @@ SOLVERS = [
     ("highs",       "MILP", lambda n: milp_pulp(n, "highs")),
     ("scip",        "MILP", lambda n: milp_pulp(n, "scip")),
     ("gurobi",      "MILP", gurobi),
+    ("gurobi-quad", "MILP", gurobi_quad),
     ("cplex",       "MILP", cplex),
 ]
 _SYM = {"correct": "OK", "wrong": "WRONG", "infeasible": "f.INFEAS", "error": "err"}

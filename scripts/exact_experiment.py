@@ -243,6 +243,30 @@ def solve_scip_exact(inst):
     return {"status": "exact" if val == inst["opt"] else "wrong", "value": val}
 
 
+def solve_gurobi_quad(inst):
+    """Gurobi with quad-precision simplex (NumericFocus=3, Quad=1) — tests whether
+    Gurobi's higher-precision option recovers exactness. (Data: it does NOT — the
+    coefficients are stored in double at model build, so the offset below the double
+    ULP is already lost on input; Quad only affects the simplex computation.)"""
+    try:
+        import gurobipy as gp
+        from gurobipy import GRB
+        n = inst["n"]
+        m = gp.Model(); m.Params.OutputFlag = 0; m.Params.Threads = 1
+        m.Params.MIPGap = 0.0; m.Params.MIPGapAbs = 0.0
+        m.Params.NumericFocus = 3; m.Params.Quad = 1
+        x = m.addVars(n, vtype=GRB.BINARY)
+        m.addConstr(gp.quicksum(inst["w"][i] * x[i] for i in range(n)) <= inst["C"])
+        m.setObjective(gp.quicksum(inst["val"][i] * x[i] for i in range(n)), GRB.MAXIMIZE)
+        m.optimize()
+        if m.SolCount == 0:
+            return {"status": "error", "note": f"status {m.Status}"}
+        sel = [i for i in range(n) if x[i].X > 0.5]
+        return _classify(sel, inst)
+    except Exception as e:
+        return {"status": "refused", "note": str(e)[:80]}
+
+
 SOLVERS = [
     ("z3",          "OMT",  lambda inst: solve_omt(inst, "z3")),
     ("optimathsat", "OMT",  lambda inst: solve_omt(inst, OMT_BIN)),
@@ -252,6 +276,7 @@ SOLVERS = [
     ("scip",        "MILP", lambda inst: solve_milp_pulp(inst, "scip")),
     ("cplex",       "MILP", solve_cplex),
     ("gurobi",      "MILP", solve_gurobi),
+    ("gurobi-quad", "MILP", solve_gurobi_quad),
     ("scip-exact",  "MILP", solve_scip_exact),
 ]
 
