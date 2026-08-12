@@ -1,0 +1,22 @@
+# Long-timeout rerun to harden the scalability claim (reviewer P1: 300-600 s).
+# Only the paradigm-SEPARATING families (bvcover is OMT-only, not a cross-paradigm
+# scalability comparison, so it is omitted here).
+#
+# Single-threaded; expect a LONG wall-clock (many OMT/Gecode 600 s timeouts on the
+# large sizes -- that collapse is itself the result). Always use --resume so it
+# survives interruption.
+#
+# To shorten:
+#   - set timeout: 300   (reviewer said 300 OR 600 is enough)
+#   - set seeds: 1        (single seed 0; drop the median)
+#   - trim the largest size off each family list
+name: long600
+timeout: 600
+seeds: 3
+anytime: true
+families:
+  gap:      [40, 80, 160, 320]
+  knapsack: [40, 80, 160, 320, 640]
+  jobshop:  [3, 4, 5, 6, 7, 8, 9, 10]
+  config:   [40, 80, 150, 200, 300]
+  setcover: [40, 80, 160, 240, 320]

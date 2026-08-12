@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Instances proved optimal (solved/total) per category.}
+\label{tab:exp-solved}
+\small
+\begin{tabular}{@{}lrrrrrrrrrrrrr@{}}
+\toprule
+Category & $\nu$Z & OptiMathSAT & CBC & HiGHS & SCIP & CBC(bigM) & HiGHS(bigM) & SCIP(bigM) & HiGHS(hull) & Gurobi(ind) & CPLEX(ind) & Gecode & CP-SAT \\
+\midrule
+A & 23/27 & 20/27 & 27/27 & 27/27 & 27/27 & -- & -- & -- & -- & 27/27 & 27/27 & 3/27 & 27/27 \\
+B & 47/54 & 47/54 & 30/30 & 30/30 & 30/30 & 23/24 & 22/24 & 21/24 & 18/24 & 54/54 & 54/54 & 37/54 & 54/54 \\
+\bottomrule
+\end{tabular}
+\end{table}
