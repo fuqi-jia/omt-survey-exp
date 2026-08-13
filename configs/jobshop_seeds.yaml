@@ -1,0 +1,11 @@
+# Reviewer Major-18: JSSP has large seed-to-seed variance at n=9/10.
+# Rerun ONLY job-shop at the critical/large sizes with MORE seeds, so the
+# performance ordering is backed by median + spread rather than 3 samples.
+# 600 s timeout matches the paper. Then report median, min-max (or IQR), and
+# solved-count per (n, solver).
+name: jobshop_seeds
+timeout: 600
+seeds: 10
+anytime: true
+families:
+  jobshop: [7, 8, 9, 10]

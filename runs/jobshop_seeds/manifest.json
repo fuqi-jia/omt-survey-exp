@@ -1,0 +1,658 @@
+{
+ "config": {
+  "name": "jobshop_seeds",
+  "timeout": 600,
+  "seeds": 10,
+  "anytime": true,
+  "families": {
+   "jobshop": [
+    7,
+    8,
+    9,
+    10
+   ]
+  }
+ },
+ "instances": [
+  {
+   "name": "B_jobshop_7_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_0.smt2",
+   "lp": "lp/B_jobshop_7_0.lp",
+   "mzn": "mzn/B_jobshop_7_0.mzn"
+  },
+  {
+   "name": "B_jobshop_8_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_0.smt2",
+   "lp": "lp/B_jobshop_8_0.lp",
+   "mzn": "mzn/B_jobshop_8_0.mzn"
+  },
+  {
+   "name": "B_jobshop_9_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_0.smt2",
+   "lp": "lp/B_jobshop_9_0.lp",
+   "mzn": "mzn/B_jobshop_9_0.mzn"
+  },
+  {
+   "name": "B_jobshop_10_0",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 0,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_0.smt2",
+   "lp": "lp/B_jobshop_10_0.lp",
+   "mzn": "mzn/B_jobshop_10_0.mzn"
+  },
+  {
+   "name": "B_jobshop_7_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_1.smt2",
+   "lp": "lp/B_jobshop_7_1.lp",
+   "mzn": "mzn/B_jobshop_7_1.mzn"
+  },
+  {
+   "name": "B_jobshop_8_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_1.smt2",
+   "lp": "lp/B_jobshop_8_1.lp",
+   "mzn": "mzn/B_jobshop_8_1.mzn"
+  },
+  {
+   "name": "B_jobshop_9_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_1.smt2",
+   "lp": "lp/B_jobshop_9_1.lp",
+   "mzn": "mzn/B_jobshop_9_1.mzn"
+  },
+  {
+   "name": "B_jobshop_10_1",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 1,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_1.smt2",
+   "lp": "lp/B_jobshop_10_1.lp",
+   "mzn": "mzn/B_jobshop_10_1.mzn"
+  },
+  {
+   "name": "B_jobshop_7_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_2.smt2",
+   "lp": "lp/B_jobshop_7_2.lp",
+   "mzn": "mzn/B_jobshop_7_2.mzn"
+  },
+  {
+   "name": "B_jobshop_8_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_2.smt2",
+   "lp": "lp/B_jobshop_8_2.lp",
+   "mzn": "mzn/B_jobshop_8_2.mzn"
+  },
+  {
+   "name": "B_jobshop_9_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_2.smt2",
+   "lp": "lp/B_jobshop_9_2.lp",
+   "mzn": "mzn/B_jobshop_9_2.mzn"
+  },
+  {
+   "name": "B_jobshop_10_2",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 2,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_2.smt2",
+   "lp": "lp/B_jobshop_10_2.lp",
+   "mzn": "mzn/B_jobshop_10_2.mzn"
+  },
+  {
+   "name": "B_jobshop_7_3",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 3,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_3.smt2",
+   "lp": "lp/B_jobshop_7_3.lp",
+   "mzn": "mzn/B_jobshop_7_3.mzn"
+  },
+  {
+   "name": "B_jobshop_8_3",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 3,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_3.smt2",
+   "lp": "lp/B_jobshop_8_3.lp",
+   "mzn": "mzn/B_jobshop_8_3.mzn"
+  },
+  {
+   "name": "B_jobshop_9_3",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 3,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_3.smt2",
+   "lp": "lp/B_jobshop_9_3.lp",
+   "mzn": "mzn/B_jobshop_9_3.mzn"
+  },
+  {
+   "name": "B_jobshop_10_3",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 3,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_3.smt2",
+   "lp": "lp/B_jobshop_10_3.lp",
+   "mzn": "mzn/B_jobshop_10_3.mzn"
+  },
+  {
+   "name": "B_jobshop_7_4",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 4,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_4.smt2",
+   "lp": "lp/B_jobshop_7_4.lp",
+   "mzn": "mzn/B_jobshop_7_4.mzn"
+  },
+  {
+   "name": "B_jobshop_8_4",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 4,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_4.smt2",
+   "lp": "lp/B_jobshop_8_4.lp",
+   "mzn": "mzn/B_jobshop_8_4.mzn"
+  },
+  {
+   "name": "B_jobshop_9_4",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 4,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_4.smt2",
+   "lp": "lp/B_jobshop_9_4.lp",
+   "mzn": "mzn/B_jobshop_9_4.mzn"
+  },
+  {
+   "name": "B_jobshop_10_4",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 4,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_4.smt2",
+   "lp": "lp/B_jobshop_10_4.lp",
+   "mzn": "mzn/B_jobshop_10_4.mzn"
+  },
+  {
+   "name": "B_jobshop_7_5",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 5,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_5.smt2",
+   "lp": "lp/B_jobshop_7_5.lp",
+   "mzn": "mzn/B_jobshop_7_5.mzn"
+  },
+  {
+   "name": "B_jobshop_8_5",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 5,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_5.smt2",
+   "lp": "lp/B_jobshop_8_5.lp",
+   "mzn": "mzn/B_jobshop_8_5.mzn"
+  },
+  {
+   "name": "B_jobshop_9_5",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 5,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_5.smt2",
+   "lp": "lp/B_jobshop_9_5.lp",
+   "mzn": "mzn/B_jobshop_9_5.mzn"
+  },
+  {
+   "name": "B_jobshop_10_5",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 5,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_5.smt2",
+   "lp": "lp/B_jobshop_10_5.lp",
+   "mzn": "mzn/B_jobshop_10_5.mzn"
+  },
+  {
+   "name": "B_jobshop_7_6",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 6,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_6.smt2",
+   "lp": "lp/B_jobshop_7_6.lp",
+   "mzn": "mzn/B_jobshop_7_6.mzn"
+  },
+  {
+   "name": "B_jobshop_8_6",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 6,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_6.smt2",
+   "lp": "lp/B_jobshop_8_6.lp",
+   "mzn": "mzn/B_jobshop_8_6.mzn"
+  },
+  {
+   "name": "B_jobshop_9_6",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 6,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_6.smt2",
+   "lp": "lp/B_jobshop_9_6.lp",
+   "mzn": "mzn/B_jobshop_9_6.mzn"
+  },
+  {
+   "name": "B_jobshop_10_6",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 6,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_6.smt2",
+   "lp": "lp/B_jobshop_10_6.lp",
+   "mzn": "mzn/B_jobshop_10_6.mzn"
+  },
+  {
+   "name": "B_jobshop_7_7",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 7,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_7.smt2",
+   "lp": "lp/B_jobshop_7_7.lp",
+   "mzn": "mzn/B_jobshop_7_7.mzn"
+  },
+  {
+   "name": "B_jobshop_8_7",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 7,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_7.smt2",
+   "lp": "lp/B_jobshop_8_7.lp",
+   "mzn": "mzn/B_jobshop_8_7.mzn"
+  },
+  {
+   "name": "B_jobshop_9_7",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 7,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_7.smt2",
+   "lp": "lp/B_jobshop_9_7.lp",
+   "mzn": "mzn/B_jobshop_9_7.mzn"
+  },
+  {
+   "name": "B_jobshop_10_7",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 7,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_7.smt2",
+   "lp": "lp/B_jobshop_10_7.lp",
+   "mzn": "mzn/B_jobshop_10_7.mzn"
+  },
+  {
+   "name": "B_jobshop_7_8",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 8,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_8.smt2",
+   "lp": "lp/B_jobshop_7_8.lp",
+   "mzn": "mzn/B_jobshop_7_8.mzn"
+  },
+  {
+   "name": "B_jobshop_8_8",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 8,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_8.smt2",
+   "lp": "lp/B_jobshop_8_8.lp",
+   "mzn": "mzn/B_jobshop_8_8.mzn"
+  },
+  {
+   "name": "B_jobshop_9_8",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 8,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_8.smt2",
+   "lp": "lp/B_jobshop_9_8.lp",
+   "mzn": "mzn/B_jobshop_9_8.mzn"
+  },
+  {
+   "name": "B_jobshop_10_8",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 8,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_8.smt2",
+   "lp": "lp/B_jobshop_10_8.lp",
+   "mzn": "mzn/B_jobshop_10_8.mzn"
+  },
+  {
+   "name": "B_jobshop_7_9",
+   "family": "jobshop",
+   "category": "B",
+   "size": 7,
+   "seed": 9,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_7_9.smt2",
+   "lp": "lp/B_jobshop_7_9.lp",
+   "mzn": "mzn/B_jobshop_7_9.mzn"
+  },
+  {
+   "name": "B_jobshop_8_9",
+   "family": "jobshop",
+   "category": "B",
+   "size": 8,
+   "seed": 9,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_8_9.smt2",
+   "lp": "lp/B_jobshop_8_9.lp",
+   "mzn": "mzn/B_jobshop_8_9.mzn"
+  },
+  {
+   "name": "B_jobshop_9_9",
+   "family": "jobshop",
+   "category": "B",
+   "size": 9,
+   "seed": 9,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_9_9.smt2",
+   "lp": "lp/B_jobshop_9_9.lp",
+   "mzn": "mzn/B_jobshop_9_9.mzn"
+  },
+  {
+   "name": "B_jobshop_10_9",
+   "family": "jobshop",
+   "category": "B",
+   "size": 10,
+   "seed": 9,
+   "sense": "min",
+   "paradigms": [
+    "omt",
+    "milp",
+    "cp"
+   ],
+   "smt2": "smt2/B_jobshop_10_9.smt2",
+   "lp": "lp/B_jobshop_10_9.lp",
+   "mzn": "mzn/B_jobshop_10_9.mzn"
+  }
+ ]
+}
