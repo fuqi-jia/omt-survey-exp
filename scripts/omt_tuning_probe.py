@@ -136,14 +136,21 @@ def summarize(jsonl, out_dir):
     lines = []
     for (fam, size), _ in {(f, s): 1 for f, s, _ in TARGETS}.items():
         lines.append(f"\n=== {fam} n={size} ===")
-        lines.append(f"  {'config':<34}{'median s':>10}{'proved':>9}")
+        lines.append(f"  {'config':<34}{'median s':>10}{'proved':>9}   per-seed")
         for key in sorted(k for k in by if k[0] == fam and k[1] == size):
-            rs = by[key]
-            ok = [float(x["runtime_s"]) for x in rs if x.get("proved_optimal")]
-            med = statistics.median(ok) if len(ok) == len(rs) else float("inf")
+            rs = sorted(by[key], key=lambda r: int(r["seed"]))
+            # SAME convention as scripts/make_jobshop_table.py: a run that did not
+            # prove optimality is ranked +inf, then take the median. Collapsing to
+            # T/O whenever ANY seed failed would hide a finite median (2 of 3 seeds
+            # proved still has a real middle value) and overstate the failure.
+            vals = [float(x["runtime_s"]) if x.get("proved_optimal") else float("inf")
+                    for x in rs]
+            ok = sum(1 for v in vals if v != float("inf"))
+            med = statistics.median(vals)
+            per = " / ".join("T/O" if v == float("inf") else f"{v:.1f}" for v in vals)
             lines.append(f"  {key[2]:<34}"
                          f"{('T/O' if med == float('inf') else f'{med:.2f}'):>10}"
-                         f"{f'{len(ok)}/{len(rs)}':>9}")
+                         f"{f'{ok}/{len(rs)}':>9}   {per}")
     text = "\n".join(lines)
     print(text)
     open(os.path.join(out_dir, "summary.txt"), "w").write(text + "\n")

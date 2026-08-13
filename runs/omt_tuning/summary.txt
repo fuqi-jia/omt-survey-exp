@@ -1,0 +1,18 @@
+
+=== gap n=160 ===
+  config                              median s   proved   per-seed
+  optimathsat/-opt.strategy=ada         217.85      2/3   T/O / 217.8 / 172.8
+  optimathsat/-opt.strategy=bin         257.52      2/3   T/O / 257.5 / 227.3
+  optimathsat/-opt.strategy=lin         247.68      2/3   T/O / 247.7 / 188.3
+  optimathsat/default(bin)              271.30      2/3   T/O / 271.3 / 216.0
+  z3/default(basic)                      25.92      2/3   14.7 / 25.9 / T/O
+  z3/opt.optsmt_engine=symba             25.33      2/3   14.5 / 25.3 / T/O
+
+=== setcover n=240 ===
+  config                              median s   proved   per-seed
+  optimathsat/-opt.strategy=ada            T/O      0/3   T/O / T/O / T/O
+  optimathsat/-opt.strategy=bin            T/O      0/3   T/O / T/O / T/O
+  optimathsat/-opt.strategy=lin            T/O      0/3   T/O / T/O / T/O
+  optimathsat/default(bin)                 T/O      0/3   T/O / T/O / T/O
+  z3/default(basic)                        T/O      0/3   T/O / T/O / T/O
+  z3/opt.optsmt_engine=symba               T/O      0/3   T/O / T/O / T/O

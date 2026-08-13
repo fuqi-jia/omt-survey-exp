@@ -258,7 +258,7 @@ objective = min sum x   status=Infeasible   x=[1,1,1,0,2,1,0,1,2,0]
 
 `scripts/omt_tuning_probe.py`:在 GAP n=160 与加权集合覆盖 n=240 上(各 3 个种子、
 600 s、单线程)扫描 OMT 侧的优化搜索参数,回答"非默认搜索策略能否把这两族上 OMT 与 MILP
-的差距缩小一个数量级以上"。
+的差距缩小一个数量级以上"。共 6 档 × 6 实例 = **36 次求解**。
 
 实例**不重新生成**,直接复用主 run 消费过的 `runs/long600/smt2/*.smt2`,故探针与它所论证的
 表格输入逐字节相同;求解器适配器直接**子类化主 harness 的 `Z3Solver`/`OptiMathSATSolver`**
@@ -268,11 +268,49 @@ objective = min sum x   status=Infeasible   x=[1,1,1,0,2,1,0,1,2,0]
 
 - OptiMathSAT 的搜索策略是 **`-opt.strategy=lin|bin|ada`**;`-optimization.search_strategy`
   在 1.7.4 上直接报 `unknown option`。若照后者写死,三档会退化成三份**默认配置**却看起来像
-  做过对照。另注意其**默认为 `bin` 而非 `lin`**,故另设一档 `default` 用于核对默认等于哪档;
-  手册亦提示 bin/ada 最小化需要目标有下界,而两族的 `(minimize __obj)` 未声明下界。
+  做过对照。另注意其**默认为 `bin` 而非 `lin`**,故另设一档 `default` 用于核对默认等于哪档。
 - Z3 的 `opt.priority` 只决定**多个**目标如何组合(lex/box/pareto),单目标下不起作用,
   故不计入对照;实际可调的单目标引擎开关是 **`opt.optsmt_engine=basic|symba`**。
 
-基线(`runs/long600`,默认配置):νZ 在 gap160 为 14.1/63.5/T-O、setcover240 **3 个种子全超时**;
-OptiMathSAT 在 gap160 为 T-O/306.7/168.6、setcover240 **全超时**。同族 MILP 为秒级,
-故"缩小一个数量级"意味着须进入 60 s 以内。
+#### 9.3.1 结果
+
+中位数口径与 `make_jobshop_table.py` 一致:未证明最优者按 $+\infty$ 参与排序。
+(初版 `summarize()` 曾对"未全部证明"直接记 T/O,会把 2/3 情形的有限中位数抹掉,已修正。)
+
+```
+=== gap n=160 ===                     中位数    证明最优   各种子
+optimathsat/default(bin)              271.30     2/3     T/O / 271.3 / 216.0
+optimathsat/-opt.strategy=lin         247.68     2/3     T/O / 247.7 / 188.3
+optimathsat/-opt.strategy=bin         257.52     2/3     T/O / 257.5 / 227.3
+optimathsat/-opt.strategy=ada         217.85     2/3     T/O / 217.8 / 172.8
+z3/default(basic)                      25.92     2/3     14.7 /  25.9 / T/O
+z3/opt.optsmt_engine=symba             25.33     2/3     14.5 /  25.3 / T/O
+
+=== setcover n=240 ===   6 档 × 3 种子 = 18 次求解, 全部超时 (0/3 × 6)
+```
+
+**回答:不能。** 集合覆盖 n=240 上六档配置、三个种子共 18 次求解**全部超时**,改善为零;
+GAP n=160 上各档仍在 $10^2$ 秒量级,而同族 MILP 为 $0.03$--$0.42$ s(见 `tab:exp-sep`),
+差距仍是 2--3 个数量级。
+
+**不宜宣称某一档更优。** `default(bin)` 与显式 `-opt.strategy=bin` 本是同一配置,实测相差
+**5%**(271.30 对 257.52),这就是本机噪声下限;四档 OptiMathSAT 的跨度(217.9--271.3)
+仅为该噪声的数倍,且下节显示同一实例跨 run 已有 2.4× 波动。z3 两档相差 2%,更在噪声内。
+
+#### 9.3.2 数据质量备注:同一输入的跨 run 时间波动
+
+探针与 `long600` 有 12 个共有格子(两款 OMT 默认配置 × 两族 × 3 种子),输入逐字节相同、
+命令行相同。**状态(证明到最优 / 超时)12 格全部一致**,但绝对耗时存在波动:
+
+```
+z3 / gap160         seed0  14.1 → 14.7   (1.04×)
+                    seed1  63.5 → 25.9   (0.41×)   同一输入相差 2.4 倍
+                    seed2   T/O →  T/O
+optimathsat/gap160  seed1 306.7 → 271.3  (0.88×)
+                    seed2 168.6 → 216.0  (1.28×)
+setcover240         6 格全部 T/O → T/O
+```
+
+`long600` 是连续 12.8 h 的长跑(机器持续高温),探针则是冷机短跑,主要怀疑对象是本机的
+热降频与缓存状态。**论文所依赖的结论均为数量级判断,不受该量级波动影响**;但据此不应
+在正文中比较同一族内相差不足一倍的两个 OMT 数字。

@@ -119,14 +119,41 @@ objective = min sum x   status=Infeasible   x=[1,1,1,0,2,1,0,1,2,0]
 
 ---
 
-## 四、OMT 搜索策略调参对照 → **尚在运行，完成后补入本文件**
+## 四、OMT 搜索策略调参对照 → 可作 §8 的一段"预期反驳"回应
 
-**数据**：`runs/omt_tuning/`（GAP n=160、加权集合覆盖 n=240，各 3 个种子，600 s，单线程）。
+**数据**：`runs/omt_tuning/`（GAP n=160、加权集合覆盖 n=240，各 3 个种子，600 s，单线程，
+共 6 档 × 6 实例 = 36 次求解）。实例复用 `runs/long600/smt2/`，与 `tab:exp-sep` 逐字节同源。
 
-扫描的是**经 `--help` 核实存在**的参数：OptiMathSAT `-opt.strategy=lin|bin|ada`（默认为 `bin`），
-Z3 `opt.optsmt_engine=basic|symba`。（`opt.priority` 只作用于多目标组合，单目标下不起作用，故未计入。）
+扫描的是**经 `--help` 核实存在**的参数：OptiMathSAT `-opt.strategy=lin|bin|ada`（默认 `bin`），
+Z3 `opt.optsmt_engine=basic|symba`。（`opt.priority` 只作用于多目标组合，单目标下不起作用。）
 
-基线（`runs/long600` 默认配置）：νZ 在 gap160 为 14.1 / 63.5 / T-O、setcover240 **三个种子全超时**；
-OptiMathSAT 在 gap160 为 T-O / 306.7 / 168.6、setcover240 **全超时**。同族 MILP 为秒级。
+```
+=== GAP n=160 ===                     中位数    证明最优   各种子
+optimathsat/default(bin)              271.30     2/3     T/O / 271.3 / 216.0
+optimathsat/-opt.strategy=lin         247.68     2/3     T/O / 247.7 / 188.3
+optimathsat/-opt.strategy=bin         257.52     2/3     T/O / 257.5 / 227.3
+optimathsat/-opt.strategy=ada         217.85     2/3     T/O / 217.8 / 172.8
+z3/default(basic)                      25.92     2/3     14.7 /  25.9 / T/O
+z3/opt.optsmt_engine=symba             25.33     2/3     14.5 /  25.3 / T/O
 
-待回答：非默认搜索策略能否把这两族上 OMT 与 MILP 的差距缩小一个数量级以上。
+=== 加权集合覆盖 n=240 ===   6 档 × 3 种子 = 18 次求解, 全部超时
+```
+
+### 可直接写的一段
+
+> 为排除"OMT 侧仅使用默认配置"这一可能的解释，我们在 GAP $n{=}160$ 与加权集合覆盖
+> $n{=}240$ 上扫描了两款 OMT 求解器的优化搜索参数（OptiMathSAT 的线性/二分/自适应搜索
+> 策略，$\nu Z$ 的优化引擎选项），每档 $3$ 个种子、超时 $600$\,s。结果显示各档之间的差异
+> 不足以改变量级：集合覆盖 $n{=}240$ 上六档配置的全部 $18$ 次求解均未在限时内证明最优；
+> GAP $n{=}160$ 上各档仍处于 $10^2$ 秒量级，而同族 MILP 为 $0.03$--$0.42$\,s。可见该量级
+> 差距源于求解范式在纯线性问题上的适配性，而非参数选择。
+
+### ⚠️ 两条不要写的
+
+1. **不要说某一档搜索策略更优。** `default(bin)` 与显式 `-opt.strategy=bin` 本是同一配置，
+   实测相差 5%（271.30 对 257.52），这就是本机噪声下限；四档 OptiMathSAT 的跨度
+   （217.9–271.3）仅为该噪声的数倍。z3 两档相差 2%，更在噪声内。
+2. **不要在正文中比较同一族内相差不足一倍的两个 OMT 数字。** 探针与 `long600` 有 12 个
+   共有格子（输入与命令行完全相同），状态（证明到最优/超时）**12 格全部一致**，但绝对耗时
+   存在波动，最大一格 `z3/gap160/seed1` 为 63.5 s → 25.9 s（2.4×）。怀疑是长跑热降频与
+   冷机短跑的差异。数量级判断不受影响，倍数级比较不可靠。详见 `DATA_PROVENANCE.md` §9.3.2。

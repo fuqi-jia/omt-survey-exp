@@ -3,3 +3,56 @@ timeout=600.0s  seeds=3  6 configs x 6 instances
   optimathsat/default(bin)        A_gap_160_0           TIMEOUT obj=None 600.03s   [9.8m]
   optimathsat/default(bin)        A_gap_160_1           OPTIMAL obj=184 271.30s   [14.2m]
   optimathsat/default(bin)        A_gap_160_2           OPTIMAL obj=193 215.96s   [17.7m]
+  optimathsat/default(bin)        B_setcover_240_0      TIMEOUT obj=None 600.01s   [27.5m]
+  optimathsat/default(bin)        B_setcover_240_1      TIMEOUT obj=None 600.02s   [37.3m]
+  optimathsat/default(bin)        B_setcover_240_2      TIMEOUT obj=None 600.01s   [47.1m]
+  optimathsat/-opt.strategy=lin   A_gap_160_0           TIMEOUT obj=None 600.03s   [56.9m]
+  optimathsat/-opt.strategy=lin   A_gap_160_1           OPTIMAL obj=184 247.68s   [60.9m]
+  optimathsat/-opt.strategy=lin   A_gap_160_2           OPTIMAL obj=193 188.27s   [64.0m]
+  optimathsat/-opt.strategy=lin   B_setcover_240_0      TIMEOUT obj=None 600.01s   [73.7m]
+  optimathsat/-opt.strategy=lin   B_setcover_240_1      TIMEOUT obj=None 600.01s   [83.5m]
+  optimathsat/-opt.strategy=lin   B_setcover_240_2      TIMEOUT obj=None 600.02s   [93.2m]
+  optimathsat/-opt.strategy=bin   A_gap_160_0           TIMEOUT obj=None 600.03s   [102.9m]
+  optimathsat/-opt.strategy=bin   A_gap_160_1           OPTIMAL obj=184 257.52s   [107.0m]
+  optimathsat/-opt.strategy=bin   A_gap_160_2           OPTIMAL obj=193 227.25s   [110.7m]
+  optimathsat/-opt.strategy=bin   B_setcover_240_0      TIMEOUT obj=None 600.01s   [120.5m]
+  optimathsat/-opt.strategy=bin   B_setcover_240_1      TIMEOUT obj=None 600.01s   [130.3m]
+  optimathsat/-opt.strategy=bin   B_setcover_240_2      TIMEOUT obj=None 600.01s   [140.0m]
+  optimathsat/-opt.strategy=ada   A_gap_160_0           TIMEOUT obj=None 600.03s   [149.7m]
+  optimathsat/-opt.strategy=ada   A_gap_160_1           OPTIMAL obj=184 217.85s   [153.2m]
+  optimathsat/-opt.strategy=ada   A_gap_160_2           OPTIMAL obj=193 172.77s   [156.0m]
+  optimathsat/-opt.strategy=ada   B_setcover_240_0      TIMEOUT obj=None 600.01s   [165.7m]
+  optimathsat/-opt.strategy=ada   B_setcover_240_1      TIMEOUT obj=None 600.01s   [175.4m]
+  optimathsat/-opt.strategy=ada   B_setcover_240_2      TIMEOUT obj=None 600.01s   [185.0m]
+  z3/default(basic)               A_gap_160_0           OPTIMAL obj=183 14.69s   [185.2m]
+  z3/default(basic)               A_gap_160_1           OPTIMAL obj=184 25.92s   [185.7m]
+  z3/default(basic)               A_gap_160_2           TIMEOUT obj=None 600.04s   [195.3m]
+  z3/default(basic)               B_setcover_240_0      TIMEOUT obj=None 600.01s   [204.9m]
+  z3/default(basic)               B_setcover_240_1      TIMEOUT obj=None 600.01s   [214.5m]
+  z3/default(basic)               B_setcover_240_2      TIMEOUT obj=None 600.01s   [224.3m]
+  z3/opt.optsmt_engine=symba      A_gap_160_0           OPTIMAL obj=183 14.46s   [224.5m]
+  z3/opt.optsmt_engine=symba      A_gap_160_1           OPTIMAL obj=184 25.33s   [224.9m]
+  z3/opt.optsmt_engine=symba      A_gap_160_2           TIMEOUT obj=None 600.04s   [234.6m]
+  z3/opt.optsmt_engine=symba      B_setcover_240_0      TIMEOUT obj=None 600.01s   [244.2m]
+  z3/opt.optsmt_engine=symba      B_setcover_240_1      TIMEOUT obj=None 600.01s   [253.8m]
+  z3/opt.optsmt_engine=symba      B_setcover_240_2      TIMEOUT obj=None 600.01s   [263.4m]
+
+=== gap n=160 ===
+  config                              median s   proved
+  optimathsat/-opt.strategy=ada            T/O      2/3
+  optimathsat/-opt.strategy=bin            T/O      2/3
+  optimathsat/-opt.strategy=lin            T/O      2/3
+  optimathsat/default(bin)                 T/O      2/3
+  z3/default(basic)                        T/O      2/3
+  z3/opt.optsmt_engine=symba               T/O      2/3
+
+=== setcover n=240 ===
+  config                              median s   proved
+  optimathsat/-opt.strategy=ada            T/O      0/3
+  optimathsat/-opt.strategy=bin            T/O      0/3
+  optimathsat/-opt.strategy=lin            T/O      0/3
+  optimathsat/default(bin)                 T/O      0/3
+  z3/default(basic)                        T/O      0/3
+  z3/opt.optsmt_engine=symba               T/O      0/3
+
+Wrote runs/omt_tuning/results.jsonl + summary.txt
