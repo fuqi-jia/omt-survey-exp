@@ -132,3 +132,41 @@ Runs to do     : 162
   [ 127/162] B_jobshop_10_8         optimathsat  OPTIMAL  obj=63 65.024s mem=28MB  ETA 88.8m
   [ 128/162] B_jobshop_10_8         cbc-bigm     OPTIMAL  obj=63 312.781s mem=212MB  ETA 87.0m
   [ 129/162] B_jobshop_10_8         highs-bigm   OPTIMAL  obj=63 409.099s mem=142MB  ETA 85.6m
+  [ 130/162] B_jobshop_10_8         scip-bigm    SAT      obj=63 600.009s mem=0MB  ETA 84.8m
+  [ 131/162] B_jobshop_10_8         gurobi-bigm  OPTIMAL  obj=63 3.643s mem=66MB  ETA 81.6m
+  [ 132/162] B_jobshop_10_8         cplex-bigm   OPTIMAL  obj=63 41.972s mem=68MB  ETA 78.5m
+  [ 133/162] B_jobshop_10_8         highs-hull   SAT      obj=63 600.895s mem=997MB  ETA 77.6m
+  [ 134/162] B_jobshop_10_8         gurobi-ind   OPTIMAL  obj=63 2.934s mem=39MB  ETA 74.3m
+  [ 135/162] B_jobshop_10_8         cplex-ind    OPTIMAL  obj=63 107.786s mem=107MB  ETA 71.5m
+  [ 136/162] B_jobshop_10_8         gecode       OPTIMAL  obj=63 34.852s mem=35MB  ETA 68.5m
+  [ 137/162] B_jobshop_10_8         cpsat        OPTIMAL  obj=63 0.037s mem=0MB  ETA 65.4m
+  [ 138/162] B_jobshop_8_9          cpsat        OPTIMAL  obj=46 0.004s mem=0MB  ETA 62.3m
+  [ 139/162] B_jobshop_9_9          z3           OPTIMAL  obj=53 6.682s mem=40MB  ETA 59.3m
+  [ 140/162] B_jobshop_9_9          optimathsat  OPTIMAL  obj=53 2.790s mem=14MB  ETA 56.3m
+  [ 141/162] B_jobshop_9_9          cbc-bigm     OPTIMAL  obj=53 84.989s mem=138MB  ETA 53.6m
+  [ 142/162] B_jobshop_9_9          highs-bigm   OPTIMAL  obj=53 68.020s mem=85MB  ETA 50.9m
+  [ 143/162] B_jobshop_9_9          scip-bigm    SAT      obj=53 600.426s mem=0MB  ETA 49.3m
+  [ 144/162] B_jobshop_9_9          gurobi-bigm  OPTIMAL  obj=53 0.161s mem=60MB  ETA 46.4m
+  [ 145/162] B_jobshop_9_9          cplex-bigm   OPTIMAL  obj=53 11.896s mem=65MB  ETA 43.6m
+  [ 146/162] B_jobshop_9_9          highs-hull   SAT      obj=53 601.816s mem=713MB  ETA 41.8m
+  [ 147/162] B_jobshop_9_9          gurobi-ind   OPTIMAL  obj=53 0.101s mem=36MB  ETA 39.0m
+  [ 148/162] B_jobshop_9_9          cplex-ind    OPTIMAL  obj=53 45.304s mem=97MB  ETA 36.2m
+  [ 149/162] B_jobshop_9_9          gecode       OPTIMAL  obj=53 11.897s mem=35MB  ETA 33.4m
+  [ 150/162] B_jobshop_9_9          cpsat        OPTIMAL  obj=53 0.012s mem=0MB  ETA 30.6m
+  [ 151/162] B_jobshop_10_9         z3           OPTIMAL  obj=61 68.081s mem=65MB  ETA 28.0m
+  [ 152/162] B_jobshop_10_9         optimathsat  OPTIMAL  obj=61 75.848s mem=30MB  ETA 25.4m
+  [ 153/162] B_jobshop_10_9         cbc-bigm     TIMEOUT  obj=None 630.020s mem=0MB  ETA 23.3m
+  [ 154/162] B_jobshop_10_9         highs-bigm   ERROR    obj=None 124.717s mem=0MB  ETA 20.7m
+  [ 155/162] B_jobshop_10_9         scip-bigm    SAT      obj=61 606.408s mem=0MB  ETA 18.4m
+  [ 156/162] B_jobshop_10_9         gurobi-bigm  OPTIMAL  obj=61 0.971s mem=61MB  ETA 15.7m
+  [ 157/162] B_jobshop_10_9         cplex-bigm   OPTIMAL  obj=61 40.905s mem=68MB  ETA 13.0m
+  [ 158/162] B_jobshop_10_9         highs-hull   SAT      obj=61 607.563s mem=1302MB  ETA 10.6m
+  [ 159/162] B_jobshop_10_9         gurobi-ind   OPTIMAL  obj=61 0.957s mem=38MB  ETA 7.9m
+  [ 160/162] B_jobshop_10_9         cplex-ind    OPTIMAL  obj=61 264.384s mem=140MB  ETA 5.3m
+  [ 161/162] B_jobshop_10_9         gecode       OPTIMAL  obj=61 322.781s mem=35MB  ETA 2.7m
+  [ 162/162] B_jobshop_10_9         cpsat        OPTIMAL  obj=61 0.030s mem=0MB  ETA 0.0m
+
+=== correctness cross-check (proven optima must agree) ===
+  OK: all 40 multi-solver instances agree on the optimum.
+
+Wrote results.csv / results.json (480 runs) to runs/jobshop_seeds/

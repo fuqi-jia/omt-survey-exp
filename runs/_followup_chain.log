@@ -1,0 +1,10 @@
+[17:18:09] waiting for jobshop_seeds (pid 6462) to finish...
+[17:41:26] jobshop_seeds finished
+[17:41:26] dropping the 2 concurrency-touched cells and re-running them
+dropped 2 row(s), 478 remain
+[17:59:54] re-run done
+[17:59:55] nra_experiment
+[18:01:58] nra done (rc=0)
+[18:01:58] illcond_experiment --objective
+[18:02:04] illcond_obj done (rc=0)
+[18:02:04] chain complete; omt_tuning_probe NOT started (launched separately)

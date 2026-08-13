@@ -1,0 +1,5 @@
+timeout=600.0s  seeds=3  6 configs x 6 instances
+
+  optimathsat/default(bin)        A_gap_160_0           TIMEOUT obj=None 600.03s   [9.8m]
+  optimathsat/default(bin)        A_gap_160_1           OPTIMAL obj=184 271.30s   [14.2m]
+  optimathsat/default(bin)        A_gap_160_2           OPTIMAL obj=193 215.96s   [17.7m]

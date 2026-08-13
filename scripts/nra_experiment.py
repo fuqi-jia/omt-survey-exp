@@ -43,6 +43,14 @@ OCAC = os.environ.get("OCAC") or os.path.join(REPO, "tools", "cdcl_ocac", "cvc5"
 A_KS = [2, 3, 5, 7]
 # (B) min x s.t. (2x-5)^2>=9, 0<=x<=5 -> 0 (local trap at 4); parametrized by gap center
 B_INSTS = [(5, 9), (7, 16), (9, 25)]  # (a,b): (2x-a)^2>=b ; global x=0
+# (C) OPTIMUM SHAPE: the two cases where an optimum does not exist as a value.
+#   C1  min x  s.t.  x>0 /\ x*x>2      feasible set (sqrt2, oo); inf = sqrt2 NOT attained
+#   C2  min x  s.t.  x*x>=1            feasible set (-oo,-1] u [1,oo); UNBOUNDED below
+# Deliberately NO domain bound on x: an artificial lower bound would make both
+# well-posed and destroy the very thing under test. C1 asks whether a solver can
+# say "the infimum is sqrt2 but no feasible point attains it" (limit-optimal, the
+# open endpoint ell*+0^+); C2 asks whether it can say "-infinity".
+C_INSTS = ["C1_inf_unattained", "C2_unbounded_below"]
 
 
 def true_sqrt(k):
@@ -165,6 +173,122 @@ def gurobi_B(a, b):
         return None
 
 
+# ---------------- (C) optimum-shape probes ----------------
+# Every C-family call keeps the solver's RAW output. The question here is not
+# "how fast" nor even "which number", but "does the solver TELL you that no
+# optimal value exists". A parsed number would throw that away.
+
+C_SMT = {                                   # body shared by OCAC and OptiMathSAT
+    "C1_inf_unattained": "(assert (and (> x 0) (> (* x x) 2)))",
+    "C2_unbounded_below": "(assert (>= (* x x) 1))",
+}
+C_TRUTH = {                                 # what the mathematics says
+    "C1_inf_unattained": {"inf": math.sqrt(2), "attained": False, "bounded": True},
+    "C2_unbounded_below": {"inf": None, "attained": False, "bounded": False},
+}
+
+# The objective is asked for in TWO semantically identical ways, because on the
+# tested CDCL(OCAC) build they do not behave the same:
+#
+#   bare      (minimize x)        x is a declared variable
+#   wrapped   (minimize (+ x 0))  the same quantity as a compound term
+#
+# With the wrapped form OCAC answers both cases correctly -- sqrt2+epsilon for the
+# unattained infimum, -oo for the unbounded one. With the bare form it returns a
+# feasible check-sat witness instead. Reporting only one form would either hide a
+# real front-end trigger or slander a working algorithm, so both are recorded.
+OBJ_FORMS = [("bare", "(minimize x)"), ("wrapped", "(minimize (+ x 0))")]
+
+
+def _run_raw(cmd, timeout=60):
+    try:
+        p = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+        return (p.stdout + p.stderr).strip()
+    except subprocess.TimeoutExpired:
+        return "<timeout>"
+    except Exception as e:
+        return f"<error: {e}>"
+
+
+def _smt_file(text):
+    f = tempfile.NamedTemporaryFile("w", suffix=".smt2", delete=False)
+    f.write(text); f.close()
+    return f.name
+
+
+def classify_C(raw, inst):
+    """Map raw solver output onto the four answers this experiment cares about.
+
+    reported_limit  -- says the bound is approached but not attained (eps / open
+                       endpoint / "limit"), i.e. the mathematically right answer for C1
+    reported_unbnd  -- says unbounded / -infinity, the right answer for C2
+    feasible_only   -- returns sat plus some feasible value, WITHOUT flagging either
+                       (a reader who trusts the number is misled)
+    """
+    low = raw.lower()
+    if "unbounded" in low or "-oo" in low or "-inf" in low or "infeasible or unbounded" in low:
+        return "reported_unbnd"
+    if "epsilon" in low or "limit" in low or "+ eps" in low or "0^+" in low:
+        return "reported_limit"
+    if raw.startswith("unsat"):
+        return "unsat"
+    if "error" in low or "segfault" in low or raw.startswith("<"):
+        return "error"
+    m = re.search(r"\(x\s+\(?-?\s*([\d.]+)", raw)
+    return "feasible_only" if m else "unknown"
+
+
+def ocac_C(inst, obj):
+    smt = (f"(set-logic OMT_QF_NRA)\n(declare-fun x () Real)\n{C_SMT[inst]}\n"
+           f"{obj}\n(check-sat)\n(get-objectives)\n")
+    fn = _smt_file(smt); raw = _run_raw([OCAC, fn]); os.unlink(fn)
+    return classify_C(raw, inst), raw
+
+
+def oms_C(inst, obj):
+    smt = ("(set-option :produce-models true)\n(set-logic QF_NRA)\n"
+           f"(declare-fun x () Real)\n{C_SMT[inst]}\n"
+           f"{obj}\n(check-sat)\n(get-objectives)\n")
+    fn = _smt_file(smt); raw = _run_raw([OMS, "-optimization=TRUE", fn]); os.unlink(fn)
+    return classify_C(raw, inst), raw
+
+
+def scipy_C(inst, start=5.0):
+    """Local NLP from x0=5. No bounds -- C2 must be free to run to -infinity."""
+    from scipy.optimize import minimize
+    cons = ([{"type": "ineq", "fun": lambda v: v[0] ** 2 - 2},
+             {"type": "ineq", "fun": lambda v: v[0]}]
+            if inst == "C1_inf_unattained"
+            else [{"type": "ineq", "fun": lambda v: v[0] ** 2 - 1}])
+    r = minimize(lambda v: v[0], [start], constraints=cons, method="SLSQP")
+    return {"x": float(r.x[0]), "success": bool(r.success), "status": int(r.status),
+            "message": str(r.message)[:80]}
+
+
+def gurobi_C(inst):
+    """Gurobi spatial B&B. Note it cannot express a STRICT inequality, so for C1 it
+    necessarily solves the CLOSURE (x>=0 /\\ x*x>=2), whose minimum sqrt2 IS attained
+    -- the relaxation is itself the finding, not a bug."""
+    try:
+        import gurobipy as gp
+        from gurobipy import GRB
+        m = gp.Model(); m.Params.OutputFlag = 0; m.Params.NonConvex = 2
+        # free variable: an implicit lb=0 would silently make C2 bounded
+        x = m.addVar(lb=-GRB.INFINITY, ub=GRB.INFINITY)
+        if inst == "C1_inf_unattained":
+            m.addConstr(x >= 0); m.addConstr(x * x >= 2)
+        else:
+            m.addConstr(x * x >= 1)
+        m.setObjective(x, GRB.MINIMIZE); m.optimize()
+        st = {GRB.OPTIMAL: "OPTIMAL", GRB.UNBOUNDED: "UNBOUNDED",
+              GRB.INF_OR_UNBD: "INF_OR_UNBD", GRB.INFEASIBLE: "INFEASIBLE"}.get(
+                  m.Status, f"status_{m.Status}")
+        return {"status": st, "x": (x.X if m.SolCount else None),
+                "objbound": (m.ObjBound if m.SolCount or m.Status == GRB.OPTIMAL else None)}
+    except Exception as e:
+        return {"status": f"error: {str(e)[:60]}", "x": None, "objbound": None}
+
+
 def fmt(v):
     return "--" if v is None else f"{v:.4f}"
 
@@ -190,6 +314,36 @@ def main():
         rows.append({"inst": f"B_{a}_{b}", "global": 0.0, "ocac": oc[0], "ocac_val": oc[1],
                      "optimathsat": om, "scipy_hi": sp_hi, "scipy_lo": sp_lo, "gurobi": gu})
         print(f"  ({a},{b})  {0.0:>6.1f} {str(ocv):>7} {str(om):>9} {fmt(sp_hi):>9} {fmt(sp_lo):>9} {fmt(gu):>8}")
+    print("\n== (C) optimum SHAPE: infimum not attained / unbounded ==")
+    print("   C1: min x s.t. x>0 /\\ x*x>2   -> inf = sqrt2 = 1.4142, NOT attained")
+    print("   C2: min x s.t. x*x>=1         -> unbounded below (-inf)")
+    print("   objective asked twice: bare '(minimize x)' vs wrapped '(minimize (+ x 0))'")
+    print(f"  {'inst':>4} {'obj':>8} {'CDCL(OCAC)':>16} {'OptiMathSAT':>16}")
+    c_rows = []
+    for inst in C_INSTS:
+        rec = {"inst": inst, "truth": C_TRUTH[inst], "by_objective_form": {}}
+        for form, obj in OBJ_FORMS:
+            oc_c, oc_raw = ocac_C(inst, obj)
+            om_c, om_raw = oms_C(inst, obj)
+            rec["by_objective_form"][form] = {
+                "smtlib": obj,
+                "ocac": {"verdict": oc_c, "raw": oc_raw},
+                "optimathsat": {"verdict": om_c, "raw": om_raw},
+            }
+            print(f"  {inst[:2]:>4} {form:>8} {oc_c:>16} {om_c:>16}")
+        rec["scipy_slsqp_start5"] = scipy_C(inst)
+        rec["gurobi_nonconvex"] = gurobi_C(inst)
+        sp, gu = rec["scipy_slsqp_start5"], rec["gurobi_nonconvex"]
+        print(f"       {'scipy@5':>8} {sp['x']:>16.4f} {'gurobi':>8} "
+              f"{gu['status']}" + (f"/{gu['x']:.4f}" if gu["x"] is not None else ""))
+        c_rows.append(rec); rows.append(rec)
+    print("\n  raw output (kept verbatim in results.json):")
+    for r in c_rows:
+        print(f"   {r['inst']}")
+        for form in r["by_objective_form"]:
+            for eng in ("ocac", "optimathsat"):
+                raw = r["by_objective_form"][form][eng]["raw"][:110].replace(chr(10), " | ")
+                print(f"     {form:<8}{eng:<12}: {raw}")
     json.dump(rows, open(os.path.join(out, "results.json"), "w"), indent=1)
     print(f"\nscipy@hi = local NLP started at x=5 (trap); scipy@lo = started at x=0.2.")
     print(f"Wrote {os.path.relpath(out, REPO)}/results.json")

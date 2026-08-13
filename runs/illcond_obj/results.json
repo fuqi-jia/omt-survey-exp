@@ -1,0 +1,98 @@
+[
+ {
+  "solver": "z3",
+  "paradigm": "OMT",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "correct",
+   "12": "correct",
+   "14": "correct",
+   "16": "correct"
+  }
+ },
+ {
+  "solver": "optimathsat",
+  "paradigm": "OMT",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "correct",
+   "12": "correct",
+   "14": "correct",
+   "16": "correct"
+  }
+ },
+ {
+  "solver": "cbc",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "infeasible",
+   "10": "infeasible",
+   "12": "infeasible",
+   "14": "infeasible",
+   "16": "infeasible"
+  }
+ },
+ {
+  "solver": "highs",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "correct",
+   "12": "correct",
+   "14": "correct",
+   "16": "correct"
+  }
+ },
+ {
+  "solver": "scip",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "correct",
+   "12": "correct",
+   "14": "correct",
+   "16": "correct"
+  }
+ },
+ {
+  "solver": "gurobi",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "wrong",
+   "12": "wrong",
+   "14": "wrong",
+   "16": "wrong"
+  }
+ },
+ {
+  "solver": "gurobi-quad",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "wrong",
+   "12": "wrong",
+   "14": "wrong",
+   "16": "wrong"
+  }
+ },
+ {
+  "solver": "cplex",
+  "paradigm": "MILP",
+  "by_n": {
+   "6": "correct",
+   "8": "correct",
+   "10": "correct",
+   "12": "infeasible",
+   "14": "infeasible",
+   "16": "infeasible"
+  }
+ }
+]

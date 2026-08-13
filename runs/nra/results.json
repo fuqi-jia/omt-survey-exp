@@ -64,5 +64,91 @@
   "scipy_hi": 5.0,
   "scipy_lo": 5.551115123125783e-17,
   "gurobi": 0.0
+ },
+ {
+  "inst": "C1_inf_unattained",
+  "truth": {
+   "inf": 1.4142135623730951,
+   "attained": false,
+   "bounded": true
+  },
+  "by_objective_form": {
+   "bare": {
+    "smtlib": "(minimize x)",
+    "ocac": {
+     "verdict": "feasible_only",
+     "raw": "sat\n(objectives\n\t(x 3.0)\n)"
+    },
+    "optimathsat": {
+     "verdict": "reported_limit",
+     "raw": "sat\n\n(objectives\n (x (+ 1 epsilon))\n)"
+    }
+   },
+   "wrapped": {
+    "smtlib": "(minimize (+ x 0))",
+    "ocac": {
+     "verdict": "reported_limit",
+     "raw": "sat\n(objectives\n\t((+ x 0.0) (+ (_ real_algebraic_number <1*x^2 + (-2), (5/4, 3/2)>) epsilon))\n)"
+    },
+    "optimathsat": {
+     "verdict": "reported_limit",
+     "raw": "sat\n\n(objectives\n (x (+ 1 epsilon))\n)"
+    }
+   }
+  },
+  "scipy_slsqp_start5": {
+   "x": 1.4142135640696325,
+   "success": true,
+   "status": 0,
+   "message": "Optimization terminated successfully"
+  },
+  "gurobi_nonconvex": {
+   "status": "OPTIMAL",
+   "x": 1.4142150798178674,
+   "objbound": 1.4142133410697266
+  }
+ },
+ {
+  "inst": "C2_unbounded_below",
+  "truth": {
+   "inf": null,
+   "attained": false,
+   "bounded": false
+  },
+  "by_objective_form": {
+   "bare": {
+    "smtlib": "(minimize x)",
+    "ocac": {
+     "verdict": "feasible_only",
+     "raw": "sat\n(objectives\n\t(x (- 2.0))\n)"
+    },
+    "optimathsat": {
+     "verdict": "error",
+     "raw": "<timeout>"
+    }
+   },
+   "wrapped": {
+    "smtlib": "(minimize (+ x 0))",
+    "ocac": {
+     "verdict": "reported_unbnd",
+     "raw": "sat\n(objectives\n\t((+ x 0.0) -oo)\n)"
+    },
+    "optimathsat": {
+     "verdict": "error",
+     "raw": "<timeout>"
+    }
+   }
+  },
+  "scipy_slsqp_start5": {
+   "x": 1.0000001545352593,
+   "success": true,
+   "status": 0,
+   "message": "Optimization terminated successfully"
+  },
+  "gurobi_nonconvex": {
+   "status": "UNBOUNDED",
+   "x": 1.0,
+   "objbound": Infinity
+  }
  }
 ]

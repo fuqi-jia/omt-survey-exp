@@ -1,0 +1,12 @@
+Config         : jobshop_seeds  (timeout=600.0s, mem=4.0GB, serial+isolated, 40 instances)
+Solvers        : ['z3', 'optimathsat', 'cbc', 'highs', 'scip', 'cbc-bigm', 'highs-bigm', 'scip-bigm', 'gurobi-bigm', 'cplex-bigm', 'highs-hull', 'gurobi-ind', 'cplex-ind', 'gecode', 'cpsat']
+Resuming       : 478 (instance,solver) pairs already done
+Runs to do     : 2
+
+  [   1/2] B_jobshop_10_6         scip-bigm    SAT      obj=64 608.944s mem=0MB  ETA 10.1m
+  [   2/2] B_jobshop_10_7         highs-bigm   OPTIMAL  obj=64 496.082s mem=134MB  ETA 0.0m
+
+=== correctness cross-check (proven optima must agree) ===
+  OK: all 40 multi-solver instances agree on the optimum.
+
+Wrote results.csv / results.json (480 runs) to runs/jobshop_seeds/
