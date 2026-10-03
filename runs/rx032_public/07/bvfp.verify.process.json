@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 0,
+  "wall_s": 35.93406520297867,
+  "stdout": "{\"status\": \"unverified\", \"value\": \"4503599627370495\", \"attainable\": \"unknown\", \"attainable_s\": 32.81591825000942, \"attainable_reason\": \"timeout\", \"strictly_better\": \"unsat\", \"strictly_better_s\": 2.8345978549914435}\n",
+  "stderr": ""
+}

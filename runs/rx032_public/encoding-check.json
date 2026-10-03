@@ -1,0 +1,96 @@
+{
+  "z3": "4.15.4",
+  "non_nan_values": 114,
+  "ordered_pairs_checked": 12996,
+  "cross_form_verified_comparisons": [
+    {
+      "index": 9,
+      "forms": [
+        "fp",
+        "bvfp"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 10,
+      "forms": [
+        "fp",
+        "bvfp"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 11,
+      "forms": [
+        "fp",
+        "bvfp"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 12,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 13,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 14,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 15,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 16,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 18,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    },
+    {
+      "index": 19,
+      "forms": [
+        "fp",
+        "bvfp",
+        "bv"
+      ],
+      "numerically_equal": true
+    }
+  ],
+  "semantics": "Key matches IEEE numerical order except the explicit refinement -0 < +0; Z3 BV optimization is unsigned.",
+  "limitations": "This exhaustive small-format check is a regression check, not a proof of solver correctness."
+}

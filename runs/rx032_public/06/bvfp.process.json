@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 0,
+  "wall_s": 32.89565155399032,
+  "stdout": "{\"status\": \"unknown\", \"reason\": \"canceled\", \"solve_s\": 32.4882819269842}\n",
+  "stderr": ""
+}

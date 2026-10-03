@@ -1,0 +1,50 @@
+{
+  "cases": 20,
+  "formulations": 60,
+  "counts": {
+    "fp": {
+      "timeout": 6,
+      "verified_optimum": 4,
+      "unverified_candidate": 10
+    },
+    "bvfp": {
+      "timeout": 5,
+      "unverified_candidate": 2,
+      "verified_optimum": 5,
+      "error": 8
+    },
+    "bv": {
+      "timeout": 9,
+      "memory_limit": 3,
+      "error": 8
+    }
+  },
+  "verified_by_group": {
+    "griggio": {
+      "fp": 1,
+      "bvfp": 0,
+      "bv": 0
+    },
+    "heizmann": {
+      "fp": 0,
+      "bvfp": 1,
+      "bv": 0
+    },
+    "ramalho": {
+      "fp": 3,
+      "bvfp": 4,
+      "bv": 0
+    },
+    "schanda": {
+      "fp": 0,
+      "bvfp": 0,
+      "bv": 0
+    },
+    "wintersteiger": {
+      "fp": 0,
+      "bvfp": 0,
+      "bv": 0
+    }
+  },
+  "rules": "Every fixed case counted. A verified optimum requires SAT attainability and UNSAT strict improvement in original FP constraints. No timing ranking; encoding and implementation differ."
+}

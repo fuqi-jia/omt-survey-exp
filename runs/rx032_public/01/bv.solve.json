@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 1,
+  "wall_s": 29.98814517300343,
+  "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/D_Work/ISCAS/paper/jos2026/omt-survey-exp/scripts/revision_public_fp.py\", line 188, in <module>\n    print(json.dumps(worker(args.worker,args.index,args.form)))\n  File \"/mnt/d/D_Work/ISCAS/paper/jos2026/omt-survey-exp/scripts/revision_public_fp.py\", line 94, in worker\n    t0=time.monotonic();r=s.check();elapsed=time.monotonic()-t0\n  File \"/home/fuqi/anaconda3/envs/omt/lib/python3.10/site-packages/z3/z3.py\", line 8241, in check\n    return CheckSatResult(Z3_optimize_check(self.ctx.ref(), self.optimize, num, _assumptions))\n  File \"/home/fuqi/anaconda3/envs/omt/lib/python3.10/site-packages/z3/z3core.py\", line 5040, in Z3_optimize_check\n    _elems.Check(a0)\n  File \"/home/fuqi/anaconda3/envs/omt/lib/python3.10/site-packages/z3/z3core.py\", line 1583, in Check\n    raise self.Exception(self.get_error_message(ctx, err))\nz3.z3types.Z3Exception: b'out of memory'\n",
+  "status": "error"
+}

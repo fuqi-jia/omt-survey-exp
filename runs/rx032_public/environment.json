@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-04",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "z3": "4.15.4",
+  "optimathsat": "MathSAT5 version 1.7.4.b (2a04d1bee804) (Jul 24 2023 17:18:37, gmp 6.2.0, gcc 9.4.0, 64-bit)",
+  "solver_budget_s": 30,
+  "verification_budget_s_per_query": 30,
+  "memory_bytes": 4294967296,
+  "selection_sha256": "6b30265c4d56c901988805ba4361cc8a300e9828388341c2a889e8e66323e2c7",
+  "oms_sha256": "c5548eff57036aa200a99deb0668667c1f52a4cab28b069f45682e8297696757",
+  "script_sha256": "ed441d6769b6d78cab0bbf8bc3f189834d824deafbc4bfeef8ce7c9c95b28eb9",
+  "cpu": "AMD Ryzen 9 7940HS w/ Radeon 780M Graphics",
+  "semantics": "Native FP file unchanged. Derived key formulations exclude NaN and refine equal signed zeros by -0 < +0. Every reported optimum is rechecked in original FP constraints."
+}

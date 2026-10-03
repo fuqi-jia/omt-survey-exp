@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 0,
+  "wall_s": 0.30243670000345446,
+  "stdout": "{\"status\": \"prepared\", \"translation_s\": 0.07168773299781606, \"input_bytes\": 1333243}\n",
+  "stderr": ""
+}

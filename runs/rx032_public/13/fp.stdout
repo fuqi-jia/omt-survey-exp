@@ -1,0 +1,10 @@
+sat
+
+(objectives
+ (a (fp #b0 #b11111110 #b11111111111111111111111))
+)
+(model
+  (define-fun a () (_ FloatingPoint 8 24) (fp #b0 #b11111110 #b11111111111111111111111))
+  (define-fun b () (_ FloatingPoint 8 24) (fp #b0 #b00100001 #b10110010111111111000000))
+  (define-fun c () (_ FloatingPoint 8 24) (fp #b1 #b01000000 #b11110011000111000010101))
+)

@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 0,
+  "wall_s": 0.9074552200036123,
+  "stdout": "{\"status\": \"candidate\", \"key\": 18442240474082181120, \"lower\": \"18442240474082181120\", \"upper\": \"18442240474082181120\", \"solve_s\": 0.7015279839979485}\n",
+  "stderr": ""
+}

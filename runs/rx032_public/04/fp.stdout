@@ -1,0 +1,20 @@
+sat
+
+(objectives
+ (|v_main_#t~ret2_3_const_2101045985| (_ +oo 11 53))
+)
+(model
+  (define-fun v_main_~sumej~5_3_const_353046158 () (_ FloatingPoint 11 53) (_ -oo 11 53))
+  (define-fun v_main_~T~5_3_const_46035242 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000010))
+  (define-fun v_main_~taui~5_3_const_950085849 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000100))
+  (define-fun v_main_~ei~5_2_const_-839746693 () (_ FloatingPoint 11 53) (_ -oo 11 53))
+  (define-fun v_main_~taud~5_3_const_946844252 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000011))
+  (define-fun v_main_~epi~5_4_const_974106845 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000001))
+  (define-fun v_main_~K~5_3_const_37706913 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000110))
+  (define-fun v_~ui_7_const_-1183258603 () (_ FloatingPoint 11 53) (_ -oo 11 53))
+  (define-fun v_main_~yi~5_3_const_269706952 () (_ FloatingPoint 11 53) (_ +oo 11 53))
+  (define-fun |v_main_#t~ret2_3_const_2101045985| () (_ FloatingPoint 11 53) (_ +oo 11 53))
+  (define-fun v_main_~yc~5_4_const_330177475 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000000))
+  (define-fun v_main_~sumej~5_4_const_353046159 () (_ FloatingPoint 11 53) (fp #b0 #b00000000000 #b0000000000000000000000000000000000000000000000000101))
+  (define-fun v_main_~epi~5_3_const_974106844 () (_ FloatingPoint 11 53) (_ -oo 11 53))
+)

@@ -1,0 +1,9 @@
+{
+  "status": "unverified",
+  "value": "(_ -oo 11 53)",
+  "attainable": "unknown",
+  "attainable_s": 33.55410018900875,
+  "attainable_reason": "timeout",
+  "strictly_better": "unsat",
+  "strictly_better_s": 0.00026727101067081094
+}

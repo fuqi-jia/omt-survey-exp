@@ -1,0 +1,413 @@
+{
+  "source_sha256": {
+    "runs/long600/results.json": "b43e8e19fbb56b96e022aeae303810a640f8fe2d68f086d0bfcdae7ed970b8cb",
+    "runs/jobshop_seeds/results.json": "f777e76d47852e4053939ae69dc3d8f6f724bd0ef2a04eb33b6d9ec73139178f"
+  },
+  "compared_instances": 97,
+  "optimal_objective_disagreements": [],
+  "regenerated_jobshop_checks": [
+    {
+      "name": "B_jobshop_7_0",
+      "H": 111,
+      "inputs": {
+        ".smt2": "7637d3c3dac52dc77513236915598d98355ed76ac23a98c0e51911380d89d662",
+        ".mzn": "1631efaf3e0a71a79e52c40df013f3ae58e439d516a36e41797d3661539f8171"
+      },
+      "min_auto_M": 113.0,
+      "max_auto_M": 120.0
+    },
+    {
+      "name": "B_jobshop_7_1",
+      "H": 104,
+      "inputs": {
+        ".smt2": "05bde847d8007a98ee17fab750579cfc4e6ac064ff5e05510490cbfdada3126f",
+        ".mzn": "902ca1962a3a724437fe6263fa147e569e3cfee6156986176e1aaa989adaff7e"
+      },
+      "min_auto_M": 106.0,
+      "max_auto_M": 113.0
+    },
+    {
+      "name": "B_jobshop_7_2",
+      "H": 112,
+      "inputs": {
+        ".smt2": "bfbce99f407636f22dc6c844810b6213f4eb3a92bea379f0e49001888c132302",
+        ".mzn": "6ef22fecc9daaa808cc50abcbe1e3a2f3ed67e85bb614fc46202c940c610ee6e"
+      },
+      "min_auto_M": 114.0,
+      "max_auto_M": 120.0
+    },
+    {
+      "name": "B_jobshop_7_3",
+      "H": 121,
+      "inputs": {
+        ".smt2": "da5600c2e6e579254b8da4e00e173569ff1a1cb81a05181e769adeb39a1e5a9b",
+        ".mzn": "9004b3097d1fac50ec20938d83bd85560e251ee9ab75cc38789753014ef1a8ae"
+      },
+      "min_auto_M": 123.0,
+      "max_auto_M": 130.0
+    },
+    {
+      "name": "B_jobshop_7_4",
+      "H": 107,
+      "inputs": {
+        ".smt2": "0e9529c4b6c9afee166d7f50b189022fceacc25bd152c22cb4e8fdb5e7642f59",
+        ".mzn": "946aabe751f374efe5ca7bfcc7261efe072e8c03ed20c980cae0294fa8dd0eb1"
+      },
+      "min_auto_M": 109.0,
+      "max_auto_M": 116.0
+    },
+    {
+      "name": "B_jobshop_7_5",
+      "H": 108,
+      "inputs": {
+        ".smt2": "dfdbf1c5c1f6c8feb5245a14b9dd6c93fb31929c7bc9be7f91cb0d81fdc9c5ba",
+        ".mzn": "ea70516a665e71402ce24f8bbaefe270d0c110b0fae2fec514643e337af4849d"
+      },
+      "min_auto_M": 110.0,
+      "max_auto_M": 117.0
+    },
+    {
+      "name": "B_jobshop_7_6",
+      "H": 129,
+      "inputs": {
+        ".smt2": "c91614dee17db5f6012f27b3decd5f58b40e259a67ef905e83520b81c849fce8",
+        ".mzn": "70297c685747d0da8e2efd51bbe454c7eebeee87e4f3c463402816cf2a164714"
+      },
+      "min_auto_M": 131.0,
+      "max_auto_M": 138.0
+    },
+    {
+      "name": "B_jobshop_7_7",
+      "H": 105,
+      "inputs": {
+        ".smt2": "4e2de35210d1e30e2c7a745682c7206829a9742d94670e9976787a803ddd39db",
+        ".mzn": "7668753007c431d63a3246ee2f5a7b9650529cf698b533c91913a0dc8682d08c"
+      },
+      "min_auto_M": 107.0,
+      "max_auto_M": 113.0
+    },
+    {
+      "name": "B_jobshop_7_8",
+      "H": 123,
+      "inputs": {
+        ".smt2": "1fee29c776ef77c595af757a596b15198af2d5cec66a3434a81a7ffd0273b38e",
+        ".mzn": "8a2312fe1436e906a2fb16f3f6eb7f206f5d3c9d25710e28a6a5fae8eb8f5148"
+      },
+      "min_auto_M": 125.0,
+      "max_auto_M": 132.0
+    },
+    {
+      "name": "B_jobshop_7_9",
+      "H": 112,
+      "inputs": {
+        ".smt2": "de1e6db34d27d2bafe5d0c1bb3d0ac4cb15df6027bef5fd2e868a4f933f291d4",
+        ".mzn": "a15defc984f62bd143e3ada08e790687dc862d6808fb33f55e7fb0a4e7ca22f3"
+      },
+      "min_auto_M": 115.0,
+      "max_auto_M": 121.0
+    },
+    {
+      "name": "B_jobshop_8_0",
+      "H": 129,
+      "inputs": {
+        ".smt2": "62aa10593cb7ab64eb503f4db2abea94f36def5e18e42005b29c7b7a82963c71",
+        ".mzn": "268e80e0bee6a8873cab7022bba17e0ed3cd56c0acc091057f68bd76095f0885"
+      },
+      "min_auto_M": 131.0,
+      "max_auto_M": 138.0
+    },
+    {
+      "name": "B_jobshop_8_1",
+      "H": 121,
+      "inputs": {
+        ".smt2": "bd169483a8c3ca48cf26fe385073a770d1288ad8d1b443f9aa4a8d254f4febc6",
+        ".mzn": "a81edebccc0f12dc06ab36ff2f81304a03c265a72e0e22ed52cf9a1d4b7c8c0f"
+      },
+      "min_auto_M": 123.0,
+      "max_auto_M": 130.0
+    },
+    {
+      "name": "B_jobshop_8_2",
+      "H": 133,
+      "inputs": {
+        ".smt2": "2cb93f33a94a5e29e03976e4aa5e6ee416cb66731e6f9e7f446d64dba85088f2",
+        ".mzn": "cb15ebfcfca6e382bc9f774329554425e0132af8abf189c31c6dbd92d3dc83a2"
+      },
+      "min_auto_M": 135.0,
+      "max_auto_M": 142.0
+    },
+    {
+      "name": "B_jobshop_8_3",
+      "H": 141,
+      "inputs": {
+        ".smt2": "52e39ea63b6fe5481f8791168006c8337251887ab66eb1dc0db8913b9c7d0e4f",
+        ".mzn": "fa02c21a8649060f2abc9d69dbf6e63b017391354f8d5e67529b9711bf0d81de"
+      },
+      "min_auto_M": 143.0,
+      "max_auto_M": 150.0
+    },
+    {
+      "name": "B_jobshop_8_4",
+      "H": 118,
+      "inputs": {
+        ".smt2": "ce2841da80ce08dbdcb5daa26f03c6ea5a17820331d737c20f59ee2690dcff7a",
+        ".mzn": "a492ec987a31042046d94013a44e6be456c55ff8dc3de2c4a8807b87c5bc16e7"
+      },
+      "min_auto_M": 120.0,
+      "max_auto_M": 127.0
+    },
+    {
+      "name": "B_jobshop_8_5",
+      "H": 125,
+      "inputs": {
+        ".smt2": "fcb93dbbb9000a515d0609bbff875e44bda094b17d2d4ad343d555f0edb0229b",
+        ".mzn": "04a11cb4148b970abedf70d5422b4f35e7acd1d25a8eaf24ab440d557205b34f"
+      },
+      "min_auto_M": 127.0,
+      "max_auto_M": 134.0
+    },
+    {
+      "name": "B_jobshop_8_6",
+      "H": 149,
+      "inputs": {
+        ".smt2": "281b88b05a2469dca150686fa16c1453b107f6a5a24e900467ff823978531677",
+        ".mzn": "c4ace095e7f8fd711afc2efde47f0bf0a60d33f7df6045a0ad0d5017d4cb42aa"
+      },
+      "min_auto_M": 151.0,
+      "max_auto_M": 158.0
+    },
+    {
+      "name": "B_jobshop_8_7",
+      "H": 118,
+      "inputs": {
+        ".smt2": "30c720dd7072fa912fe5f60405db022dfa6ecdb1cd3254dffd7c47e09faeace4",
+        ".mzn": "6afb37e4ec8f4d0c81d96fe2a5c1f2fa53e1fc537a2bb1e5d78415e7cb27c143"
+      },
+      "min_auto_M": 120.0,
+      "max_auto_M": 126.0
+    },
+    {
+      "name": "B_jobshop_8_8",
+      "H": 135,
+      "inputs": {
+        ".smt2": "d149ef73b1265075f4ea62f4baa12ccb1f4e179a7f659ad6116daf61dcefa112",
+        ".mzn": "b868d0a25c21adf09c31fcd6254eaff8dd47aafda165919aa87557c1c3cb0686"
+      },
+      "min_auto_M": 137.0,
+      "max_auto_M": 144.0
+    },
+    {
+      "name": "B_jobshop_8_9",
+      "H": 126,
+      "inputs": {
+        ".smt2": "3d5cc0936b993c758273aaa9560e2ee88cfef3f56cba1577fb32db12ddf5db7f",
+        ".mzn": "8280a7a03d520733a684694ce1bf174d2cd7a1fdd60a8baf82964f1a9f3447bc"
+      },
+      "min_auto_M": 128.0,
+      "max_auto_M": 135.0
+    },
+    {
+      "name": "B_jobshop_9_0",
+      "H": 142,
+      "inputs": {
+        ".smt2": "1a85eeed075adb022ef70ccb3fe01b57fc9c280c04970564553cdccbee0d37da",
+        ".mzn": "c7799865684f91d9da6a056629940f94c0e3c86bb9955b48047acf7984d3831e"
+      },
+      "min_auto_M": 144.0,
+      "max_auto_M": 151.0
+    },
+    {
+      "name": "B_jobshop_9_1",
+      "H": 134,
+      "inputs": {
+        ".smt2": "87660aa13b69a3785e6ad43c98c9873256ebb5008936f21c7d28e3fb1dbcbe67",
+        ".mzn": "092a248f3c28392d656f73a86d329ff852e82dc0b2db9a4bc93be4ba810bcbb3"
+      },
+      "min_auto_M": 136.0,
+      "max_auto_M": 143.0
+    },
+    {
+      "name": "B_jobshop_9_2",
+      "H": 156,
+      "inputs": {
+        ".smt2": "581f7f972f5bcc6cae8a710e44d339c2ea5f55a6067ee9aeaf67dea240c41f1e",
+        ".mzn": "5b91e4b130d4fd5413a6238a9f7b185394cbfe95c080ee38fa346ea54ebaf711"
+      },
+      "min_auto_M": 158.0,
+      "max_auto_M": 165.0
+    },
+    {
+      "name": "B_jobshop_9_3",
+      "H": 161,
+      "inputs": {
+        ".smt2": "5fc37ad07fdbc795b41f178a0b96ca5920af9a8c72cf9951ac2e979d67a7fbf1",
+        ".mzn": "9f4f964f74df8b68a8372f16a41cc5f8ce5469f1810c1045e30773ecc131ddaa"
+      },
+      "min_auto_M": 163.0,
+      "max_auto_M": 170.0
+    },
+    {
+      "name": "B_jobshop_9_4",
+      "H": 139,
+      "inputs": {
+        ".smt2": "17681cf098464e67eae42950eaa853b7bc0ea6a261e5cd638b6ed77ca4bf86a2",
+        ".mzn": "94d7ade66986699504e8c058310b13aa1dcd6ab5d4ca660cfc9dba55b314f831"
+      },
+      "min_auto_M": 141.0,
+      "max_auto_M": 148.0
+    },
+    {
+      "name": "B_jobshop_9_5",
+      "H": 144,
+      "inputs": {
+        ".smt2": "cfd1e7deb6a086216575afb77491515565ae95a3bcdb57831e67237054141682",
+        ".mzn": "6adf35023a9de90eeeca36df7e1119dc7c36bce51ddc9e9254301152f5b14fb8"
+      },
+      "min_auto_M": 146.0,
+      "max_auto_M": 153.0
+    },
+    {
+      "name": "B_jobshop_9_6",
+      "H": 160,
+      "inputs": {
+        ".smt2": "bdc93b8adf5b883287d850a265fb41fba31db36103b91a955c67f155cdc54214",
+        ".mzn": "a8412384bcf6f3d09c114a1254b7d0081bb72f61a204614e66209d231790950a"
+      },
+      "min_auto_M": 162.0,
+      "max_auto_M": 169.0
+    },
+    {
+      "name": "B_jobshop_9_7",
+      "H": 140,
+      "inputs": {
+        ".smt2": "27c39af59c9d5960442552ac4f28746711f3b0b090cc6ea5d7ac87a5fb169cbd",
+        ".mzn": "a7dd901b09c22bf33cc4a138198cd58f036ac36ed8ee7a37132574ac0367c6fa"
+      },
+      "min_auto_M": 142.0,
+      "max_auto_M": 149.0
+    },
+    {
+      "name": "B_jobshop_9_8",
+      "H": 153,
+      "inputs": {
+        ".smt2": "c34f24263ffa854392822122b9b05ed3ac5b77f48d8e197839ace541a8011472",
+        ".mzn": "e8a344ca6362a2e1c23a4aaf3cd848ff1ed4055096cb08aaab56cbe14fad74b7"
+      },
+      "min_auto_M": 155.0,
+      "max_auto_M": 162.0
+    },
+    {
+      "name": "B_jobshop_9_9",
+      "H": 144,
+      "inputs": {
+        ".smt2": "4c0fe5f48eb13503fc1ce40f4ebb8408d8ccf49b2af5720a9eb3b9d99c9eb86f",
+        ".mzn": "68ccc37b6c0ba0a9afd38b704093bee59104db5b085abffb93891987e0b370b9"
+      },
+      "min_auto_M": 146.0,
+      "max_auto_M": 153.0
+    },
+    {
+      "name": "B_jobshop_10_0",
+      "H": 157,
+      "inputs": {
+        ".smt2": "bb5535a9a79fae15541efb672a88106e3091830ddfce331017c955dffdf643b3",
+        ".mzn": "bc789f0e9b56f237760925a6f89559e90633462abe102d3ecd10621a86f1c98f"
+      },
+      "min_auto_M": 159.0,
+      "max_auto_M": 166.0
+    },
+    {
+      "name": "B_jobshop_10_1",
+      "H": 153,
+      "inputs": {
+        ".smt2": "6fb879af1c3b6fed654e2615f21e6a7ff254cad3aa1f59e284872b02102853a3",
+        ".mzn": "d27db4c35d60d6b162d2ccaf8a39cd89d3cec2e3ca82198d4595e59cee593b4c"
+      },
+      "min_auto_M": 155.0,
+      "max_auto_M": 162.0
+    },
+    {
+      "name": "B_jobshop_10_2",
+      "H": 179,
+      "inputs": {
+        ".smt2": "47af8977e5aeac9cf4c05edca608bb260c194e8371525b10308842f38d3e9ce6",
+        ".mzn": "9a8f36224a0f2b7503c0f0d353f644569d8aea4f800b9e66032f738357699c61"
+      },
+      "min_auto_M": 181.0,
+      "max_auto_M": 188.0
+    },
+    {
+      "name": "B_jobshop_10_3",
+      "H": 178,
+      "inputs": {
+        ".smt2": "1f1086abc8fbe55aa4f1b30b4c9e3353536876d92e001321430d84d0086e1b22",
+        ".mzn": "febcfed405adb057b4e1cf4e1a5fc0e1fa6e748ba92a0a39a20e90ddb37eb47e"
+      },
+      "min_auto_M": 180.0,
+      "max_auto_M": 187.0
+    },
+    {
+      "name": "B_jobshop_10_4",
+      "H": 160,
+      "inputs": {
+        ".smt2": "df5454518f8debc43949170c133ff36d9776c769352e873c3a0eb346af6bb18f",
+        ".mzn": "de726d0b856c49805ffb8acf790812851087838d832a891461357d5f954ec50b"
+      },
+      "min_auto_M": 162.0,
+      "max_auto_M": 169.0
+    },
+    {
+      "name": "B_jobshop_10_5",
+      "H": 160,
+      "inputs": {
+        ".smt2": "0d92a0405818b11a1487c0bf1d2df1e8dc4985344047f4db66e785867161ea01",
+        ".mzn": "673c326b267c7cc6f2b44b474ff659118ac028cff7b75b048979d5ffaa534778"
+      },
+      "min_auto_M": 162.0,
+      "max_auto_M": 169.0
+    },
+    {
+      "name": "B_jobshop_10_6",
+      "H": 179,
+      "inputs": {
+        ".smt2": "13524e3eeaa19190e6256f79ccf9218556c451c2d364f738ccf5f4d81cabe3c6",
+        ".mzn": "d3c6c0ee2a878651f401b6775e83b553fc08e5b25f744b1526b3457c19694f33"
+      },
+      "min_auto_M": 181.0,
+      "max_auto_M": 188.0
+    },
+    {
+      "name": "B_jobshop_10_7",
+      "H": 162,
+      "inputs": {
+        ".smt2": "ea2a4532e57eff6a5737f86fda7d02e18c3d827f5d9b92fa84716681a4eab93d",
+        ".mzn": "ff0f8cc07ddda310cd0e638de288eb81c24bf33ac2b07ad42a180ad35b04f953"
+      },
+      "min_auto_M": 164.0,
+      "max_auto_M": 171.0
+    },
+    {
+      "name": "B_jobshop_10_8",
+      "H": 169,
+      "inputs": {
+        ".smt2": "2f7b2c64e09e2c1960ac5df7483a63f771672d6fd1ead810b55f8ae1fe243765",
+        ".mzn": "b698f089b80842e3af954cfd7a70a2b18ee235ea4bf6c9a60f08866035ae25ef"
+      },
+      "min_auto_M": 171.0,
+      "max_auto_M": 178.0
+    },
+    {
+      "name": "B_jobshop_10_9",
+      "H": 159,
+      "inputs": {
+        ".smt2": "f65ea5682fbe3703e2cc67690376b8e569c5203433ebf157138176542638278c",
+        ".mzn": "7d7f67a28d0e72aaba1efde05032409a57d83db5c9a258b653ead2955c79e51c"
+      },
+      "min_auto_M": 161.0,
+      "max_auto_M": 168.0
+    }
+  ],
+  "conclusion": "Nonnegative integer times are present. Pyomo automatic M is H+d_i; hand-written PuLP M is H.",
+  "quantiles": "Inclusive linear interpolation; IQR only when all seeds proved optimal. All-seed median ranks every unproved run at +infinity.",
+  "limitations": "Matching objective values are a consistency check, not a proof of general encoding equivalence."
+}

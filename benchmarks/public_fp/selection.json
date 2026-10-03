@@ -1,0 +1,326 @@
+{
+  "rule": "2 per source group and direction, SHA256(rx032-public-v1: + original member path) increasing, chosen before runs",
+  "population": 1120,
+  "selected": [
+    {
+      "group": "griggio",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/div/div2.c.40.b86.max.smt2",
+      "candidate_count": 167,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/griggio/fmcad12/div/div2.c.40.b86.max.smt2",
+          "sha256": "d73624fb9e567f99956e681cb18c48d89b1e2a597c9d4a5dd2942e5704578b3e"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/griggio/fmcad12/div/div2.c.40.b86.max.smt2",
+          "sha256": "fce18b59cc2ddc6a71cc64a1aa3471d4aa84decc28c214985f45547fcb49ad1f"
+        }
+      }
+    },
+    {
+      "group": "griggio",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/mult/mult1.c.40.b97.max.smt2",
+      "candidate_count": 167,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/griggio/fmcad12/mult/mult1.c.40.b97.max.smt2",
+          "sha256": "53b4fc0075b483f4774b05b99deecd85bdc20843c723aba08561c7f97a9600fe"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/griggio/fmcad12/mult/mult1.c.40.b97.max.smt2",
+          "sha256": "ca81cbfed245c3e48d6a8a9bbf97371f7ef2c9afa53b1d2b5962cbbaaa5c3d12"
+        }
+      }
+    },
+    {
+      "group": "griggio",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/mult/mult1.c.10.b16.min.smt2",
+      "candidate_count": 133,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/griggio/fmcad12/mult/mult1.c.10.b16.min.smt2",
+          "sha256": "c0145768aeca8f060983bbb56e14137c2b2fa4e8c678fd9ede2ed49e0c996a75"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/griggio/fmcad12/mult/mult1.c.10.b16.min.smt2",
+          "sha256": "ed0d0e5425c376289f8998191e9aa809e9b5c7d42e0485103630c54bbf041fac"
+        }
+      }
+    },
+    {
+      "group": "griggio",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/test/test_v7_r12_vr5_c1_s8938.x1.min.smt2",
+      "candidate_count": 133,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/griggio/fmcad12/test/test_v7_r12_vr5_c1_s8938.x1.min.smt2",
+          "sha256": "444e2f19bace2e9352a03afc4265d7c5c6f7ca7d5a5a0dd4283137606fd7d2f9"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/griggio/fmcad12/test/test_v7_r12_vr5_c1_s8938.x1.min.smt2",
+          "sha256": "2ce2df15031c8b8cf57795d75edaf507bcda54d2b3a8c05b0b58e7b41ca22ac1"
+        }
+      }
+    },
+    {
+      "group": "heizmann",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/heizmann/water_pid_true-unreach-call.c_14.var_9.max.smt2",
+      "candidate_count": 74,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/heizmann/water_pid_true-unreach-call.c_14.var_9.max.smt2",
+          "sha256": "6bff27349877df0839110783f7fa3705177c52110b6ff56b41cec39759d65e30"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/heizmann/water_pid_true-unreach-call.c_14.var_9.max.smt2",
+          "sha256": "95ce451980687e5996674789a95720dda97015173da525c86042b99ae9a1fcb0"
+        }
+      }
+    },
+    {
+      "group": "heizmann",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_7.max.smt2",
+      "candidate_count": 74,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_7.max.smt2",
+          "sha256": "f906690193d5841b572e9952b418155ebd8bfc565e092836b5a4c2e71db2a2fe"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_7.max.smt2",
+          "sha256": "eda36d8b7e5e30597774314eef7afe7e8bb7ed0b17a51c24b649bb7c7deca38a"
+        }
+      }
+    },
+    {
+      "group": "heizmann",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_11.min.smt2",
+      "candidate_count": 74,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_11.min.smt2",
+          "sha256": "5503ad28fe76c9a52108b1074acfeb17fbbe93efb770986f2b9e62101217feb1"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_11.min.smt2",
+          "sha256": "c27762452ae29d6c8fa927a1edf06dfbd9feed141b50a9ef21a00386f3927369"
+        }
+      }
+    },
+    {
+      "group": "heizmann",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/heizmann/water_pid_true-unreach-call.c_14.var_8.min.smt2",
+      "candidate_count": 74,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/heizmann/water_pid_true-unreach-call.c_14.var_8.min.smt2",
+          "sha256": "ee16188b9110b5f745af327d72a742c41249d547548dd7c4a6cb846d50c5af99"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/heizmann/water_pid_true-unreach-call.c_14.var_8.min.smt2",
+          "sha256": "61ad1ebeae913af15123c8f3983c7b9c6c4f0811c0034b29b4297db374097b26"
+        }
+      }
+    },
+    {
+      "group": "ramalho",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/ramalho/esbmc/Float_div_bad-main.var_57.max.smt2",
+      "candidate_count": 158,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/ramalho/esbmc/Float_div_bad-main.var_57.max.smt2",
+          "sha256": "6d6b2d0e1a46a9bdad9b636f9555b7a13967cc1a4f6b7f2be358b1a16d316313"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/ramalho/esbmc/Float_div_bad-main.var_57.max.smt2",
+          "sha256": "ccbe5fdbd962a8ef44d9f25abc89acd78bb2f2fad9aa66d88779467dee6c88bd"
+        }
+      }
+    },
+    {
+      "group": "ramalho",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/ramalho/esbmc/Float_div_bad-main.var_402.max.smt2",
+      "candidate_count": 158,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/ramalho/esbmc/Float_div_bad-main.var_402.max.smt2",
+          "sha256": "0273b2a47357c7e43c5513293a03d14d662b9e0524428ab9f61b51c4ae65bf98"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/ramalho/esbmc/Float_div_bad-main.var_402.max.smt2",
+          "sha256": "60cc81feea48e30f475a79c0ea49b64430d1cc17e401cb674efac1f5b0bbda74"
+        }
+      }
+    },
+    {
+      "group": "ramalho",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/ramalho/esbmc/Float_div_bad-main.var_520.min.smt2",
+      "candidate_count": 142,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/ramalho/esbmc/Float_div_bad-main.var_520.min.smt2",
+          "sha256": "86a2036194715e241ca10a69bcf42a1383adb1e150ba6f5a52e5a06b8cf7ea0f"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/ramalho/esbmc/Float_div_bad-main.var_520.min.smt2",
+          "sha256": "3a3f3b8fb29760b751f1a789c802a9df9bbb022feed2c05483a9af5b2262bcba"
+        }
+      }
+    },
+    {
+      "group": "ramalho",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/ramalho/esbmc/Float_div_bad-main.var_363.min.smt2",
+      "candidate_count": 142,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/ramalho/esbmc/Float_div_bad-main.var_363.min.smt2",
+          "sha256": "61a2800d585bcb46d338108fcf52466eccade7ec4d6d05ed499fc6b55bba95b1"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/ramalho/esbmc/Float_div_bad-main.var_363.min.smt2",
+          "sha256": "ac24c3213af7ad028d761f9fba365d762dbc6df9c3ab14eefae9d37191b3234a"
+        }
+      }
+    },
+    {
+      "group": "schanda",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/schanda/spark/underflow_1.a.max.smt2",
+      "candidate_count": 36,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/schanda/spark/underflow_1.a.max.smt2",
+          "sha256": "227ae96a4ac3acd1940dfc4a506963f0ee96b5e23c1d354c47aae0972878ee4d"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/schanda/spark/underflow_1.a.max.smt2",
+          "sha256": "d192b5cd791e60b8870a1eb45dc3851d162309487aab4c674ca92a449b71951b"
+        }
+      }
+    },
+    {
+      "group": "schanda",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/schanda/spark/assoc_mult.a.max.smt2",
+      "candidate_count": 36,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/schanda/spark/assoc_mult.a.max.smt2",
+          "sha256": "62e3593035ad751ac3eee48ee8e58ce7ba87a4ac9937f463d218b9aaf0e6358e"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/schanda/spark/assoc_mult.a.max.smt2",
+          "sha256": "81cae42ff622289c5c0a482313debcb63ab20ac9ba1cf8cb0cbff86d8812dc27"
+        }
+      }
+    },
+    {
+      "group": "schanda",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/schanda/spark/protected_divide.right.min.smt2",
+      "candidate_count": 36,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/schanda/spark/protected_divide.right.min.smt2",
+          "sha256": "3b8a479636efcb046d851c14120d52ea290ebb9eb6bf9653fbed0b5a95f86ff3"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/schanda/spark/protected_divide.right.min.smt2",
+          "sha256": "6181ad8d27fd4b18a6d7cbd7377e3d78ecc87e0d1f1897f387abe3a45cc9701a"
+        }
+      }
+    },
+    {
+      "group": "schanda",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/schanda/spark/scale_1.a.min.smt2",
+      "candidate_count": 36,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/schanda/spark/scale_1.a.min.smt2",
+          "sha256": "03539e65d799981abe4e2da025b3d7e38a9aeb0697d16e0c3f22fbeadb20640d"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/schanda/spark/scale_1.a.min.smt2",
+          "sha256": "d8f1088873aafc63cdd456378a497a123feb32b3dd3d2c766c7b9952c58c9d81"
+        }
+      }
+    },
+    {
+      "group": "wintersteiger",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/wintersteiger/add/add-has-solution-1054.max.smt2",
+      "candidate_count": 133,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/wintersteiger/add/add-has-solution-1054.max.smt2",
+          "sha256": "23ecd455250bba1da0d6327c17c588d3cefe931a477eb7e902a581dadf07ca9d"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/wintersteiger/add/add-has-solution-1054.max.smt2",
+          "sha256": "3e45f09decb73cff05be39a651256e995e940c94e0c04324f2bc55855731e0f8"
+        }
+      }
+    },
+    {
+      "group": "wintersteiger",
+      "sense": "max",
+      "upstream": "data/floatingpoint_test/o300/wintersteiger/sqrt/sqrt-has-solution-6890.max.smt2",
+      "candidate_count": 133,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/wintersteiger/sqrt/sqrt-has-solution-6890.max.smt2",
+          "sha256": "3da9c00fdc44e74b4b6925e7c0ca6c14c4bc1fafc67bd686ef502c1d1a24c27b"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/wintersteiger/sqrt/sqrt-has-solution-6890.max.smt2",
+          "sha256": "a3ac62182578ae3cd35530bc015710d5e7134ec93c7062f4f78b001d5d4e8b2d"
+        }
+      }
+    },
+    {
+      "group": "wintersteiger",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/wintersteiger/sub/sub-has-solution-15158.min.smt2",
+      "candidate_count": 167,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/wintersteiger/sub/sub-has-solution-15158.min.smt2",
+          "sha256": "a401ea62e4e3460dbcf574552ed76798098f4d494b654475dc5c43f766a37af8"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/wintersteiger/sub/sub-has-solution-15158.min.smt2",
+          "sha256": "69432e1995176197d8b3de6a25b353a18cb3f77743cfd4a80f09d9512dff7343"
+        }
+      }
+    },
+    {
+      "group": "wintersteiger",
+      "sense": "min",
+      "upstream": "data/floatingpoint_test/o300/wintersteiger/abs/abs-has-solution-16243.min.smt2",
+      "candidate_count": 167,
+      "forms": {
+        "fp": {
+          "path": "selected/fp/wintersteiger/abs/abs-has-solution-16243.min.smt2",
+          "sha256": "32a46749364c86beda0219cc2bc603b15c594723f13307292bf4462e0566f4b5"
+        },
+        "bvfp": {
+          "path": "selected/bvfp/wintersteiger/abs/abs-has-solution-16243.min.smt2",
+          "sha256": "ea1593f24444cb96e42fd21a6337cb4d721448c097781969b20d8845a7730bf7"
+        }
+      }
+    }
+  ]
+}

@@ -20,3 +20,14 @@ runs/*/run.log
 .venv-win/
 tools/cdcl_ocac/
 tools/scip-exact/scip
+
+# rx032: pinned upstream data and large derived inputs are reproducible.
+# Preserve selection, source/hash manifests, scripts and raw result/verification logs.
+/benchmarks/public_fp/upstream-layer.tar.gz
+/benchmarks/public_fp/upstream-layer.tar.download
+/benchmarks/public_fp/members.json
+/benchmarks/public_fp/selected/
+/benchmarks/public_fp/upstream-README.md
+/benchmarks/public_fp/upstream-run_experiment.sh
+/runs/rx032_public/*/bv.smt2
+/runs/rx032_public/*/bvfp.smt2

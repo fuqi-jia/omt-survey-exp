@@ -1,0 +1,20 @@
+sat
+
+(objectives
+ (b16 (fp #b1 #b11111110 #b11111111111111111111111))
+)
+(model
+  (define-fun b37 () (_ FloatingPoint 8 24) (fp #b1 #b11111101 #b00000100000000000000000))
+  (define-fun b69 () (_ FloatingPoint 8 24) (_ -oo 8 24))
+  (define-fun b72 () (_ FloatingPoint 8 24) (fp #b0 #b00000000 #b00000000000000000000000))
+  (define-fun b31 () (_ FloatingPoint 8 24) (fp #b1 #b00000000 #b01011000011100010000000))
+  (define-fun b13 () (_ FloatingPoint 8 24) (fp #b1 #b00110110 #b01101111101010000101011))
+  (define-fun b34 () (_ FloatingPoint 8 24) (fp #b1 #b11100000 #b11100000001110000000001))
+  (define-fun b22 () (_ FloatingPoint 8 24) (fp #b1 #b00000000 #b00000111001111101111111))
+  (define-fun b11 () (_ FloatingPoint 8 24) (fp #b1 #b11000111 #b01101101110100000111101))
+  (define-fun b41 () (_ FloatingPoint 11 53) (_ -oo 11 53))
+  (define-fun b28 () (_ FloatingPoint 8 24) (fp #b1 #b11101101 #b11111111000000000000000))
+  (define-fun b16 () (_ FloatingPoint 8 24) (fp #b1 #b11111110 #b11111111111111111111111))
+  (define-fun b25 () (_ FloatingPoint 8 24) (fp #b1 #b10100100 #b00000001110010110000001))
+  (define-fun b19 () (_ FloatingPoint 8 24) (fp #b1 #b10110000 #b10101111011010010001000))
+)

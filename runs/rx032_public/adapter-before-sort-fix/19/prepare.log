@@ -1,0 +1,7 @@
+{
+  "process_status": "finished",
+  "returncode": 1,
+  "wall_s": 0.2074377149983775,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/mnt/d/D_Work/ISCAS/paper/jos2026/omt-survey-exp/scripts/revision_public_fp.py\", line 188, in <module>\n    print(json.dumps(worker(args.worker,args.index,args.form)))\n  File \"/mnt/d/D_Work/ISCAS/paper/jos2026/omt-survey-exp/scripts/revision_public_fp.py\", line 79, in worker\n    row, path, sense, x, key, expr, assertions = load_problem(index)\n  File \"/mnt/d/D_Work/ISCAS/paper/jos2026/omt-survey-exp/scripts/revision_public_fp.py\", line 66, in load_problem\n    eb, sb = map(int, re.search(r'\\(_ FloatingPoint (\\d+) (\\d+)\\)', decl).groups())\nAttributeError: 'NoneType' object has no attribute 'groups'\n"
+}

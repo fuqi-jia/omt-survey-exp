@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "value": "(fp #b0 #b00000011 #b10000001100101100001011)",
+  "attainable": "sat",
+  "attainable_s": 0.13530391102540307,
+  "strictly_better": "unsat",
+  "strictly_better_s": 0.0035915430053137243
+}

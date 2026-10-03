@@ -1,13 +1,20 @@
 # OMT Survey — Experiments
 
+**rx032 revision (2026-10-04):** the persistent workspace is now
+`D:\D_Work\ISCAS\paper\jos2026\omt-survey-exp`. See
+[REVISION_RX032.md](REVISION_RX032.md) for the current paper-table provenance,
+job-shop domain and big-M audit, seed distributions, and the new public FP/BV
+diagnostic. Historical result files remain unchanged.
+
 A reproducible **three-paradigm comparison** — Optimization Modulo Theories
 (OMT) vs. Mixed-Integer Linear Programming (MILP) vs. Constraint Programming
 (CP) — backing the experiment section of the OMT survey.
 
-Every benchmark instance is described by **one structured spec** from which we
-emit **four provably-equivalent encodings**. A correctness cross-check confirms
-that all solvers proving optimality on an instance agree on the objective, so
-the timing comparison is built on genuinely equivalent problems.
+Each parametric cross-paradigm instance is described by **one structured spec**
+from which four encodings are derived. Their equivalence concerns schedules or
+decisions and optimal objective values; auxiliary variables can have different
+nonoptimal domains. Agreement between solvers is an additional finite-instance
+consistency check, not a proof of general encoding equivalence.
 
 Instance generation is deterministic: `build(family, size, seed)` reproduces a
 byte-identical instance, which is what lets separate runs (Linux/Windows,

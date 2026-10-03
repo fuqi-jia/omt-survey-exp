@@ -1,0 +1,11 @@
+{
+  "process_status": "finished",
+  "returncode": 0,
+  "wall_s": 0.2829164990107529,
+  "stderr": "",
+  "status": "candidate",
+  "key": 2176895755,
+  "lower": "2176895755",
+  "upper": "2176895755",
+  "solve_s": 0.018101538997143507
+}

@@ -1,0 +1,11 @@
+{
+  "image": "patricktrentin88/jar2020_floatingpoint_test:1.0",
+  "image_digest": "sha256:2f02171c8b6f8c2d2d2ecd2286208fdac965055964c3aac44096a069418c2589",
+  "layer": {
+    "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+    "size": 88795760,
+    "digest": "sha256:5c868ea5510ea04ec6fa0b495c2b421326f33491a176d2e52cf350ec39b0e182"
+  },
+  "paper": "https://doi.org/10.1007/s10817-021-09600-4",
+  "date": "2026-10-04"
+}

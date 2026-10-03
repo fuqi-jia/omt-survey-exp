@@ -1,0 +1,8 @@
+{
+  "status": "verified",
+  "value": "1592635180258929250",
+  "attainable": "sat",
+  "attainable_s": 0.027280120993964374,
+  "strictly_better": "unsat",
+  "strictly_better_s": 0.12247027497505769
+}

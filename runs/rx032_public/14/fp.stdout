@@ -1,0 +1,9 @@
+sat
+
+(objectives
+ (right (fp #b0 #b00000000 #b00000000000000000000001))
+)
+(model
+  (define-fun left () (_ FloatingPoint 8 24) (fp #b0 #b01101010 #b01111111111111111111111))
+  (define-fun right () (_ FloatingPoint 8 24) (fp #b0 #b00000000 #b00000000000000000000001))
+)

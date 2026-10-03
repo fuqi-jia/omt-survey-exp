@@ -8,13 +8,13 @@
 #   scripts/gurobi_linear_windows.py.
 #
 #   Usage (from PowerShell):
-#       cd D:\D_Study\ISCAS\projects\GOMT\omt-survey-exp
+#       cd D:\D_Work\ISCAS\paper\jos2026\omt-survey-exp
 #       powershell -ExecutionPolicy Bypass -File scripts\run_gurobi_windows.ps1
 # =====================================================================
 $ErrorActionPreference = "Stop"
 
 # --- paths (edit if your install dirs differ) ---
-$Repo = "D:\D_Study\ISCAS\projects\GOMT\omt-survey-exp"
+$Repo = Split-Path -Parent $PSScriptRoot
 $Lic  = "D:\D_Softwares\Gurobi13\win64\bin\gurobi.lic"
 
 Set-Location $Repo
