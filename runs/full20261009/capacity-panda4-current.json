@@ -1,0 +1,14 @@
+{
+  "cpu_percent_two_second_probe": 21.250000000000004,
+  "logical_threads": 256,
+  "platform_active_own_campaign": 27,
+  "already_exited": 4,
+  "not_exited": 23,
+  "memory_available_gib": 1714.6048469543457,
+  "memory_total_gib": 2015.4666481018066,
+  "observed_utc": "2026-10-09T13:46:46.029874+00:00",
+  "host": "panda4",
+  "platform_active_all_experiments": 60,
+  "parallelism_limit_per_suite_across_entire_fleet": 192,
+  "scope": "Operational probe only; registered counts may change while CPU is measured."
+}

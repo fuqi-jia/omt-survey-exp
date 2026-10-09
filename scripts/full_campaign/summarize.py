@@ -38,6 +38,8 @@ def statistics_for(rows):
     valid = [r for r in rows if r['status'] != 'invalid_input']
     ranked = [float(r['wall_s']) if r['status'] in definitive_states else math.inf for r in valid]
     return dict(source_inputs=len(rows), valid_inputs=len(valid), outcomes=dict(statuses),
+                reported_outcomes=dict(collections.Counter(r.get('reported_status') or r['status'] for r in rows)),
+                reviewed_native_failures=sum(bool(r.get('status_review')) for r in rows),
                 independently_verified=verified, claimed_optimal=len(proven),
                 claimed_definitive=len(definitive),
                 verified_after_claim=sum(r['verification'] == 'verified_optimal' for r in proven),
@@ -85,6 +87,7 @@ def main():
                   timing='Per-solver wall time including normalization, parsing and startup; verification excluded',
                   par2='Valid inputs only; 2 x 600 seconds unless the solver claims optimal or infeasible',
                   unverified_claims='Reported separately; not called independently established optima',
+                  status_reviews='Exact native std::bad_alloc responses are counted as allocation failures; original platform metrics and reported statuses remain preserved and reviews are verified against raw archives.',
                   suites=summaries)
     (OUT / 'summary.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(report, ensure_ascii=False, indent=2))

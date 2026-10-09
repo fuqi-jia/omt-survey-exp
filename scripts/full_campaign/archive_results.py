@@ -58,6 +58,9 @@ def sha(path):
 
 
 def verify(archive_path, expected_runs):
+    from status_reviews import check_evidence
+    reviews_path = OUT / 'status-reviews.json'
+    reviews = json.loads(reviews_path.read_text()) if reviews_path.exists() else {}
     runtime = {
         'parser_source_sha256': sha(ROOT / 'scripts/revision_public_fp.py'),
         'z3_binary_sha256': sha(ROOT / 'tools/full-python/z3/lib/libz3.so'),
@@ -83,6 +86,14 @@ def verify(archive_path, expected_runs):
                 assert provenance['common_source_sha256'] == sha(ROOT / 'scripts/full_campaign/run_case.py')
             assert provenance['budget_s'] == 600 and provenance['verification_query_budget_s'] == (0 if diagnostic else 60)
             assert provenance['memory_bytes'] == 8 * 1024**3
+            review = reviews.get(run_id + ':oms_lia')
+            if review:
+                metrics = json.load(archive.extractfile(run_id + '/metrics.json'))
+                def raw(name):
+                    return archive.extractfile(run_id + '/evidence/' + name).read()
+                check_evidence(review, metrics, provenance,
+                               raw('oms_lia.native.stdout'), raw('oms_lia.native.stderr'),
+                               raw('oms_lia.solve.stderr'))
     return dict(path=archive_path.relative_to(ROOT).as_posix(), sha256=sha(archive_path),
                 bytes=archive_path.stat().st_size, runs=len(expected_runs), files=len(index['files']))
 

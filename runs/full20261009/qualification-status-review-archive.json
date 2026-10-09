@@ -1,0 +1,11 @@
+{
+  "path": "runs/full20261009/raw/qualification-native-oom.tar.gz",
+  "sha256": "5d373d75e549ba2f7264f2ed53cb639bae129eace194a28e0fc42dc0adbdda69",
+  "bytes": 3394,
+  "runs": 1,
+  "files": 13,
+  "run": "16ac56771708",
+  "review_policy": "oms-lia-exact-bad-alloc-v1",
+  "passed": true,
+  "scope": "Raw-archive validation of a reviewed native allocation failure; no additional performance run and no substitute for full-suite collection."
+}

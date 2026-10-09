@@ -1,0 +1,242 @@
+[
+  {
+    "run": "4f48f775e71b",
+    "host": "panda3",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/4f48f775e71b",
+    "input_meta": {
+      "case_id": "60b01dc4d7faab4284b9",
+      "suite": "bv_lia",
+      "source_sha256": "fc417c08d34a168761bb866535fd6e1cc3d25aa334771c8422b14722d588d899",
+      "input_bytes": 80482069
+    },
+    "result": {
+      "returncode": 0,
+      "wall_s": 194.50677201896906,
+      "budget_s": 600,
+      "command": [
+        "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+        "-optimization=true",
+        "-opt.priority=lex",
+        "<normalized-response-commands>"
+      ],
+      "status": "solver_error",
+      "solve_s": 191.07322943769395,
+      "solver_returncode": 1,
+      "objective_count": 324258,
+      "priority": "lex",
+      "normalized_sha256": "fb6a14ec91e9194ea5509a3c07c7a16f9c59538844d08bdbdad3f663765abd4a"
+    },
+    "evidence": {
+      "evidence/oms_lia.native.stdout": {
+        "bytes": 25,
+        "sha256": "0b587f3c8e4bb99a4ff60e875d953eab326dca1c5d2981dadd63c1547654f727",
+        "head": "(error \"std::bad_alloc\")\n",
+        "tail": "(error \"std::bad_alloc\")\n"
+      },
+      "evidence/oms_lia.native.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      },
+      "evidence/oms_lia.solve.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      }
+    }
+  },
+  {
+    "run": "2aa7f415bd7f",
+    "host": "panda5",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/2aa7f415bd7f",
+    "input_meta": {
+      "case_id": "4a7235be421cab8c29ce",
+      "suite": "bv_lia",
+      "source_sha256": "979462f0d40ac6934f48230c092e7f989b3a8aa8384c8adb2f07dc882c162adb",
+      "input_bytes": 82009776
+    },
+    "result": {
+      "returncode": 0,
+      "wall_s": 38.7250513099134,
+      "budget_s": 600,
+      "command": [
+        "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+        "-optimization=true",
+        "-opt.priority=lex",
+        "<normalized-response-commands>"
+      ],
+      "status": "solver_error",
+      "solve_s": 35.26057389192283,
+      "solver_returncode": 1,
+      "objective_count": 336830,
+      "priority": "lex",
+      "normalized_sha256": "71afa0387dfd7b64f6a2686520571e2ab469c5ed2015ae352548cc3698df0429"
+    },
+    "evidence": {
+      "evidence/oms_lia.native.stdout": {
+        "bytes": 25,
+        "sha256": "0b587f3c8e4bb99a4ff60e875d953eab326dca1c5d2981dadd63c1547654f727",
+        "head": "(error \"std::bad_alloc\")\n",
+        "tail": "(error \"std::bad_alloc\")\n"
+      },
+      "evidence/oms_lia.native.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      },
+      "evidence/oms_lia.solve.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      }
+    }
+  },
+  {
+    "run": "735edb1e5b0b",
+    "host": "panda3",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/735edb1e5b0b",
+    "input_meta": {
+      "case_id": "f0fbd9801ada8a014f06",
+      "suite": "bv_lia",
+      "source_sha256": "1d5862959325aea6631018897898501f17d55abd2ffdaba16efe2a331b192f4e",
+      "input_bytes": 92554369
+    },
+    "result": {
+      "returncode": 0,
+      "wall_s": 42.59351724013686,
+      "budget_s": 600,
+      "command": [
+        "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+        "-optimization=true",
+        "-opt.priority=lex",
+        "<normalized-response-commands>"
+      ],
+      "status": "solver_error",
+      "solve_s": 38.63526284508407,
+      "solver_returncode": 1,
+      "objective_count": 334000,
+      "priority": "lex",
+      "normalized_sha256": "ebc7bd6ff368e1d93939ccb194fb4142f96388c9dae6d823e2c7d7640988fcce"
+    },
+    "evidence": {
+      "evidence/oms_lia.native.stdout": {
+        "bytes": 25,
+        "sha256": "0b587f3c8e4bb99a4ff60e875d953eab326dca1c5d2981dadd63c1547654f727",
+        "head": "(error \"std::bad_alloc\")\n",
+        "tail": "(error \"std::bad_alloc\")\n"
+      },
+      "evidence/oms_lia.native.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      },
+      "evidence/oms_lia.solve.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      }
+    }
+  },
+  {
+    "run": "30b5dd8f2915",
+    "host": "panda3",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/30b5dd8f2915",
+    "input_meta": {
+      "case_id": "ced76f18ece409298bea",
+      "suite": "bv_lia",
+      "source_sha256": "aa6c47f2e6bcd0a2992ed9ab130e694bcc7f2ba7f6b53ea7e170271d747f3a66",
+      "input_bytes": 82452764
+    },
+    "result": {
+      "returncode": 0,
+      "wall_s": 39.62380391545594,
+      "budget_s": 600,
+      "command": [
+        "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+        "-optimization=true",
+        "-opt.priority=lex",
+        "<normalized-response-commands>"
+      ],
+      "status": "solver_error",
+      "solve_s": 35.87429025955498,
+      "solver_returncode": 1,
+      "objective_count": 338650,
+      "priority": "lex",
+      "normalized_sha256": "f881348e4ec0d882a2cb014523eedc0313cc4830c75a43e27a696a6914837ba2"
+    },
+    "evidence": {
+      "evidence/oms_lia.native.stdout": {
+        "bytes": 25,
+        "sha256": "0b587f3c8e4bb99a4ff60e875d953eab326dca1c5d2981dadd63c1547654f727",
+        "head": "(error \"std::bad_alloc\")\n",
+        "tail": "(error \"std::bad_alloc\")\n"
+      },
+      "evidence/oms_lia.native.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      },
+      "evidence/oms_lia.solve.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      }
+    }
+  },
+  {
+    "run": "990aea45f5fc",
+    "host": "panda6",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/990aea45f5fc",
+    "input_meta": {
+      "case_id": "3ecc6b9b9607f616897e",
+      "suite": "bv_lia",
+      "source_sha256": "e477bbcce259c81e66875bc66f9f019140e17d6f14ae573c7d33a46c7052d606",
+      "input_bytes": 82203562
+    },
+    "result": {
+      "returncode": 0,
+      "wall_s": 39.30404005199671,
+      "budget_s": 600,
+      "command": [
+        "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+        "-optimization=true",
+        "-opt.priority=lex",
+        "<normalized-response-commands>"
+      ],
+      "status": "solver_error",
+      "solve_s": 35.777889385819435,
+      "solver_returncode": 1,
+      "objective_count": 331656,
+      "priority": "lex",
+      "normalized_sha256": "80a41d77a600b9843c7bf3a451934516142a4d9fcf3d35dc932d1ebf4be7ab38"
+    },
+    "evidence": {
+      "evidence/oms_lia.native.stdout": {
+        "bytes": 25,
+        "sha256": "0b587f3c8e4bb99a4ff60e875d953eab326dca1c5d2981dadd63c1547654f727",
+        "head": "(error \"std::bad_alloc\")\n",
+        "tail": "(error \"std::bad_alloc\")\n"
+      },
+      "evidence/oms_lia.native.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      },
+      "evidence/oms_lia.solve.stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "head": "",
+        "tail": ""
+      }
+    }
+  }
+]

@@ -57,6 +57,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     lock = (OUT / 'snapshot.lock').open('a')
     fcntl.flock(lock, fcntl.LOCK_EX)
+    from status_reviews import StatusReviews
+    reviews = StatusReviews(OUT)
     con = sqlite3.connect('file:/pub/data/jiafq/eos/eos.db?mode=ro', uri=True)
     con.row_factory = sqlite3.Row
     # A read transaction keeps the experiment and its run rows consistent.
@@ -111,7 +113,8 @@ def main():
                 result = results.get(variant)
                 if result is None:
                     continue
-                status = result.get('status', 'missing_status')
+                reported_status = result.get('status', 'missing_status')
+                status, review_key = reviews.classify(run, variant, metrics, planned[case_id])
                 verification = result.get('verification', {}).get('status', 'not_attempted')
                 outcomes[variant][status] += 1
                 outcomes[variant]['verification:' + verification] += 1
@@ -120,7 +123,8 @@ def main():
                                    'error': status, 'verification': verification})
                 records.append(dict(case=case_id, path=planned[case_id]['path'],
                     sha256=planned[case_id]['sha256'], run=run['id'], host=run['host'],
-                    variant=variant, status=status, verification=verification,
+                    variant=variant, status=status, reported_status=reported_status,
+                    status_review=review_key or '', verification=verification,
                     wall_s=result.get('wall_s'), solve_s=result.get('solve_s'),
                     value=json.dumps(result.get('value'), sort_keys=True)))
         missing = sorted(set(planned) - set(coverage))
@@ -128,6 +132,7 @@ def main():
         result = dict(suite=suite, experiment=exp['id'], planned_inputs=len(planned),
             manifest_sha256=hashlib.sha256(manifest_data).hexdigest(), platform_counts=dict(counts),
             observed_solver_runs=len(records), expected_solver_runs=len(planned)*len(VARIANTS[suite]),
+            reviewed_native_failures=sum(bool(r['status_review']) for r in records),
             missing_inputs=missing, duplicate_inputs=duplicates, outcomes=outcomes, errors=errors,
             objective_disagreements=disagreements)
         result['all_inputs_completed'] = (not missing and not duplicates and not errors and not disagreements
