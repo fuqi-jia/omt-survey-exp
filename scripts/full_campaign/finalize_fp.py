@@ -8,7 +8,10 @@ import run_case
 import z3
 
 ROOT=prepare.ROOT;DATA=prepare.DATA;base=prepare.EXTRACTED/'fp'
-coverage=[];supplement=[];missing=[]
+supplement_path=DATA/'fp-supplement.json'
+coverage=[];supplement=json.loads(supplement_path.read_text()) if supplement_path.exists() else [];missing=[]
+for record in supplement:
+ assert prepare.sha(ROOT/record['generated'])==record['sha256']
 index=defaultdict(list)
 for path in (base/'obench').rglob('*.smt2'):index[path.parent].append(path.name)
 for names in index.values():names.sort()
@@ -44,7 +47,12 @@ for source in sorted((base/'bench').rglob('*.smt2')):
     todo.extend(expr.children())
    kind='first deterministic FP subterm; no named nullary FP target in raw source'
   if not candidates:
-   missing.append(relative.as_posix())
+   # One upstream Griggio file contains only metadata, check-sat and exit.
+   # Keep this degenerate source in coverage as a constant-objective task;
+   # it supplies no evidence about FP arithmetic performance.
+   assert not list(z3.parse_smt2_string(context)),relative
+   candidates=['(_ +zero 8 24)']
+   kind='empty upstream formula; constant binary32 zero objective, degenerate feasibility check'
   for i,term in enumerate(candidates):
    for sense in ['minimize','maximize']:
     p=directory/(source.stem+f'.supplement_{i}.{sense}.smt2');p.parent.mkdir(parents=True,exist_ok=True)
@@ -55,7 +63,7 @@ for source in sorted((base/'bench').rglob('*.smt2')):
  coverage.append(dict(source=source.relative_to(ROOT).as_posix(),sha256=prepare.sha(source),
                       outputs=[p.relative_to(ROOT).as_posix() for p in sorted(outputs)]))
 (DATA/'fp-source-coverage.json').write_text(json.dumps(coverage,indent=2)+'\n')
-(DATA/'fp-supplement.json').write_text(json.dumps(supplement,indent=2)+'\n')
+supplement_path.write_text(json.dumps(supplement,indent=2)+'\n')
 assert len(coverage)==17314,(len(coverage),missing)
 assert not missing,missing
 aliases=[];extra=[]
@@ -70,5 +78,6 @@ paths=sorted((base/'obench').rglob('*.smt2'))+extra
 prepare.manifest('fp',paths,dict(raw_sources=17314,raw_sources_with_tasks=len(coverage),
                  published=1120,published_aliases=len(aliases),published_extra=len(extra),
                  supplemental_tasks=len(supplement),sampling=False,
+                 degenerate_tasks=sum('empty upstream formula' in r['rule'] for r in supplement),
                  generator_sha256=prepare.sha(base/'bin/run_translation_all_statuses.sh')))
 print('ALL_RAW_SOURCES_COVERED',len(coverage),'SUPPLEMENTAL_TASKS',len(supplement))

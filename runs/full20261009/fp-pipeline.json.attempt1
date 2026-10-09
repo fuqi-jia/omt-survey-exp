@@ -1,0 +1,18 @@
+{
+  "suite": "fp",
+  "pid": 3825135,
+  "steps": [
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/finalize_fp.py"
+      ],
+      "started_utc": "2026-10-09T11:20:32.893137+00:00",
+      "returncode": 1,
+      "finished_utc": "2026-10-09T11:20:37.225901+00:00"
+    }
+  ],
+  "finished": false,
+  "updated_utc": "2026-10-09T11:20:37.226414+00:00",
+  "error": "Command '['python3', '/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/finalize_fp.py']' returned non-zero exit status 1."
+}

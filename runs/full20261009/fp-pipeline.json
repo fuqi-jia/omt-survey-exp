@@ -1,0 +1,59 @@
+{
+  "suite": "fp",
+  "pid": 3858642,
+  "steps": [
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/finalize_fp.py"
+      ],
+      "started_utc": "2026-10-09T11:24:14.526149+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T11:24:25.078952+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/validate_inputs.py",
+        "fp"
+      ],
+      "started_utc": "2026-10-09T11:24:25.079646+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T11:26:28.178936+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/spec.py",
+        "fp"
+      ],
+      "started_utc": "2026-10-09T11:26:28.179701+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T11:26:28.862185+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/fp.yaml",
+        "--dry-run"
+      ],
+      "started_utc": "2026-10-09T11:26:29.044591+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T11:26:30.508446+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/fp.yaml",
+        "--yes"
+      ],
+      "started_utc": "2026-10-09T11:26:30.509089+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T11:26:33.752044+00:00"
+    }
+  ],
+  "finished": true,
+  "updated_utc": "2026-10-09T11:26:33.752703+00:00"
+}

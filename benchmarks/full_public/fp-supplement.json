@@ -1,0 +1,130 @@
+[
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_1.smt2",
+    "source_sha256": "b805f9017811bbbc2afb8ad62339471ea985c88e885e07517ab048621ba04758",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_1.supplement_0.minimize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "c2b2e3428e561d354f50f84666ed75d01d3dbbcd9aa4d27e792251db8ab0b66a"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_1.smt2",
+    "source_sha256": "b805f9017811bbbc2afb8ad62339471ea985c88e885e07517ab048621ba04758",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_1.supplement_0.maximize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "052086cc3c7a3c2f2a6de13d8f6bec6cfff5abc8eaff65f19797ed2dadb50260"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_1.smt2",
+    "source_sha256": "b805f9017811bbbc2afb8ad62339471ea985c88e885e07517ab048621ba04758",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_1.supplement_1.minimize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "1b680e714dfdc7b4fb59a5576608737275faeca72b50d77ed7921ef8fc99bd03"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_1.smt2",
+    "source_sha256": "b805f9017811bbbc2afb8ad62339471ea985c88e885e07517ab048621ba04758",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_1.supplement_1.maximize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "1b776eb55ba0dbf7b822508b19f254ddd4c18a82bb802472cd5588738877a237"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_2.smt2",
+    "source_sha256": "5a595191cf22001af8056c224e5858b579b57e2a52599f93874fb9c06f7f2e7e",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_2.supplement_0.minimize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "6bc5c04af8d9ff61d5d7e2e4077571456e2e06c27bb00c3aaf4a7ac019dc890d"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_2.smt2",
+    "source_sha256": "5a595191cf22001af8056c224e5858b579b57e2a52599f93874fb9c06f7f2e7e",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_2.supplement_0.maximize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "f603edcdc8072f457d304ab0ce779fc37891c96ae38ec3aad49ceb32b8edbfc9"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_2.smt2",
+    "source_sha256": "5a595191cf22001af8056c224e5858b579b57e2a52599f93874fb9c06f7f2e7e",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_2.supplement_1.minimize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "468f66fcea5b0c9e6fd2246ef5d56dff663032ef9dd5cdfdf2451fc6ae1fe222"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_2.smt2",
+    "source_sha256": "5a595191cf22001af8056c224e5858b579b57e2a52599f93874fb9c06f7f2e7e",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_2.supplement_1.maximize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "502406f65b276601a564ea51ee92dee046c985f3fe73cae2d02ae8fd9dc16c2e"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_3.smt2",
+    "source_sha256": "4ad8caf1fe98639c6e92771267247134abcd3bf3dc99f6abdc7ac62b3fc7924d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_3.supplement_0.minimize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "9abcd20a667fe98c009d879c7ae6bd36ff7af471ab826c68164d60fef8c00aba"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_3.smt2",
+    "source_sha256": "4ad8caf1fe98639c6e92771267247134abcd3bf3dc99f6abdc7ac62b3fc7924d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_3.supplement_0.maximize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "7eeac66ec834859f0b445b3a6d0a7772fe4f1c29d6d01c791c5cdf66f8ec4bad"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_3.smt2",
+    "source_sha256": "4ad8caf1fe98639c6e92771267247134abcd3bf3dc99f6abdc7ac62b3fc7924d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_3.supplement_1.minimize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "376be7e16e360f4717f43b7c327d3c2aba33f54b1397842ca04ca6ef9085d8ce"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_3.smt2",
+    "source_sha256": "4ad8caf1fe98639c6e92771267247134abcd3bf3dc99f6abdc7ac62b3fc7924d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_3.supplement_1.maximize.smt2",
+    "target": "b",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "cac044284e9bcf9ccd31fa92c2e0b55dfd2015ee3077dcb970a7bfed54a6e296"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_4.smt2",
+    "source_sha256": "e5aa51684c6c28e927c732ca57e86434df23d35c724f67fc8ac4cdb729deb94c",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_4.supplement_0.minimize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "1f1304690a0be582d1e882545e87efe273f4a18ac9532267d132a0751c390ea2"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/schanda/spark/zeros_consistent_4.smt2",
+    "source_sha256": "e5aa51684c6c28e927c732ca57e86434df23d35c724f67fc8ac4cdb729deb94c",
+    "generated": "benchmarks/full_public/extracted/fp/obench/schanda/spark/zeros_consistent_4.supplement_0.maximize.smt2",
+    "target": "a",
+    "rule": "all named nullary FP terms omitted by upstream objective scan",
+    "sha256": "6b5c85fac0d2a8b326680c824c191316da904160d756ebef20d2ba9899feb99b"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/griggio/fmcad12/test/test_v5_r15_vr10_c1_s11127.smt2",
+    "source_sha256": "ac9b396b07edff82b048f9ed3277a872c6b26051cec85c6e768b75559bf3a65d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/griggio/fmcad12/test/test_v5_r15_vr10_c1_s11127.supplement_0.minimize.smt2",
+    "target": "(_ +zero 8 24)",
+    "rule": "empty upstream formula; constant binary32 zero objective, degenerate feasibility check",
+    "sha256": "931fc6cbbed9f26667fbc5671ebb24ae98805c648c0ccd3b3525e41374986ac0"
+  },
+  {
+    "source": "benchmarks/full_public/extracted/fp/bench/griggio/fmcad12/test/test_v5_r15_vr10_c1_s11127.smt2",
+    "source_sha256": "ac9b396b07edff82b048f9ed3277a872c6b26051cec85c6e768b75559bf3a65d",
+    "generated": "benchmarks/full_public/extracted/fp/obench/griggio/fmcad12/test/test_v5_r15_vr10_c1_s11127.supplement_0.maximize.smt2",
+    "target": "(_ +zero 8 24)",
+    "rule": "empty upstream formula; constant binary32 zero objective, degenerate feasibility check",
+    "sha256": "ac5e1192c1c259558a1de28be0df46fd69f33a36aa030bd0eca5d29d979c0dbd"
+  }
+]

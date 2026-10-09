@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/finalize_fp.py", line 60, in <module>
+    assert not missing,missing
+           ^^^^^^^^^^^
+AssertionError: ['griggio/fmcad12/test/test_v5_r15_vr10_c1_s11127.smt2']

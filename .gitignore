@@ -36,3 +36,7 @@ tools/scip-exact/scip
 /benchmarks/full_public/downloads/
 /benchmarks/full_public/extracted/
 /runs/full20261009/raw/
+/runs/full20261009/*-platform.json
+/runs/full20261009/*-results.csv
+/runs/full20261009/campaign-tools.tar.gz
+/runs/full20261009/*-evidence.tar.gz

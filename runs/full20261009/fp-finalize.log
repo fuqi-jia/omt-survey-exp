@@ -1,0 +1,2 @@
+{"suite": "fp", "instances": 39655, "manifest_sha256": "6b4dd5f1c8a2587faeed35554927d6bac42eee5c77959ba4dbbfce3f22726f92", "manifest": "benchmarks/full_public/manifests/fp.jsonl", "sampling": false, "total_bytes": 504250417, "extra": {"raw_sources": 17314, "raw_sources_with_tasks": 17314, "published": 1120, "published_aliases": 1119, "published_extra": 1, "supplemental_tasks": 16, "sampling": false, "degenerate_tasks": 2, "generator_sha256": "6dce61b28f216625e40ca3b8de08f77ca352da47e02b319d2a1a77d355a0ab92"}}
+ALL_RAW_SOURCES_COVERED 17314 SUPPLEMENTAL_TASKS 16

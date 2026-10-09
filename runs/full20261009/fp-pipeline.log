@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/launch_ready.py", line 87, in <module>
+    main()
+    ~~~~^^
+  File "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/launch_ready.py", line 58, in main
+    run(['python3', str(ROOT / 'scripts/full_campaign/finalize_fp.py')], log='fp-finalize.log')
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/launch_ready.py", line 46, in run
+    result.check_returncode()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/subprocess.py", line 509, in check_returncode
+    raise CalledProcessError(self.returncode, self.args, self.stdout,
+                             self.stderr)
+subprocess.CalledProcessError: Command '['python3', '/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/finalize_fp.py']' returned non-zero exit status 1.
