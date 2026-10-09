@@ -1,0 +1,56 @@
+% 完整 MaxSMT 结果草稿, 尚未并入主稿. 数据源: maxsmt-complete.json 与 maxsmt-results.csv.gz.
+% 2264 项全部结束, 9056 条观测覆盖核验通过, 10 台执行机的原始归档均已逐文件校验.
+% 与 paper-methods-draft.tex 一并整合; FP 全集仍在运行.
+
+\paragraph{公开 MaxSMT 基准.}
+表~\ref{tab:exp-public-maxsmt-full} 给出公开包全部 $2264$ 个 MaxSMT(LIA) 输入在四种配置下的结果. 其中 $2245$ 个输入语法有效, 其余 $19$ 个在原始发布包中存在语法错误或截断, 四种配置均保留相应的无效输入记录. OptiMathSAT 的 MaxRes 配置报告最优的数量最多, 为 $2074$ 项, 其中 $1807$ 项通过独立复核. 四种配置共同报告最优的输入未发现目标值冲突.
+
+\begin{table}[!ht]
+\centering
+\caption{公开 MaxSMT(LIA) 基准全集的求解与独立复核结果}
+\label{tab:exp-public-maxsmt-full}
+\small
+\begin{tabular}{@{}l rrrr rr@{}}
+\toprule
+配置 & 报告最优 & 独立复核 & 超时 & 无效输入 & 中位数 (s) & PAR-2 (s) \\
+\midrule
+OptiMathSAT MaxRes & 2074 & 1807 & 171 & 19 & 0.97 & 121.71 \\
+OptiMathSAT OMT & 1770 & 1603 & 475 & 19 & 2.38 & 290.33 \\
+Z3 MaxRes & 1779 & 1614 & 466 & 19 & 2.23 & 258.11 \\
+Z3 WMax & 1629 & 1624 & 616 & 19 & 2.53 & 337.80 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize 每次求解限时 $600$\,s, 地址空间上限 $8$\,GiB. 独立复核为报告最优结果中通过目标可达性与无严格改进两条查询的数量, 每条查询限时 $60$\,s, 复核时间另计. 时间统计以全部 $2245$ 个有效输入为分母, 按求解器报告口径计算; 未完成判定者在中位数中按 $+\infty$、在 PAR-2 中按 $1200$\,s 计入. 无效输入另列, 不计入性能时间统计.
+\end{minipage}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\caption{不同软约束比例与权重设置下报告最优/独立复核的数量}
+\label{tab:exp-public-maxsmt-groups}
+\small
+\begin{tabular}{@{}ll r rrrr@{}}
+\toprule
+软约束比例 & 权重 & 有效/发布 & \multicolumn{2}{c}{OptiMathSAT} & \multicolumn{2}{c}{Z3} \\
+\cmidrule(lr){4-5}\cmidrule(l){6-7}
+ & & & MaxRes & OMT & MaxRes & WMax \\
+\midrule
+$10\%$ & 无权 & 282/283 & 263/261 & 235/232 & 246/244 & 240/239 \\
+$10\%$ & 有权 & 282/283 & 256/256 & 242/242 & 224/224 & 244/244 \\
+$25\%$ & 无权 & 282/283 & 256/256 & 226/224 & 225/225 & 238/238 \\
+$25\%$ & 有权 & 281/283 & 260/260 & 221/220 & 228/227 & 233/232 \\
+$50\%$ & 无权 & 282/283 & 259/258 & 229/229 & 220/220 & 220/220 \\
+$50\%$ & 有权 & 272/283 & 254/254 & 213/213 & 222/222 & 216/216 \\
+$100\%$ & 无权 & 282/283 & 258/83 & 243/83 & 208/84 & 85/83 \\
+$100\%$ & 有权 & 282/283 & 268/179 & 161/160 & 206/168 & 153/152 \\
+\midrule
+全部 & & 2245/2264 & 2074/1807 & 1770/1603 & 1779/1614 & 1629/1624 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize 各组均包含发布包中的全部 $283$ 个输入. 求解器列中的 $a/b$ 分别为报告最优及其中通过独立复核的数量, 两者不相加. 组别沿用发布包的软约束比例与权重设置.
+\end{minipage}
+\end{table}
+
+表~\ref{tab:exp-public-maxsmt-groups} 进一步区分软约束比例和权重设置. OptiMathSAT MaxRes 在八个组中均报告了最多的最优结果, 但求解完成与独立复核的差异在软约束比例为 $100\%$ 时较为突出. 例如, 在无权组上, 该配置报告最优 $258$ 项, 独立复核完成 $83$ 项; Z3 WMax 分别为 $85$ 项和 $83$ 项. 因而不能将报告数量直接解释为已取得独立最优性证据的数量, 也不能将未完成复核解释为结果错误. 这些比较限于该公开 LIA 集合及所测四种配置, 不代表原文未公开的数据或其他 MaxSMT 方法的表现.
