@@ -83,7 +83,8 @@ def main():
         manifest_sha256=evidence['manifest_sha256'], coverage=evidence, archives=archives,
         results_csv_sha256=sha(csv_path), results_gzip_sha256=sha(packed),
         budget_s=600, memory_bytes=8 * 1024**3,
-        statistics='Reported optimal or infeasible counts as definitive; unsolved valid inputs contribute infinity to the median and 1200 s to PAR-2. Independent verification is reported separately.',
+        statistics=('Original lexicographic LIA companions: raw status/bounds diagnostics only; no inferred bit-domain bounds, optimal-model claims, or performance ranking.' if suite == 'bv_lia' else
+                    'Reported optimal or infeasible counts as definitive; unsolved valid inputs contribute infinity to the median and 1200 s to PAR-2. Independent verification is reported separately.'),
         overall=overall, by_group=groups)
     (OUT / (suite + '-complete.json')).write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({k: report[k] for k in ['suite', 'planned_inputs', 'solver_runs', 'overall']}, indent=2))

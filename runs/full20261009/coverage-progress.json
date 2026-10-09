@@ -1,5 +1,5 @@
 {
-  "observed_utc": "2026-10-09T13:53:54.048977+00:00",
+  "observed_utc": "2026-10-09T14:15:45.952403+00:00",
   "experiments": [
     {
       "suite": "bv",
@@ -7,35 +7,34 @@
       "planned_inputs": 254,
       "manifest_sha256": "426b530cea4c2d81982ee308bd467e685cf8872834c03c286af369e6b21ce5a1",
       "platform_counts": {
-        "success": 249,
-        "running": 5
+        "success": 254
       },
-      "observed_solver_runs": 498,
+      "observed_solver_runs": 508,
       "expected_solver_runs": 508,
       "reviewed_native_failures": 0,
       "missing_inputs": [],
       "duplicate_inputs": {},
       "outcomes": {
         "oms_bv": {
-          "timeout": 84,
-          "verification:not_attempted": 84,
+          "timeout": 89,
+          "verification:not_attempted": 89,
           "solver_claimed_optimal": 165,
           "verification:unverified": 35,
           "verification:verified_optimal": 129,
           "verification:timeout": 1
         },
         "z3_bv": {
-          "oom": 61,
-          "verification:not_attempted": 130,
-          "timeout": 53,
-          "unknown": 16,
+          "oom": 62,
+          "verification:not_attempted": 135,
+          "timeout": 56,
+          "unknown": 17,
           "solver_claimed_optimal": 119,
           "verification:verified_optimal": 119
         }
       },
       "errors": [],
       "objective_disagreements": [],
-      "all_inputs_completed": false
+      "all_inputs_completed": true
     },
     {
       "suite": "bv_lia",
@@ -43,31 +42,30 @@
       "planned_inputs": 254,
       "manifest_sha256": "8593f3ba3a3b23fd6ad937aa72e099244e6fad976dc88985e30f15751e5f8fc4",
       "platform_counts": {
-        "running": 73,
-        "success": 175,
-        "invalid": 6
+        "success": 243,
+        "invalid": 11
       },
-      "observed_solver_runs": 362,
+      "observed_solver_runs": 508,
       "expected_solver_runs": 508,
-      "reviewed_native_failures": 6,
+      "reviewed_native_failures": 11,
       "missing_inputs": [],
       "duplicate_inputs": {},
       "outcomes": {
         "oms_lia": {
-          "timeout": 104,
-          "verification:not_attempted": 181,
-          "oom": 6,
-          "diagnostic_sat": 71
+          "timeout": 165,
+          "verification:not_attempted": 254,
+          "oom": 11,
+          "diagnostic_sat": 78
         },
         "z3_lia": {
-          "timeout": 94,
-          "verification:not_attempted": 181,
-          "diagnostic_unbounded": 87
+          "timeout": 145,
+          "verification:not_attempted": 254,
+          "diagnostic_unbounded": 109
         }
       },
       "errors": [],
       "objective_disagreements": [],
-      "all_inputs_completed": false
+      "all_inputs_completed": true
     },
     {
       "suite": "fp",
@@ -75,43 +73,44 @@
       "planned_inputs": 39655,
       "manifest_sha256": "6b4dd5f1c8a2587faeed35554927d6bac42eee5c77959ba4dbbfce3f22726f92",
       "platform_counts": {
-        "pending": 38159,
-        "success": 1433,
-        "running": 63
+        "pending": 37369,
+        "success": 2094,
+        "running": 129,
+        "assigned": 63
       },
-      "observed_solver_runs": 4299,
+      "observed_solver_runs": 6282,
       "expected_solver_runs": 118965,
       "reviewed_native_failures": 0,
       "missing_inputs": [],
       "duplicate_inputs": {},
       "outcomes": {
         "oms_fp": {
-          "solver_claimed_optimal": 1349,
-          "verification:unverified": 51,
-          "verification:verified_optimal": 1295,
-          "timeout": 53,
-          "verification:not_attempted": 84,
-          "infeasible": 31,
+          "solver_claimed_optimal": 1975,
+          "verification:unverified": 66,
+          "timeout": 61,
+          "verification:not_attempted": 119,
+          "verification:verified_optimal": 1906,
+          "infeasible": 58,
           "verification:oom": 1,
           "verification:timeout": 2
         },
         "z3_fpkey": {
-          "timeout": 159,
-          "verification:not_attempted": 192,
-          "solver_claimed_optimal": 1241,
-          "verification:verified_optimal": 1238,
-          "infeasible": 32,
-          "verification:unverified": 3,
-          "oom": 1
+          "timeout": 191,
+          "verification:not_attempted": 252,
+          "solver_claimed_optimal": 1842,
+          "verification:verified_optimal": 1835,
+          "infeasible": 59,
+          "verification:unverified": 7,
+          "oom": 2
         },
         "z3_bv": {
-          "oom": 35,
-          "verification:not_attempted": 235,
-          "timeout": 168,
-          "solver_claimed_optimal": 1198,
-          "verification:verified_optimal": 1197,
-          "infeasible": 32,
-          "verification:unverified": 1
+          "oom": 46,
+          "verification:not_attempted": 316,
+          "timeout": 211,
+          "infeasible": 59,
+          "solver_claimed_optimal": 1778,
+          "verification:verified_optimal": 1774,
+          "verification:unverified": 4
         }
       },
       "errors": [],
@@ -124,44 +123,44 @@
       "planned_inputs": 2264,
       "manifest_sha256": "fc0aa83dad6d497fa34cefa38f1538a93b419dc4899bbe3ba4261c5e90b20e9b",
       "platform_counts": {
-        "success": 2161,
-        "running": 103
+        "success": 2237,
+        "running": 27
       },
-      "observed_solver_runs": 8644,
+      "observed_solver_runs": 8948,
       "expected_solver_runs": 9056,
       "reviewed_native_failures": 0,
       "missing_inputs": [],
       "duplicate_inputs": {},
       "outcomes": {
         "oms_maxres": {
-          "solver_claimed_optimal": 1999,
-          "verification:verified_optimal": 1759,
-          "timeout": 143,
-          "verification:not_attempted": 162,
+          "solver_claimed_optimal": 2059,
+          "verification:verified_optimal": 1798,
+          "timeout": 159,
+          "verification:not_attempted": 178,
           "invalid_input": 19,
-          "verification:unverified": 240
+          "verification:unverified": 261
         },
         "oms_omt": {
-          "solver_claimed_optimal": 1727,
-          "verification:verified_optimal": 1576,
-          "timeout": 415,
-          "verification:not_attempted": 434,
+          "solver_claimed_optimal": 1762,
+          "verification:verified_optimal": 1599,
+          "timeout": 456,
+          "verification:not_attempted": 475,
           "invalid_input": 19,
-          "verification:unverified": 151
+          "verification:unverified": 163
         },
         "z3_maxres": {
-          "solver_claimed_optimal": 1744,
-          "verification:verified_optimal": 1591,
-          "timeout": 398,
-          "verification:not_attempted": 417,
+          "solver_claimed_optimal": 1778,
+          "verification:verified_optimal": 1613,
+          "timeout": 440,
+          "verification:not_attempted": 459,
           "invalid_input": 19,
-          "verification:unverified": 153
+          "verification:unverified": 165
         },
         "z3_wmax": {
-          "solver_claimed_optimal": 1611,
-          "verification:verified_optimal": 1606,
-          "timeout": 531,
-          "verification:not_attempted": 550,
+          "solver_claimed_optimal": 1629,
+          "verification:verified_optimal": 1624,
+          "timeout": 589,
+          "verification:not_attempted": 608,
           "invalid_input": 19,
           "verification:unverified": 5
         }

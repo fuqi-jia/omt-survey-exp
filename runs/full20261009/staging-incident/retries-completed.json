@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1efa4e89738f",
+    "status": "success",
+    "host": "panda7",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"337925e0aee91077116e\", \"suite\": \"bv_lia\", \"source_sha256\": \"fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041\", \"input_bytes\": 33200177}",
+    "outcomes": {
+      "oms_lia": "timeout",
+      "z3_lia": "timeout"
+    }
+  },
+  {
+    "id": "8f07f201e17a",
+    "status": "success",
+    "host": "panda1",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"bf46c6ef0e8ba5cdbe29\", \"suite\": \"bv_lia\", \"source_sha256\": \"b1cd901472ba17d2e9fe828239618a8d1f3fc140c274ff8de1e8004f1aa9768e\", \"input_bytes\": 7486102}",
+    "outcomes": {
+      "z3_lia": "diagnostic_unbounded",
+      "oms_lia": "timeout"
+    }
+  },
+  {
+    "id": "7d238510f93a",
+    "status": "success",
+    "host": "panda4",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"22c3d5ed14911216a87e\", \"suite\": \"bv_lia\", \"source_sha256\": \"d6b3d067ddfb1ab0d500619c4c2b4a10c825f8b9986066c135147cad582b639e\", \"input_bytes\": 8431961}",
+    "outcomes": {
+      "oms_lia": "diagnostic_sat",
+      "z3_lia": "diagnostic_unbounded"
+    }
+  },
+  {
+    "id": "7287d2570b67",
+    "status": "success",
+    "host": "panda5",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"c141185205e69371051f\", \"suite\": \"bv_lia\", \"source_sha256\": \"d38db91b6e09629e3f0a230b97636c12266e163768180613c4b0dd33b7fd8920\", \"input_bytes\": 23499617}",
+    "outcomes": {
+      "z3_lia": "timeout",
+      "oms_lia": "timeout"
+    }
+  },
+  {
+    "id": "d07f9adea70a",
+    "status": "success",
+    "host": "panda3",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"9c74feee125adb9bfec3\", \"suite\": \"bv_lia\", \"source_sha256\": \"3d40f9fc22b5264decc6ed35edf883d29c5fc007fc4aba145bb1e9cee8e0d85e\", \"input_bytes\": 16285363}",
+    "outcomes": {
+      "z3_lia": "timeout",
+      "oms_lia": "timeout"
+    }
+  },
+  {
+    "id": "84d69d959e0b",
+    "status": "success",
+    "host": "panda6",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"44a07270201a51a4829d\", \"suite\": \"bv_lia\", \"source_sha256\": \"f14c06250ec7a4a8557f07b0e10f1068601fe4b79bcf3f2bfdb1dc06a18a85d4\", \"input_bytes\": 20459730}",
+    "outcomes": {
+      "z3_lia": "timeout",
+      "oms_lia": "timeout"
+    }
+  },
+  {
+    "id": "b994cd5115bc",
+    "status": "success",
+    "host": "panda9",
+    "infra_attempt": 1,
+    "input_meta_json": "{\"case_id\": \"f1933bdeff4bbba3b011\", \"suite\": \"bv_lia\", \"source_sha256\": \"3fa1c3a609436ac9c063427c40abf9523d3e0dff9feba3fa07b3ff75c896d203\", \"input_bytes\": 9111525}",
+    "outcomes": {
+      "z3_lia": "timeout",
+      "oms_lia": "diagnostic_sat"
+    }
+  }
+]

@@ -1,0 +1,384 @@
+{
+  "suite": "bv_lia",
+  "completed_suite_only": true,
+  "campaign_complete": false,
+  "note": "Complete coverage and raw archives for this suite only; other suites retain their independent completion gates.",
+  "created_utc": "2026-10-09T14:15:45.948023+00:00",
+  "source_snapshot_utc": "2026-10-09T14:11:17.686888+00:00",
+  "planned_inputs": 254,
+  "solver_runs": 508,
+  "diagnostic_only": true,
+  "manifest_sha256": "8593f3ba3a3b23fd6ad937aa72e099244e6fad976dc88985e30f15751e5f8fc4",
+  "coverage": {
+    "suite": "bv_lia",
+    "experiment": "bcac3b19f39f",
+    "planned_inputs": 254,
+    "manifest_sha256": "8593f3ba3a3b23fd6ad937aa72e099244e6fad976dc88985e30f15751e5f8fc4",
+    "platform_counts": {
+      "success": 243,
+      "invalid": 11
+    },
+    "observed_solver_runs": 508,
+    "expected_solver_runs": 508,
+    "reviewed_native_failures": 11,
+    "missing_inputs": [],
+    "duplicate_inputs": {},
+    "outcomes": {
+      "oms_lia": {
+        "timeout": 165,
+        "verification:not_attempted": 254,
+        "oom": 11,
+        "diagnostic_sat": 78
+      },
+      "z3_lia": {
+        "timeout": 145,
+        "verification:not_attempted": 254,
+        "diagnostic_unbounded": 109
+      }
+    },
+    "errors": [],
+    "objective_disagreements": [],
+    "all_inputs_completed": true
+  },
+  "archives": [
+    {
+      "host": "panda1",
+      "path": "runs/full20261009/raw/bv_lia-panda1.tar.gz",
+      "sha256": "7812b18c444d203c07177c0fa7dc3c57413b1e48527e98c17960cecf561bdd92",
+      "bytes": 109420853,
+      "runs": 33,
+      "files": 452
+    },
+    {
+      "host": "panda2",
+      "path": "runs/full20261009/raw/bv_lia-panda2.tar.gz",
+      "sha256": "37ca15a17bfa95ff7527d5caec77ad09fdce5a5e1e03729d4f1d7d715467bb78",
+      "bytes": 27555712,
+      "runs": 14,
+      "files": 189
+    },
+    {
+      "host": "panda3",
+      "path": "runs/full20261009/raw/bv_lia-panda3.tar.gz",
+      "sha256": "a6e22372e6dd8fa8c9518866b3dc6b382795b316d8171279e8d6653e4a871bf6",
+      "bytes": 71997490,
+      "runs": 28,
+      "files": 381
+    },
+    {
+      "host": "panda4",
+      "path": "runs/full20261009/raw/bv_lia-panda4.tar.gz",
+      "sha256": "02b7647edb3668261bc5bddd04bd32ab2651e869be5064c1cd186c9bb82f38e9",
+      "bytes": 40170439,
+      "runs": 17,
+      "files": 233
+    },
+    {
+      "host": "panda5",
+      "path": "runs/full20261009/raw/bv_lia-panda5.tar.gz",
+      "sha256": "13b2bb3256ca1e1826307da0d47189b0be0ce237fd8ba6d0038bf9563d9768f0",
+      "bytes": 131541733,
+      "runs": 49,
+      "files": 668
+    },
+    {
+      "host": "panda6",
+      "path": "runs/full20261009/raw/bv_lia-panda6.tar.gz",
+      "sha256": "d1ea94d78c6cd3e6de2e7250e28ce99a87eaa77e0854cb23becd7fe5d837a41d",
+      "bytes": 157159054,
+      "runs": 64,
+      "files": 878
+    },
+    {
+      "host": "panda7",
+      "path": "runs/full20261009/raw/bv_lia-panda7.tar.gz",
+      "sha256": "68bde082829c348280958f94393b13475a4025115e7272e57ce75c050979a833",
+      "bytes": 79458989,
+      "runs": 34,
+      "files": 461
+    },
+    {
+      "host": "panda9",
+      "path": "runs/full20261009/raw/bv_lia-panda9.tar.gz",
+      "sha256": "89337012b3baa4e74744dbcd5bcb1ee74f49d072e67bce0007643937791b6ceb",
+      "bytes": 23976178,
+      "runs": 8,
+      "files": 109
+    },
+    {
+      "host": "tiger7",
+      "path": "runs/full20261009/raw/bv_lia-tiger7.tar.gz",
+      "sha256": "b166e957ff41dd8138239e82e378fb08f3d03afb43a3decf9b2d4d669d3fbd76",
+      "bytes": 16371881,
+      "runs": 7,
+      "files": 96
+    }
+  ],
+  "results_csv_sha256": "bab68025e80d22eb3a6ec53a7d055b24a555ff049ab8d20c70d7dd3a676e472f",
+  "results_gzip_sha256": "8033ad5985b154e7aa38c523d5993af12c63b495bf10c6e6ebefe7d5e3ea6c4c",
+  "budget_s": 600,
+  "memory_bytes": 8589934592,
+  "statistics": "Original lexicographic LIA companions: raw status/bounds diagnostics only; no inferred bit-domain bounds, optimal-model claims, or performance ranking.",
+  "overall": {
+    "oms_lia": {
+      "source_inputs": 254,
+      "valid_inputs": 254,
+      "outcomes": {
+        "timeout": 165,
+        "oom": 11,
+        "diagnostic_sat": 78
+      },
+      "reported_outcomes": {
+        "timeout": 165,
+        "solver_error": 11,
+        "diagnostic_sat": 78
+      },
+      "reviewed_native_failures": 11,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    "z3_lia": {
+      "source_inputs": 254,
+      "valid_inputs": 254,
+      "outcomes": {
+        "timeout": 145,
+        "diagnostic_unbounded": 109
+      },
+      "reported_outcomes": {
+        "timeout": 145,
+        "diagnostic_unbounded": 109
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    }
+  },
+  "by_group": [
+    {
+      "group": "hd",
+      "variant": "oms_lia",
+      "source_inputs": 54,
+      "valid_inputs": 54,
+      "outcomes": {
+        "timeout": 44,
+        "oom": 10
+      },
+      "reported_outcomes": {
+        "timeout": 44,
+        "solver_error": 10
+      },
+      "reviewed_native_failures": 10,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "hd",
+      "variant": "z3_lia",
+      "source_inputs": 54,
+      "valid_inputs": 54,
+      "outcomes": {
+        "timeout": 54
+      },
+      "reported_outcomes": {
+        "timeout": 54
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_100_100",
+      "variant": "oms_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 36,
+        "oom": 1,
+        "diagnostic_sat": 3
+      },
+      "reported_outcomes": {
+        "timeout": 36,
+        "solver_error": 1,
+        "diagnostic_sat": 3
+      },
+      "reviewed_native_failures": 1,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_100_100",
+      "variant": "z3_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 40
+      },
+      "reported_outcomes": {
+        "timeout": 40
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_10_10",
+      "variant": "oms_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "diagnostic_sat": 15,
+        "timeout": 25
+      },
+      "reported_outcomes": {
+        "diagnostic_sat": 15,
+        "timeout": 25
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_10_10",
+      "variant": "z3_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "diagnostic_unbounded": 40
+      },
+      "reported_outcomes": {
+        "diagnostic_unbounded": 40
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_25_25",
+      "variant": "oms_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 17,
+        "diagnostic_sat": 23
+      },
+      "reported_outcomes": {
+        "timeout": 17,
+        "diagnostic_sat": 23
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_25_25",
+      "variant": "z3_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "diagnostic_unbounded": 40
+      },
+      "reported_outcomes": {
+        "diagnostic_unbounded": 40
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_50_50",
+      "variant": "oms_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 17,
+        "diagnostic_sat": 23
+      },
+      "reported_outcomes": {
+        "timeout": 17,
+        "diagnostic_sat": 23
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_50_50",
+      "variant": "z3_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 13,
+        "diagnostic_unbounded": 27
+      },
+      "reported_outcomes": {
+        "timeout": 13,
+        "diagnostic_unbounded": 27
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_75_75",
+      "variant": "oms_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 26,
+        "diagnostic_sat": 14
+      },
+      "reported_outcomes": {
+        "timeout": 26,
+        "diagnostic_sat": 14
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    },
+    {
+      "group": "size_75_75",
+      "variant": "z3_lia",
+      "source_inputs": 40,
+      "valid_inputs": 40,
+      "outcomes": {
+        "timeout": 38,
+        "diagnostic_unbounded": 2
+      },
+      "reported_outcomes": {
+        "timeout": 38,
+        "diagnostic_unbounded": 2
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0
+    }
+  ]
+}
