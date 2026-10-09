@@ -1,0 +1,7 @@
+{
+  "stopped_utc": "2026-10-09T12:10:18.508623+00:00",
+  "pid": 66821,
+  "parent": 66810,
+  "reason": "Stop a direct exploratory call without an outer timeout. All original LIA files will run under the separately qualified 600-second guarded harness.",
+  "benchmark_observation": false
+}

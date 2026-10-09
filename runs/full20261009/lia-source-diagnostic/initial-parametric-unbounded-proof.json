@@ -1,0 +1,24 @@
+{
+  "input": {
+    "id": "e44850302daf521e186a",
+    "suite": "bv_lia",
+    "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_9.xml_lia.smt2",
+    "bytes": 3819,
+    "sha256": "b50aa23e191abeca9f480b39125aa1b6e6ecd05fbac07ece755d97b8a49f3c4f"
+  },
+  "objective_count": 6,
+  "fixed_assignment": {
+    "x0_0": -5,
+    "y0_0": -1,
+    "x1_0": 3,
+    "y1_0": 2,
+    "even0": 0,
+    "even1": 1
+  },
+  "all_objectives": "arbitrary integer parameter t",
+  "substituted_hard_constraints": "true",
+  "first_maximized_objective": "__jos_unbounded_parameter",
+  "verification": "Negation of substituted hard constraints is UNSAT; the first objective equals arbitrary t",
+  "conclusion": "This original LIA companion is unbounded above; it is not equivalent to the bounded six-bit BV objective",
+  "z3": "4.15.4"
+}

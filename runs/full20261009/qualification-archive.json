@@ -1,0 +1,11 @@
+{
+  "path": "runs/full20261009/raw/qualification-maxsmt-canary.tar.gz",
+  "sha256": "42e44cfc833b6d3aebbb3fc4d712e6a8d3f69725afa4a35e8030e3c25746f5b6",
+  "bytes": 6722,
+  "runs": 1,
+  "files": 33,
+  "passed": true,
+  "purpose": "Archive transport/integrity qualification, not a benchmark summary",
+  "input_run": "c36141b791e2",
+  "host": "panda7"
+}

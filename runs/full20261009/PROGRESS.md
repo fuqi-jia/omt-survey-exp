@@ -1,42 +1,31 @@
 # 全集实验工作记录
 
-截至 2026-10-09 11:27 UTC（仍在运行，不是最终结果）。
+截至 2026-10-09 12:29 UTC（仍在运行，不是最终结果）。
 
 - 主稿：已从 GitHub 快进到 `GOMT/main@cd556a6`；原有 CLAUDE.md 与 Word 模板的本地改动保留。摘要与关键词冻结，正文尚未覆盖作者的新修订。
-- 控制面：现有 ExperimentOS，`jiafq@192.168.20.110:/pub/data/jiafq/experimentos`。实验仓库在 `/pub/data/jiafq/omt-survey-exp`，基线 `f440ce0`。
-- MaxSMT：完整 2,264 个标准输入已提交，ExperimentOS ID `39a26fbbb146`，名称 `jos-full-maxsmt-20261009-r1`。四种配置，共 9,056 次求解。平台预检已通过，首个实例四种配置都通过最优性复核；最新观测 481 个作业完成、171 个运行、1,612 个等待。
-- MaxSMT 输入审计：全量解析识别 19 个原始损坏输入；其中 8 个 query-901 变体语法错误，11 个加权文件被原包截断为 262,144 字节。本地原 RAR 与控制面一致。全部保留并实际调用求解器记录响应，不能作为有效最优结果。
-- FP：完整 39,655 个任务已提交，ExperimentOS ID `36446869763f`，名称 `jos-full-fp-20261009-r1`；三种配置共 118,965 次求解。全部 17,314 个源文件均有派生任务，发布包的 1,120 项全部覆盖；全量解析 39,655/39,655 通过。原生成器产生 39,638 项，补齐未识别目标 16 项，加上发布包中一个内容不同的文件；补充项含空公式源的两个退化任务，详见 README。
-- BV：原始公开包完整下载且哈希已核对，包含 254 个 BV 和对应 254 个 LIA 文件，正在传入控制节点。不要将尚未完成的 `.xz.partial` 传输试验产物作为输入；正式源包是完整 `tacas16.tar.gz`。
+- 控制面：现有 ExperimentOS，`jiafq@192.168.20.110:/pub/data/jiafq/experimentos`。实验仓库在 `/pub/data/jiafq/omt-survey-exp`，原实验基线 `f440ce0`；本次脚本、二进制及源输入使用 SHA256 单独记录。
+- MaxSMT：完整 2,264 个标准输入，ExperimentOS ID `39a26fbbb146`，四种配置共 9,056 次求解。最新观测 1,344 个作业完成、160 个运行、760 个等待。全量解析识别 19 个原包损坏输入（8 个语法错误，11 个截断）；全部保留并实际调用求解器记录响应，不算有效最优结果。
+- FP：完整 39,655 个任务，ExperimentOS ID `36446869763f`；三种配置共 118,965 次求解。全部 17,314 个源文件及发布包 1,120 项均覆盖，全量解析全部通过。原生成器产生 39,638 项，补齐未识别目标 16 项，加上发布包中一个内容不同的文件；补充项含空公式源的两个退化任务，详见 README。最新观测 240 个作业完成、44 个运行、91 个分派中、39,280 个等待。
+- FP 调度恢复：平台仅对当前空闲节点检查 Python 要求，可能在合格节点繁忙时将实验标为 broken。已通过官方 `eos resume` 恢复原队列，未修改输入、版本要求、求解预算或全局资源策略。`recover_dispatch.py` 只恢复本次活动中已通过预检且已有成功运行、错误文字精确匹配这一调度问题的实验；日志见 `dispatch-recovery.jsonl`。
+- BV：完整原包已传至控制节点，1,552,395,059 字节，SHA256 `20636e89acc4f7d12e312dbe1bc86b98327b16ef9bf9b07469a4467a75979a22`；已解压全部 254 个 BV 及 254 个 LIA 伴随文件。原生 BV 的全量解析仍在运行，完成后同一流水线自动提交，不可重复提交。
+- LIA 伴随文件：254/254 全量解析通过。原包是多目标整数规约，不能直接套用单目标 BV 适配器，也不能视为等价 BV 编码。已保留原约束、定义域和目标顺序，另用显式字典序的诊断驱动执行全部文件。有限界、无界、不满足三个已知答案分别在 Z3/OptiMathSAT 上检查通过。原包中一个实例已有参数化证书证明无界，而对应 BV 目标只有 6 位；证书见 `lia-source-diagnostic/parametric-unbounded-proof.*`。此前单目标适配器拒绝日志保留，不将其误报为原始文件损坏。
+- 结果归档：`monitor.py` 定期逐项核对清单和结果；各组全部完成后才启动完整证据归档。归档流程已用完成的 MaxSMT 预检作业验证，33 个文件传输后逐文件校验通过，记录见 `qualification-archive.json`。完成判定还要求没有缺项、重复项、未解释的管线错误或最优值矛盾。
 
 ## 后续必须完成
 
-1. 监控已提交的 FP 全集及平台预检，收取完整清单、覆盖记录和运行日志；不要重复生成清单或重复提交。
-2. 核对控制节点 BV 原始压缩包 SHA256，运行 `prepare.py bv`，全量解析 BV 与 LIA，生成规格并全部提交。
-3. 监控各组全部任务直到终态。逐项核对计划清单、求解结果和原始日志；重试基础设施故障，调查适配器错误与最优性反例，不能靠排除失败样本完成任务。
-4. 收集控制面及执行节点的完整日志和环境信息，保存本地与实验仓库。汇总时区分完整发布包、语法有效输入、求解器声称最优和独立验证最优；保留超时和 OOM 的分母。
-5. 所有实验完成后更新 LaTeX 实验章节、逐条回复与复现指针，保持摘要冻结，编译并验证 PDF。提交和推送相应仓库。
+1. 继续监控原生 BV 全量解析及自动提交；随后 LIA 自动提交会先逐文件复核哈希，再复用已完成的全量解析审计。
+2. 监控所有作业直到终态；基础设施故障要恢复，适配器错误和最优性反例要调查，不能排除失败样本或缩小清单。
+3. 收齐执行节点日志与环境信息，保存本地 D: 和实验仓库。汇总区分完整发布包、有效输入、求解器声称最优和独立验证最优；超时和 OOM 保留在有效输入分母。
+4. 全部实验完成后更新 LaTeX 实验章节、逐条回复与复现指针，保持摘要冻结，编译并检查 PDF，然后提交、推送两个仓库。
 
 ## 常用命令
 
-本地查询控制面（不读取凭据）：
+本地只读查询：
 
 ```bash
 python3 scripts/full_campaign/remote.py scripts/full_campaign/control_status.py
 ```
 
-控制节点工作目录 `/pub/data/jiafq/omt-survey-exp`：
+控制节点工作目录 `/pub/data/jiafq/omt-survey-exp`。FP、MaxSMT 已提交；BV 流水线、监控及调度恢复进程正在运行。不要重复运行生成或提交脚本。`run_case.py` 与 `revision_public_fp.py` 已按 SHA256 冻结，活动实验中不得修改。
 
-```bash
-python3 scripts/full_campaign/finalize_fp.py
-python3 scripts/full_campaign/validate_inputs.py fp
-python3 scripts/full_campaign/prepare.py bv
-python3 scripts/full_campaign/validate_inputs.py bv
-python3 scripts/full_campaign/validate_inputs.py bv_lia
-python3 scripts/full_campaign/spec.py fp
-# spec.py 支持 fp / bv / bv_lia / maxsmt；先 dry-run，再 submit --yes。
-```
-
-Windows SSH 转发已能连接控制节点。大文件传输必须用 `scp -O`，默认 SFTP 模式实测非常慢。`remote.py` 只包装 Python 脚本的安全压缩传输。
-
-BV 中转：完整 1.55 GB 原包已上传实验仓库的草稿 release `full-benchmarks-20261009`（尚未发布），asset ID `624731327`；从控制节点经临时签名链接下载后必须核对原始 SHA256。GitHub 凭据不传入集群。慢速直接 SCP 仍是未完成副本，不能作为输入。
+Windows SSH 转发可访问控制节点。大文件传输使用 `scp -O`。BV 经实验仓库草稿 release `full-benchmarks-20261009` 中转，asset ID `624731327`；完整包已接收并校验，旧的慢速 SCP 不完整副本已保留为 `.partial`，不作为输入。GitHub 凭据未传入集群。

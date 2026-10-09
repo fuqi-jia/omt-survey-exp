@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "unbounded",
+      "z3": {
+        "solver_status": "sat",
+        "solve_s": 0.0021490189974429086,
+        "objective_count": 2,
+        "priority": "lex",
+        "status": "diagnostic_unbounded",
+        "bounds": [
+          {
+            "index": 0,
+            "sense": "maximize",
+            "term": "x",
+            "lower": "oo",
+            "upper": "oo"
+          },
+          {
+            "index": 1,
+            "sense": "maximize",
+            "term": "y",
+            "lower": "1",
+            "upper": "1"
+          }
+        ],
+        "infinity_bound_objectives": [
+          0
+        ],
+        "optimal_model_claimed": false
+      },
+      "oms": {
+        "solve_s": 0.06470051400538068,
+        "solver_returncode": 0,
+        "objective_count": 2,
+        "priority": "lex",
+        "normalized_sha256": "54c39a3d17d06ee1dec467b31ffa0f9b42dd79db374d6dac6788380a45493ac6",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "-opt.priority=lex",
+          "<normalized-response-commands>"
+        ],
+        "solver_status": "sat",
+        "post_status_query_error": false,
+        "contains_infinity_marker": true,
+        "optimal_model_claimed": false,
+        "status": "diagnostic_sat"
+      }
+    },
+    {
+      "case": "finite",
+      "z3": {
+        "solver_status": "sat",
+        "solve_s": 0.001466795991291292,
+        "objective_count": 2,
+        "priority": "lex",
+        "status": "diagnostic_finite_bounds",
+        "bounds": [
+          {
+            "index": 0,
+            "sense": "maximize",
+            "term": "x",
+            "lower": "3",
+            "upper": "3"
+          },
+          {
+            "index": 1,
+            "sense": "maximize",
+            "term": "y",
+            "lower": "7",
+            "upper": "7"
+          }
+        ],
+        "infinity_bound_objectives": [],
+        "optimal_model_claimed": false
+      },
+      "oms": {
+        "solve_s": 0.0648354190052487,
+        "solver_returncode": 0,
+        "objective_count": 2,
+        "priority": "lex",
+        "normalized_sha256": "17a5883efb45a11e050acf766cccb9f5717042f74db706ff570548be003a9d98",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "-opt.priority=lex",
+          "<normalized-response-commands>"
+        ],
+        "solver_status": "sat",
+        "post_status_query_error": false,
+        "contains_infinity_marker": false,
+        "optimal_model_claimed": false,
+        "status": "diagnostic_sat"
+      }
+    },
+    {
+      "case": "infeasible",
+      "z3": {
+        "solver_status": "unsat",
+        "solve_s": 0.00023882699315436184,
+        "objective_count": 1,
+        "priority": "lex",
+        "status": "diagnostic_infeasible"
+      },
+      "oms": {
+        "solve_s": 0.07560832500166725,
+        "solver_returncode": 0,
+        "objective_count": 1,
+        "priority": "lex",
+        "normalized_sha256": "96a1410f27aa57152c9292a1f61d4a1bb0a413761f47bdf9782630dd06b06444",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "-opt.priority=lex",
+          "<normalized-response-commands>"
+        ],
+        "solver_status": "unsat",
+        "post_status_query_error": true,
+        "contains_infinity_marker": false,
+        "optimal_model_claimed": false,
+        "status": "diagnostic_infeasible"
+      }
+    }
+  ]
+}

@@ -58,6 +58,11 @@ def sha(path):
 
 
 def verify(archive_path, expected_runs):
+    runtime = {
+        'parser_source_sha256': sha(ROOT / 'scripts/revision_public_fp.py'),
+        'z3_binary_sha256': sha(ROOT / 'tools/full-python/z3/lib/libz3.so'),
+        'oms_sha256': sha(ROOT / 'tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat'),
+    }
     with tarfile.open(archive_path) as archive:
         index = json.load(archive.extractfile('archive-index.json'))
         assert {r['run'] for r in index['files']} == set(expected_runs)
@@ -70,6 +75,14 @@ def verify(archive_path, expected_runs):
             provenance = json.load(archive.extractfile(run_id + '/evidence/provenance.json'))
             assert provenance['input']['id'] == expected['case_id']
             assert provenance['input']['sha256'] == expected['source_sha256']
+            assert all(provenance[key] == digest for key, digest in runtime.items())
+            diagnostic = provenance['input']['suite'] == 'bv_lia'
+            harness = 'run_lia_diagnostic.py' if diagnostic else 'run_case.py'
+            assert provenance['script_sha256'] == sha(ROOT / 'scripts/full_campaign' / harness)
+            if diagnostic:
+                assert provenance['common_source_sha256'] == sha(ROOT / 'scripts/full_campaign/run_case.py')
+            assert provenance['budget_s'] == 600 and provenance['verification_query_budget_s'] == (0 if diagnostic else 60)
+            assert provenance['memory_bytes'] == 8 * 1024**3
     return dict(path=archive_path.relative_to(ROOT).as_posix(), sha256=sha(archive_path),
                 bytes=archive_path.stat().st_size, runs=len(expected_runs), files=len(index['files']))
 

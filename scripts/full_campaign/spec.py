@@ -27,6 +27,7 @@ def main():
  inputs.write_text(''.join(json.dumps(row)+'\n' for row in rows))
  raw_suite='bv' if args.suite=='bv_lia' else args.suite
  variants=4 if args.suite=='maxsmt' else 3 if args.suite=='fp' else 2
+ harness='run_lia_diagnostic.py' if args.suite=='bv_lia' else 'run_case.py'
  spec=dict(experiment='jos-full-'+args.suite+'-20261009-r1',
   description=f'Full public {args.suite}: {len(rows)} inputs, no sampling; paired solvers, 600 s each. Manifest '+hashlib.sha256(data).hexdigest(),
   environment=dict(host={'tags':['cpu']},workdir=REMOTE,require={'python3':'>=3.9'},
@@ -34,10 +35,13 @@ def main():
          REMOTE+'/benchmarks/full_public/manifests',REMOTE+'/benchmarks/full_public/extracted/'+raw_suite]),
   protocol=dict(inputs={'from_file':REMOTE+'/'+inputs.relative_to(ROOT).as_posix()},
                 timeout=f'{variants*780+180}s',memory='16G',parallelism=192,retain='365d'),
-  trials=[{'name':'paired-solvers','params':{'harness_sha256':hashlib.sha256((ROOT/'scripts/full_campaign/run_case.py').read_bytes()).hexdigest()}}],
-  run=dict(cmd='python3 '+REMOTE+'/scripts/full_campaign/run_case.py --case {input} --metrics "$EOS_METRICS_FILE"'),
+  trials=[{'name':'paired-solvers','params':{'harness_sha256':hashlib.sha256((ROOT/'scripts/full_campaign'/harness).read_bytes()).hexdigest(),
+                                           'common_sha256':hashlib.sha256((ROOT/'scripts/full_campaign/run_case.py').read_bytes()).hexdigest()}}],
+  run=dict(cmd='python3 '+REMOTE+'/scripts/full_campaign/'+harness+' --case {input} --metrics "$EOS_METRICS_FILE"'),
   measurements={'from':'metrics.json','primary':'wall_time_s','checks':['completed == true','pipeline_ok == true']},
   artifacts={'collect':['evidence/*.json','evidence/*.stdout','evidence/*.stderr']})
+ if args.suite=='bv_lia':
+  spec['description']+=' Original lexicographic LIA companions: semantic diagnostics, not a BV-equivalent performance comparison.'
  out=ROOT/'runs/full20261009';out.mkdir(parents=True,exist_ok=True)
  # JSON is a YAML subset, accepted by ExperimentOS without a writer dependency.
  target=out/(args.suite+'.yaml');target.write_text(json.dumps(spec,indent=2)+'\n')

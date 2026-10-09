@@ -13,6 +13,9 @@ from pathlib import Path
 import sqlite3
 import sys
 
+if hasattr(sys, 'set_int_max_str_digits'):
+    sys.set_int_max_str_digits(0)
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'tools/full-python'))
 OUT = ROOT / 'runs/full20261009'

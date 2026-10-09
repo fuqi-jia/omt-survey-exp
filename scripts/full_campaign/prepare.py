@@ -116,7 +116,9 @@ def prepare_bv():
     lia = [p for p in paths if p.parent.name == 'lia']
     assert len(bv) == len(lia) == 254
     manifest('bv', bv, dict(paired_lia=254, encoding='native unsigned bit-vector maximization'))
-    manifest('bv_lia', lia, dict(paired_bv=254, encoding='original integer encoding'))
+    manifest('bv_lia', lia, dict(paired_bv=254,
+        encoding='Original lexicographic multi-objective integer files; diagnostic-only',
+        equivalence_to_bv_assumed=False))
 
 
 def prepare_maxsmt():

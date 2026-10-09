@@ -1,0 +1,36 @@
+{
+  "input": {
+    "id": "e44850302daf521e186a",
+    "suite": "bv_lia",
+    "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_9.xml_lia.smt2",
+    "bytes": 3819,
+    "sha256": "b50aa23e191abeca9f480b39125aa1b6e6ecd05fbac07ece755d97b8a49f3c4f"
+  },
+  "bv_input": {
+    "id": "7fa59c1e572b0cf322ce",
+    "suite": "bv",
+    "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_9.xml_bv.smt2",
+    "bytes": 4509,
+    "sha256": "8e758d5ab5c87f31b72dadfb0cf46181e8179397597ae1e11e709b185a35e3ee"
+  },
+  "objective_count": 6,
+  "fixed_assignment": {
+    "x0_0": 0,
+    "y0_0": 1,
+    "x1_0": 3,
+    "y1_0": 2,
+    "even0": 1,
+    "even1": 1
+  },
+  "all_objectives": "arbitrary integer parameter t",
+  "substituted_hard_constraints": "true",
+  "first_maximized_objective": "__jos_unbounded_parameter",
+  "bv_unsigned_domain": [
+    0,
+    63
+  ],
+  "verification": "Negation of substituted hard constraints is UNSAT; the first integer objective equals arbitrary t",
+  "conclusion": "This distributed LIA companion is unbounded above, whereas the original BV target has a finite domain",
+  "z3": "4.15.4",
+  "certificate_script_sha256": "05850fad9a451eb007c778078c42da56a34b7a628d7635bfcbaf918b69789627"
+}
