@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "verified_original": {
+    "path": "runs/full20261009/raw/qualification-native-oom.tar.gz",
+    "sha256": "5d373d75e549ba2f7264f2ed53cb639bae129eace194a28e0fc42dc0adbdda69",
+    "bytes": 3394,
+    "runs": 1,
+    "files": 13
+  },
+  "positive_elapsed_s": 0.11071155779063702,
+  "mutations": {
+    "changed_output": "rejected",
+    "unindexed_file": "rejected",
+    "duplicate_member": "rejected"
+  },
+  "archive_verifier_sha256": "7448b1725e7a22a3e613bd020a6b48a6ac0a953df18da4435821f70190bb386a",
+  "scope": "Archive lookup/streaming optimization validation; original raw evidence unchanged; deliberately corrupted qualification copies are not campaign observations."
+}

@@ -25,6 +25,14 @@ config=json.loads(Path(CONFIG_PATH).read_text())
 target=Path(config['target']);target.parent.mkdir(parents=True,exist_ok=True)
 temporary=target.with_suffix('.partial')
 index=[]
+def file_sha(path):
+ digest=hashlib.sha256()
+ with path.open('rb') as stream:
+  while True:
+   chunk=stream.read(1024*1024)
+   if not chunk:break
+   digest.update(chunk)
+ return digest.hexdigest()
 with tarfile.open(temporary,'w:gz',compresslevel=3) as archive:
  for row in config['runs']:
   base=Path(row['workdir'])
@@ -37,7 +45,7 @@ with tarfile.open(temporary,'w:gz',compresslevel=3) as archive:
   assert base/'metrics.json' in paths,base
   for p in sorted(paths):
    assert not p.is_symlink(),p
-   digest=hashlib.sha256(p.read_bytes()).hexdigest()
+   digest=file_sha(p)
    member=row['id']+'/'+p.relative_to(base).as_posix()
    archive.add(p,arcname=member,recursive=False)
    index.append(dict(run=row['id'],member=member,bytes=p.stat().st_size,sha256=digest))
@@ -67,15 +75,28 @@ def verify(archive_path, expected_runs):
         'oms_sha256': sha(ROOT / 'tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat'),
     }
     with tarfile.open(archive_path) as archive:
-        index = json.load(archive.extractfile('archive-index.json'))
+        # TarFile's name lookup scans its member list. FP has many thousands
+        # of evidence files per host; reuse TarInfo objects to avoid a
+        # quadratic lookup pass while preserving all per-file checks.
+        members = archive.getmembers()
+        by_name = {member.name: member for member in members}
+        assert len(by_name) == len(members), 'Duplicate raw archive member'
+        def read_member(name):
+            return archive.extractfile(by_name[name])
+        index = json.load(read_member('archive-index.json'))
         assert {r['run'] for r in index['files']} == set(expected_runs)
         assert len({r['member'] for r in index['files']}) == len(index['files'])
+        assert set(by_name) == {r['member'] for r in index['files']} | {'archive-index.json'}
         for row in index['files']:
-            content = archive.extractfile(row['member']).read()
-            assert len(content) == row['bytes']
-            assert hashlib.sha256(content).hexdigest() == row['sha256']
+            digest, size = hashlib.sha256(), 0
+            with read_member(row['member']) as stream:
+                while chunk := stream.read(1024 * 1024):
+                    digest.update(chunk)
+                    size += len(chunk)
+            assert size == row['bytes']
+            assert digest.hexdigest() == row['sha256']
         for run_id, expected in expected_runs.items():
-            provenance = json.load(archive.extractfile(run_id + '/evidence/provenance.json'))
+            provenance = json.load(read_member(run_id + '/evidence/provenance.json'))
             assert provenance['input']['id'] == expected['case_id']
             assert provenance['input']['sha256'] == expected['source_sha256']
             assert all(provenance[key] == digest for key, digest in runtime.items())
@@ -88,9 +109,9 @@ def verify(archive_path, expected_runs):
             assert provenance['memory_bytes'] == 8 * 1024**3
             review = reviews.get(run_id + ':oms_lia')
             if review:
-                metrics = json.load(archive.extractfile(run_id + '/metrics.json'))
+                metrics = json.load(read_member(run_id + '/metrics.json'))
                 def raw(name):
-                    return archive.extractfile(run_id + '/evidence/' + name).read()
+                    return read_member(run_id + '/evidence/' + name).read()
                 check_evidence(review, metrics, provenance,
                                raw('oms_lia.native.stdout'), raw('oms_lia.native.stderr'),
                                raw('oms_lia.solve.stderr'))
