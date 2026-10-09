@@ -1,0 +1,100 @@
+{
+  "suite": "maxsmt",
+  "observed_utc": "2026-10-09T14:59:55.251970+00:00",
+  "expected_inputs": 2264,
+  "local_complete": true,
+  "disk_before": [
+    {
+      "DriveLetter": "D",
+      "SizeRemaining": 115114983424,
+      "Size": 1525745184768
+    },
+    {
+      "DriveLetter": "C",
+      "SizeRemaining": 12494798848,
+      "Size": 474021986304
+    }
+  ],
+  "archives": [
+    {
+      "host": "panda1",
+      "path": "runs/full20261009/raw/maxsmt-panda1.tar.gz",
+      "sha256": "c70303b6d07051257f54f08a6ea09819a45fe296792933a79f577086d549166c",
+      "bytes": 2939067,
+      "runs": 200,
+      "files": 6203
+    },
+    {
+      "host": "panda2",
+      "path": "runs/full20261009/raw/maxsmt-panda2.tar.gz",
+      "sha256": "a38c3d8faad28e3bb38782cf13083dade691b3c2afdd1ffed84df1a0297520b6",
+      "bytes": 2889592,
+      "runs": 173,
+      "files": 5296
+    },
+    {
+      "host": "panda3",
+      "path": "runs/full20261009/raw/maxsmt-panda3.tar.gz",
+      "sha256": "ac8d1d435d845111404bd98e0fad80db7a1b47ec0b3f8e7f6f10f687819659c2",
+      "bytes": 2596073,
+      "runs": 194,
+      "files": 6002
+    },
+    {
+      "host": "panda4",
+      "path": "runs/full20261009/raw/maxsmt-panda4.tar.gz",
+      "sha256": "d81e3dff4afab138f33162fd24d221dd28b9dc4ae5d6d525bc207cc2e8486792",
+      "bytes": 4159589,
+      "runs": 329,
+      "files": 10189
+    },
+    {
+      "host": "panda5",
+      "path": "runs/full20261009/raw/maxsmt-panda5.tar.gz",
+      "sha256": "2ed63bbadce475602c566e7863d46078bc56bdc6ed828686098a46f8d5bd8e64",
+      "bytes": 3734735,
+      "runs": 277,
+      "files": 8525
+    },
+    {
+      "host": "panda6",
+      "path": "runs/full20261009/raw/maxsmt-panda6.tar.gz",
+      "sha256": "12b9ffe6942cdbcfe028735d2b7b71809ea67af3e32dc772320247b5fd436586",
+      "bytes": 3295452,
+      "runs": 241,
+      "files": 7483
+    },
+    {
+      "host": "panda7",
+      "path": "runs/full20261009/raw/maxsmt-panda7.tar.gz",
+      "sha256": "d5aac82b751b8f58d32ab2e84dca2bf8af99545836678206b0db0c117419cae4",
+      "bytes": 4807340,
+      "runs": 308,
+      "files": 9442
+    },
+    {
+      "host": "panda8",
+      "path": "runs/full20261009/raw/maxsmt-panda8.tar.gz",
+      "sha256": "f587a61a90c6c4591b603e2a236e26ba969002e274c5224ac9e52547a9f46a8c",
+      "bytes": 2310653,
+      "runs": 183,
+      "files": 5700
+    },
+    {
+      "host": "panda9",
+      "path": "runs/full20261009/raw/maxsmt-panda9.tar.gz",
+      "sha256": "d9ea589e46705f4e7374dac941151a653d14fed4c879da16e7fb9e586f1ae0c4",
+      "bytes": 2926437,
+      "runs": 255,
+      "files": 7929
+    },
+    {
+      "host": "tiger7",
+      "path": "runs/full20261009/raw/maxsmt-tiger7.tar.gz",
+      "sha256": "c43bd5f5e7689b09ca7216a4e4f732a985f3d556db14d957adb3dd4c0dba3c5f",
+      "bytes": 1538706,
+      "runs": 104,
+      "files": 3177
+    }
+  ]
+}
