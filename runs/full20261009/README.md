@@ -1,0 +1,32 @@
+# 完整公开基准实验（2026-10-09）
+
+状态：完整清单与执行管线已建立，正在通过 ExperimentOS 提交/运行；这里尚无完成的性能汇总。
+
+作者要求：FP、BV 使用完整数据集，不再抽样；新增完整 MaxSMT 实验，通过现有 ExperimentOS 控制面调度，在独立实验仓库实现并存档。
+
+主稿已同步至 GOMT/main 的 cd556a6，作者确认的摘要与关键词保持冻结。实验代码起点是 omt-survey-exp/revision/rx032 的 f440ce0。
+
+## 数据范围
+
+- FP：Trentin–Sebastiani JAR 2021 的固定 Docker 数据层，原始 bench/ 全部 17,314 个文件；沿用原作者 run_translation.sh 的目标构造，保留 31 个原始已标注 UNSAT 的输入，不运行 run_filter.sh。生成器使用完整绝对路径，避免 bench 误匹配 benchmarks；记录全部输入与未产生优化实例的原因，并覆盖原论文发布的 o300/ 全部 1,120 个优化实例。不得将 o300 当成未抽样的原始全集。
+- 原生 BV：Nadel–Ryvchin TACAS 2016 作者公开的完整实验包，包含基准和历史结果；基准与历史结果分别识别，全部 254 个原生 BV 实例进入固定清单，同时测试对应的全部 254 个 LIA 编码。
+- MaxSMT：He 等 FM 2024 PairLS 作者公开实验包，公开 release 实际含 2,264 个 LIA 标准输入（283 个基础问题 × 4 种软约束比例 × 2 种权重设置），全部运行，不把 ls_format 副本重复计数。公开包没有 IDL、LL 或 bofill 家族；不能将这 2,264 例称为论文中 5,520/12,888/114 例实验的完整复现。
+
+## 实验口径
+
+采用每次求解 600 秒、单线程、8 GiB 地址空间上限；每个 ExperimentOS 作业申请 16 GiB 上限以容纳适配器和求解器子进程，遵守平台空闲资源调度。完整固定清单先于性能运行，运行环境、源文件/求解器/脚本哈希、命令和原始日志均留存。主比较的求解器在同一输入所在机器上运行，避免跨硬件直接比较。每条独立验证查询的预算为 60 秒，与求解时间分别报告。FP 比较全部排除 NaN 目标，键编码额外细分 -0 与 +0；源文件原样保留。MaxSMT 比较 OptiMathSAT MaxRes/OMT 与 Z3 MaxRes/WMax 四种配置。超时、内存不足、解析错误、无解和未验证结果都保留在总分母中。预检仅检查管线，不替代全集实验；全部计划任务产生终态并核对覆盖率后才算完成。
+
+## 原始来源
+
+- FP 论文：https://doi.org/10.1007/s10817-021-09600-4
+- FP 固定镜像：patricktrentin88/jar2020_floatingpoint_test，manifest sha256:2f02171c8b6f8c2d2d2ecd2286208fdac965055964c3aac44096a069418c2589；data layer sha256:5c868ea5510ea04ec6fa0b495c2b421326f33491a176d2e52cf350ec39b0e182。
+- BV 论文：https://doi.org/10.1007/978-3-662-49674-9_53 ；论文参考文献 [29] 的作者链接 https://goo.gl/epFbO1 指向 Google Drive 文件 0B0zXW5t7in-felhlbjZDZDZKN3M。
+- MaxSMT 论文：https://doi.org/10.1007/978-3-031-71162-6_3 ；论文脚注链接重定向至 https://github.com/LS-OptSMT/PairLS/releases/download/PairLS/PairLS.rar 。
+
+旧的 runs/rx032_public/ 仅是历史 20 例诊断，保留其原始证据，不与本轮全集性能结果合并。
+
+## 输入有效性审计
+
+MaxSMT 的 2,264 个原始标准输入已全部解析核对：2,245 个通过；8 个 query-901 变体含非法符号和不完整语法，另 11 个文件在 262,144 字节处被截断。损坏在原始 RAR 中已经存在，本地与控制节点内容一致。全部 19 个保留在清单和分母中，实际调用每种求解器记录原始拒绝响应，标为 `invalid_input`，不猜测补写约束，不伪造最优值。完整发布包计数、有效输入计数与已证最优计数分别报告。
+
+原生 BV 源包 SHA256：`20636e89acc4f7d12e312dbe1bc86b98327b16ef9bf9b07469a4467a75979a22`（1,552,395,059 字节）；PairLS RAR SHA256：`b67dd0b8c50a144e450821e59c078ad654e74181c029d211a715d403a9b2945a`（91,585,080 字节）。FP 输入传输包仅重新压缩所有原始 bench 文件、完整 o300 原生 FP 文件和原始生成器；逐文件内容未修改，其 SHA256 为 `cf7f66a2b151156786ba89fa5082e44973f760cb4e6d5d22b4b13f72ccc2bac3`。

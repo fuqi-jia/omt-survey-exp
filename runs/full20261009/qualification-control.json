@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "checks": 11,
+  "kind": "known-answer interface and semantics checks",
+  "results": [
+    {
+      "case": "bv_unsigned",
+      "variant": "oms_bv",
+      "result": {
+        "solve_s": 0.014478107914328575,
+        "solver_returncode": 0,
+        "normalized_sha256": "bdc1ca32946161260516e57e44f28fb3c5714a50d80bdfd108cde1d41626bfc0",
+        "command": [
+          "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "bv",
+          "hex": "ff",
+          "width": 8
+        },
+        "verification": {
+          "attainable_query_sha256": "39303b2c60e6204d833ddcca0db473cc9f555c447374b387d17046ba46a220c8",
+          "attainable": "sat",
+          "attainable_s": 0.001064123585820198,
+          "strictly_better_query_sha256": "bef946cdb283ab356b920f88c4e44ee9382e08626d16266dee23987e8da6b41a",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.00010174885392189026,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "bv_unsigned",
+      "variant": "z3_bv",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.002343907952308655,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "ff",
+          "width": 8
+        },
+        "verification": {
+          "attainable_query_sha256": "39303b2c60e6204d833ddcca0db473cc9f555c447374b387d17046ba46a220c8",
+          "attainable": "sat",
+          "attainable_s": 0.0005412641912698746,
+          "strictly_better_query_sha256": "bef946cdb283ab356b920f88c4e44ee9382e08626d16266dee23987e8da6b41a",
+          "strictly_better": "unsat",
+          "strictly_better_s": 9.434670209884644e-05,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "oms_maxres",
+      "result": {
+        "solve_s": 0.014938008040189743,
+        "solver_returncode": 0,
+        "normalized_sha256": "9374671b46f8b6deff85907e62bc8651d722a89730b6292b167052c49158e02a",
+        "command": [
+          "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "-opt.maxsmt_engine=maxres",
+          "-unsat_core_generation=1",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "052a458355dbc8fe2caf25bab364938839659f7b6ee8a625be54bf681c1d88b0",
+          "attainable": "sat",
+          "attainable_s": 0.0023896824568510056,
+          "strictly_better_query_sha256": "483b20c87949364dc060971539aff420b19df71ee4c4a47e63a0f84db6ce5e98",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.001834118738770485,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "oms_omt",
+      "result": {
+        "solve_s": 0.006642255932092667,
+        "solver_returncode": 0,
+        "normalized_sha256": "9374671b46f8b6deff85907e62bc8651d722a89730b6292b167052c49158e02a",
+        "command": [
+          "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "052a458355dbc8fe2caf25bab364938839659f7b6ee8a625be54bf681c1d88b0",
+          "attainable": "sat",
+          "attainable_s": 0.0018095765262842178,
+          "strictly_better_query_sha256": "483b20c87949364dc060971539aff420b19df71ee4c4a47e63a0f84db6ce5e98",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0016866810619831085,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "z3_maxres",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.0008279960602521896,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "052a458355dbc8fe2caf25bab364938839659f7b6ee8a625be54bf681c1d88b0",
+          "attainable": "sat",
+          "attainable_s": 0.0015884917229413986,
+          "strictly_better_query_sha256": "483b20c87949364dc060971539aff420b19df71ee4c4a47e63a0f84db6ce5e98",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0013426095247268677,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "z3_wmax",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.0007437355816364288,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "052a458355dbc8fe2caf25bab364938839659f7b6ee8a625be54bf681c1d88b0",
+          "attainable": "sat",
+          "attainable_s": 0.0014575868844985962,
+          "strictly_better_query_sha256": "483b20c87949364dc060971539aff420b19df71ee4c4a47e63a0f84db6ce5e98",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0013288278132677078,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "oms_fp",
+      "result": {
+        "solve_s": 0.019690165296196938,
+        "solver_returncode": 0,
+        "normalized_sha256": "1a6a03a1473c0ccf4f049341e984a7a59dd0e63fa5c94f3d4748b23b2c63a476",
+        "command": [
+          "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "(fp #b1 #b000 #b000)"
+        },
+        "verification": {
+          "attainable_query_sha256": "caefe721bdb9b6e9f935fbb21d78bc32c67056b663d0abd7656c06b57b3e4ca8",
+          "attainable": "sat",
+          "attainable_s": 0.013081835582852364,
+          "strictly_better_query_sha256": "53cfaabf66cde9f75dbdac8876fb6d3cf54c82bcce724c8a64bef3437b57d377",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0003981851041316986,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "z3_fpkey",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.005138114094734192,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "3f",
+          "width": 7
+        },
+        "value_semantics": "unsigned IEEE ordinal key; non-NaN; -0 precedes +0",
+        "verification": {
+          "attainable_query_sha256": "ef33fa2648ce7ba048eeab5987357539376fc89effccca9db5a2db8276c8a162",
+          "attainable": "sat",
+          "attainable_s": 0.00966593623161316,
+          "strictly_better_query_sha256": "ba5e8572cbd06c659e08c4380506cf9d94545a547c4379fafbaf7d10efc8c1ca",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.007993362843990326,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "z3_bv",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.0034508369863033295,
+        "translation_s": 0.000222720205783844,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "3f",
+          "width": 7
+        },
+        "value_semantics": "unsigned IEEE ordinal key; non-NaN; -0 precedes +0",
+        "verification": {
+          "attainable_query_sha256": "18b4c31635800f3af347609fdb5ab546392dcfa566ff1e01ac7c99d16ab7d306",
+          "attainable": "sat",
+          "attainable_s": 0.0030206311494112015,
+          "strictly_better_query_sha256": "dad6234ab0d0511c0135d90bb8feabd60b54b95aa9410fa6740208367b2239bb",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.002550460398197174,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "infeasible",
+      "variant": "oms_bv",
+      "result": {
+        "solve_s": 0.021680384874343872,
+        "solver_returncode": 0,
+        "normalized_sha256": "aa186ace058d9daffaf68e6c623d9fc906ace95efcffe04a56740353acc13843",
+        "command": [
+          "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "infeasible",
+        "post_unsat_query_error": true
+      }
+    },
+    {
+      "case": "infeasible",
+      "variant": "z3_bv",
+      "result": {
+        "status": "infeasible",
+        "solve_s": 0.0003419462591409683,
+        "translation_s": 0.0,
+        "objective_count": 1
+      }
+    }
+  ]
+}

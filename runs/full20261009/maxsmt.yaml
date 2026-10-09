@@ -1,0 +1,57 @@
+{
+  "experiment": "jos-full-maxsmt-20261009-r1",
+  "description": "Full public maxsmt: 2264 inputs, no sampling; paired solvers, 600 s each. Manifest fc0aa83dad6d497fa34cefa38f1538a93b419dc4899bbe3ba4261c5e90b20e9b",
+  "environment": {
+    "host": {
+      "tags": [
+        "cpu"
+      ]
+    },
+    "workdir": "/pub/data/jiafq/omt-survey-exp",
+    "require": {
+      "python3": ">=3.9"
+    },
+    "data": [
+      "/pub/data/jiafq/omt-survey-exp/scripts",
+      "/pub/data/jiafq/omt-survey-exp/tools/full-python",
+      "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit",
+      "/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/manifests",
+      "/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/maxsmt"
+    ]
+  },
+  "protocol": {
+    "inputs": {
+      "from_file": "/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/manifests/maxsmt-eos.jsonl"
+    },
+    "timeout": "3300s",
+    "memory": "16G",
+    "parallelism": 192,
+    "retain": "365d"
+  },
+  "trials": [
+    {
+      "name": "paired-solvers",
+      "params": {
+        "harness_sha256": "b9262031a6768c627ffb0ebbac273268e86675d00f1abc22966271ebe8da5c7e"
+      }
+    }
+  ],
+  "run": {
+    "cmd": "python3 /pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py --case {input} --metrics \"$EOS_METRICS_FILE\""
+  },
+  "measurements": {
+    "from": "metrics.json",
+    "primary": "wall_time_s",
+    "checks": [
+      "completed == true",
+      "pipeline_ok == true"
+    ]
+  },
+  "artifacts": {
+    "collect": [
+      "evidence/*.json",
+      "evidence/*.stdout",
+      "evidence/*.stderr"
+    ]
+  }
+}

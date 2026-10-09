@@ -31,3 +31,8 @@ tools/scip-exact/scip
 /benchmarks/public_fp/upstream-run_experiment.sh
 /runs/rx032_public/*/bv.smt2
 /runs/rx032_public/*/bvfp.smt2
+
+# Full public campaign: pin sources/manifests, archive bulk input and raw data on D:/cluster.
+/benchmarks/full_public/downloads/
+/benchmarks/full_public/extracted/
+/runs/full20261009/raw/

@@ -1,0 +1,2076 @@
+{
+  "members": [
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_1.xml_bv.smt2",
+      "bytes": 26310
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_10.xml_bv.smt2",
+      "bytes": 275189
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_2.xml_bv.smt2",
+      "bytes": 9273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_3.xml_bv.smt2",
+      "bytes": 9273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_4.xml_bv.smt2",
+      "bytes": 17725
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_5.xml_bv.smt2",
+      "bytes": 19167
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_6.xml_bv.smt2",
+      "bytes": 9273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_7.xml_bv.smt2",
+      "bytes": 9273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_8.xml_bv.smt2",
+      "bytes": 9273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_20_9.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_1.xml_bv.smt2",
+      "bytes": 28947
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_10.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_2.xml_bv.smt2",
+      "bytes": 7220
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_3.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_4.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_5.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_6.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_7.xml_bv.smt2",
+      "bytes": 23298
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_8.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_9.xml_bv.smt2",
+      "bytes": 25484
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_1.xml_bv.smt2",
+      "bytes": 16963
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_10.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_2.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_3.xml_bv.smt2",
+      "bytes": 4509
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_4.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_5.xml_bv.smt2",
+      "bytes": 5619
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_6.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_7.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_8.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_70_9.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_1.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_10.xml_bv.smt2",
+      "bytes": 7496
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_2.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_3.xml_bv.smt2",
+      "bytes": 23343
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_4.xml_bv.smt2",
+      "bytes": 8374
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_5.xml_bv.smt2",
+      "bytes": 18320
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_6.xml_bv.smt2",
+      "bytes": 7496
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_7.xml_bv.smt2",
+      "bytes": 68643
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_8.xml_bv.smt2",
+      "bytes": 7496
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_90_9.xml_bv.smt2",
+      "bytes": 108423
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_1.xml_lia.smt2",
+      "bytes": 21922
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_10.xml_lia.smt2",
+      "bytes": 232826
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_2.xml_lia.smt2",
+      "bytes": 7636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_3.xml_lia.smt2",
+      "bytes": 7636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_4.xml_lia.smt2",
+      "bytes": 14400
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_5.xml_lia.smt2",
+      "bytes": 15606
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_6.xml_lia.smt2",
+      "bytes": 7636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_7.xml_lia.smt2",
+      "bytes": 7636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_8.xml_lia.smt2",
+      "bytes": 7636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_20_9.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_1.xml_lia.smt2",
+      "bytes": 23463
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_10.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_2.xml_lia.smt2",
+      "bytes": 5885
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_3.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_4.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_5.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_6.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_7.xml_lia.smt2",
+      "bytes": 18867
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_8.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_9.xml_lia.smt2",
+      "bytes": 21308
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_1.xml_lia.smt2",
+      "bytes": 14427
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_10.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_2.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_3.xml_lia.smt2",
+      "bytes": 3819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_4.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_5.xml_lia.smt2",
+      "bytes": 4617
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_6.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_7.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_8.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_70_9.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_1.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_10.xml_lia.smt2",
+      "bytes": 6217
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_2.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_3.xml_lia.smt2",
+      "bytes": 20430
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_4.xml_lia.smt2",
+      "bytes": 6941
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_5.xml_lia.smt2",
+      "bytes": 15498
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_6.xml_lia.smt2",
+      "bytes": 6217
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_7.xml_lia.smt2",
+      "bytes": 57316
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_8.xml_lia.smt2",
+      "bytes": 6217
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_90_9.xml_lia.smt2",
+      "bytes": 90210
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_1.xml_bv.smt2",
+      "bytes": 1691364
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_10.xml_bv.smt2",
+      "bytes": 290039
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_2.xml_bv.smt2",
+      "bytes": 597043
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_3.xml_bv.smt2",
+      "bytes": 1068370
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_4.xml_bv.smt2",
+      "bytes": 339719
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_5.xml_bv.smt2",
+      "bytes": 340327
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_6.xml_bv.smt2",
+      "bytes": 477832
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_7.xml_bv.smt2",
+      "bytes": 1180701
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_8.xml_bv.smt2",
+      "bytes": 468080
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_20_9.xml_bv.smt2",
+      "bytes": 337928
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_1.xml_bv.smt2",
+      "bytes": 1279320
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_10.xml_bv.smt2",
+      "bytes": 704800
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_2.xml_bv.smt2",
+      "bytes": 1213739
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_3.xml_bv.smt2",
+      "bytes": 559549
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_4.xml_bv.smt2",
+      "bytes": 150447
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_5.xml_bv.smt2",
+      "bytes": 746595
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_6.xml_bv.smt2",
+      "bytes": 586498
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_7.xml_bv.smt2",
+      "bytes": 1160118
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_8.xml_bv.smt2",
+      "bytes": 1151267
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_50_9.xml_bv.smt2",
+      "bytes": 579052
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_1.xml_bv.smt2",
+      "bytes": 314575
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_10.xml_bv.smt2",
+      "bytes": 1469628
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_2.xml_bv.smt2",
+      "bytes": 600514
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_3.xml_bv.smt2",
+      "bytes": 741123
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_4.xml_bv.smt2",
+      "bytes": 264239
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_5.xml_bv.smt2",
+      "bytes": 639833
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_6.xml_bv.smt2",
+      "bytes": 224450
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_7.xml_bv.smt2",
+      "bytes": 1051398
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_8.xml_bv.smt2",
+      "bytes": 520576
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_70_9.xml_bv.smt2",
+      "bytes": 362045
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_1.xml_bv.smt2",
+      "bytes": 326007
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_10.xml_bv.smt2",
+      "bytes": 578492
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_2.xml_bv.smt2",
+      "bytes": 759904
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_3.xml_bv.smt2",
+      "bytes": 430519
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_4.xml_bv.smt2",
+      "bytes": 308685
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_5.xml_bv.smt2",
+      "bytes": 476133
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_6.xml_bv.smt2",
+      "bytes": 2103048
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_7.xml_bv.smt2",
+      "bytes": 267698
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_8.xml_bv.smt2",
+      "bytes": 1035267
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv/size_25_25_density_90_9.xml_bv.smt2",
+      "bytes": 613078
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_1.xml_lia.smt2",
+      "bytes": 1414208
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_10.xml_lia.smt2",
+      "bytes": 249573
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_2.xml_lia.smt2",
+      "bytes": 491645
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_3.xml_lia.smt2",
+      "bytes": 891984
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_4.xml_lia.smt2",
+      "bytes": 278060
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_5.xml_lia.smt2",
+      "bytes": 282581
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_6.xml_lia.smt2",
+      "bytes": 391243
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_7.xml_lia.smt2",
+      "bytes": 975856
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_8.xml_lia.smt2",
+      "bytes": 385489
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_20_9.xml_lia.smt2",
+      "bytes": 276337
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_1.xml_lia.smt2",
+      "bytes": 1052131
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_10.xml_lia.smt2",
+      "bytes": 581378
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_2.xml_lia.smt2",
+      "bytes": 989322
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_3.xml_lia.smt2",
+      "bytes": 464438
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_4.xml_lia.smt2",
+      "bytes": 122513
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_5.xml_lia.smt2",
+      "bytes": 612471
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_6.xml_lia.smt2",
+      "bytes": 485855
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_7.xml_lia.smt2",
+      "bytes": 973667
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_8.xml_lia.smt2",
+      "bytes": 964759
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_50_9.xml_lia.smt2",
+      "bytes": 474870
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_1.xml_lia.smt2",
+      "bytes": 261404
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_10.xml_lia.smt2",
+      "bytes": 1217587
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_2.xml_lia.smt2",
+      "bytes": 506529
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_3.xml_lia.smt2",
+      "bytes": 619932
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_4.xml_lia.smt2",
+      "bytes": 221581
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_5.xml_lia.smt2",
+      "bytes": 524805
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_6.xml_lia.smt2",
+      "bytes": 184993
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_7.xml_lia.smt2",
+      "bytes": 871260
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_8.xml_lia.smt2",
+      "bytes": 427828
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_70_9.xml_lia.smt2",
+      "bytes": 307432
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_1.xml_lia.smt2",
+      "bytes": 270880
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_10.xml_lia.smt2",
+      "bytes": 476083
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_2.xml_lia.smt2",
+      "bytes": 665765
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_3.xml_lia.smt2",
+      "bytes": 354202
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_4.xml_lia.smt2",
+      "bytes": 254872
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_5.xml_lia.smt2",
+      "bytes": 394438
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_6.xml_lia.smt2",
+      "bytes": 1781852
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_7.xml_lia.smt2",
+      "bytes": 229140
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_8.xml_lia.smt2",
+      "bytes": 872784
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia/size_25_25_density_90_9.xml_lia.smt2",
+      "bytes": 506711
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_1.xml_bv.smt2",
+      "bytes": 9758746
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_10.xml_bv.smt2",
+      "bytes": 7943419
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_2.xml_bv.smt2",
+      "bytes": 2555685
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_3.xml_bv.smt2",
+      "bytes": 8479927
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_4.xml_bv.smt2",
+      "bytes": 4408292
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_5.xml_bv.smt2",
+      "bytes": 18150003
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_6.xml_bv.smt2",
+      "bytes": 9373719
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_7.xml_bv.smt2",
+      "bytes": 5878329
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_8.xml_bv.smt2",
+      "bytes": 6401550
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_20_9.xml_bv.smt2",
+      "bytes": 8520955
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_1.xml_bv.smt2",
+      "bytes": 6509276
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_10.xml_bv.smt2",
+      "bytes": 9966969
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_2.xml_bv.smt2",
+      "bytes": 6377448
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_3.xml_bv.smt2",
+      "bytes": 11572329
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_4.xml_bv.smt2",
+      "bytes": 5100077
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_5.xml_bv.smt2",
+      "bytes": 7295151
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_6.xml_bv.smt2",
+      "bytes": 4778508
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_7.xml_bv.smt2",
+      "bytes": 9646658
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_8.xml_bv.smt2",
+      "bytes": 7987870
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_50_9.xml_bv.smt2",
+      "bytes": 8089585
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_1.xml_bv.smt2",
+      "bytes": 2403613
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_10.xml_bv.smt2",
+      "bytes": 6125758
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_2.xml_bv.smt2",
+      "bytes": 20510882
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_3.xml_bv.smt2",
+      "bytes": 8069078
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_4.xml_bv.smt2",
+      "bytes": 8295273
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_5.xml_bv.smt2",
+      "bytes": 6539558
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_6.xml_bv.smt2",
+      "bytes": 5587295
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_7.xml_bv.smt2",
+      "bytes": 6899249
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_8.xml_bv.smt2",
+      "bytes": 6787226
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_70_9.xml_bv.smt2",
+      "bytes": 3285259
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_1.xml_bv.smt2",
+      "bytes": 6398855
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_10.xml_bv.smt2",
+      "bytes": 5364873
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_2.xml_bv.smt2",
+      "bytes": 5907315
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_3.xml_bv.smt2",
+      "bytes": 17226110
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_4.xml_bv.smt2",
+      "bytes": 5142741
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_5.xml_bv.smt2",
+      "bytes": 3959097
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_6.xml_bv.smt2",
+      "bytes": 6138371
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_7.xml_bv.smt2",
+      "bytes": 5965202
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_8.xml_bv.smt2",
+      "bytes": 12922088
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv/size_50_50_density_90_9.xml_bv.smt2",
+      "bytes": 10970369
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_1.xml_lia.smt2",
+      "bytes": 8163429
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_10.xml_lia.smt2",
+      "bytes": 6536584
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_2.xml_lia.smt2",
+      "bytes": 2112174
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_3.xml_lia.smt2",
+      "bytes": 7141640
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_4.xml_lia.smt2",
+      "bytes": 3685890
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_5.xml_lia.smt2",
+      "bytes": 15247178
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_6.xml_lia.smt2",
+      "bytes": 7815391
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_7.xml_lia.smt2",
+      "bytes": 4848230
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_8.xml_lia.smt2",
+      "bytes": 5301321
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_20_9.xml_lia.smt2",
+      "bytes": 7227906
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_1.xml_lia.smt2",
+      "bytes": 5393545
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_10.xml_lia.smt2",
+      "bytes": 8345904
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_2.xml_lia.smt2",
+      "bytes": 5300844
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_3.xml_lia.smt2",
+      "bytes": 9679270
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_4.xml_lia.smt2",
+      "bytes": 4212040
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_5.xml_lia.smt2",
+      "bytes": 5983918
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_6.xml_lia.smt2",
+      "bytes": 3935226
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_7.xml_lia.smt2",
+      "bytes": 7955745
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_8.xml_lia.smt2",
+      "bytes": 6628976
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_50_9.xml_lia.smt2",
+      "bytes": 6672446
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_1.xml_lia.smt2",
+      "bytes": 2020614
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_10.xml_lia.smt2",
+      "bytes": 5029937
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_2.xml_lia.smt2",
+      "bytes": 17123500
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_3.xml_lia.smt2",
+      "bytes": 6608491
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_4.xml_lia.smt2",
+      "bytes": 6877322
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_5.xml_lia.smt2",
+      "bytes": 5454637
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_6.xml_lia.smt2",
+      "bytes": 4636698
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_7.xml_lia.smt2",
+      "bytes": 5709640
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_8.xml_lia.smt2",
+      "bytes": 5638700
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_70_9.xml_lia.smt2",
+      "bytes": 2765711
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_1.xml_lia.smt2",
+      "bytes": 5295833
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_10.xml_lia.smt2",
+      "bytes": 4435934
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_2.xml_lia.smt2",
+      "bytes": 4901114
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_3.xml_lia.smt2",
+      "bytes": 14490845
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_4.xml_lia.smt2",
+      "bytes": 4238599
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_5.xml_lia.smt2",
+      "bytes": 3266548
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_6.xml_lia.smt2",
+      "bytes": 5085077
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_7.xml_lia.smt2",
+      "bytes": 5041031
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_8.xml_lia.smt2",
+      "bytes": 10623039
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia/size_50_50_density_90_9.xml_lia.smt2",
+      "bytes": 9170869
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_1.xml_bv.smt2",
+      "bytes": 45383691
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_10.xml_bv.smt2",
+      "bytes": 12272971
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_2.xml_bv.smt2",
+      "bytes": 20947679
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_3.xml_bv.smt2",
+      "bytes": 13325716
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_4.xml_bv.smt2",
+      "bytes": 32149342
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_5.xml_bv.smt2",
+      "bytes": 38778448
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_6.xml_bv.smt2",
+      "bytes": 11241257
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_7.xml_bv.smt2",
+      "bytes": 19791510
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_8.xml_bv.smt2",
+      "bytes": 26202028
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_20_9.xml_bv.smt2",
+      "bytes": 20914337
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_1.xml_bv.smt2",
+      "bytes": 15890559
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_10.xml_bv.smt2",
+      "bytes": 21529690
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_2.xml_bv.smt2",
+      "bytes": 16822187
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_3.xml_bv.smt2",
+      "bytes": 14515394
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_4.xml_bv.smt2",
+      "bytes": 13207994
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_5.xml_bv.smt2",
+      "bytes": 39331910
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_6.xml_bv.smt2",
+      "bytes": 20312793
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_7.xml_bv.smt2",
+      "bytes": 20314189
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_8.xml_bv.smt2",
+      "bytes": 22543239
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_50_9.xml_bv.smt2",
+      "bytes": 11588260
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_1.xml_bv.smt2",
+      "bytes": 16222633
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_10.xml_bv.smt2",
+      "bytes": 30328852
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_2.xml_bv.smt2",
+      "bytes": 12713348
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_3.xml_bv.smt2",
+      "bytes": 22527149
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_4.xml_bv.smt2",
+      "bytes": 19728118
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_5.xml_bv.smt2",
+      "bytes": 13923259
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_6.xml_bv.smt2",
+      "bytes": 16581737
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_7.xml_bv.smt2",
+      "bytes": 25113411
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_8.xml_bv.smt2",
+      "bytes": 33559795
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_70_9.xml_bv.smt2",
+      "bytes": 24783525
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_1.xml_bv.smt2",
+      "bytes": 57349731
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_10.xml_bv.smt2",
+      "bytes": 27607377
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_2.xml_bv.smt2",
+      "bytes": 28466513
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_3.xml_bv.smt2",
+      "bytes": 26666214
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_4.xml_bv.smt2",
+      "bytes": 9034960
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_5.xml_bv.smt2",
+      "bytes": 22102871
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_6.xml_bv.smt2",
+      "bytes": 10842064
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_7.xml_bv.smt2",
+      "bytes": 10266128
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_8.xml_bv.smt2",
+      "bytes": 8735224
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv/size_75_75_density_90_9.xml_bv.smt2",
+      "bytes": 39130183
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_1.xml_lia.smt2",
+      "bytes": 37816152
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_10.xml_lia.smt2",
+      "bytes": 10274513
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_2.xml_lia.smt2",
+      "bytes": 17446093
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_3.xml_lia.smt2",
+      "bytes": 11228793
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_4.xml_lia.smt2",
+      "bytes": 26649838
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_5.xml_lia.smt2",
+      "bytes": 32499498
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_6.xml_lia.smt2",
+      "bytes": 9457947
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_7.xml_lia.smt2",
+      "bytes": 16639925
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_8.xml_lia.smt2",
+      "bytes": 21951138
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_9.xml_lia.smt2",
+      "bytes": 17535055
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_1.xml_lia.smt2",
+      "bytes": 13051729
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_10.xml_lia.smt2",
+      "bytes": 17831477
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_2.xml_lia.smt2",
+      "bytes": 14150070
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_3.xml_lia.smt2",
+      "bytes": 12080860
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_4.xml_lia.smt2",
+      "bytes": 11048278
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_5.xml_lia.smt2",
+      "bytes": 32999218
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_6.xml_lia.smt2",
+      "bytes": 16782077
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_7.xml_lia.smt2",
+      "bytes": 17260533
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_8.xml_lia.smt2",
+      "bytes": 18562287
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_9.xml_lia.smt2",
+      "bytes": 9598860
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_1.xml_lia.smt2",
+      "bytes": 13295453
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_10.xml_lia.smt2",
+      "bytes": 25131164
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_2.xml_lia.smt2",
+      "bytes": 10751834
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_3.xml_lia.smt2",
+      "bytes": 18800375
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_4.xml_lia.smt2",
+      "bytes": 16285363
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_5.xml_lia.smt2",
+      "bytes": 11471173
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_6.xml_lia.smt2",
+      "bytes": 13735180
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_7.xml_lia.smt2",
+      "bytes": 20790583
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_8.xml_lia.smt2",
+      "bytes": 27674559
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_9.xml_lia.smt2",
+      "bytes": 20459730
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_1.xml_lia.smt2",
+      "bytes": 47152198
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_10.xml_lia.smt2",
+      "bytes": 22951646
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_2.xml_lia.smt2",
+      "bytes": 23499617
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_3.xml_lia.smt2",
+      "bytes": 22065880
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_4.xml_lia.smt2",
+      "bytes": 7486102
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_5.xml_lia.smt2",
+      "bytes": 18231366
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_6.xml_lia.smt2",
+      "bytes": 9111525
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_7.xml_lia.smt2",
+      "bytes": 8431961
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_8.xml_lia.smt2",
+      "bytes": 7264773
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_9.xml_lia.smt2",
+      "bytes": 33200177
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_1.xml_bv.smt2",
+      "bytes": 80604654
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_10.xml_bv.smt2",
+      "bytes": 27772018
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_2.xml_bv.smt2",
+      "bytes": 48164493
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_3.xml_bv.smt2",
+      "bytes": 26903461
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_4.xml_bv.smt2",
+      "bytes": 83062948
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_5.xml_bv.smt2",
+      "bytes": 34372636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_6.xml_bv.smt2",
+      "bytes": 41506429
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_7.xml_bv.smt2",
+      "bytes": 30957015
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_8.xml_bv.smt2",
+      "bytes": 24008706
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_20_9.xml_bv.smt2",
+      "bytes": 55808168
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_1.xml_bv.smt2",
+      "bytes": 49606622
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_10.xml_bv.smt2",
+      "bytes": 49420362
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_2.xml_bv.smt2",
+      "bytes": 69489444
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_3.xml_bv.smt2",
+      "bytes": 110910484
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_4.xml_bv.smt2",
+      "bytes": 47521095
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_5.xml_bv.smt2",
+      "bytes": 71290344
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_6.xml_bv.smt2",
+      "bytes": 39123202
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_7.xml_bv.smt2",
+      "bytes": 55503568
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_8.xml_bv.smt2",
+      "bytes": 31185614
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_50_9.xml_bv.smt2",
+      "bytes": 83599424
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_1.xml_bv.smt2",
+      "bytes": 22364608
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_10.xml_bv.smt2",
+      "bytes": 43274785
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_2.xml_bv.smt2",
+      "bytes": 50517209
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_3.xml_bv.smt2",
+      "bytes": 48566486
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_4.xml_bv.smt2",
+      "bytes": 29764037
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_5.xml_bv.smt2",
+      "bytes": 32756271
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_6.xml_bv.smt2",
+      "bytes": 25195437
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_7.xml_bv.smt2",
+      "bytes": 53430993
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_8.xml_bv.smt2",
+      "bytes": 52423731
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_70_9.xml_bv.smt2",
+      "bytes": 51446728
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_1.xml_bv.smt2",
+      "bytes": 75266428
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_10.xml_bv.smt2",
+      "bytes": 73136250
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_2.xml_bv.smt2",
+      "bytes": 92073920
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_3.xml_bv.smt2",
+      "bytes": 47012041
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_4.xml_bv.smt2",
+      "bytes": 63689263
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_5.xml_bv.smt2",
+      "bytes": 57765469
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_6.xml_bv.smt2",
+      "bytes": 43702945
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_7.xml_bv.smt2",
+      "bytes": 56351135
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_8.xml_bv.smt2",
+      "bytes": 40214594
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv/size_100_100_density_90_9.xml_bv.smt2",
+      "bytes": 29337449
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_1.xml_lia.smt2",
+      "bytes": 67176692
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_10.xml_lia.smt2",
+      "bytes": 23270650
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_2.xml_lia.smt2",
+      "bytes": 39930857
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_3.xml_lia.smt2",
+      "bytes": 22315141
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_4.xml_lia.smt2",
+      "bytes": 68821389
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_5.xml_lia.smt2",
+      "bytes": 28677928
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_6.xml_lia.smt2",
+      "bytes": 34264700
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_7.xml_lia.smt2",
+      "bytes": 25803389
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_8.xml_lia.smt2",
+      "bytes": 19924303
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_20_9.xml_lia.smt2",
+      "bytes": 46276941
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_1.xml_lia.smt2",
+      "bytes": 41067246
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_10.xml_lia.smt2",
+      "bytes": 41563881
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_2.xml_lia.smt2",
+      "bytes": 57813732
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_3.xml_lia.smt2",
+      "bytes": 92554369
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_4.xml_lia.smt2",
+      "bytes": 39370034
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_5.xml_lia.smt2",
+      "bytes": 59516583
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_6.xml_lia.smt2",
+      "bytes": 33189111
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_7.xml_lia.smt2",
+      "bytes": 45668953
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_8.xml_lia.smt2",
+      "bytes": 26086278
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_50_9.xml_lia.smt2",
+      "bytes": 68863678
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_1.xml_lia.smt2",
+      "bytes": 18635391
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_10.xml_lia.smt2",
+      "bytes": 36104815
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_2.xml_lia.smt2",
+      "bytes": 41907709
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_3.xml_lia.smt2",
+      "bytes": 40313269
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_4.xml_lia.smt2",
+      "bytes": 24585055
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_5.xml_lia.smt2",
+      "bytes": 27051339
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_6.xml_lia.smt2",
+      "bytes": 20881516
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_7.xml_lia.smt2",
+      "bytes": 44031136
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_8.xml_lia.smt2",
+      "bytes": 43988954
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_70_9.xml_lia.smt2",
+      "bytes": 43001499
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_1.xml_lia.smt2",
+      "bytes": 64008478
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_10.xml_lia.smt2",
+      "bytes": 60455829
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_2.xml_lia.smt2",
+      "bytes": 76008360
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_3.xml_lia.smt2",
+      "bytes": 39388574
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_4.xml_lia.smt2",
+      "bytes": 53047546
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_5.xml_lia.smt2",
+      "bytes": 48731781
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_6.xml_lia.smt2",
+      "bytes": 36007656
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_7.xml_lia.smt2",
+      "bytes": 47228165
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_8.xml_lia.smt2",
+      "bytes": 33553974
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia/size_100_100_density_90_9.xml_lia.smt2",
+      "bytes": 24116371
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/result_crafted.xlsx",
+      "bytes": 156428
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/README.txt",
+      "bytes": 372
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/0_bv.smt2",
+      "bytes": 86006605
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/10_bv.smt2",
+      "bytes": 93744183
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/11_bv.smt2",
+      "bytes": 97651987
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/12_bv.smt2",
+      "bytes": 78334786
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/13_bv.smt2",
+      "bytes": 94623776
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/14_bv.smt2",
+      "bytes": 66697912
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/15_bv.smt2",
+      "bytes": 93084577
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/16_bv.smt2",
+      "bytes": 64102468
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/17_bv.smt2",
+      "bytes": 80932177
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/18_bv.smt2",
+      "bytes": 86189461
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/19_bv.smt2",
+      "bytes": 76619789
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/1_bv.smt2",
+      "bytes": 58616873
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/20_bv.smt2",
+      "bytes": 89227737
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/21_bv.smt2",
+      "bytes": 79486967
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/22_bv.smt2",
+      "bytes": 100584127
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/23_bv.smt2",
+      "bytes": 85688339
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/24_bv.smt2",
+      "bytes": 82150766
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/25_bv.smt2",
+      "bytes": 72420172
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/26_bv.smt2",
+      "bytes": 100167236
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/27_bv.smt2",
+      "bytes": 100211819
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/28_bv.smt2",
+      "bytes": 61011105
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/29_bv.smt2",
+      "bytes": 88892925
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/2_bv.smt2",
+      "bytes": 87537669
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/30_bv.smt2",
+      "bytes": 78424418
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/3_bv.smt2",
+      "bytes": 58189636
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/4_bv.smt2",
+      "bytes": 73447586
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/5_bv.smt2",
+      "bytes": 82572562
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/6_bv.smt2",
+      "bytes": 104529316
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/7_bv.smt2",
+      "bytes": 94806112
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/8_bv.smt2",
+      "bytes": 78137790
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/9_bv.smt2",
+      "bytes": 88360543
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/31_bv.smt2",
+      "bytes": 83730559
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/32_bv.smt2",
+      "bytes": 89226158
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/33_bv.smt2",
+      "bytes": 100755050
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/34_bv.smt2",
+      "bytes": 94869350
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/35_bv.smt2",
+      "bytes": 78478032
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/36_bv.smt2",
+      "bytes": 98347229
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/37_bv.smt2",
+      "bytes": 92660697
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/38_bv.smt2",
+      "bytes": 80705454
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/39_bv.smt2",
+      "bytes": 76198005
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/40_bv.smt2",
+      "bytes": 85885307
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/41_bv.smt2",
+      "bytes": 78787600
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/42_bv.smt2",
+      "bytes": 66955802
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/43_bv.smt2",
+      "bytes": 96119847
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/44_bv.smt2",
+      "bytes": 69941836
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/45_bv.smt2",
+      "bytes": 80784520
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/46_bv.smt2",
+      "bytes": 98457815
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/47_bv.smt2",
+      "bytes": 72394435
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/48_bv.smt2",
+      "bytes": 86618286
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/49_bv.smt2",
+      "bytes": 66998151
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/50_bv.smt2",
+      "bytes": 78757025
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/51_bv.smt2",
+      "bytes": 81249472
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/52_bv.smt2",
+      "bytes": 98045007
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv/53_bv.smt2",
+      "bytes": 76522447
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/0_lia.smt2",
+      "bytes": 71189701
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/10_lia.smt2",
+      "bytes": 77460448
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/11_lia.smt2",
+      "bytes": 79940601
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/12_lia.smt2",
+      "bytes": 64973995
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/13_lia.smt2",
+      "bytes": 77714974
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/14_lia.smt2",
+      "bytes": 55774675
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/15_lia.smt2",
+      "bytes": 76471733
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/16_lia.smt2",
+      "bytes": 53679040
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/17_lia.smt2",
+      "bytes": 67079183
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/18_lia.smt2",
+      "bytes": 71341711
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/19_lia.smt2",
+      "bytes": 63144703
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/1_lia.smt2",
+      "bytes": 49241302
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/20_lia.smt2",
+      "bytes": 72892680
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/21_lia.smt2",
+      "bytes": 64999484
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/22_lia.smt2",
+      "bytes": 82545256
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/23_lia.smt2",
+      "bytes": 70926684
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/24_lia.smt2",
+      "bytes": 67623840
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/25_lia.smt2",
+      "bytes": 60410315
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/26_lia.smt2",
+      "bytes": 82203562
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/27_lia.smt2",
+      "bytes": 82009776
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/28_lia.smt2",
+      "bytes": 51168694
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/29_lia.smt2",
+      "bytes": 73534426
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/2_lia.smt2",
+      "bytes": 71979625
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/30_lia.smt2",
+      "bytes": 65048151
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/3_lia.smt2",
+      "bytes": 48883442
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/4_lia.smt2",
+      "bytes": 60582591
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/5_lia.smt2",
+      "bytes": 67970111
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/6_lia.smt2",
+      "bytes": 85502669
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/7_lia.smt2",
+      "bytes": 77864956
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/8_lia.smt2",
+      "bytes": 65042706
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/9_lia.smt2",
+      "bytes": 72416166
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/31_lia.smt2",
+      "bytes": 69350842
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/32_lia.smt2",
+      "bytes": 72890881
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/33_lia.smt2",
+      "bytes": 82452764
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/34_lia.smt2",
+      "bytes": 77457098
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/35_lia.smt2",
+      "bytes": 64649383
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/36_lia.smt2",
+      "bytes": 80495199
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/37_lia.smt2",
+      "bytes": 75671211
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/38_lia.smt2",
+      "bytes": 66890834
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/39_lia.smt2",
+      "bytes": 63249182
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/40_lia.smt2",
+      "bytes": 70648573
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/41_lia.smt2",
+      "bytes": 65348306
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/42_lia.smt2",
+      "bytes": 55990010
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/43_lia.smt2",
+      "bytes": 78921823
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/44_lia.smt2",
+      "bytes": 58411657
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/45_lia.smt2",
+      "bytes": 66957193
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/46_lia.smt2",
+      "bytes": 80362256
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/47_lia.smt2",
+      "bytes": 59714267
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/48_lia.smt2",
+      "bytes": 70769434
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/49_lia.smt2",
+      "bytes": 56025436
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/50_lia.smt2",
+      "bytes": 64878980
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/51_lia.smt2",
+      "bytes": 67341387
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/52_lia.smt2",
+      "bytes": 80482069
+    },
+    {
+      "member": "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia/53_lia.smt2",
+      "bytes": 63064120
+    }
+  ],
+  "group_counts": {
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia": 40,
+    "tacas16_bitvector_optimization_benchmarks_and_results/result_crafted.xlsx": 1,
+    "tacas16_bitvector_optimization_benchmarks_and_results/README.txt": 1,
+    "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv": 54,
+    "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia": 54
+  },
+  "group_bytes": {
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv": 969203,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia": 818358,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/bv": 28010000,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_25_25/lia": 23308458,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/bv": 313292708,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_50_50/lia": 260601796,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/bv": 892746286,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia": 742655000,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/bv": 2049100466,
+    "tacas16_bitvector_optimization_benchmarks_and_results/size_100_100/lia": 1705203272,
+    "tacas16_bitvector_optimization_benchmarks_and_results/result_crafted.xlsx": 156428,
+    "tacas16_bitvector_optimization_benchmarks_and_results/README.txt": 372,
+    "tacas16_bitvector_optimization_benchmarks_and_results/hd/bv": 4514939503,
+    "tacas16_bitvector_optimization_benchmarks_and_results/hd/lia": 3723640105
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "suite": "maxsmt",
+  "instances": 2264,
+  "manifest_sha256": "fc0aa83dad6d497fa34cefa38f1538a93b419dc4899bbe3ba4261c5e90b20e9b",
+  "manifest": "benchmarks/full_public/maxsmt.jsonl",
+  "sampling": false,
+  "total_bytes": 432800076,
+  "extra": {
+    "source": "Entire published PairLS release; 283 base inputs times 4 ratios times 2 weight regimes",
+    "paper_population_not_equal_to_release": true,
+    "missing_from_release": "IDL, LL and the bofill LIA family are not contained in this release.",
+    "paired_local_search_format": "Retained separately; not double-counted as new instances."
+  }
+}

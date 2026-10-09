@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "checks": 11,
+  "kind": "known-answer interface and semantics checks",
+  "results": [
+    {
+      "case": "bv_unsigned",
+      "variant": "oms_bv",
+      "result": {
+        "solve_s": 0.06063287198776379,
+        "solver_returncode": 0,
+        "normalized_sha256": "bdc1ca32946161260516e57e44f28fb3c5714a50d80bdfd108cde1d41626bfc0",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "bv",
+          "hex": "ff",
+          "width": 8
+        },
+        "verification": {
+          "attainable_query_sha256": "39303b2c60e6204d833ddcca0db473cc9f555c447374b387d17046ba46a220c8",
+          "attainable": "sat",
+          "attainable_s": 0.0006822389987064525,
+          "strictly_better_query_sha256": "bef946cdb283ab356b920f88c4e44ee9382e08626d16266dee23987e8da6b41a",
+          "strictly_better": "unsat",
+          "strictly_better_s": 7.343800098169595e-05,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "bv_unsigned",
+      "variant": "z3_bv",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.0012071429955540225,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "ff",
+          "width": 8
+        },
+        "verification": {
+          "attainable_query_sha256": "39303b2c60e6204d833ddcca0db473cc9f555c447374b387d17046ba46a220c8",
+          "attainable": "sat",
+          "attainable_s": 0.00021699599165003747,
+          "strictly_better_query_sha256": "bef946cdb283ab356b920f88c4e44ee9382e08626d16266dee23987e8da6b41a",
+          "strictly_better": "unsat",
+          "strictly_better_s": 7.884799560997635e-05,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "oms_maxres",
+      "result": {
+        "solve_s": 0.06107757199788466,
+        "solver_returncode": 0,
+        "normalized_sha256": "9374671b46f8b6deff85907e62bc8651d722a89730b6292b167052c49158e02a",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "-opt.maxsmt_engine=maxres",
+          "-unsat_core_generation=1",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "568a3acf9f4d83b2879dadc2b31786b3bc61fe36610966b1a56f5708841014fd",
+          "attainable": "sat",
+          "attainable_s": 0.0008510649931849912,
+          "strictly_better_query_sha256": "8f743bb2737bd05a16f47fc55e43cd15a15620a75769a98fd37ac799be6f9ab7",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.000549209988093935,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "oms_omt",
+      "result": {
+        "solve_s": 0.0629570400051307,
+        "solver_returncode": 0,
+        "normalized_sha256": "9374671b46f8b6deff85907e62bc8651d722a89730b6292b167052c49158e02a",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "568a3acf9f4d83b2879dadc2b31786b3bc61fe36610966b1a56f5708841014fd",
+          "attainable": "sat",
+          "attainable_s": 0.0009290820016758516,
+          "strictly_better_query_sha256": "8f743bb2737bd05a16f47fc55e43cd15a15620a75769a98fd37ac799be6f9ab7",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0006340389954857528,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "z3_maxres",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.00044283000170253217,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "568a3acf9f4d83b2879dadc2b31786b3bc61fe36610966b1a56f5708841014fd",
+          "attainable": "sat",
+          "attainable_s": 0.0006868479977129027,
+          "strictly_better_query_sha256": "8f743bb2737bd05a16f47fc55e43cd15a15620a75769a98fd37ac799be6f9ab7",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0005944239965174347,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "maxsmt_weighted",
+      "variant": "z3_wmax",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.00045336999755818397,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "smt",
+          "literal": "1"
+        },
+        "verification": {
+          "attainable_query_sha256": "568a3acf9f4d83b2879dadc2b31786b3bc61fe36610966b1a56f5708841014fd",
+          "attainable": "sat",
+          "attainable_s": 0.0006278770015342161,
+          "strictly_better_query_sha256": "8f743bb2737bd05a16f47fc55e43cd15a15620a75769a98fd37ac799be6f9ab7",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0005617529968731105,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "oms_fp",
+      "result": {
+        "solve_s": 0.06225419200200122,
+        "solver_returncode": 0,
+        "normalized_sha256": "1a6a03a1473c0ccf4f049341e984a7a59dd0e63fa5c94f3d4748b23b2c63a476",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "solver_claimed_optimal",
+        "value": {
+          "kind": "smt",
+          "literal": "(fp #b1 #b000 #b000)"
+        },
+        "verification": {
+          "attainable_query_sha256": "f073d912969792a43f0f562bd374631c80f5e83a28465fdb1e53b115dcf4c0d3",
+          "attainable": "sat",
+          "attainable_s": 0.004287709001800977,
+          "strictly_better_query_sha256": "bfc97cefe93e860ef879fa2fb92dc104899764c0ff1ec1db48869a819f4a5631",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.00024235399905592203,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "z3_fpkey",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.002439201998640783,
+        "translation_s": 0.0,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "3f",
+          "width": 7
+        },
+        "value_semantics": "unsigned IEEE ordinal key; non-NaN; -0 precedes +0",
+        "verification": {
+          "attainable_query_sha256": "3723d4a3ebcc0d8a0e55887d133cfa077fdf89cc0229afabaa34632c28f80dcc",
+          "attainable": "sat",
+          "attainable_s": 0.004283600006601773,
+          "strictly_better_query_sha256": "ede2881674fc19127051208e01208ae93d9853b7043af455d5d2f598038f0626",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.0039543530001537874,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "fp_nan_zeros",
+      "variant": "z3_bv",
+      "result": {
+        "status": "solver_claimed_optimal",
+        "solve_s": 0.0017780329944798723,
+        "translation_s": 0.00019894300203304738,
+        "objective_count": 1,
+        "bounds_equal": true,
+        "value": {
+          "kind": "bv",
+          "hex": "3f",
+          "width": 7
+        },
+        "value_semantics": "unsigned IEEE ordinal key; non-NaN; -0 precedes +0",
+        "verification": {
+          "attainable_query_sha256": "a172ed9840efe46270ffce9ec1ec9877a4cab8088423e1937af8b8aacd2461c0",
+          "attainable": "sat",
+          "attainable_s": 0.001261215002159588,
+          "strictly_better_query_sha256": "9b895126ca5631cea11b5b9d1c0f578126e10c38a4f4e7218fc14b4f38dd5e36",
+          "strictly_better": "unsat",
+          "strictly_better_s": 0.001178759994218126,
+          "status": "verified_optimal"
+        }
+      }
+    },
+    {
+      "case": "infeasible",
+      "variant": "oms_bv",
+      "result": {
+        "solve_s": 0.06233638800040353,
+        "solver_returncode": 0,
+        "normalized_sha256": "aa186ace058d9daffaf68e6c623d9fc906ace95efcffe04a56740353acc13843",
+        "command": [
+          "/mnt/d/d_work/iscas/paper/jos2026/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+          "-optimization=true",
+          "<normalized-input>"
+        ],
+        "status": "infeasible",
+        "post_unsat_query_error": true
+      }
+    },
+    {
+      "case": "infeasible",
+      "variant": "z3_bv",
+      "result": {
+        "status": "infeasible",
+        "solve_s": 0.0002705180086195469,
+        "translation_s": 0.0,
+        "objective_count": 1
+      }
+    }
+  ]
+}

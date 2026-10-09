@@ -1,0 +1,104 @@
+{
+  "suite": "maxsmt",
+  "inputs": 2264,
+  "errors": [
+    {
+      "id": "47b7ee03e5fc7c229afb",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/10/unw/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "1323a38b4e32fd064575",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/10/w/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "1d35529a6ade04fad879",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/100/unw/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "6085ee5743bb5357590b",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/100/w/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "d8e131c6172f963c19bf",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/25/unw/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "765a00987a0d5f65b7d8",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/25/w/convert-jpg2gif-query-1618.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "6b212d5e431864adc4c2",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/25/w/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "01372e327a7faf6ec249",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/unw/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "8e3f59297e5c3226e121",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1597.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "dc2eb9921af98aca0f62",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1598.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "2fc6ec05807b266fe123",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1599.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "2592bbc9a9b254feda32",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1600.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "135651edadbde3483e9a",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1604.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "5f27e50d1dc9717b3f86",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1612.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "b7c894a57fd2cb788c56",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1614.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "9a6331663d44b7b1ed96",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1615.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "5db96deac3288a3d661a",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1617.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "46b38c0c7c84404439b8",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-1618.smt2",
+      "error": "Incomplete SMT-LIB input"
+    },
+    {
+      "id": "a43efae973190fe1e8e5",
+      "path": "benchmarks/full_public/extracted/maxsmt/PairLS/MAXSMT-LIA/z3_format/50/w/convert-jpg2gif-query-901.smt2",
+      "error": "Incomplete SMT-LIB input"
+    }
+  ],
+  "passed": false,
+  "manifest_sha256": "fc0aa83dad6d497fa34cefa38f1538a93b419dc4899bbe3ba4261c5e90b20e9b",
+  "elapsed_s": 129.26390246674418
+}
