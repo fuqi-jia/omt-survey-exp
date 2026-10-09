@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-09T12:55:02.856510+00:00",
+  "host": "panda4",
+  "physical_cores": 128,
+  "logical_threads": 256,
+  "cpu_percent_two_second_probe": 11.20709874130248,
+  "cpu_percent_platform_telemetry": 11.95,
+  "platform_active_own_campaign": 26,
+  "platform_active_all_experiments": 53,
+  "own_active_rows_with_exit_code_already_present": 16,
+  "own_active_rows_without_exit_code": 10,
+  "parallelism_limit_per_suite_across_entire_fleet": 192,
+  "method": "Read-only platform DB query, followed by remote /proc/stat over two seconds and exit_code presence in each of this campaign's active run directories.",
+  "scheduler_observation": "Current ExperimentOS Scheduler._reap iterates active_runs sequentially, invoking remote poll and then collect before _dispatch in the same tick.",
+  "interpretation": "The platform running count includes completed jobs awaiting collection; it is not a count of simultaneously busy CPU cores.",
+  "scope": "Operational snapshot only. Not a solver performance result or a claim about utilization throughout the experiment."
+}

@@ -31,3 +31,8 @@ python3 scripts/full_campaign/remote.py scripts/full_campaign/control_status.py
 Windows SSH 转发可访问控制节点。大文件传输使用 `scp -O`。BV 经实验仓库草稿 release `full-benchmarks-20261009` 中转，asset ID `624731327`；完整包已接收并校验，旧的慢速 SCP 不完整副本已保留为 `.partial`，不作为输入。GitHub 凭据未传入集群。
 
 环境补充：逐节点清单已推送至 `13284ed`，包含 10 个已实际执行节点、Ubuntu 22.04/24.04/26.04 和四种 CPU 型号。各节点 Z3、OptiMathSAT 二进制哈希一致；同一实例的配置按固定次序在同一节点配对运行。
+
+
+## 并行度与调度检查（12:55 UTC）
+
+每组的 192 是机群合计上限，不是每台机器的上限。Panda4 实测约 11.2% CPU（2 秒观测），共有 128 个物理核、256 个逻辑线程。当时本轮在平台登记 26 个运行作业，其中 16 个的 `exit_code` 已存在，只有 10 个尚未退出。平台的运行计数包含等待回收的作业，不能直接报告为实际忙碌的 CPU 核数。控制面源码当前串行调用远程 `poll` / `collect`，之后才派发下一批；BV 全集的多节点暂存也仍在进行。记录见 `capacity-panda4-20261009T1255.json`。未修改全局调度策略或重启控制服务。
