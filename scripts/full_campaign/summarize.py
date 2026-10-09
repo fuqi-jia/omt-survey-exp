@@ -2,6 +2,7 @@
 """Summarize complete observations, retaining every source and outcome category."""
 import collections
 import csv
+import fcntl
 import gzip
 import json
 import math
@@ -52,6 +53,8 @@ def statistics_for(rows):
 
 
 def main():
+    lock = (OUT / 'snapshot.lock').open('a')
+    fcntl.flock(lock, fcntl.LOCK_EX)
     progress = json.loads((OUT / 'coverage-progress.json').read_text())
     evidence = {r['suite']: r for r in progress['experiments']}
     assert set(evidence) == set(SUITES), 'Not all four suites have been submitted'

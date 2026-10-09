@@ -1,0 +1,34 @@
+% 完整 BV 结果草稿, 尚未并入主稿. 数据源: bv-complete.json 与 bv-results.csv.gz.
+% 254 项全部结束, 508 条观测覆盖核验通过, 9 台执行机的原始归档均已逐文件校验.
+% 待 FP 与 MaxSMT 全集结束后, 与 paper-methods-draft.tex 一并精简整合.
+
+\paragraph{公开位向量基准.}
+表~\ref{tab:exp-public-bv-full} 给出全部 $254$ 个原生 BV 输入的结果, 按发布包的来源组分别列示. OptiMathSAT 与 Z3 分别报告 $165$ 和 $119$ 个最优结果, 其中 $129$ 和 $119$ 个完成独立复核; 两者共同报告最优时未发现目标值冲突. OptiMathSAT 另有 $89$ 次求解超时, Z3 另有 $56$ 次超时、$62$ 次内存不足和 $17$ 次未定返回. 全部实例均纳入统计.
+
+\begin{table}[!ht]
+\centering
+\caption{公开原生位向量基准全集的求解与独立复核结果}
+\label{tab:exp-public-bv-full}
+\small
+\begin{tabular}{@{}l r rr rr@{}}
+\toprule
+来源组 & 数量 & \multicolumn{2}{c}{报告最优/独立复核} & \multicolumn{2}{c}{PAR-2 (s)} \\
+\cmidrule(lr){3-4}\cmidrule(l){5-6}
+ & & OptiMathSAT & Z3 & OptiMathSAT & Z3 \\
+\midrule
+\texttt{size\_10\_10} & 40 & 40/40 & 40/40 & 0.28 & 0.42 \\
+\texttt{size\_25\_25} & 40 & 40/40 & 40/40 & 1.48 & 3.68 \\
+\texttt{size\_50\_50} & 40 & 40/37 & 34/34 & 38.28 & 357.65 \\
+\texttt{size\_75\_75} & 40 & 35/12 & 5/5 & 290.11 & 1110.71 \\
+\texttt{size\_100\_100} & 40 & 10/0 & 0/0 & 966.24 & 1200.00 \\
+\texttt{hd} & 54 & 0/0 & 0/0 & 1200.00 & 1200.00 \\
+\midrule
+全部 & 254 & 165/129 & 119/119 & 459.28 & 675.98 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize 每次求解限时 $600$\,s, 地址空间上限 $8$\,GiB. $a/b$ 中 $a$ 为求解器报告最优的数量, $b$ 为其中通过目标可达性与无严格改进两项独立查询的数量, 两者不相加; 每条复核查询限时 $60$\,s. PAR-2 按求解器报告口径统计, 未完成判定的输入按 $1200$\,s 计入, 复核时间另计. 来源组名称沿用公开包目录.
+\end{minipage}
+\end{table}
+
+两款工具均在较小的两个规模组上完成全部求解与复核. 随来源组变化, 完成数量出现明显差异: 在 \texttt{size\_100\_100} 组上, OptiMathSAT 报告的 $10$ 个最优结果均未在复核预算内取得独立最优性证据; 在 \texttt{hd} 组上, 两款工具均未完成求解. 这些结果说明, 该公开集合各组的求解表现差异较大, 工具报告的最优状态也应与预算内完成的独立复核分开呈现.

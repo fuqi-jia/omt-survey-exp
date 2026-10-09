@@ -1,0 +1,74 @@
+[
+  {
+    "host": "panda1",
+    "path": "runs/full20261009/raw/bv-panda1.tar.gz",
+    "sha256": "f42dd4d42158bf10d7cad37af09eb8f416ba09975cd6c3f9014f0e2ef97e92e8",
+    "bytes": 143299597,
+    "runs": 42,
+    "files": 703
+  },
+  {
+    "host": "panda2",
+    "path": "runs/full20261009/raw/bv-panda2.tar.gz",
+    "sha256": "b34974dd4d5e79a5959bc107565e6e240405db293c9d4825248ede280668c7ad",
+    "bytes": 50111643,
+    "runs": 11,
+    "files": 173
+  },
+  {
+    "host": "panda3",
+    "path": "runs/full20261009/raw/bv-panda3.tar.gz",
+    "sha256": "a3c1183fe0586c671427a545e748ad560964b8858b10c57063c1397fcf900ddd",
+    "bytes": 85590187,
+    "runs": 29,
+    "files": 486
+  },
+  {
+    "host": "panda4",
+    "path": "runs/full20261009/raw/bv-panda4.tar.gz",
+    "sha256": "8c2984879020a6972b5d1583405bad327514e1e67648fb7acd656b3e293dc418",
+    "bytes": 23630831,
+    "runs": 18,
+    "files": 315
+  },
+  {
+    "host": "panda5",
+    "path": "runs/full20261009/raw/bv-panda5.tar.gz",
+    "sha256": "f1ac0d5eff5ef3d0eaec5f71345b2933291e7d1c6f26f0ccc891ea94bcfc1670",
+    "bytes": 183265896,
+    "runs": 43,
+    "files": 695
+  },
+  {
+    "host": "panda6",
+    "path": "runs/full20261009/raw/bv-panda6.tar.gz",
+    "sha256": "c18388b87de5f8206197894ecf0c9a7b9729ec6775d20a455974f10c52a0e75c",
+    "bytes": 127780782,
+    "runs": 37,
+    "files": 616
+  },
+  {
+    "host": "panda7",
+    "path": "runs/full20261009/raw/bv-panda7.tar.gz",
+    "sha256": "e99fb91e8ca185385bea0963ecacecd7ff90fbff124af985b63006fecf5c7d48",
+    "bytes": 125104715,
+    "runs": 53,
+    "files": 901
+  },
+  {
+    "host": "panda9",
+    "path": "runs/full20261009/raw/bv-panda9.tar.gz",
+    "sha256": "9b8135149fc6a4ed8d7e15b972fef9aa4f9bf62fe94946e4c2237dce1b8d1977",
+    "bytes": 41179612,
+    "runs": 11,
+    "files": 175
+  },
+  {
+    "host": "tiger7",
+    "path": "runs/full20261009/raw/bv-tiger7.tar.gz",
+    "sha256": "6be2c759f4522a8cd216aa7e08097486b0d84ddc9095d6c387bcd59bd7408929",
+    "bytes": 7825971,
+    "runs": 10,
+    "files": 179
+  }
+]
