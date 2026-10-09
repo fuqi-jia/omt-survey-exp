@@ -1,0 +1,9 @@
+╭─────────────────────────────── 上次停止的原因 ───────────────────────────────╮
+│ Own-campaign staging incident: copied source .eos-stage.json preceded        │
+│ complete LIA inputs on Panda3/6; hold new dispatch until full file-presence  │
+│ audit passes. Existing runs continue; failed pre-solver attempts will be     │
+│ archived and retried.                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+注意：spec 在提交时已冻结，resume 不会重读 YAML。
+改了 YAML 就重新 submit；resume 只适用于「环境修好了、spec 本身没错」的情况。
+已恢复  调度器会在下一轮领取

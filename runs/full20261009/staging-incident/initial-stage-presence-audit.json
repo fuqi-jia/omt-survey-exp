@@ -1,0 +1,353 @@
+{
+  "observed_utc": "2026-10-09T13:36:08.924572+00:00",
+  "method": "All 508 expected BV/LIA file paths and sizes on every execution host; SHA256 of the infrastructure-failed input additionally checked. Each solver invocation separately verifies its full source hash.",
+  "hosts": {
+    "panda1": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T20:47:45\"}\n"
+    },
+    "panda2": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:14:19\"}\n"
+    },
+    "panda3": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [
+          {
+            "case": "bb05d10b70b2f9492fcf",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_6.xml_lia.smt2"
+          },
+          {
+            "case": "113be5cda4db8532682e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_7.xml_lia.smt2"
+          },
+          {
+            "case": "27d0d5e67bc251d57e0f",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_8.xml_lia.smt2"
+          },
+          {
+            "case": "7511474c07e212f0ff52",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_20_9.xml_lia.smt2"
+          },
+          {
+            "case": "8da15fe941cd821bc607",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_1.xml_lia.smt2"
+          },
+          {
+            "case": "6fce9c2675a217051e4a",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_10.xml_lia.smt2"
+          },
+          {
+            "case": "988519f67cc50973f931",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_2.xml_lia.smt2"
+          },
+          {
+            "case": "5dec1b295ffcbaa89209",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_3.xml_lia.smt2"
+          },
+          {
+            "case": "7b14758be54ffa0f5344",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_4.xml_lia.smt2"
+          },
+          {
+            "case": "cc8dfcd4a5e8ca7be964",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_5.xml_lia.smt2"
+          },
+          {
+            "case": "f92a6800458ba0c588bc",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_6.xml_lia.smt2"
+          },
+          {
+            "case": "1e1abceb79251de6aa7b",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_7.xml_lia.smt2"
+          },
+          {
+            "case": "d27a1d91350918611b14",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_8.xml_lia.smt2"
+          },
+          {
+            "case": "a9aad09f9878815c7d7e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_50_9.xml_lia.smt2"
+          },
+          {
+            "case": "3aaff5c3686e0d28e0b0",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_1.xml_lia.smt2"
+          },
+          {
+            "case": "c2be1eeca2d2023a2444",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_10.xml_lia.smt2"
+          },
+          {
+            "case": "74c3f5c364f5ba5b8c69",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_2.xml_lia.smt2"
+          },
+          {
+            "case": "382144291966becbac1c",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_3.xml_lia.smt2"
+          },
+          {
+            "case": "9c74feee125adb9bfec3",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_4.xml_lia.smt2"
+          },
+          {
+            "case": "f8fbe8c8327c89622f5f",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_5.xml_lia.smt2"
+          },
+          {
+            "case": "7f147a234faaaeac6bb5",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_6.xml_lia.smt2"
+          },
+          {
+            "case": "d348da0463d8289d07b3",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_7.xml_lia.smt2"
+          },
+          {
+            "case": "9e9e91551069d20c1cd8",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_8.xml_lia.smt2"
+          },
+          {
+            "case": "44a07270201a51a4829d",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_9.xml_lia.smt2"
+          },
+          {
+            "case": "0a710b94d448214f66e9",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_1.xml_lia.smt2"
+          },
+          {
+            "case": "641dede75fc37acdc574",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_10.xml_lia.smt2"
+          },
+          {
+            "case": "c141185205e69371051f",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_2.xml_lia.smt2"
+          },
+          {
+            "case": "d8c4a62c8d82bfadc511",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_3.xml_lia.smt2"
+          },
+          {
+            "case": "bf46c6ef0e8ba5cdbe29",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_4.xml_lia.smt2"
+          },
+          {
+            "case": "d754cdb304892caac341",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_5.xml_lia.smt2"
+          },
+          {
+            "case": "f1933bdeff4bbba3b011",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_6.xml_lia.smt2"
+          },
+          {
+            "case": "22c3d5ed14911216a87e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_7.xml_lia.smt2"
+          },
+          {
+            "case": "cf92bc55fdedcba4e5fd",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_8.xml_lia.smt2"
+          },
+          {
+            "case": "337925e0aee91077116e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_9.xml_lia.smt2"
+          }
+        ],
+        "size_mismatches": [
+          {
+            "case": "926e46af8ec89d2c3670",
+            "bytes": 28278784,
+            "expected": 32499498
+          }
+        ],
+        "failed_case_now_sha256": null
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T20:47:45\"}\n"
+    },
+    "panda4": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:14:21\"}\n"
+    },
+    "panda5": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:15:03\"}\n"
+    },
+    "panda6": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [
+          {
+            "case": "382144291966becbac1c",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_3.xml_lia.smt2"
+          },
+          {
+            "case": "9c74feee125adb9bfec3",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_4.xml_lia.smt2"
+          },
+          {
+            "case": "f8fbe8c8327c89622f5f",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_5.xml_lia.smt2"
+          },
+          {
+            "case": "7f147a234faaaeac6bb5",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_6.xml_lia.smt2"
+          },
+          {
+            "case": "d348da0463d8289d07b3",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_7.xml_lia.smt2"
+          },
+          {
+            "case": "9e9e91551069d20c1cd8",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_8.xml_lia.smt2"
+          },
+          {
+            "case": "44a07270201a51a4829d",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_9.xml_lia.smt2"
+          },
+          {
+            "case": "0a710b94d448214f66e9",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_1.xml_lia.smt2"
+          },
+          {
+            "case": "641dede75fc37acdc574",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_10.xml_lia.smt2"
+          },
+          {
+            "case": "c141185205e69371051f",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_2.xml_lia.smt2"
+          },
+          {
+            "case": "d8c4a62c8d82bfadc511",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_3.xml_lia.smt2"
+          },
+          {
+            "case": "bf46c6ef0e8ba5cdbe29",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_4.xml_lia.smt2"
+          },
+          {
+            "case": "d754cdb304892caac341",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_5.xml_lia.smt2"
+          },
+          {
+            "case": "f1933bdeff4bbba3b011",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_6.xml_lia.smt2"
+          },
+          {
+            "case": "22c3d5ed14911216a87e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_7.xml_lia.smt2"
+          },
+          {
+            "case": "cf92bc55fdedcba4e5fd",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_8.xml_lia.smt2"
+          },
+          {
+            "case": "337925e0aee91077116e",
+            "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_90_9.xml_lia.smt2"
+          }
+        ],
+        "size_mismatches": [
+          {
+            "case": "74c3f5c364f5ba5b8c69",
+            "bytes": 7340032,
+            "expected": 10751834
+          }
+        ],
+        "failed_case_now_sha256": null
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T20:47:45\"}\n"
+    },
+    "panda7": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:14:20\"}\n"
+    },
+    "panda8": {
+      "error": "2/pathlib.py\", line 1029, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/manifests/bv.jsonl'\n"
+    },
+    "panda9": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:14:23\"}\n"
+    },
+    "tiger7": {
+      "bv": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": []
+      },
+      "bv_lia": {
+        "expected": 254,
+        "missing": [],
+        "size_mismatches": [],
+        "failed_case_now_sha256": "fdf8ebce13686d5bb0203a629a568b1945493e86acc37180d0808feaf5ff3041"
+      },
+      "stage_marker": "{\"sha\": \"f701f8f1688fcb396655777fc24bc2564b4e8cc96a8c6f5e040b59a3e705c5c8\", \"files\": 509, \"bytes\": 14255285527, \"src\": \"/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv\", \"at\": \"2026-10-09T21:20:15\"}\n"
+    }
+  }
+}

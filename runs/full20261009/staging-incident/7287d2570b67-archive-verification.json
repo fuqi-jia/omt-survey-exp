@@ -1,0 +1,14 @@
+{
+  "host": "panda6",
+  "run": "7287d2570b67",
+  "case": "c141185205e69371051f",
+  "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/7287d2570b67",
+  "infra_attempt": 0,
+  "archive": {
+    "path": "runs/full20261009/raw/staging-incident/7287d2570b67.tar.gz",
+    "sha256": "e4c02e476336da1317537c4fb7a710c11f1dae0f68ad5cff0211814164eccb5e",
+    "bytes": 3140,
+    "runs": 1,
+    "files": 11
+  }
+}

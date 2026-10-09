@@ -1,0 +1,148 @@
+{
+  "observed_utc": "2026-10-09T13:31:19.925026+00:00",
+  "run": {
+    "id": "46c6dac74352",
+    "host": "panda7",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv-20261009-r1/46c6dac74352",
+    "status": "success",
+    "started_at": "2026-10-09T13:19:09+00:00"
+  },
+  "evidence": {
+    "exit_code": "0\n",
+    "metrics.json": {
+      "completed": true,
+      "pipeline_ok": true,
+      "case": "3d3f984f9c38633cfb63",
+      "suite": "bv",
+      "solver_runs": 2,
+      "wall_time_s": 0.8452760763466358,
+      "results": {
+        "z3_bv": {
+          "returncode": 0,
+          "wall_s": 0.1713620387017727,
+          "budget_s": 600,
+          "command": [
+            "/usr/bin/python3",
+            "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py",
+            "--worker",
+            "--case",
+            "bv@29211",
+            "--variant",
+            "z3_bv",
+            "--action",
+            "solve",
+            "--out",
+            "/pub/data/jiafq/eos/runs/jos-full-bv-20261009-r1/46c6dac74352/evidence"
+          ],
+          "status": "solver_claimed_optimal",
+          "solve_s": 0.0041512735188007355,
+          "translation_s": 0.0,
+          "objective_count": 1,
+          "bounds_equal": true,
+          "value": {
+            "kind": "bv",
+            "hex": "3f",
+            "width": 6
+          },
+          "verification": {
+            "returncode": 0,
+            "wall_s": 0.2212272807955742,
+            "budget_s": 150,
+            "command": [
+              "/usr/bin/python3",
+              "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py",
+              "--worker",
+              "--case",
+              "bv@29211",
+              "--variant",
+              "z3_bv",
+              "--action",
+              "verify",
+              "--out",
+              "/pub/data/jiafq/eos/runs/jos-full-bv-20261009-r1/46c6dac74352/evidence"
+            ],
+            "status": "verified_optimal",
+            "attainable_query_sha256": "bccc1cd8ffd9e63693317708badd4435ad147a11cb9e471b043227624365aa64",
+            "attainable": "sat",
+            "attainable_s": 0.012402325868606567,
+            "strictly_better_query_sha256": "1372b16ce5f5a5e502ac8a4d38d93575c97d70852f091869d8697ed0fa3d2c0d",
+            "strictly_better": "unsat",
+            "strictly_better_s": 0.0002737678587436676
+          }
+        },
+        "oms_bv": {
+          "returncode": 0,
+          "wall_s": 0.22567807137966156,
+          "budget_s": 600,
+          "command": [
+            "/pub/data/jiafq/omt-survey-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+            "-optimization=true",
+            "<normalized-input>"
+          ],
+          "status": "solver_claimed_optimal",
+          "solve_s": 0.009390883147716522,
+          "solver_returncode": 0,
+          "normalized_sha256": "9053f5ed8e70e072351df305d154ae1df9768f489a4f8c19eb963c466cf99577",
+          "value": {
+            "kind": "bv",
+            "hex": "3f",
+            "width": 6
+          },
+          "verification": {
+            "returncode": 0,
+            "wall_s": 0.22144292667508125,
+            "budget_s": 150,
+            "command": [
+              "/usr/bin/python3",
+              "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py",
+              "--worker",
+              "--case",
+              "bv@29211",
+              "--variant",
+              "oms_bv",
+              "--action",
+              "verify",
+              "--out",
+              "/pub/data/jiafq/eos/runs/jos-full-bv-20261009-r1/46c6dac74352/evidence"
+            ],
+            "status": "verified_optimal",
+            "attainable_query_sha256": "bccc1cd8ffd9e63693317708badd4435ad147a11cb9e471b043227624365aa64",
+            "attainable": "sat",
+            "attainable_s": 0.012348350137472153,
+            "strictly_better_query_sha256": "1372b16ce5f5a5e502ac8a4d38d93575c97d70852f091869d8697ed0fa3d2c0d",
+            "strictly_better": "unsat",
+            "strictly_better_s": 0.0002920180559158325
+          }
+        }
+      }
+    },
+    "evidence/provenance.json": {
+      "input": {
+        "id": "3d3f984f9c38633cfb63",
+        "suite": "bv",
+        "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/bv/size_10_10_density_50_10.xml_bv.smt2",
+        "bytes": 4509,
+        "sha256": "8e758d5ab5c87f31b72dadfb0cf46181e8179397597ae1e11e709b185a35e3ee"
+      },
+      "variants": [
+        "z3_bv",
+        "oms_bv"
+      ],
+      "hostname": "panda7.ios.ac.cn",
+      "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "z3": "4.15.4",
+      "z3_binary_sha256": "56d9977b9276bcb8cda9973a14058fcaa9f3bfee14ed57408b9faacd76d4d8f3",
+      "oms_sha256": "c5548eff57036aa200a99deb0668667c1f52a4cab28b069f45682e8297696757",
+      "script_sha256": "b9262031a6768c627ffb0ebbac273268e86675d00f1abc22966271ebe8da5c7e",
+      "parser_source_sha256": "ed441d6769b6d78cab0bbf8bc3f189834d824deafbc4bfeef8ce7c9c95b28eb9",
+      "budget_s": 600,
+      "verification_query_budget_s": 60,
+      "memory_bytes": 8589934592,
+      "cpu": "Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz",
+      "fp_semantics": "All ordered FP variants exclude NaN; key-based forms refine signed-zero ties.",
+      "verification": "SAT attainability and UNSAT strict improvement in original hard constraints; query hashes and deterministic recipe retained."
+    },
+    "log_tail": "z3_bv solver_claimed_optimal\noms_bv solver_claimed_optimal\n"
+  }
+}

@@ -1,0 +1,100 @@
+[
+  {
+    "host": "panda6",
+    "run": "1efa4e89738f",
+    "case": "337925e0aee91077116e",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/1efa4e89738f",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/1efa4e89738f.tar.gz",
+      "sha256": "445f2792104ea7b8ea97ea1cee03a390ddef6f0a7174bf8e3ac609fdbed53339",
+      "bytes": 3178,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda3",
+    "run": "8f07f201e17a",
+    "case": "bf46c6ef0e8ba5cdbe29",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/8f07f201e17a",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/8f07f201e17a.tar.gz",
+      "sha256": "45602388fa847bf6c62e8d1b523f4eadde750c874bdabb3233d13739018fb9e0",
+      "bytes": 3201,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda6",
+    "run": "7d238510f93a",
+    "case": "22c3d5ed14911216a87e",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/7d238510f93a",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/7d238510f93a.tar.gz",
+      "sha256": "5b1d7101cd5fc0106245a5231f2e0eb5e2032e0ff74838aacd39b676fd2b5226",
+      "bytes": 3174,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda6",
+    "run": "7287d2570b67",
+    "case": "c141185205e69371051f",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/7287d2570b67",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/7287d2570b67.tar.gz",
+      "sha256": "e4c02e476336da1317537c4fb7a710c11f1dae0f68ad5cff0211814164eccb5e",
+      "bytes": 3140,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda3",
+    "run": "d07f9adea70a",
+    "case": "9c74feee125adb9bfec3",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/d07f9adea70a.tar.gz",
+      "sha256": "fb34ce8e326d59b5e12a695f357f5435b03c9aedf4e795e1cc271369e8251a25",
+      "bytes": 3220,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda6",
+    "run": "84d69d959e0b",
+    "case": "44a07270201a51a4829d",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/84d69d959e0b",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/84d69d959e0b.tar.gz",
+      "sha256": "e0d68aaa52e38a24a6d6bc53b91a62594518ac26b7a618cbec6d81df4e68c868",
+      "bytes": 3162,
+      "runs": 1,
+      "files": 11
+    }
+  },
+  {
+    "host": "panda6",
+    "run": "b994cd5115bc",
+    "case": "f1933bdeff4bbba3b011",
+    "original_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/b994cd5115bc",
+    "infra_attempt": 0,
+    "archive": {
+      "path": "runs/full20261009/raw/staging-incident/b994cd5115bc.tar.gz",
+      "sha256": "db8579967908030064c23676f018b204e0d9d410eac88f268b4df8e147700c77",
+      "bytes": 3177,
+      "runs": 1,
+      "files": 11
+    }
+  }
+]

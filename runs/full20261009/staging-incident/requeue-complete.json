@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-10-09T13:41:48.658450+00:00",
+  "experiment": "bcac3b19f39f",
+  "requeued": [
+    "1efa4e89738f",
+    "8f07f201e17a",
+    "7d238510f93a",
+    "7287d2570b67",
+    "d07f9adea70a",
+    "84d69d959e0b",
+    "b994cd5115bc"
+  ],
+  "original_attempts_preserved": true,
+  "solver_protocol_changed": false
+}

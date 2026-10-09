@@ -1,0 +1,7 @@
+{
+  "observed_utc": "2026-10-09T13:40:26.400322+00:00",
+  "experiment": "bcac3b19f39f",
+  "action": "Hold this experiment via Store.mark_experiment_broken; move own control-side derived staging marker to incident evidence so later rsync cannot advertise completeness before inputs arrive. No solver, input, manifest, spec, or global scheduler changes.",
+  "reason": "Own-campaign staging incident: copied source .eos-stage.json preceded complete LIA inputs on Panda3/6; hold new dispatch until full file-presence audit passes. Existing runs continue; failed pre-solver attempts will be archived and retried.",
+  "source_marker_present": false
+}

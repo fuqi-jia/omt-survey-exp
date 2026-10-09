@@ -90,7 +90,11 @@ def main():
             coverage[case_id] += 1
             if meta.get('source_sha256') != planned[case_id]['sha256']:
                 errors.append({'run': run['id'], 'error': 'input hash mismatch'})
-            metrics = json.loads(run.get('metrics_json') or '{}')
+            # ExperimentOS retains the previous attempt's metrics when an
+            # infrastructure failure is requeued. Those archived observations
+            # must not count as results of the pending/running replacement.
+            metrics = (json.loads(run.get('metrics_json') or '{}')
+                       if run['status'] not in ACTIVE else {})
             results = metrics.get('results', {})
             if metrics and (metrics.get('case') != case_id or metrics.get('suite') != suite):
                 errors.append({'run': run['id'], 'error': 'result/input identity mismatch'})

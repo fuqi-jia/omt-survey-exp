@@ -1,0 +1,96 @@
+{
+  "observed_utc": "2026-10-09T13:31:20.242835+00:00",
+  "run": {
+    "id": "97c5d65e71be",
+    "host": "panda7",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/97c5d65e71be",
+    "status": "success",
+    "started_at": "2026-10-09T13:19:10+00:00"
+  },
+  "evidence": {
+    "exit_code": "0\n",
+    "metrics.json": {
+      "completed": true,
+      "pipeline_ok": true,
+      "case": "109df854fa8cd0a2519c",
+      "suite": "bv_lia",
+      "solver_runs": 2,
+      "wall_time_s": 600.3430021479726,
+      "diagnostic_only": true,
+      "results": {
+        "oms_lia": {
+          "returncode": -9,
+          "wall_s": 600.0103920027614,
+          "budget_s": 600,
+          "command": [
+            "/usr/bin/python3",
+            "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py",
+            "--worker",
+            "--case",
+            "bv_lia@31909",
+            "--variant",
+            "oms_lia",
+            "--out",
+            "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/97c5d65e71be/evidence"
+          ],
+          "status": "timeout"
+        },
+        "z3_lia": {
+          "returncode": 0,
+          "wall_s": 0.32918136939406395,
+          "budget_s": 600,
+          "command": [
+            "/usr/bin/python3",
+            "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py",
+            "--worker",
+            "--case",
+            "bv_lia@31909",
+            "--variant",
+            "z3_lia",
+            "--out",
+            "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/97c5d65e71be/evidence"
+          ],
+          "status": "diagnostic_unbounded",
+          "solver_status": "sat",
+          "solve_s": 0.002308376133441925,
+          "objective_count": 6,
+          "priority": "lex",
+          "optimal_model_claimed": false,
+          "bounds_count": 6,
+          "infinity_bound_count": 6,
+          "full_bounds_file": "z3_lia.json",
+          "full_bounds_sha256": "bccfcce7ec37503aeaef392610066e36a46405c0a6f02c95a90be557e7ac7eb0"
+        }
+      }
+    },
+    "evidence/provenance.json": {
+      "input": {
+        "id": "109df854fa8cd0a2519c",
+        "suite": "bv_lia",
+        "path": "benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_10_10/lia/size_10_10_density_50_8.xml_lia.smt2",
+        "bytes": 3819,
+        "sha256": "b50aa23e191abeca9f480b39125aa1b6e6ecd05fbac07ece755d97b8a49f3c4f"
+      },
+      "variants": [
+        "oms_lia",
+        "z3_lia"
+      ],
+      "hostname": "panda7.ios.ac.cn",
+      "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.39",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "z3": "4.15.4",
+      "z3_binary_sha256": "56d9977b9276bcb8cda9973a14058fcaa9f3bfee14ed57408b9faacd76d4d8f3",
+      "oms_sha256": "c5548eff57036aa200a99deb0668667c1f52a4cab28b069f45682e8297696757",
+      "script_sha256": "846cdf7f04509e7061270792bb65d461c41a709fd722a44f0f0fc074ab2aa606",
+      "common_source_sha256": "b9262031a6768c627ffb0ebbac273268e86675d00f1abc22966271ebe8da5c7e",
+      "parser_source_sha256": "ed441d6769b6d78cab0bbf8bc3f189834d824deafbc4bfeef8ce7c9c95b28eb9",
+      "budget_s": 600,
+      "verification_query_budget_s": 0,
+      "memory_bytes": 8589934592,
+      "cpu": "Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz",
+      "scope": "Original multi-objective LIA diagnostic; lexicographic input order; no inferred bit bounds; not a BV-equivalent performance comparison",
+      "verification": "No optimal-model claim; raw bounds/status/model output retained without conflating SAT with optimality"
+    },
+    "log_tail": ""
+  }
+}

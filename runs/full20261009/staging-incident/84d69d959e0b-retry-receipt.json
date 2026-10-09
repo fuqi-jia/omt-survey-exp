@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-10-09T13:41:47.953250+00:00",
+  "run": "84d69d959e0b",
+  "case": "44a07270201a51a4829d",
+  "old_host": "panda6",
+  "preserved_workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/84d69d959e0b.infra0-preserved",
+  "archive": {
+    "path": "runs/full20261009/raw/staging-incident/84d69d959e0b.tar.gz",
+    "sha256": "e0d68aaa52e38a24a6d6bc53b91a62594518ac26b7a618cbec6d81df4e68c868",
+    "bytes": 3162,
+    "runs": 1,
+    "files": 11
+  },
+  "reason": "Input staging infrastructure failure before both solvers started; full input hashes repaired. Original attempt archived e0d68aaa52e38a24a6d6bc53b91a62594518ac26b7a618cbec6d81df4e68c868; original directory preserved at /pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/84d69d959e0b.infra0-preserved"
+}

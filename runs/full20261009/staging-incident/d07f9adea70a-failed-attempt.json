@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-10-09T13:40:30.278891+00:00",
+  "run": {
+    "id": "d07f9adea70a",
+    "experiment_id": "bcac3b19f39f",
+    "trial_id": "aa3df4afda29",
+    "stage_id": "7ad24fc9e04f",
+    "run_key": "f354a5768001",
+    "input": "bv_lia@69534",
+    "seed": null,
+    "cmd": "python3 /pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py --case bv_lia@69534 --metrics \"$EOS_METRICS_FILE\"",
+    "status": "invalid",
+    "host": "panda3",
+    "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a",
+    "pid": 626883,
+    "exit_code": 0,
+    "attempt": 0,
+    "infra_attempt": 0,
+    "created_at": "2026-10-09T12:46:41+00:00",
+    "started_at": "2026-10-09T13:33:30+00:00",
+    "ended_at": "2026-10-09T13:34:48+00:00",
+    "duration_s": 78.46335,
+    "metrics_json": "{\"completed\": true, \"pipeline_ok\": false, \"case\": \"9c74feee125adb9bfec3\", \"suite\": \"bv_lia\", \"solver_runs\": 2, \"wall_time_s\": 0.5453530754894018, \"diagnostic_only\": true, \"results\": {\"z3_lia\": {\"returncode\": 1, \"wall_s\": 0.2695727478712797, \"budget_s\": 600, \"command\": [\"/usr/bin/python3\", \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", \"--worker\", \"--case\", \"bv_lia@69534\", \"--variant\", \"z3_lia\", \"--out\", \"/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a/evidence\"], \"status\": \"worker_error\"}, \"oms_lia\": {\"returncode\": 1, \"wall_s\": 0.27281819842755795, \"budget_s\": 600, \"command\": [\"/usr/bin/python3\", \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", \"--worker\", \"--case\", \"bv_lia@69534\", \"--variant\", \"oms_lia\", \"--out\", \"/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a/evidence\"], \"status\": \"worker_error\"}}}",
+    "checks_json": "[{\"expr\": \"completed == true\", \"passed\": true, \"detail\": \"\"}, {\"expr\": \"pipeline_ok == true\", \"passed\": false, \"detail\": \"\u5b9e\u9645 pipeline_ok=False\uff0c\u671f\u671b == True\"}]",
+    "h_actual_json": "{\"hostname\": \"panda3.ios.ac.cn\", \"nproc\": 256, \"kernel\": \"6.8.0-111-generic\", \"started_at\": \"2026-10-09T21:33:30+08:00\", \"cwd\": \"/pub/data/jiafq/omt-survey-exp\", \"run_dir\": \"/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a\", \"user\": \"jiafq\", \"cuda_visible_devices\": \"\", \"eos_cpu_ids\": \"45\", \"cpus_allowed_list\": \"0-255\"}",
+    "log_tail": "",
+    "error": "",
+    "input_meta_json": "{\"case_id\": \"9c74feee125adb9bfec3\", \"suite\": \"bv_lia\", \"source_sha256\": \"3d40f9fc22b5264decc6ed35edf883d29c5fc007fc4aba145bb1e9cee8e0d85e\", \"input_bytes\": 16285363}",
+    "resources_json": "{\"cpu_slots\": 1, \"cpu_ids\": [\"45\"]}"
+  },
+  "stderr": {
+    "oms_lia": "Traceback (most recent call last):\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", line 180, in <module>\n    print(json.dumps(worker(args)))\n                     ^^^^^^^^^^^^\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", line 98, in worker\n    assert common.sha(path) == row['sha256']\n           ^^^^^^^^^^^^^^^^\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py\", line 33, in sha\n    with path.open('rb') as f:\n         ^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_4.xml_lia.smt2'\n",
+    "z3_lia": "Traceback (most recent call last):\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", line 180, in <module>\n    print(json.dumps(worker(args)))\n                     ^^^^^^^^^^^^\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_lia_diagnostic.py\", line 98, in worker\n    assert common.sha(path) == row['sha256']\n           ^^^^^^^^^^^^^^^^\n  File \"/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/run_case.py\", line 33, in sha\n    with path.open('rb') as f:\n         ^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/pathlib.py\", line 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/pub/data/jiafq/omt-survey-exp/benchmarks/full_public/extracted/bv/tacas16_bitvector_optimization_benchmarks_and_results/size_75_75/lia/size_75_75_density_70_4.xml_lia.smt2'\n"
+  },
+  "classification": "infrastructure_missing_input_before_solver_invocation"
+}

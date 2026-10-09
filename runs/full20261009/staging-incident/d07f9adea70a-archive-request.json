@@ -1,0 +1,11 @@
+{
+  "target": "/pub/data/jiafq/omt-survey-exp/runs/full20261009/raw/staging-incident/staged/d07f9adea70a.tar.gz",
+  "experiment_name": "jos-full-bv_lia-20261009-r1",
+  "host": "panda3",
+  "runs": [
+    {
+      "id": "d07f9adea70a",
+      "workdir": "/pub/data/jiafq/eos/runs/jos-full-bv_lia-20261009-r1/d07f9adea70a"
+    }
+  ]
+}
