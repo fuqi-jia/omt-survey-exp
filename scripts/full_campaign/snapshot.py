@@ -7,6 +7,7 @@ benchmark table unless all inputs have all expected solver observations.
 import collections
 import csv
 import datetime
+import fcntl
 import hashlib
 import json
 from pathlib import Path
@@ -53,6 +54,9 @@ def canonical_value(suite, variant, value):
 
 
 def main():
+    OUT.mkdir(parents=True, exist_ok=True)
+    lock = (OUT / 'snapshot.lock').open('a')
+    fcntl.flock(lock, fcntl.LOCK_EX)
     con = sqlite3.connect('file:/pub/data/jiafq/eos/eos.db?mode=ro', uri=True)
     con.row_factory = sqlite3.Row
     # A read transaction keeps the experiment and its run rows consistent.

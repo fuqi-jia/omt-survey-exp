@@ -1,0 +1,145 @@
+{
+  "observed_utc": "2026-10-09T12:50:13.100272+00:00",
+  "experiments": [
+    {
+      "suite": "bv",
+      "experiment": "5c8bc8b2f9da",
+      "planned_inputs": 254,
+      "manifest_sha256": "426b530cea4c2d81982ee308bd467e685cf8872834c03c286af369e6b21ce5a1",
+      "platform_counts": {
+        "pending": 254
+      },
+      "observed_solver_runs": 0,
+      "expected_solver_runs": 508,
+      "missing_inputs": [],
+      "duplicate_inputs": {},
+      "outcomes": {
+        "oms_bv": {},
+        "z3_bv": {}
+      },
+      "errors": [],
+      "objective_disagreements": [],
+      "all_inputs_completed": false
+    },
+    {
+      "suite": "bv_lia",
+      "experiment": "bcac3b19f39f",
+      "planned_inputs": 254,
+      "manifest_sha256": "8593f3ba3a3b23fd6ad937aa72e099244e6fad976dc88985e30f15751e5f8fc4",
+      "platform_counts": {
+        "pending": 254
+      },
+      "observed_solver_runs": 0,
+      "expected_solver_runs": 508,
+      "missing_inputs": [],
+      "duplicate_inputs": {},
+      "outcomes": {
+        "oms_lia": {},
+        "z3_lia": {}
+      },
+      "errors": [],
+      "objective_disagreements": [],
+      "all_inputs_completed": false
+    },
+    {
+      "suite": "fp",
+      "experiment": "36446869763f",
+      "planned_inputs": 39655,
+      "manifest_sha256": "6b4dd5f1c8a2587faeed35554927d6bac42eee5c77959ba4dbbfce3f22726f92",
+      "platform_counts": {
+        "pending": 38710,
+        "running": 148,
+        "success": 753,
+        "assigned": 44
+      },
+      "observed_solver_runs": 2259,
+      "expected_solver_runs": 118965,
+      "missing_inputs": [],
+      "duplicate_inputs": {},
+      "outcomes": {
+        "oms_fp": {
+          "solver_claimed_optimal": 723,
+          "verification:verified_optimal": 711,
+          "timeout": 9,
+          "verification:not_attempted": 30,
+          "verification:unverified": 11,
+          "infeasible": 21,
+          "verification:timeout": 1
+        },
+        "z3_fpkey": {
+          "solver_claimed_optimal": 704,
+          "verification:verified_optimal": 702,
+          "timeout": 27,
+          "verification:not_attempted": 49,
+          "infeasible": 21,
+          "verification:unverified": 2,
+          "oom": 1
+        },
+        "z3_bv": {
+          "timeout": 36,
+          "verification:not_attempted": 63,
+          "solver_claimed_optimal": 690,
+          "verification:verified_optimal": 689,
+          "oom": 6,
+          "infeasible": 21,
+          "verification:unverified": 1
+        }
+      },
+      "errors": [],
+      "objective_disagreements": [],
+      "all_inputs_completed": false
+    },
+    {
+      "suite": "maxsmt",
+      "experiment": "39a26fbbb146",
+      "planned_inputs": 2264,
+      "manifest_sha256": "fc0aa83dad6d497fa34cefa38f1538a93b419dc4899bbe3ba4261c5e90b20e9b",
+      "platform_counts": {
+        "success": 1580,
+        "pending": 492,
+        "running": 192
+      },
+      "observed_solver_runs": 6320,
+      "expected_solver_runs": 9056,
+      "missing_inputs": [],
+      "duplicate_inputs": {},
+      "outcomes": {
+        "oms_maxres": {
+          "solver_claimed_optimal": 1468,
+          "verification:verified_optimal": 1304,
+          "timeout": 96,
+          "verification:not_attempted": 112,
+          "invalid_input": 16,
+          "verification:unverified": 164
+        },
+        "oms_omt": {
+          "solver_claimed_optimal": 1296,
+          "verification:verified_optimal": 1186,
+          "timeout": 268,
+          "verification:not_attempted": 284,
+          "invalid_input": 16,
+          "verification:unverified": 110
+        },
+        "z3_maxres": {
+          "solver_claimed_optimal": 1306,
+          "verification:verified_optimal": 1197,
+          "timeout": 258,
+          "verification:not_attempted": 274,
+          "invalid_input": 16,
+          "verification:unverified": 109
+        },
+        "z3_wmax": {
+          "solver_claimed_optimal": 1208,
+          "verification:verified_optimal": 1205,
+          "timeout": 356,
+          "verification:not_attempted": 372,
+          "invalid_input": 16,
+          "verification:unverified": 3
+        }
+      },
+      "errors": [],
+      "objective_disagreements": [],
+      "all_inputs_completed": false
+    }
+  ]
+}

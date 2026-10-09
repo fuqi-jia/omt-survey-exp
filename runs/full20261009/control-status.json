@@ -1,0 +1,235 @@
+{
+  "observed_utc": "2026-10-09T12:37:45.145187+00:00",
+  "experiments": [
+    {
+      "id": "36446869763f",
+      "name": "jos-full-fp-20261009-r1",
+      "status": "running",
+      "canary_state": "open",
+      "error": "",
+      "counts": {
+        "pending": 38993,
+        "running": 185,
+        "success": 477
+      },
+      "hosts": [
+        {
+          "host": "panda1",
+          "status": "running",
+          "n": 38
+        },
+        {
+          "host": "panda1",
+          "status": "success",
+          "n": 78
+        },
+        {
+          "host": "panda2",
+          "status": "running",
+          "n": 4
+        },
+        {
+          "host": "panda2",
+          "status": "success",
+          "n": 39
+        },
+        {
+          "host": "panda3",
+          "status": "running",
+          "n": 27
+        },
+        {
+          "host": "panda3",
+          "status": "success",
+          "n": 41
+        },
+        {
+          "host": "panda4",
+          "status": "running",
+          "n": 19
+        },
+        {
+          "host": "panda4",
+          "status": "success",
+          "n": 54
+        },
+        {
+          "host": "panda5",
+          "status": "running",
+          "n": 31
+        },
+        {
+          "host": "panda5",
+          "status": "success",
+          "n": 44
+        },
+        {
+          "host": "panda6",
+          "status": "running",
+          "n": 25
+        },
+        {
+          "host": "panda6",
+          "status": "success",
+          "n": 50
+        },
+        {
+          "host": "panda7",
+          "status": "running",
+          "n": 33
+        },
+        {
+          "host": "panda7",
+          "status": "success",
+          "n": 81
+        },
+        {
+          "host": "panda8",
+          "status": "running",
+          "n": 6
+        },
+        {
+          "host": "panda8",
+          "status": "success",
+          "n": 68
+        },
+        {
+          "host": "panda9",
+          "status": "running",
+          "n": 1
+        },
+        {
+          "host": "panda9",
+          "status": "success",
+          "n": 11
+        },
+        {
+          "host": "tiger7",
+          "status": "running",
+          "n": 1
+        },
+        {
+          "host": "tiger7",
+          "status": "success",
+          "n": 11
+        }
+      ],
+      "failures": []
+    },
+    {
+      "id": "39a26fbbb146",
+      "name": "jos-full-maxsmt-20261009-r1",
+      "status": "running",
+      "canary_state": "open",
+      "error": "",
+      "counts": {
+        "pending": 659,
+        "running": 157,
+        "success": 1448
+      },
+      "hosts": [
+        {
+          "host": "panda1",
+          "status": "running",
+          "n": 7
+        },
+        {
+          "host": "panda1",
+          "status": "success",
+          "n": 101
+        },
+        {
+          "host": "panda2",
+          "status": "running",
+          "n": 20
+        },
+        {
+          "host": "panda2",
+          "status": "success",
+          "n": 106
+        },
+        {
+          "host": "panda3",
+          "status": "running",
+          "n": 9
+        },
+        {
+          "host": "panda3",
+          "status": "success",
+          "n": 109
+        },
+        {
+          "host": "panda4",
+          "status": "running",
+          "n": 14
+        },
+        {
+          "host": "panda4",
+          "status": "success",
+          "n": 228
+        },
+        {
+          "host": "panda5",
+          "status": "running",
+          "n": 33
+        },
+        {
+          "host": "panda5",
+          "status": "success",
+          "n": 153
+        },
+        {
+          "host": "panda6",
+          "status": "running",
+          "n": 20
+        },
+        {
+          "host": "panda6",
+          "status": "success",
+          "n": 136
+        },
+        {
+          "host": "panda7",
+          "status": "running",
+          "n": 30
+        },
+        {
+          "host": "panda7",
+          "status": "success",
+          "n": 174
+        },
+        {
+          "host": "panda8",
+          "status": "running",
+          "n": 2
+        },
+        {
+          "host": "panda8",
+          "status": "success",
+          "n": 181
+        },
+        {
+          "host": "panda9",
+          "status": "running",
+          "n": 13
+        },
+        {
+          "host": "panda9",
+          "status": "success",
+          "n": 186
+        },
+        {
+          "host": "tiger7",
+          "status": "running",
+          "n": 9
+        },
+        {
+          "host": "tiger7",
+          "status": "success",
+          "n": 74
+        }
+      ],
+      "failures": []
+    }
+  ]
+}

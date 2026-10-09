@@ -1,0 +1,12 @@
+{
+  "suite": "bv",
+  "instances": 254,
+  "manifest_sha256": "426b530cea4c2d81982ee308bd467e685cf8872834c03c286af369e6b21ce5a1",
+  "manifest": "benchmarks/full_public/manifests/bv.jsonl",
+  "sampling": false,
+  "total_bytes": 7799058166,
+  "extra": {
+    "paired_lia": 254,
+    "encoding": "native unsigned bit-vector maximization"
+  }
+}

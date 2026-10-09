@@ -1,0 +1,13 @@
+{
+  "suite": "bv_lia",
+  "instances": 254,
+  "manifest_sha256": "8593f3ba3a3b23fd6ad937aa72e099244e6fad976dc88985e30f15751e5f8fc4",
+  "manifest": "benchmarks/full_public/manifests/bv_lia.jsonl",
+  "sampling": false,
+  "total_bytes": 6456226989,
+  "extra": {
+    "paired_bv": 254,
+    "encoding": "Original lexicographic multi-objective integer files; diagnostic-only",
+    "equivalence_to_bv_assumed": false
+  }
+}

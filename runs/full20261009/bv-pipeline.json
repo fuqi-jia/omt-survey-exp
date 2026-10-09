@@ -18,9 +18,85 @@
         "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/validate_inputs.py",
         "bv"
       ],
-      "started_utc": "2026-10-09T11:33:16.949790+00:00"
+      "started_utc": "2026-10-09T11:33:16.949790+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:17.543849+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/spec.py",
+        "bv"
+      ],
+      "started_utc": "2026-10-09T12:46:17.544572+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:17.628400+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/bv.yaml",
+        "--dry-run"
+      ],
+      "started_utc": "2026-10-09T12:46:17.823301+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:18.111161+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/bv.yaml",
+        "--yes"
+      ],
+      "started_utc": "2026-10-09T12:46:18.111741+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:18.427955+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/validate_inputs.py",
+        "bv_lia"
+      ],
+      "started_utc": "2026-10-09T12:46:18.428658+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:40.317120+00:00"
+    },
+    {
+      "command": [
+        "python3",
+        "/pub/data/jiafq/omt-survey-exp/scripts/full_campaign/spec.py",
+        "bv_lia"
+      ],
+      "started_utc": "2026-10-09T12:46:40.317945+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:40.400974+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/bv_lia.yaml",
+        "--dry-run"
+      ],
+      "started_utc": "2026-10-09T12:46:40.608501+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:40.912224+00:00"
+    },
+    {
+      "command": [
+        "/pub/data/jiafq/experimentos/eos",
+        "submit",
+        "/pub/data/jiafq/omt-survey-exp/runs/full20261009/bv_lia.yaml",
+        "--yes"
+      ],
+      "started_utc": "2026-10-09T12:46:40.913038+00:00",
+      "returncode": 0,
+      "finished_utc": "2026-10-09T12:46:41.240070+00:00"
     }
   ],
-  "finished": false,
-  "updated_utc": "2026-10-09T11:33:16.949871+00:00"
+  "finished": true,
+  "updated_utc": "2026-10-09T12:46:41.240751+00:00"
 }
