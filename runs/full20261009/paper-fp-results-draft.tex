@@ -1,0 +1,45 @@
+% 由 render_fp_table.py 从完整数据生成; 尚未并入主稿.
+\paragraph{公开浮点优化基准.}
+表~\ref{tab:exp-public-fp-full} 给出全部 $39\,655$ 个任务在三种配置下的结果. 每个任务均完成运行, 超时与内存不足结果保留在统计中. 求解器报告最优与通过独立复核的数量分别列示, 不可满足返回按求解器报告计数.
+
+\begin{table}[!ht]
+\centering
+\caption{公开浮点优化基准全集的求解与独立复核结果}
+\label{tab:exp-public-fp-full}
+\small
+\begin{tabular}{@{}l rrrrr r@{}}
+\toprule
+配置 & 报告最优 & 独立复核 & 不可满足 & 超时 & 内存不足 & PAR-2 (s) \\
+\midrule
+OptiMathSAT 原生 FP & 37484 & 35414 & 831 & 1340 & 0 & 53.86 \\
+Z3 FP 序键 & 33670 & 33397 & 833 & 5131 & 21 & 181.59 \\
+Z3 FP 转 BV & 31973 & 31826 & 833 & 5617 & 1232 & 240.08 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize 每次求解限时 $600$\,s, 单线程, 地址空间上限 $8$\,GiB. 独立复核是报告最优结果中通过目标可达性与无严格改进两条查询的数量, 每条查询限时 $60$\,s; 复核时间另计. 不可满足返回未另行核验不可满足证明. PAR-2 按求解器报告口径统计, 未报告最优或不可满足的输入按 $1200$\,s 计入.
+\end{minipage}
+\end{table}
+
+\begin{table}[!ht]
+\centering
+\caption{浮点优化各来源组报告最优/独立复核的数量}
+\label{tab:exp-public-fp-groups}
+\small
+\begin{tabular}{@{}l r rrr@{}}
+\toprule
+来源组 & 任务数 & OptiMathSAT 原生 FP & Z3 FP 序键 & Z3 FP 转 BV \\
+\midrule
+griggio & 3653 & 2549/688 & 714/597 & 585/570 \\
+heizmann & 148 & 148/107 & 124/98 & 18/18 \\
+ramalho & 1340 & 1142/1142 & 1320/1320 & 0/0 \\
+schanda & 188 & 56/51 & 46/46 & 46/46 \\
+wintersteiger & 34326 & 33589/33426 & 31466/31336 & 31324/31192 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}\footnotesize 每个来源组包含全部优化任务, $a/b$ 分别表示报告最优的数量及其中通过独立复核的数量, 两者不相加. 任务由完整源文件构造, 同一源文件可以派生多个目标与方向. 空公式源的两个常量正零任务作为退化检查保留, 不用于说明浮点运算性能.
+\end{minipage}
+\end{table}
+
+三种配置共同报告最优时未发现目标值冲突. OptiMathSAT 原生 FP 配置在全集上报告的最优结果较多, 但各来源组的表现不同. 例如, ramalho 组中 Z3 FP 序键配置报告并通过复核 $1320$ 项, OptiMathSAT 为 $1142$ 项; griggio 组中 OptiMathSAT 报告最优 $2549$ 项, 其中 $688$ 项通过独立复核. 未完成复核的结果保留原始输出, 不据此判断其正确或错误. 这些比较限于所测版本、配置及该公开输入集合.

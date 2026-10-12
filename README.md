@@ -1,5 +1,13 @@
 # OMT Survey — Experiments
 
+**Full public benchmark results (2026-10-12):** FP, BV, MaxSMT and the original
+integer companion diagnostics are complete: **42,427 input tasks and 129,037
+solver observations**, without instance sampling. See the
+[complete result tables](runs/full20261009/completed-results.md),
+[FP results](runs/full20261009/fp-results.md), and
+[dataset scope and protocol](runs/full20261009/README.md).
+The historical 20-input FP diagnostic below remains a separate experiment.
+
 **rx032 revision (2026-10-04):** the persistent workspace is now
 `D:\D_Work\ISCAS\paper\jos2026\omt-survey-exp`. See
 [REVISION_RX032.md](REVISION_RX032.md) for the current paper-table provenance,

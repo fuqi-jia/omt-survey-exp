@@ -1,0 +1,82 @@
+[
+  {
+    "host": "panda1",
+    "path": "runs/full20261009/raw/fp-panda1.tar.gz",
+    "sha256": "009a402970064ecff5656300f43c34c2d9dedc7ffa369feef7086c7122659b9a",
+    "bytes": 15213386,
+    "runs": 2757,
+    "files": 65402
+  },
+  {
+    "host": "panda2",
+    "path": "runs/full20261009/raw/fp-panda2.tar.gz",
+    "sha256": "367f7c86472994c3067801e926523ea6da8d2ac807f6808f2634315a5bec3b8e",
+    "bytes": 14775795,
+    "runs": 2639,
+    "files": 62731
+  },
+  {
+    "host": "panda3",
+    "path": "runs/full20261009/raw/fp-panda3.tar.gz",
+    "sha256": "688299aa45b5fcdd99d5b103e32c76f369ace59dcb22734e58e2e7193967534f",
+    "bytes": 14125432,
+    "runs": 2643,
+    "files": 63109
+  },
+  {
+    "host": "panda4",
+    "path": "runs/full20261009/raw/fp-panda4.tar.gz",
+    "sha256": "dccc79da4c388c6ff3f668ce9dd45e8252c2af23dbc8d3473d57a2bae6356628",
+    "bytes": 20041012,
+    "runs": 3652,
+    "files": 86892
+  },
+  {
+    "host": "panda5",
+    "path": "runs/full20261009/raw/fp-panda5.tar.gz",
+    "sha256": "87a3b97d6706834e1f005db83f815057176b39c46beb2ff70fc09302da003206",
+    "bytes": 14900236,
+    "runs": 2744,
+    "files": 65658
+  },
+  {
+    "host": "panda6",
+    "path": "runs/full20261009/raw/fp-panda6.tar.gz",
+    "sha256": "1dc77f696f03f056655874850b4693694acb2c3fca77007ac3cc9c1450c51783",
+    "bytes": 6800780,
+    "runs": 1202,
+    "files": 28522
+  },
+  {
+    "host": "panda7",
+    "path": "runs/full20261009/raw/fp-panda7.tar.gz",
+    "sha256": "d3d2324ad9570b609682f778320f869effb9bba2c14f6b14979620db672f16ea",
+    "bytes": 18249223,
+    "runs": 3351,
+    "files": 79912
+  },
+  {
+    "host": "panda8",
+    "path": "runs/full20261009/raw/fp-panda8.tar.gz",
+    "sha256": "a680045e6e8b24670dd28885af83594719a38f0b99dbf69d6bacc1ee4390919d",
+    "bytes": 31676587,
+    "runs": 5904,
+    "files": 140821
+  },
+  {
+    "host": "panda9",
+    "path": "runs/full20261009/raw/fp-panda9.tar.gz",
+    "sha256": "f8e50b730ef8dfca6dda9ec0c269d9f9b21bbd4072d5d1ccc8635f96f825e2de",
+    "bytes": 54434525,
+    "runs": 9980,
+    "files": 237943
+  },
+  {
+    "host": "tiger7",
+    "path": "runs/full20261009/raw/fp-tiger7.tar.gz",
+    "sha256": "ff6500de8959c418b9e6501ef9beb6c209b91e26f1df0b342f7a637ec846712c",
+    "bytes": 26023773,
+    "runs": 4783,
+    "files": 114211
+  }
+]

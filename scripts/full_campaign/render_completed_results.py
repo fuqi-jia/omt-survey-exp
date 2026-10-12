@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the three complete suites after checking their full exported records."""
+"""Render all complete suites after checking their full exported records."""
 import collections
 import csv
 import gzip
@@ -14,11 +14,13 @@ from summarize import group, statistics_for
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'runs/full20261009'
 CONFIGS = {
+    'fp': ['oms_fp', 'z3_fpkey', 'z3_bv'],
     'bv': ['oms_bv', 'z3_bv'],
     'bv_lia': ['oms_lia', 'z3_lia'],
     'maxsmt': ['oms_maxres', 'oms_omt', 'z3_maxres', 'z3_wmax'],
 }
 LABELS = {
+    'oms_fp': 'OptiMathSAT 原生 FP', 'z3_fpkey': 'Z3 FP 序键',
     'oms_bv': 'OptiMathSAT', 'z3_bv': 'Z3',
     'oms_lia': 'OptiMathSAT', 'z3_lia': 'Z3',
     'oms_maxres': 'OptiMathSAT MaxRes', 'oms_omt': 'OptiMathSAT OMT',
@@ -104,12 +106,27 @@ def table(lines, headers, rows):
     lines.append('')
 
 
+def label(suite, variant):
+    return 'Z3 FP 转 BV' if suite == 'fp' and variant == 'z3_bv' else LABELS[variant]
+
+
 def main():
     reports = {suite: load_complete(suite) for suite in CONFIGS}
+    summary = json.loads((OUT / 'summary.json').read_text())
+    assert set(summary['suites']) == set(CONFIGS)
+    for suite, report in reports.items():
+        merged = summary['suites'][suite]
+        assert merged['planned_inputs'] == report['planned_inputs']
+        assert merged['solver_runs'] == report['solver_runs']
+        for variant in CONFIGS[suite]:
+            same_statistics(merged['overall'][variant], report['overall'][variant])
+        assert len(merged['by_group']) == len(report['by_group'])
+        for actual, expected in zip(merged['by_group'], report['by_group']):
+            same_statistics(actual, expected)
     lines = [
-        '# 已完成的公开基准结果', '',
-        '本报告覆盖 BV、整数伴随诊断与 MaxSMT 的完整输入集合。FP 不纳入本报告；'
-        'FP 全集完成并通过归档审计后，另行生成四组总汇总。', '',
+        '# 公开基准全集结果', '',
+        '本报告覆盖 FP、BV、整数伴随诊断与 MaxSMT 的完整输入集合。'
+        '四组共 42,427 个输入任务、129,037 条求解记录，均已完成运行和控制端归档。', '',
         '所有输入均实际调用相应配置，超时、内存不足、未定和原始无效输入全部保留。'
         '“完成运行”不等于求得最优解。', '',
         '求解器为 OptiMathSAT 1.7.4 和 Z3 4.15.4；单线程、每次 600 秒、8 GiB 地址空间上限。'
@@ -120,10 +137,16 @@ def main():
     table(lines, ['集合', '全部输入', '配置数', '全部观测', '原始归档数'], [
         [suite, report['planned_inputs'], len(CONFIGS[suite]), report['solver_runs'], len(report['archives'])]
         for suite, report in reports.items()])
-    for suite, title in [('bv', '原生 BV'), ('maxsmt', 'MaxSMT(LIA)')]:
+    for suite, title in [('fp', '浮点优化 FP'), ('bv', '原生 BV'), ('maxsmt', 'MaxSMT(LIA)')]:
         report = reports[suite]
+        section_start = len(lines)
         lines.extend(['## ' + title, ''])
-        if suite == 'bv':
+        if suite == 'fp':
+            lines.append('全部 39,655 个任务覆盖 17,314 个原始源文件以及 1,120 项发布输入，'
+                         '同内容发布输入按别名记录，不重复计数。三种配置均排除 NaN 目标；'
+                         '序键进一步细分负零与正零，跨配置最优值比较将二者按数值等价处理。'
+                         '空公式源的两个常量正零任务为退化检查，不用于说明浮点运算性能。')
+        elif suite == 'bv':
             lines.append('公开包全部 254 项均语法有效。该集合包含公开的构造实例，不等同于原论文的非公开工业实例全集。')
         else:
             lines.append('公开 release 的全部 2,264 项均已运行，其中 2,245 项语法有效。'
@@ -133,14 +156,17 @@ def main():
         for variant in CONFIGS[suite]:
             stats = report['overall'][variant]
             outcomes = stats['outcomes']
-            rows.append([LABELS[variant], stats['claimed_optimal'], stats['independently_verified'],
+            rows.append([label(suite, variant), stats['claimed_optimal'], stats['independently_verified'],
+                         outcomes.get('infeasible', 0),
                          outcomes.get('timeout', 0), outcomes.get('oom', 0), outcomes.get('unknown', 0),
                          outcomes.get('invalid_input', 0), f"{stats['par2_s']:.2f}"])
-        table(lines, ['配置', '报告最优', '独立复核', '超时', '内存不足', '未定', '无效输入', 'PAR-2 / 秒'], rows)
+        table(lines, ['配置', '报告最优', '独立复核', '不可满足', '超时', '内存不足', '未定', '无效输入', 'PAR-2 / 秒'], rows)
         cells = {(item['group'], item['variant']): item for item in report['by_group']}
         groups = {item['group'] for item in report['by_group']}
         if suite == 'maxsmt':
             groups = sorted(groups, key=lambda g: (int(g.split('/')[0]), g.split('/')[1]))
+        elif suite == 'fp':
+            groups = sorted(groups)
         else:
             groups = sorted(groups, key=lambda g: (g == 'hd', int(g.split('_')[1]) if g != 'hd' else 0))
         rows = []
@@ -150,12 +176,21 @@ def main():
                         [f"{cells[name, variant]['claimed_optimal']}/{cells[name, variant]['independently_verified']}"
                          for variant in CONFIGS[suite]])
         lines.append('以下保留全部来源组；求解器列为“报告最优 / 其中独立复核通过”。')
-        table(lines, ['来源组', '有效 / 发布'] + [LABELS[v] for v in CONFIGS[suite]], rows)
+        table(lines, ['来源组', '有效 / 输入任务'] + [label(suite, v) for v in CONFIGS[suite]], rows)
         if suite == 'maxsmt':
             lines.append('组名中的数字为软约束比例（%），`unw`、`w` 分别为无权、有权设置。')
         lines.extend(['', '共同报告最优的结果未发现目标值冲突；未完成复核不等于结果错误。', '',
                       f'[完整记录]({suite}-results.csv.gz) · [覆盖与统计]({suite}-complete.json) · '
                       f'[原始归档索引]({suite}-archives.json)', ''])
+        if suite == 'fp':
+            lines.extend(['FP 的不可满足返回仅作为求解器报告统计，未另行核验不可满足证明。'
+                          '所有组的完整状态与时间统计见 JSON；CSV 保留全部逐次观测。', ''])
+            (OUT / 'fp-results.md').write_text('\n'.join([
+                '# FP 全集结果', '',
+                '39,655 个任务，三种配置共 118,965 条记录。每次求解限时 600 秒、单线程、'
+                '8 GiB 地址空间；每条独立复核查询限时 60 秒，复核时间另计。'
+                'PAR-2 以全部语法有效任务为分母，未完成判定者按 1,200 秒计入。', '',
+            ] + lines[section_start:] + ['[完整方法与数据来源](README.md) · [四组总表](completed-results.md)', '']))
     lia = reports['bv_lia']
     lines.extend(['## 整数伴随文件的语义诊断', '',
                   '原包全部 254 个整数文件保留原始约束和目标顺序，两个工具均显式采用词典序。'
@@ -177,12 +212,14 @@ def main():
     table(lines, ['集合', '控制端原始归档 / 字节', 'LaTeX 表格草稿'], [
         [suite, sum(item['bytes'] for item in report['archives']), f'[查看]({draft})']
         for suite, report, draft in [
+            ('fp', reports['fp'], 'paper-fp-results-draft.tex'),
             ('bv', reports['bv'], 'paper-bv-results-draft.tex'),
             ('bv_lia', reports['bv_lia'], 'paper-lia-diagnostic-draft.tex'),
             ('maxsmt', reports['maxsmt'], 'paper-maxsmt-results-draft.tex'),
         ]])
     lines.extend(['[数据来源、版本与完整方法](README.md) · [主稿方法草稿](paper-methods-draft.tex)', '',
-                  '本文件由 `scripts/full_campaign/render_completed_results.py` 从三组完整导出生成。', ''])
+                  '本文件由 `scripts/full_campaign/render_completed_results.py` 从四组完整导出生成，'
+                  '并与 [四组机器可读汇总](summary.json) 逐项核对。', ''])
     target = OUT / 'completed-results.md'
     target.write_text('\n'.join(lines))
     print('Verified full records and wrote', target.relative_to(ROOT))

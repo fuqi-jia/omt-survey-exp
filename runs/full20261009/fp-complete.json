@@ -1,0 +1,599 @@
+{
+  "suite": "fp",
+  "completed_suite_only": true,
+  "campaign_complete": false,
+  "note": "Complete coverage and raw archives for this suite only; other suites retain their independent completion gates.",
+  "created_utc": "2026-10-12T06:47:19.771428+00:00",
+  "source_snapshot_utc": "2026-10-12T06:46:22.332699+00:00",
+  "planned_inputs": 39655,
+  "solver_runs": 118965,
+  "diagnostic_only": false,
+  "manifest_sha256": "6b4dd5f1c8a2587faeed35554927d6bac42eee5c77959ba4dbbfce3f22726f92",
+  "coverage": {
+    "suite": "fp",
+    "experiment": "36446869763f",
+    "planned_inputs": 39655,
+    "manifest_sha256": "6b4dd5f1c8a2587faeed35554927d6bac42eee5c77959ba4dbbfce3f22726f92",
+    "platform_counts": {
+      "success": 39655
+    },
+    "observed_solver_runs": 118965,
+    "expected_solver_runs": 118965,
+    "reviewed_native_failures": 0,
+    "missing_inputs": [],
+    "duplicate_inputs": {},
+    "outcomes": {
+      "oms_fp": {
+        "solver_claimed_optimal": 37484,
+        "verification:verified_optimal": 35414,
+        "verification:unverified": 2037,
+        "timeout": 1340,
+        "verification:not_attempted": 2171,
+        "verification:timeout": 25,
+        "infeasible": 831,
+        "verification:oom": 8
+      },
+      "z3_fpkey": {
+        "timeout": 5131,
+        "verification:not_attempted": 5985,
+        "solver_claimed_optimal": 33670,
+        "verification:verified_optimal": 33397,
+        "oom": 21,
+        "infeasible": 833,
+        "verification:unverified": 272,
+        "verification:timeout": 1
+      },
+      "z3_bv": {
+        "timeout": 5617,
+        "verification:not_attempted": 7682,
+        "oom": 1232,
+        "solver_claimed_optimal": 31973,
+        "verification:verified_optimal": 31826,
+        "infeasible": 833,
+        "verification:unverified": 147
+      }
+    },
+    "errors": [],
+    "objective_disagreements": [],
+    "all_inputs_completed": true
+  },
+  "archives": [
+    {
+      "host": "panda1",
+      "path": "runs/full20261009/raw/fp-panda1.tar.gz",
+      "sha256": "009a402970064ecff5656300f43c34c2d9dedc7ffa369feef7086c7122659b9a",
+      "bytes": 15213386,
+      "runs": 2757,
+      "files": 65402
+    },
+    {
+      "host": "panda2",
+      "path": "runs/full20261009/raw/fp-panda2.tar.gz",
+      "sha256": "367f7c86472994c3067801e926523ea6da8d2ac807f6808f2634315a5bec3b8e",
+      "bytes": 14775795,
+      "runs": 2639,
+      "files": 62731
+    },
+    {
+      "host": "panda3",
+      "path": "runs/full20261009/raw/fp-panda3.tar.gz",
+      "sha256": "688299aa45b5fcdd99d5b103e32c76f369ace59dcb22734e58e2e7193967534f",
+      "bytes": 14125432,
+      "runs": 2643,
+      "files": 63109
+    },
+    {
+      "host": "panda4",
+      "path": "runs/full20261009/raw/fp-panda4.tar.gz",
+      "sha256": "dccc79da4c388c6ff3f668ce9dd45e8252c2af23dbc8d3473d57a2bae6356628",
+      "bytes": 20041012,
+      "runs": 3652,
+      "files": 86892
+    },
+    {
+      "host": "panda5",
+      "path": "runs/full20261009/raw/fp-panda5.tar.gz",
+      "sha256": "87a3b97d6706834e1f005db83f815057176b39c46beb2ff70fc09302da003206",
+      "bytes": 14900236,
+      "runs": 2744,
+      "files": 65658
+    },
+    {
+      "host": "panda6",
+      "path": "runs/full20261009/raw/fp-panda6.tar.gz",
+      "sha256": "1dc77f696f03f056655874850b4693694acb2c3fca77007ac3cc9c1450c51783",
+      "bytes": 6800780,
+      "runs": 1202,
+      "files": 28522
+    },
+    {
+      "host": "panda7",
+      "path": "runs/full20261009/raw/fp-panda7.tar.gz",
+      "sha256": "d3d2324ad9570b609682f778320f869effb9bba2c14f6b14979620db672f16ea",
+      "bytes": 18249223,
+      "runs": 3351,
+      "files": 79912
+    },
+    {
+      "host": "panda8",
+      "path": "runs/full20261009/raw/fp-panda8.tar.gz",
+      "sha256": "a680045e6e8b24670dd28885af83594719a38f0b99dbf69d6bacc1ee4390919d",
+      "bytes": 31676587,
+      "runs": 5904,
+      "files": 140821
+    },
+    {
+      "host": "panda9",
+      "path": "runs/full20261009/raw/fp-panda9.tar.gz",
+      "sha256": "f8e50b730ef8dfca6dda9ec0c269d9f9b21bbd4072d5d1ccc8635f96f825e2de",
+      "bytes": 54434525,
+      "runs": 9980,
+      "files": 237943
+    },
+    {
+      "host": "tiger7",
+      "path": "runs/full20261009/raw/fp-tiger7.tar.gz",
+      "sha256": "ff6500de8959c418b9e6501ef9beb6c209b91e26f1df0b342f7a637ec846712c",
+      "bytes": 26023773,
+      "runs": 4783,
+      "files": 114211
+    }
+  ],
+  "results_csv_sha256": "34ec594a1283617cda6527f651c34d10c1a3e9cfa2dd04c017eb5a021288043f",
+  "results_gzip_sha256": "5d94cb93873dea095769d3c1851657da23302edab98a68656c34d64a47406f4c",
+  "budget_s": 600,
+  "memory_bytes": 8589934592,
+  "statistics": "Reported optimal or infeasible counts as definitive; unsolved valid inputs contribute infinity to the median and 1200 s to PAR-2. Independent verification is reported separately.",
+  "overall": {
+    "oms_fp": {
+      "source_inputs": 39655,
+      "valid_inputs": 39655,
+      "outcomes": {
+        "solver_claimed_optimal": 37484,
+        "timeout": 1340,
+        "infeasible": 831
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 37484,
+        "timeout": 1340,
+        "infeasible": 831
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 35414,
+      "claimed_optimal": 37484,
+      "claimed_definitive": 38315,
+      "verified_after_claim": 35414,
+      "median_with_unsolved_infinity": 0.3201078288257122,
+      "solved_median_s": 0.31918915361166,
+      "solved_min_s": 0.11830933392047882,
+      "solved_max_s": 599.799057786935,
+      "par2_s": 53.860710704959885
+    },
+    "z3_bv": {
+      "source_inputs": 39655,
+      "valid_inputs": 39655,
+      "outcomes": {
+        "timeout": 5617,
+        "oom": 1232,
+        "solver_claimed_optimal": 31973,
+        "infeasible": 833
+      },
+      "reported_outcomes": {
+        "timeout": 5617,
+        "oom": 1232,
+        "solver_claimed_optimal": 31973,
+        "infeasible": 833
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 31826,
+      "claimed_optimal": 31973,
+      "claimed_definitive": 32806,
+      "verified_after_claim": 31826,
+      "median_with_unsolved_infinity": 4.1314629800617695,
+      "solved_median_s": 1.4771209247410297,
+      "solved_min_s": 0.1190653145313263,
+      "solved_max_s": 599.9360601305962,
+      "par2_s": 240.0766140784067
+    },
+    "z3_fpkey": {
+      "source_inputs": 39655,
+      "valid_inputs": 39655,
+      "outcomes": {
+        "timeout": 5131,
+        "solver_claimed_optimal": 33670,
+        "oom": 21,
+        "infeasible": 833
+      },
+      "reported_outcomes": {
+        "timeout": 5131,
+        "solver_claimed_optimal": 33670,
+        "oom": 21,
+        "infeasible": 833
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 33397,
+      "claimed_optimal": 33670,
+      "claimed_definitive": 34503,
+      "verified_after_claim": 33397,
+      "median_with_unsolved_infinity": 2.373464189004153,
+      "solved_median_s": 1.4249888565391302,
+      "solved_min_s": 0.11764871701598167,
+      "solved_max_s": 598.5945187844336,
+      "par2_s": 181.58790276921252
+    }
+  },
+  "by_group": [
+    {
+      "group": "griggio",
+      "variant": "oms_fp",
+      "source_inputs": 3653,
+      "valid_inputs": 3653,
+      "outcomes": {
+        "solver_claimed_optimal": 2549,
+        "timeout": 1104
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 2549,
+        "timeout": 1104
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 688,
+      "claimed_optimal": 2549,
+      "claimed_definitive": 2549,
+      "verified_after_claim": 688,
+      "median_with_unsolved_infinity": 209.94706929661334,
+      "solved_median_s": 88.6998407766223,
+      "solved_min_s": 0.118389543145895,
+      "solved_max_s": 599.799057786935,
+      "par2_s": 463.91340818565567
+    },
+    {
+      "group": "griggio",
+      "variant": "z3_bv",
+      "source_inputs": 3653,
+      "valid_inputs": 3653,
+      "outcomes": {
+        "timeout": 1836,
+        "oom": 1232,
+        "solver_claimed_optimal": 585
+      },
+      "reported_outcomes": {
+        "timeout": 1836,
+        "oom": 1232,
+        "solver_claimed_optimal": 585
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 570,
+      "claimed_optimal": 585,
+      "claimed_definitive": 585,
+      "verified_after_claim": 570,
+      "median_with_unsolved_infinity": null,
+      "solved_median_s": 2.975902609527111,
+      "solved_min_s": 0.17041350703220814,
+      "solved_max_s": 580.5864705758868,
+      "par2_s": 1018.2978476219544
+    },
+    {
+      "group": "griggio",
+      "variant": "z3_fpkey",
+      "source_inputs": 3653,
+      "valid_inputs": 3653,
+      "outcomes": {
+        "timeout": 2919,
+        "solver_claimed_optimal": 714,
+        "oom": 20
+      },
+      "reported_outcomes": {
+        "timeout": 2919,
+        "solver_claimed_optimal": 714,
+        "oom": 20
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 597,
+      "claimed_optimal": 714,
+      "claimed_definitive": 714,
+      "verified_after_claim": 597,
+      "median_with_unsolved_infinity": null,
+      "solved_median_s": 14.062393323751166,
+      "solved_min_s": 0.16992905305232853,
+      "solved_max_s": 598.5945187844336,
+      "par2_s": 984.9055938557741
+    },
+    {
+      "group": "heizmann",
+      "variant": "oms_fp",
+      "source_inputs": 148,
+      "valid_inputs": 148,
+      "outcomes": {
+        "solver_claimed_optimal": 148
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 148
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 107,
+      "claimed_optimal": 148,
+      "claimed_definitive": 148,
+      "verified_after_claim": 107,
+      "median_with_unsolved_infinity": 0.2715033311396837,
+      "solved_median_s": 0.2715033311396837,
+      "solved_min_s": 0.16864816297311336,
+      "solved_max_s": 333.0084044779651,
+      "par2_s": 19.33785865115823
+    },
+    {
+      "group": "heizmann",
+      "variant": "z3_bv",
+      "source_inputs": 148,
+      "valid_inputs": 148,
+      "outcomes": {
+        "timeout": 130,
+        "solver_claimed_optimal": 18
+      },
+      "reported_outcomes": {
+        "timeout": 130,
+        "solver_claimed_optimal": 18
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 18,
+      "claimed_optimal": 18,
+      "claimed_definitive": 18,
+      "verified_after_claim": 18,
+      "median_with_unsolved_infinity": null,
+      "solved_median_s": 272.3567159883678,
+      "solved_min_s": 170.50547007843852,
+      "solved_max_s": 396.8875451423228,
+      "par2_s": 1088.419211897582
+    },
+    {
+      "group": "heizmann",
+      "variant": "z3_fpkey",
+      "source_inputs": 148,
+      "valid_inputs": 148,
+      "outcomes": {
+        "solver_claimed_optimal": 124,
+        "timeout": 24
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 124,
+        "timeout": 24
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 98,
+      "claimed_optimal": 124,
+      "claimed_definitive": 124,
+      "verified_after_claim": 98,
+      "median_with_unsolved_infinity": 1.5245546009391546,
+      "solved_median_s": 1.3766420865431428,
+      "solved_min_s": 0.16917989030480385,
+      "solved_max_s": 578.7602102793753,
+      "par2_s": 248.01488460624603
+    },
+    {
+      "group": "ramalho",
+      "variant": "oms_fp",
+      "source_inputs": 1340,
+      "valid_inputs": 1340,
+      "outcomes": {
+        "solver_claimed_optimal": 1142,
+        "timeout": 198
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 1142,
+        "timeout": 198
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 1142,
+      "claimed_optimal": 1142,
+      "claimed_definitive": 1142,
+      "verified_after_claim": 1142,
+      "median_with_unsolved_infinity": 64.26812941394746,
+      "solved_median_s": 19.808331998065114,
+      "solved_min_s": 0.21907591097988188,
+      "solved_max_s": 595.9677622540621,
+      "par2_s": 279.29052182829247
+    },
+    {
+      "group": "ramalho",
+      "variant": "z3_bv",
+      "source_inputs": 1340,
+      "valid_inputs": 1340,
+      "outcomes": {
+        "timeout": 1340
+      },
+      "reported_outcomes": {
+        "timeout": 1340
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 0,
+      "claimed_optimal": 0,
+      "claimed_definitive": 0,
+      "verified_after_claim": 0,
+      "median_with_unsolved_infinity": null,
+      "solved_median_s": null,
+      "solved_min_s": null,
+      "solved_max_s": null,
+      "par2_s": 1200.0
+    },
+    {
+      "group": "ramalho",
+      "variant": "z3_fpkey",
+      "source_inputs": 1340,
+      "valid_inputs": 1340,
+      "outcomes": {
+        "solver_claimed_optimal": 1320,
+        "timeout": 19,
+        "oom": 1
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 1320,
+        "timeout": 19,
+        "oom": 1
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 1320,
+      "claimed_optimal": 1320,
+      "claimed_definitive": 1320,
+      "verified_after_claim": 1320,
+      "median_with_unsolved_infinity": 0.3205140233039856,
+      "solved_median_s": 0.3203317184234038,
+      "solved_min_s": 0.16871638968586922,
+      "solved_max_s": 1.8388187624514103,
+      "par2_s": 18.21374114484156
+    },
+    {
+      "group": "schanda",
+      "variant": "oms_fp",
+      "source_inputs": 188,
+      "valid_inputs": 188,
+      "outcomes": {
+        "solver_claimed_optimal": 56,
+        "infeasible": 94,
+        "timeout": 38
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 56,
+        "infeasible": 94,
+        "timeout": 38
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 51,
+      "claimed_optimal": 56,
+      "claimed_definitive": 150,
+      "verified_after_claim": 51,
+      "median_with_unsolved_infinity": 0.722475036047399,
+      "solved_median_s": 0.47600288689136505,
+      "solved_min_s": 0.1686375030549243,
+      "solved_max_s": 460.8438275810331,
+      "par2_s": 257.6790084761073
+    },
+    {
+      "group": "schanda",
+      "variant": "z3_bv",
+      "source_inputs": 188,
+      "valid_inputs": 188,
+      "outcomes": {
+        "solver_claimed_optimal": 46,
+        "infeasible": 96,
+        "timeout": 46
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 46,
+        "infeasible": 96,
+        "timeout": 46
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 46,
+      "claimed_optimal": 46,
+      "claimed_definitive": 142,
+      "verified_after_claim": 46,
+      "median_with_unsolved_infinity": 14.474691619165242,
+      "solved_median_s": 5.813064296031371,
+      "solved_min_s": 0.11955934390425682,
+      "solved_max_s": 466.8412482906133,
+      "par2_s": 319.05256144843185
+    },
+    {
+      "group": "schanda",
+      "variant": "z3_fpkey",
+      "source_inputs": 188,
+      "valid_inputs": 188,
+      "outcomes": {
+        "solver_claimed_optimal": 46,
+        "infeasible": 96,
+        "timeout": 46
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 46,
+        "infeasible": 96,
+        "timeout": 46
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 46,
+      "claimed_optimal": 46,
+      "claimed_definitive": 142,
+      "verified_after_claim": 46,
+      "median_with_unsolved_infinity": 11.337950835004449,
+      "solved_median_s": 3.383405434899032,
+      "solved_min_s": 0.1196109689772129,
+      "solved_max_s": 477.52515040151775,
+      "par2_s": 316.4829100764479
+    },
+    {
+      "group": "wintersteiger",
+      "variant": "oms_fp",
+      "source_inputs": 34326,
+      "valid_inputs": 34326,
+      "outcomes": {
+        "solver_claimed_optimal": 33589,
+        "infeasible": 737
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 33589,
+        "infeasible": 737
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 33426,
+      "claimed_optimal": 33589,
+      "claimed_definitive": 34326,
+      "verified_after_claim": 33426,
+      "median_with_unsolved_infinity": 0.2738614808768034,
+      "solved_median_s": 0.2738614808768034,
+      "solved_min_s": 0.11830933392047882,
+      "solved_max_s": 79.54415465518832,
+      "par2_s": 0.4549276635551011
+    },
+    {
+      "group": "wintersteiger",
+      "variant": "z3_bv",
+      "source_inputs": 34326,
+      "valid_inputs": 34326,
+      "outcomes": {
+        "solver_claimed_optimal": 31324,
+        "infeasible": 737,
+        "timeout": 2265
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 31324,
+        "infeasible": 737,
+        "timeout": 2265
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 31192,
+      "claimed_optimal": 31324,
+      "claimed_definitive": 32061,
+      "verified_after_claim": 31192,
+      "median_with_unsolved_infinity": 1.6762914517894387,
+      "solved_median_s": 1.476743584498763,
+      "solved_min_s": 0.1190653145313263,
+      "solved_max_s": 599.9360601305962,
+      "par2_s": 115.69446393413362
+    },
+    {
+      "group": "wintersteiger",
+      "variant": "z3_fpkey",
+      "source_inputs": 34326,
+      "valid_inputs": 34326,
+      "outcomes": {
+        "solver_claimed_optimal": 31466,
+        "infeasible": 737,
+        "timeout": 2123
+      },
+      "reported_outcomes": {
+        "solver_claimed_optimal": 31466,
+        "infeasible": 737,
+        "timeout": 2123
+      },
+      "reviewed_native_failures": 0,
+      "independently_verified": 31336,
+      "claimed_optimal": 31466,
+      "claimed_definitive": 32203,
+      "verified_after_claim": 31336,
+      "median_with_unsolved_infinity": 1.7254198025912046,
+      "solved_median_s": 1.4789998438209295,
+      "solved_min_s": 0.11764871701598167,
+      "solved_max_s": 590.532067772001,
+      "par2_s": 101.45070054209042
+    }
+  ]
+}

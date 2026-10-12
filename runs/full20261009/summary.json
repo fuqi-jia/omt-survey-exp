@@ -1,0 +1,2057 @@
+{
+  "source_snapshot_utc": "2026-10-12T06:46:22.332699+00:00",
+  "budget_s": 600,
+  "timing": "Per-solver wall time including normalization, parsing and startup; verification excluded",
+  "par2": "Valid inputs only; 2 x 600 seconds unless the solver claims optimal or infeasible",
+  "unverified_claims": "Reported separately; not called independently established optima",
+  "status_reviews": "Exact native std::bad_alloc responses are counted as allocation failures; original platform metrics and reported statuses remain preserved and reviews are verified against raw archives.",
+  "suites": {
+    "fp": {
+      "diagnostic_only": false,
+      "planned_inputs": 39655,
+      "solver_runs": 118965,
+      "overall": {
+        "oms_fp": {
+          "source_inputs": 39655,
+          "valid_inputs": 39655,
+          "outcomes": {
+            "solver_claimed_optimal": 37484,
+            "timeout": 1340,
+            "infeasible": 831
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 37484,
+            "timeout": 1340,
+            "infeasible": 831
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 35414,
+          "claimed_optimal": 37484,
+          "claimed_definitive": 38315,
+          "verified_after_claim": 35414,
+          "median_with_unsolved_infinity": 0.3201078288257122,
+          "solved_median_s": 0.31918915361166,
+          "solved_min_s": 0.11830933392047882,
+          "solved_max_s": 599.799057786935,
+          "par2_s": 53.860710704959885
+        },
+        "z3_bv": {
+          "source_inputs": 39655,
+          "valid_inputs": 39655,
+          "outcomes": {
+            "timeout": 5617,
+            "oom": 1232,
+            "solver_claimed_optimal": 31973,
+            "infeasible": 833
+          },
+          "reported_outcomes": {
+            "timeout": 5617,
+            "oom": 1232,
+            "solver_claimed_optimal": 31973,
+            "infeasible": 833
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 31826,
+          "claimed_optimal": 31973,
+          "claimed_definitive": 32806,
+          "verified_after_claim": 31826,
+          "median_with_unsolved_infinity": 4.1314629800617695,
+          "solved_median_s": 1.4771209247410297,
+          "solved_min_s": 0.1190653145313263,
+          "solved_max_s": 599.9360601305962,
+          "par2_s": 240.0766140784067
+        },
+        "z3_fpkey": {
+          "source_inputs": 39655,
+          "valid_inputs": 39655,
+          "outcomes": {
+            "timeout": 5131,
+            "solver_claimed_optimal": 33670,
+            "oom": 21,
+            "infeasible": 833
+          },
+          "reported_outcomes": {
+            "timeout": 5131,
+            "solver_claimed_optimal": 33670,
+            "oom": 21,
+            "infeasible": 833
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 33397,
+          "claimed_optimal": 33670,
+          "claimed_definitive": 34503,
+          "verified_after_claim": 33397,
+          "median_with_unsolved_infinity": 2.373464189004153,
+          "solved_median_s": 1.4249888565391302,
+          "solved_min_s": 0.11764871701598167,
+          "solved_max_s": 598.5945187844336,
+          "par2_s": 181.58790276921252
+        }
+      },
+      "by_group": [
+        {
+          "group": "griggio",
+          "variant": "oms_fp",
+          "source_inputs": 3653,
+          "valid_inputs": 3653,
+          "outcomes": {
+            "solver_claimed_optimal": 2549,
+            "timeout": 1104
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 2549,
+            "timeout": 1104
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 688,
+          "claimed_optimal": 2549,
+          "claimed_definitive": 2549,
+          "verified_after_claim": 688,
+          "median_with_unsolved_infinity": 209.94706929661334,
+          "solved_median_s": 88.6998407766223,
+          "solved_min_s": 0.118389543145895,
+          "solved_max_s": 599.799057786935,
+          "par2_s": 463.91340818565567
+        },
+        {
+          "group": "griggio",
+          "variant": "z3_bv",
+          "source_inputs": 3653,
+          "valid_inputs": 3653,
+          "outcomes": {
+            "timeout": 1836,
+            "oom": 1232,
+            "solver_claimed_optimal": 585
+          },
+          "reported_outcomes": {
+            "timeout": 1836,
+            "oom": 1232,
+            "solver_claimed_optimal": 585
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 570,
+          "claimed_optimal": 585,
+          "claimed_definitive": 585,
+          "verified_after_claim": 570,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 2.975902609527111,
+          "solved_min_s": 0.17041350703220814,
+          "solved_max_s": 580.5864705758868,
+          "par2_s": 1018.2978476219544
+        },
+        {
+          "group": "griggio",
+          "variant": "z3_fpkey",
+          "source_inputs": 3653,
+          "valid_inputs": 3653,
+          "outcomes": {
+            "timeout": 2919,
+            "solver_claimed_optimal": 714,
+            "oom": 20
+          },
+          "reported_outcomes": {
+            "timeout": 2919,
+            "solver_claimed_optimal": 714,
+            "oom": 20
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 597,
+          "claimed_optimal": 714,
+          "claimed_definitive": 714,
+          "verified_after_claim": 597,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 14.062393323751166,
+          "solved_min_s": 0.16992905305232853,
+          "solved_max_s": 598.5945187844336,
+          "par2_s": 984.9055938557741
+        },
+        {
+          "group": "heizmann",
+          "variant": "oms_fp",
+          "source_inputs": 148,
+          "valid_inputs": 148,
+          "outcomes": {
+            "solver_claimed_optimal": 148
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 148
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 107,
+          "claimed_optimal": 148,
+          "claimed_definitive": 148,
+          "verified_after_claim": 107,
+          "median_with_unsolved_infinity": 0.2715033311396837,
+          "solved_median_s": 0.2715033311396837,
+          "solved_min_s": 0.16864816297311336,
+          "solved_max_s": 333.0084044779651,
+          "par2_s": 19.33785865115823
+        },
+        {
+          "group": "heizmann",
+          "variant": "z3_bv",
+          "source_inputs": 148,
+          "valid_inputs": 148,
+          "outcomes": {
+            "timeout": 130,
+            "solver_claimed_optimal": 18
+          },
+          "reported_outcomes": {
+            "timeout": 130,
+            "solver_claimed_optimal": 18
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 18,
+          "claimed_optimal": 18,
+          "claimed_definitive": 18,
+          "verified_after_claim": 18,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 272.3567159883678,
+          "solved_min_s": 170.50547007843852,
+          "solved_max_s": 396.8875451423228,
+          "par2_s": 1088.419211897582
+        },
+        {
+          "group": "heizmann",
+          "variant": "z3_fpkey",
+          "source_inputs": 148,
+          "valid_inputs": 148,
+          "outcomes": {
+            "solver_claimed_optimal": 124,
+            "timeout": 24
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 124,
+            "timeout": 24
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 98,
+          "claimed_optimal": 124,
+          "claimed_definitive": 124,
+          "verified_after_claim": 98,
+          "median_with_unsolved_infinity": 1.5245546009391546,
+          "solved_median_s": 1.3766420865431428,
+          "solved_min_s": 0.16917989030480385,
+          "solved_max_s": 578.7602102793753,
+          "par2_s": 248.01488460624603
+        },
+        {
+          "group": "ramalho",
+          "variant": "oms_fp",
+          "source_inputs": 1340,
+          "valid_inputs": 1340,
+          "outcomes": {
+            "solver_claimed_optimal": 1142,
+            "timeout": 198
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 1142,
+            "timeout": 198
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1142,
+          "claimed_optimal": 1142,
+          "claimed_definitive": 1142,
+          "verified_after_claim": 1142,
+          "median_with_unsolved_infinity": 64.26812941394746,
+          "solved_median_s": 19.808331998065114,
+          "solved_min_s": 0.21907591097988188,
+          "solved_max_s": 595.9677622540621,
+          "par2_s": 279.29052182829247
+        },
+        {
+          "group": "ramalho",
+          "variant": "z3_bv",
+          "source_inputs": 1340,
+          "valid_inputs": 1340,
+          "outcomes": {
+            "timeout": 1340
+          },
+          "reported_outcomes": {
+            "timeout": 1340
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": null,
+          "solved_min_s": null,
+          "solved_max_s": null,
+          "par2_s": 1200.0
+        },
+        {
+          "group": "ramalho",
+          "variant": "z3_fpkey",
+          "source_inputs": 1340,
+          "valid_inputs": 1340,
+          "outcomes": {
+            "solver_claimed_optimal": 1320,
+            "timeout": 19,
+            "oom": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 1320,
+            "timeout": 19,
+            "oom": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1320,
+          "claimed_optimal": 1320,
+          "claimed_definitive": 1320,
+          "verified_after_claim": 1320,
+          "median_with_unsolved_infinity": 0.3205140233039856,
+          "solved_median_s": 0.3203317184234038,
+          "solved_min_s": 0.16871638968586922,
+          "solved_max_s": 1.8388187624514103,
+          "par2_s": 18.21374114484156
+        },
+        {
+          "group": "schanda",
+          "variant": "oms_fp",
+          "source_inputs": 188,
+          "valid_inputs": 188,
+          "outcomes": {
+            "solver_claimed_optimal": 56,
+            "infeasible": 94,
+            "timeout": 38
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 56,
+            "infeasible": 94,
+            "timeout": 38
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 51,
+          "claimed_optimal": 56,
+          "claimed_definitive": 150,
+          "verified_after_claim": 51,
+          "median_with_unsolved_infinity": 0.722475036047399,
+          "solved_median_s": 0.47600288689136505,
+          "solved_min_s": 0.1686375030549243,
+          "solved_max_s": 460.8438275810331,
+          "par2_s": 257.6790084761073
+        },
+        {
+          "group": "schanda",
+          "variant": "z3_bv",
+          "source_inputs": 188,
+          "valid_inputs": 188,
+          "outcomes": {
+            "solver_claimed_optimal": 46,
+            "infeasible": 96,
+            "timeout": 46
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 46,
+            "infeasible": 96,
+            "timeout": 46
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 46,
+          "claimed_optimal": 46,
+          "claimed_definitive": 142,
+          "verified_after_claim": 46,
+          "median_with_unsolved_infinity": 14.474691619165242,
+          "solved_median_s": 5.813064296031371,
+          "solved_min_s": 0.11955934390425682,
+          "solved_max_s": 466.8412482906133,
+          "par2_s": 319.05256144843185
+        },
+        {
+          "group": "schanda",
+          "variant": "z3_fpkey",
+          "source_inputs": 188,
+          "valid_inputs": 188,
+          "outcomes": {
+            "solver_claimed_optimal": 46,
+            "infeasible": 96,
+            "timeout": 46
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 46,
+            "infeasible": 96,
+            "timeout": 46
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 46,
+          "claimed_optimal": 46,
+          "claimed_definitive": 142,
+          "verified_after_claim": 46,
+          "median_with_unsolved_infinity": 11.337950835004449,
+          "solved_median_s": 3.383405434899032,
+          "solved_min_s": 0.1196109689772129,
+          "solved_max_s": 477.52515040151775,
+          "par2_s": 316.4829100764479
+        },
+        {
+          "group": "wintersteiger",
+          "variant": "oms_fp",
+          "source_inputs": 34326,
+          "valid_inputs": 34326,
+          "outcomes": {
+            "solver_claimed_optimal": 33589,
+            "infeasible": 737
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 33589,
+            "infeasible": 737
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 33426,
+          "claimed_optimal": 33589,
+          "claimed_definitive": 34326,
+          "verified_after_claim": 33426,
+          "median_with_unsolved_infinity": 0.2738614808768034,
+          "solved_median_s": 0.2738614808768034,
+          "solved_min_s": 0.11830933392047882,
+          "solved_max_s": 79.54415465518832,
+          "par2_s": 0.4549276635551011
+        },
+        {
+          "group": "wintersteiger",
+          "variant": "z3_bv",
+          "source_inputs": 34326,
+          "valid_inputs": 34326,
+          "outcomes": {
+            "solver_claimed_optimal": 31324,
+            "infeasible": 737,
+            "timeout": 2265
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 31324,
+            "infeasible": 737,
+            "timeout": 2265
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 31192,
+          "claimed_optimal": 31324,
+          "claimed_definitive": 32061,
+          "verified_after_claim": 31192,
+          "median_with_unsolved_infinity": 1.6762914517894387,
+          "solved_median_s": 1.476743584498763,
+          "solved_min_s": 0.1190653145313263,
+          "solved_max_s": 599.9360601305962,
+          "par2_s": 115.69446393413362
+        },
+        {
+          "group": "wintersteiger",
+          "variant": "z3_fpkey",
+          "source_inputs": 34326,
+          "valid_inputs": 34326,
+          "outcomes": {
+            "solver_claimed_optimal": 31466,
+            "infeasible": 737,
+            "timeout": 2123
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 31466,
+            "infeasible": 737,
+            "timeout": 2123
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 31336,
+          "claimed_optimal": 31466,
+          "claimed_definitive": 32203,
+          "verified_after_claim": 31336,
+          "median_with_unsolved_infinity": 1.7254198025912046,
+          "solved_median_s": 1.4789998438209295,
+          "solved_min_s": 0.11764871701598167,
+          "solved_max_s": 590.532067772001,
+          "par2_s": 101.45070054209042
+        }
+      ],
+      "by_host": {
+        "panda1": 8271,
+        "tiger7": 14349,
+        "panda7": 10053,
+        "panda3": 7929,
+        "panda9": 29940,
+        "panda4": 10956,
+        "panda6": 3606,
+        "panda8": 17712,
+        "panda5": 8232,
+        "panda2": 7917
+      }
+    },
+    "bv": {
+      "diagnostic_only": false,
+      "planned_inputs": 254,
+      "solver_runs": 508,
+      "overall": {
+        "oms_bv": {
+          "source_inputs": 254,
+          "valid_inputs": 254,
+          "outcomes": {
+            "timeout": 89,
+            "solver_claimed_optimal": 165
+          },
+          "reported_outcomes": {
+            "timeout": 89,
+            "solver_claimed_optimal": 165
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 129,
+          "claimed_optimal": 165,
+          "claimed_definitive": 165,
+          "verified_after_claim": 129,
+          "median_with_unsolved_infinity": 80.16546091344208,
+          "solved_median_s": 6.485288631170988,
+          "solved_min_s": 0.16913845390081406,
+          "solved_max_s": 517.0396445519291,
+          "par2_s": 459.27505383533094
+        },
+        "z3_bv": {
+          "source_inputs": 254,
+          "valid_inputs": 254,
+          "outcomes": {
+            "oom": 62,
+            "timeout": 56,
+            "unknown": 17,
+            "solver_claimed_optimal": 119
+          },
+          "reported_outcomes": {
+            "oom": 62,
+            "timeout": 56,
+            "unknown": 17,
+            "solver_claimed_optimal": 119
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 119,
+          "claimed_optimal": 119,
+          "claimed_definitive": 119,
+          "verified_after_claim": 119,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 1.774837665259838,
+          "solved_min_s": 0.16927683597896248,
+          "solved_max_s": 591.0634518099832,
+          "par2_s": 675.9771043016052
+        }
+      },
+      "by_group": [
+        {
+          "group": "hd",
+          "variant": "oms_bv",
+          "source_inputs": 54,
+          "valid_inputs": 54,
+          "outcomes": {
+            "timeout": 54
+          },
+          "reported_outcomes": {
+            "timeout": 54
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": null,
+          "solved_min_s": null,
+          "solved_max_s": null,
+          "par2_s": 1200.0
+        },
+        {
+          "group": "hd",
+          "variant": "z3_bv",
+          "source_inputs": 54,
+          "valid_inputs": 54,
+          "outcomes": {
+            "oom": 51,
+            "unknown": 3
+          },
+          "reported_outcomes": {
+            "oom": 51,
+            "unknown": 3
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": null,
+          "solved_min_s": null,
+          "solved_max_s": null,
+          "par2_s": 1200.0
+        },
+        {
+          "group": "size_100_100",
+          "variant": "oms_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 30,
+            "solver_claimed_optimal": 10
+          },
+          "reported_outcomes": {
+            "timeout": 30,
+            "solver_claimed_optimal": 10
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 10,
+          "claimed_definitive": 10,
+          "verified_after_claim": 0,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 230.19231618382037,
+          "solved_min_s": 130.01269964501262,
+          "solved_max_s": 517.0396445519291,
+          "par2_s": 966.2435230244475
+        },
+        {
+          "group": "size_100_100",
+          "variant": "z3_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "oom": 10,
+            "timeout": 17,
+            "unknown": 13
+          },
+          "reported_outcomes": {
+            "oom": 10,
+            "timeout": 17,
+            "unknown": 13
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": null,
+          "solved_min_s": null,
+          "solved_max_s": null,
+          "par2_s": 1200.0
+        },
+        {
+          "group": "size_10_10",
+          "variant": "oms_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 40,
+          "claimed_optimal": 40,
+          "claimed_definitive": 40,
+          "verified_after_claim": 40,
+          "median_with_unsolved_infinity": 0.2218023557215929,
+          "solved_median_s": 0.2218023557215929,
+          "solved_min_s": 0.16913845390081406,
+          "solved_max_s": 1.4798709079623222,
+          "par2_s": 0.2768811162924976
+        },
+        {
+          "group": "size_10_10",
+          "variant": "z3_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 40,
+          "claimed_optimal": 40,
+          "claimed_definitive": 40,
+          "verified_after_claim": 40,
+          "median_with_unsolved_infinity": 0.2223703321069479,
+          "solved_median_s": 0.2223703321069479,
+          "solved_min_s": 0.16927683597896248,
+          "solved_max_s": 6.750045903027058,
+          "par2_s": 0.4159305822540773
+        },
+        {
+          "group": "size_25_25",
+          "variant": "oms_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 40,
+          "claimed_optimal": 40,
+          "claimed_definitive": 40,
+          "verified_after_claim": 40,
+          "median_with_unsolved_infinity": 0.99783090793062,
+          "solved_median_s": 0.99783090793062,
+          "solved_min_s": 0.26918775303056464,
+          "solved_max_s": 6.564220909029245,
+          "par2_s": 1.4798680481879274
+        },
+        {
+          "group": "size_25_25",
+          "variant": "z3_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 40,
+          "claimed_optimal": 40,
+          "claimed_definitive": 40,
+          "verified_after_claim": 40,
+          "median_with_unsolved_infinity": 1.7502426244318485,
+          "solved_median_s": 1.7502426244318485,
+          "solved_min_s": 0.319390382966958,
+          "solved_max_s": 39.508931901305914,
+          "par2_s": 3.6830178765390884
+        },
+        {
+          "group": "size_50_50",
+          "variant": "oms_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 37,
+          "claimed_optimal": 40,
+          "claimed_definitive": 40,
+          "verified_after_claim": 37,
+          "median_with_unsolved_infinity": 22.077049981802702,
+          "solved_median_s": 22.077049981802702,
+          "solved_min_s": 3.333887208253145,
+          "solved_max_s": 319.4262002184987,
+          "par2_s": 38.28470437096985
+        },
+        {
+          "group": "size_50_50",
+          "variant": "z3_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "solver_claimed_optimal": 34,
+            "timeout": 6
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 34,
+            "timeout": 6
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 34,
+          "claimed_optimal": 34,
+          "claimed_definitive": 34,
+          "verified_after_claim": 34,
+          "median_with_unsolved_infinity": 204.997171536088,
+          "solved_median_s": 181.3440490840003,
+          "solved_min_s": 12.61236846446991,
+          "solved_max_s": 583.5860333722085,
+          "par2_s": 357.64627276867685
+        },
+        {
+          "group": "size_75_75",
+          "variant": "oms_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 5,
+            "solver_claimed_optimal": 35
+          },
+          "reported_outcomes": {
+            "timeout": 5,
+            "solver_claimed_optimal": 35
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 12,
+          "claimed_optimal": 35,
+          "claimed_definitive": 35,
+          "verified_after_claim": 12,
+          "median_with_unsolved_infinity": 111.95701956935227,
+          "solved_median_s": 103.9860378280282,
+          "solved_min_s": 24.49142264900729,
+          "solved_max_s": 467.9990606531501,
+          "par2_s": 290.1116152944538
+        },
+        {
+          "group": "size_75_75",
+          "variant": "z3_bv",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "unknown": 1,
+            "timeout": 33,
+            "solver_claimed_optimal": 5,
+            "oom": 1
+          },
+          "reported_outcomes": {
+            "unknown": 1,
+            "timeout": 33,
+            "solver_claimed_optimal": 5,
+            "oom": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 5,
+          "claimed_optimal": 5,
+          "claimed_definitive": 5,
+          "verified_after_claim": 5,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 552.6653029560111,
+          "solved_min_s": 326.167347145034,
+          "solved_max_s": 591.0634518099832,
+          "par2_s": 1110.709391087723
+        }
+      ],
+      "by_host": {
+        "panda1": 84,
+        "panda6": 74,
+        "panda5": 86,
+        "panda3": 58,
+        "panda7": 106,
+        "panda2": 22,
+        "tiger7": 20,
+        "panda9": 22,
+        "panda4": 36
+      }
+    },
+    "bv_lia": {
+      "diagnostic_only": true,
+      "planned_inputs": 254,
+      "solver_runs": 508,
+      "overall": {
+        "oms_lia": {
+          "source_inputs": 254,
+          "valid_inputs": 254,
+          "outcomes": {
+            "timeout": 165,
+            "oom": 11,
+            "diagnostic_sat": 78
+          },
+          "reported_outcomes": {
+            "timeout": 165,
+            "solver_error": 11,
+            "diagnostic_sat": 78
+          },
+          "reviewed_native_failures": 11,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        "z3_lia": {
+          "source_inputs": 254,
+          "valid_inputs": 254,
+          "outcomes": {
+            "timeout": 145,
+            "diagnostic_unbounded": 109
+          },
+          "reported_outcomes": {
+            "timeout": 145,
+            "diagnostic_unbounded": 109
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        }
+      },
+      "by_group": [
+        {
+          "group": "hd",
+          "variant": "oms_lia",
+          "source_inputs": 54,
+          "valid_inputs": 54,
+          "outcomes": {
+            "timeout": 44,
+            "oom": 10
+          },
+          "reported_outcomes": {
+            "timeout": 44,
+            "solver_error": 10
+          },
+          "reviewed_native_failures": 10,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "hd",
+          "variant": "z3_lia",
+          "source_inputs": 54,
+          "valid_inputs": 54,
+          "outcomes": {
+            "timeout": 54
+          },
+          "reported_outcomes": {
+            "timeout": 54
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_100_100",
+          "variant": "oms_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 36,
+            "oom": 1,
+            "diagnostic_sat": 3
+          },
+          "reported_outcomes": {
+            "timeout": 36,
+            "solver_error": 1,
+            "diagnostic_sat": 3
+          },
+          "reviewed_native_failures": 1,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_100_100",
+          "variant": "z3_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 40
+          },
+          "reported_outcomes": {
+            "timeout": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_10_10",
+          "variant": "oms_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "diagnostic_sat": 15,
+            "timeout": 25
+          },
+          "reported_outcomes": {
+            "diagnostic_sat": 15,
+            "timeout": 25
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_10_10",
+          "variant": "z3_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "diagnostic_unbounded": 40
+          },
+          "reported_outcomes": {
+            "diagnostic_unbounded": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_25_25",
+          "variant": "oms_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 17,
+            "diagnostic_sat": 23
+          },
+          "reported_outcomes": {
+            "timeout": 17,
+            "diagnostic_sat": 23
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_25_25",
+          "variant": "z3_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "diagnostic_unbounded": 40
+          },
+          "reported_outcomes": {
+            "diagnostic_unbounded": 40
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_50_50",
+          "variant": "oms_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 17,
+            "diagnostic_sat": 23
+          },
+          "reported_outcomes": {
+            "timeout": 17,
+            "diagnostic_sat": 23
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_50_50",
+          "variant": "z3_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 13,
+            "diagnostic_unbounded": 27
+          },
+          "reported_outcomes": {
+            "timeout": 13,
+            "diagnostic_unbounded": 27
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_75_75",
+          "variant": "oms_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 26,
+            "diagnostic_sat": 14
+          },
+          "reported_outcomes": {
+            "timeout": 26,
+            "diagnostic_sat": 14
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        },
+        {
+          "group": "size_75_75",
+          "variant": "z3_lia",
+          "source_inputs": 40,
+          "valid_inputs": 40,
+          "outcomes": {
+            "timeout": 38,
+            "diagnostic_unbounded": 2
+          },
+          "reported_outcomes": {
+            "timeout": 38,
+            "diagnostic_unbounded": 2
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 0,
+          "claimed_optimal": 0,
+          "claimed_definitive": 0,
+          "verified_after_claim": 0
+        }
+      ],
+      "by_host": {
+        "panda1": 66,
+        "panda3": 56,
+        "panda4": 34,
+        "panda5": 98,
+        "panda6": 128,
+        "panda9": 16,
+        "panda7": 68,
+        "tiger7": 14,
+        "panda2": 28
+      },
+      "scope": "Original lexicographic LIA companions; no bit-domain bounds inferred; raw status/bounds diagnostics only"
+    },
+    "maxsmt": {
+      "diagnostic_only": false,
+      "planned_inputs": 2264,
+      "solver_runs": 9056,
+      "overall": {
+        "oms_maxres": {
+          "source_inputs": 2264,
+          "valid_inputs": 2245,
+          "outcomes": {
+            "solver_claimed_optimal": 2074,
+            "timeout": 171,
+            "invalid_input": 19
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 2074,
+            "timeout": 171,
+            "invalid_input": 19
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1807,
+          "claimed_optimal": 2074,
+          "claimed_definitive": 2074,
+          "verified_after_claim": 1807,
+          "median_with_unsolved_infinity": 0.9707921333611012,
+          "solved_median_s": 0.7735524978488684,
+          "solved_min_s": 0.2185223177075386,
+          "solved_max_s": 587.1593839377165,
+          "par2_s": 121.70786192570452
+        },
+        "oms_omt": {
+          "source_inputs": 2264,
+          "valid_inputs": 2245,
+          "outcomes": {
+            "solver_claimed_optimal": 1770,
+            "timeout": 475,
+            "invalid_input": 19
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 1770,
+            "timeout": 475,
+            "invalid_input": 19
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1603,
+          "claimed_optimal": 1770,
+          "claimed_definitive": 1770,
+          "verified_after_claim": 1603,
+          "median_with_unsolved_infinity": 2.377723341807723,
+          "solved_median_s": 0.9231469994410872,
+          "solved_min_s": 0.21829072898253798,
+          "solved_max_s": 594.4510077498853,
+          "par2_s": 290.327540682623
+        },
+        "z3_maxres": {
+          "source_inputs": 2264,
+          "valid_inputs": 2245,
+          "outcomes": {
+            "solver_claimed_optimal": 1779,
+            "timeout": 466,
+            "invalid_input": 19
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 1779,
+            "timeout": 466,
+            "invalid_input": 19
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1614,
+          "claimed_optimal": 1779,
+          "claimed_definitive": 1779,
+          "verified_after_claim": 1614,
+          "median_with_unsolved_infinity": 2.231152266263962,
+          "solved_median_s": 1.4231491833925247,
+          "solved_min_s": 0.2684286350267939,
+          "solved_max_s": 562.9349410813302,
+          "par2_s": 258.1096951893905
+        },
+        "z3_wmax": {
+          "source_inputs": 2264,
+          "valid_inputs": 2245,
+          "outcomes": {
+            "solver_claimed_optimal": 1629,
+            "timeout": 616,
+            "invalid_input": 19
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 1629,
+            "timeout": 616,
+            "invalid_input": 19
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 1624,
+          "claimed_optimal": 1629,
+          "claimed_definitive": 1629,
+          "verified_after_claim": 1624,
+          "median_with_unsolved_infinity": 2.5289655700325966,
+          "solved_median_s": 1.1762365251779556,
+          "solved_min_s": 0.26855691598029807,
+          "solved_max_s": 584.5429304111749,
+          "par2_s": 337.7991164114237
+        }
+      },
+      "by_group": [
+        {
+          "group": "10/unw",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 263,
+            "timeout": 19,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 263,
+            "timeout": 19,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 261,
+          "claimed_optimal": 263,
+          "claimed_definitive": 263,
+          "verified_after_claim": 261,
+          "median_with_unsolved_infinity": 0.6319894166663289,
+          "solved_median_s": 0.5728185852058232,
+          "solved_min_s": 0.21901805402012542,
+          "solved_max_s": 570.9175557680428,
+          "par2_s": 113.6643462282193
+        },
+        {
+          "group": "10/unw",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 235,
+            "timeout": 47,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 235,
+            "timeout": 47,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 232,
+          "claimed_optimal": 235,
+          "claimed_definitive": 235,
+          "verified_after_claim": 232,
+          "median_with_unsolved_infinity": 0.9727062612073496,
+          "solved_median_s": 0.6218882631510496,
+          "solved_min_s": 0.21829072898253798,
+          "solved_max_s": 583.3316351938993,
+          "par2_s": 242.97711000131778
+        },
+        {
+          "group": "10/unw",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 246,
+            "timeout": 36,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 246,
+            "timeout": 36,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 244,
+          "claimed_optimal": 246,
+          "claimed_definitive": 246,
+          "verified_after_claim": 244,
+          "median_with_unsolved_infinity": 1.2498743375763297,
+          "solved_median_s": 1.0275269765406847,
+          "solved_min_s": 0.2684286350267939,
+          "solved_max_s": 472.6075281612575,
+          "par2_s": 161.62954663668106
+        },
+        {
+          "group": "10/unw",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 240,
+            "timeout": 42,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 240,
+            "timeout": 42,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 239,
+          "claimed_optimal": 240,
+          "claimed_definitive": 240,
+          "verified_after_claim": 239,
+          "median_with_unsolved_infinity": 1.325788746587932,
+          "solved_median_s": 1.0733159948140383,
+          "solved_min_s": 0.26855691598029807,
+          "solved_max_s": 462.42034136131406,
+          "par2_s": 190.19440212400949
+        },
+        {
+          "group": "10/w",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 256,
+            "timeout": 26,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 256,
+            "timeout": 26,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 256,
+          "claimed_optimal": 256,
+          "claimed_definitive": 256,
+          "verified_after_claim": 256,
+          "median_with_unsolved_infinity": 0.7030118688708171,
+          "solved_median_s": 0.5740050738677382,
+          "solved_min_s": 0.21901948750019073,
+          "solved_max_s": 566.2596437458415,
+          "par2_s": 136.3578844073636
+        },
+        {
+          "group": "10/w",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 242,
+            "timeout": 40,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 242,
+            "timeout": 40,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 242,
+          "claimed_optimal": 242,
+          "claimed_definitive": 242,
+          "verified_after_claim": 242,
+          "median_with_unsolved_infinity": 1.0243634800426662,
+          "solved_median_s": 0.6773012783378363,
+          "solved_min_s": 0.21933003515005112,
+          "solved_max_s": 589.3977287113667,
+          "par2_s": 211.0352149726635
+        },
+        {
+          "group": "10/w",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 224,
+            "timeout": 58,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 224,
+            "timeout": 58,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 224,
+          "claimed_optimal": 224,
+          "claimed_definitive": 224,
+          "verified_after_claim": 224,
+          "median_with_unsolved_infinity": 1.4849886214360595,
+          "solved_median_s": 1.1224305909126997,
+          "solved_min_s": 0.2693302296102047,
+          "solved_max_s": 327.035231936723,
+          "par2_s": 253.8696068480967
+        },
+        {
+          "group": "10/w",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 244,
+            "timeout": 38,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 244,
+            "timeout": 38,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 244,
+          "claimed_optimal": 244,
+          "claimed_definitive": 244,
+          "verified_after_claim": 244,
+          "median_with_unsolved_infinity": 1.3527823248878121,
+          "solved_median_s": 1.0757631354499608,
+          "solved_min_s": 0.2693523280322552,
+          "solved_max_s": 325.92531487718225,
+          "par2_s": 169.98877943342768
+        },
+        {
+          "group": "100/unw",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 258,
+            "timeout": 24,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 258,
+            "timeout": 24,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 83,
+          "claimed_optimal": 258,
+          "claimed_definitive": 258,
+          "verified_after_claim": 83,
+          "median_with_unsolved_infinity": 1.6483774464577436,
+          "solved_median_s": 1.3252936318749562,
+          "solved_min_s": 0.4695051312446594,
+          "solved_max_s": 587.1593839377165,
+          "par2_s": 134.86376924057063
+        },
+        {
+          "group": "100/unw",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 243,
+            "timeout": 39,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 243,
+            "timeout": 39,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 83,
+          "claimed_optimal": 243,
+          "claimed_definitive": 243,
+          "verified_after_claim": 83,
+          "median_with_unsolved_infinity": 1.8033204432576895,
+          "solved_median_s": 1.1747052017599344,
+          "solved_min_s": 0.4203089438378811,
+          "solved_max_s": 560.8849110212177,
+          "par2_s": 192.6367544923401
+        },
+        {
+          "group": "100/unw",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 208,
+            "timeout": 74,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 208,
+            "timeout": 74,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 84,
+          "claimed_optimal": 208,
+          "claimed_definitive": 208,
+          "verified_after_claim": 84,
+          "median_with_unsolved_infinity": 2.4533900106325746,
+          "solved_median_s": 1.7756893057376146,
+          "solved_min_s": 0.36946453154087067,
+          "solved_max_s": 501.7400412000716,
+          "par2_s": 324.58280982292183
+        },
+        {
+          "group": "100/unw",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 85,
+            "timeout": 197,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 85,
+            "timeout": 197,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 83,
+          "claimed_optimal": 85,
+          "claimed_definitive": 85,
+          "verified_after_claim": 83,
+          "median_with_unsolved_infinity": null,
+          "solved_median_s": 0.5770372189581394,
+          "solved_min_s": 0.2696452848613262,
+          "solved_max_s": 386.1589161902666,
+          "par2_s": 841.4998070836576
+        },
+        {
+          "group": "100/w",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 268,
+            "timeout": 14,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 268,
+            "timeout": 14,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 179,
+          "claimed_optimal": 268,
+          "claimed_definitive": 268,
+          "verified_after_claim": 179,
+          "median_with_unsolved_infinity": 1.2316469512879848,
+          "solved_median_s": 0.9005112452432513,
+          "solved_min_s": 0.3166084811091423,
+          "solved_max_s": 578.5090961959213,
+          "par2_s": 97.21799959093316
+        },
+        {
+          "group": "100/w",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 161,
+            "timeout": 121,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 161,
+            "timeout": 121,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 160,
+          "claimed_optimal": 161,
+          "claimed_definitive": 161,
+          "verified_after_claim": 160,
+          "median_with_unsolved_infinity": 169.6859396090731,
+          "solved_median_s": 2.1425798293203115,
+          "solved_min_s": 0.3697175607085228,
+          "solved_max_s": 594.4510077498853,
+          "par2_s": 556.0338150366425
+        },
+        {
+          "group": "100/w",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 206,
+            "timeout": 76,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 206,
+            "timeout": 76,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 168,
+          "claimed_optimal": 206,
+          "claimed_definitive": 206,
+          "verified_after_claim": 168,
+          "median_with_unsolved_infinity": 7.924360698089004,
+          "solved_median_s": 5.537576110335067,
+          "solved_min_s": 0.7209930084645748,
+          "solved_max_s": 330.4908883429598,
+          "par2_s": 335.569194097841
+        },
+        {
+          "group": "100/w",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 153,
+            "timeout": 129,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 153,
+            "timeout": 129,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 152,
+          "claimed_optimal": 153,
+          "claimed_definitive": 153,
+          "verified_after_claim": 152,
+          "median_with_unsolved_infinity": 19.2746741771698,
+          "solved_median_s": 2.1264081441331655,
+          "solved_min_s": 0.3185665048658848,
+          "solved_max_s": 542.5467079505324,
+          "par2_s": 555.1852126469598
+        },
+        {
+          "group": "25/unw",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 256,
+            "timeout": 26,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 256,
+            "timeout": 26,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 256,
+          "claimed_optimal": 256,
+          "claimed_definitive": 256,
+          "verified_after_claim": 256,
+          "median_with_unsolved_infinity": 0.7736570239067078,
+          "solved_median_s": 0.622826598584652,
+          "solved_min_s": 0.2193683497607708,
+          "solved_max_s": 553.6645054202527,
+          "par2_s": 141.93119855145576
+        },
+        {
+          "group": "25/unw",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 226,
+            "timeout": 56,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 226,
+            "timeout": 56,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 224,
+          "claimed_optimal": 226,
+          "claimed_definitive": 226,
+          "verified_after_claim": 224,
+          "median_with_unsolved_infinity": 1.3738938859896734,
+          "solved_median_s": 0.7763839680701494,
+          "solved_min_s": 0.2185407169163227,
+          "solved_max_s": 581.7427173200995,
+          "par2_s": 276.24598227362793
+        },
+        {
+          "group": "25/unw",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 225,
+            "timeout": 57,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 225,
+            "timeout": 57,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 225,
+          "claimed_optimal": 225,
+          "claimed_definitive": 225,
+          "verified_after_claim": 225,
+          "median_with_unsolved_infinity": 1.457940430380404,
+          "solved_median_s": 1.0756258126348257,
+          "solved_min_s": 0.26856886222958565,
+          "solved_max_s": 562.9349410813302,
+          "par2_s": 251.18818399147068
+        },
+        {
+          "group": "25/unw",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 238,
+            "timeout": 44,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 238,
+            "timeout": 44,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 238,
+          "claimed_optimal": 238,
+          "claimed_definitive": 238,
+          "verified_after_claim": 238,
+          "median_with_unsolved_infinity": 1.6263909066328779,
+          "solved_median_s": 1.3238632585853338,
+          "solved_min_s": 0.26956430077552795,
+          "solved_max_s": 451.83623725548387,
+          "par2_s": 199.84066736213686
+        },
+        {
+          "group": "25/w",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 281,
+          "outcomes": {
+            "solver_claimed_optimal": 260,
+            "timeout": 21,
+            "invalid_input": 2
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 260,
+            "timeout": 21,
+            "invalid_input": 2
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 260,
+          "claimed_optimal": 260,
+          "claimed_definitive": 260,
+          "verified_after_claim": 260,
+          "median_with_unsolved_infinity": 0.7238711416721344,
+          "solved_median_s": 0.6264728605747223,
+          "solved_min_s": 0.2185223177075386,
+          "solved_max_s": 562.8072018288076,
+          "par2_s": 121.27655962692181
+        },
+        {
+          "group": "25/w",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 281,
+          "outcomes": {
+            "solver_claimed_optimal": 221,
+            "timeout": 60,
+            "invalid_input": 2
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 221,
+            "timeout": 60,
+            "invalid_input": 2
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 220,
+          "claimed_optimal": 221,
+          "claimed_definitive": 221,
+          "verified_after_claim": 220,
+          "median_with_unsolved_infinity": 1.3849512375891209,
+          "solved_median_s": 0.875138945877552,
+          "solved_min_s": 0.21922434493899345,
+          "solved_max_s": 574.9260055422783,
+          "par2_s": 286.0550598849131
+        },
+        {
+          "group": "25/w",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 281,
+          "outcomes": {
+            "solver_claimed_optimal": 228,
+            "timeout": 53,
+            "invalid_input": 2
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 228,
+            "timeout": 53,
+            "invalid_input": 2
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 227,
+          "claimed_optimal": 228,
+          "claimed_definitive": 228,
+          "verified_after_claim": 227,
+          "median_with_unsolved_infinity": 1.9237755686044693,
+          "solved_median_s": 1.4764530388638377,
+          "solved_min_s": 0.3691065348684788,
+          "solved_max_s": 405.15361757576466,
+          "par2_s": 235.4753010791198
+        },
+        {
+          "group": "25/w",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 281,
+          "outcomes": {
+            "solver_claimed_optimal": 233,
+            "timeout": 48,
+            "invalid_input": 2
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 233,
+            "timeout": 48,
+            "invalid_input": 2
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 232,
+          "claimed_optimal": 233,
+          "claimed_definitive": 233,
+          "verified_after_claim": 232,
+          "median_with_unsolved_infinity": 1.674848159775138,
+          "solved_median_s": 1.2238076236099005,
+          "solved_min_s": 0.2692890278995037,
+          "solved_max_s": 405.3657916840166,
+          "par2_s": 218.00240365967355
+        },
+        {
+          "group": "50/unw",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 259,
+            "timeout": 23,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 259,
+            "timeout": 23,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 258,
+          "claimed_optimal": 259,
+          "claimed_definitive": 259,
+          "verified_after_claim": 258,
+          "median_with_unsolved_infinity": 0.7219874579459429,
+          "solved_median_s": 0.6236036270856857,
+          "solved_min_s": 0.21922112628817558,
+          "solved_max_s": 540.9870046991855,
+          "par2_s": 125.00481663489073
+        },
+        {
+          "group": "50/unw",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 229,
+            "timeout": 53,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 229,
+            "timeout": 53,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 229,
+          "claimed_optimal": 229,
+          "claimed_definitive": 229,
+          "verified_after_claim": 229,
+          "median_with_unsolved_infinity": 1.4103377582505345,
+          "solved_median_s": 0.7741115055978298,
+          "solved_min_s": 0.2693014033138752,
+          "solved_max_s": 539.5062469244003,
+          "par2_s": 270.62193748714583
+        },
+        {
+          "group": "50/unw",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 220,
+            "timeout": 62,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 220,
+            "timeout": 62,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 220,
+          "claimed_optimal": 220,
+          "claimed_definitive": 220,
+          "verified_after_claim": 220,
+          "median_with_unsolved_infinity": 1.4491301495581865,
+          "solved_median_s": 1.0255365809425712,
+          "solved_min_s": 0.2690432406961918,
+          "solved_max_s": 323.10588350798935,
+          "par2_s": 271.4233877206137
+        },
+        {
+          "group": "50/unw",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 282,
+          "outcomes": {
+            "solver_claimed_optimal": 220,
+            "timeout": 62,
+            "invalid_input": 1
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 220,
+            "timeout": 62,
+            "invalid_input": 1
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 220,
+          "claimed_optimal": 220,
+          "claimed_definitive": 220,
+          "verified_after_claim": 220,
+          "median_with_unsolved_infinity": 1.7538173887878656,
+          "solved_median_s": 1.1727072335779667,
+          "solved_min_s": 0.26892198622226715,
+          "solved_max_s": 165.39531665109098,
+          "par2_s": 268.36803193407025
+        },
+        {
+          "group": "50/w",
+          "variant": "oms_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 272,
+          "outcomes": {
+            "solver_claimed_optimal": 254,
+            "timeout": 18,
+            "invalid_input": 11
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 254,
+            "timeout": 18,
+            "invalid_input": 11
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 254,
+          "claimed_optimal": 254,
+          "claimed_definitive": 254,
+          "verified_after_claim": 254,
+          "median_with_unsolved_infinity": 0.6723792790435255,
+          "solved_median_s": 0.6227227650815621,
+          "solved_min_s": 0.2687315929797478,
+          "solved_max_s": 472.50856630317867,
+          "par2_s": 102.66967880799069
+        },
+        {
+          "group": "50/w",
+          "variant": "oms_omt",
+          "source_inputs": 283,
+          "valid_inputs": 272,
+          "outcomes": {
+            "solver_claimed_optimal": 213,
+            "timeout": 59,
+            "invalid_input": 11
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 213,
+            "timeout": 59,
+            "invalid_input": 11
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 213,
+          "claimed_optimal": 213,
+          "claimed_definitive": 213,
+          "verified_after_claim": 213,
+          "median_with_unsolved_infinity": 1.476814579917118,
+          "solved_median_s": 0.8734198044985533,
+          "solved_min_s": 0.27005642279982567,
+          "solved_max_s": 550.9888898506761,
+          "par2_s": 286.87693890608097
+        },
+        {
+          "group": "50/w",
+          "variant": "z3_maxres",
+          "source_inputs": 283,
+          "valid_inputs": 272,
+          "outcomes": {
+            "solver_claimed_optimal": 222,
+            "timeout": 50,
+            "invalid_input": 11
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 222,
+            "timeout": 50,
+            "invalid_input": 11
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 222,
+          "claimed_optimal": 222,
+          "claimed_definitive": 222,
+          "verified_after_claim": 222,
+          "median_with_unsolved_infinity": 2.432475290261209,
+          "solved_median_s": 1.8747881754825357,
+          "solved_min_s": 0.3194649741053581,
+          "solved_max_s": 371.67572769802064,
+          "par2_s": 230.0647664918335
+        },
+        {
+          "group": "50/w",
+          "variant": "z3_wmax",
+          "source_inputs": 283,
+          "valid_inputs": 272,
+          "outcomes": {
+            "solver_claimed_optimal": 216,
+            "timeout": 56,
+            "invalid_input": 11
+          },
+          "reported_outcomes": {
+            "solver_claimed_optimal": 216,
+            "timeout": 56,
+            "invalid_input": 11
+          },
+          "reviewed_native_failures": 0,
+          "independently_verified": 216,
+          "claimed_optimal": 216,
+          "claimed_definitive": 216,
+          "verified_after_claim": 216,
+          "median_with_unsolved_infinity": 1.8232802953571081,
+          "solved_median_s": 1.3252720842137933,
+          "solved_min_s": 0.26928259059786797,
+          "solved_max_s": 584.5429304111749,
+          "par2_s": 255.98770202395633
+        }
+      ],
+      "by_host": {
+        "panda4": 1316,
+        "panda5": 1108,
+        "tiger7": 416,
+        "panda2": 692,
+        "panda3": 776,
+        "panda9": 1020,
+        "panda8": 732,
+        "panda6": 964,
+        "panda1": 800,
+        "panda7": 1232
+      }
+    }
+  }
+}

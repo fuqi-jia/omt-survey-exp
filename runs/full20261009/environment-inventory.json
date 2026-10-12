@@ -1,10 +1,10 @@
 {
-  "observed_utc": "2026-10-09T12:40:24.857290+00:00",
+  "observed_utc": "2026-10-12T06:47:35.430835+00:00",
   "scope": "Every host with a successful campaign run; supplementary OS probe plus archived run provenance",
   "hosts": [
     {
       "host": "panda1",
-      "observed_utc": "2026-10-09T12:40:24.709392+00:00",
+      "observed_utc": "2026-10-12T06:47:33.213314+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 26.04 LTS",
         "VERSION_ID": "26.04",
@@ -34,7 +34,7 @@
     },
     {
       "host": "panda2",
-      "observed_utc": "2026-10-09T12:40:24.721692+00:00",
+      "observed_utc": "2026-10-12T06:47:34.119340+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 26.04 LTS",
         "VERSION_ID": "26.04",
@@ -64,7 +64,7 @@
     },
     {
       "host": "panda3",
-      "observed_utc": "2026-10-09T12:40:24.708932+00:00",
+      "observed_utc": "2026-10-12T06:47:34.321756+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
         "VERSION_ID": "24.04",
@@ -94,7 +94,7 @@
     },
     {
       "host": "panda4",
-      "observed_utc": "2026-10-09T12:40:24.695081+00:00",
+      "observed_utc": "2026-10-12T06:47:33.381610+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
         "VERSION_ID": "24.04",
@@ -124,7 +124,7 @@
     },
     {
       "host": "panda5",
-      "observed_utc": "2026-10-09T12:40:24.768922+00:00",
+      "observed_utc": "2026-10-12T06:47:33.312625+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
         "VERSION_ID": "24.04",
@@ -154,7 +154,7 @@
     },
     {
       "host": "panda6",
-      "observed_utc": "2026-10-09T12:40:24.717376+00:00",
+      "observed_utc": "2026-10-12T06:47:33.147096+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 22.04.5 LTS",
         "VERSION_ID": "22.04",
@@ -184,7 +184,7 @@
     },
     {
       "host": "panda7",
-      "observed_utc": "2026-10-09T12:40:24.506223+00:00",
+      "observed_utc": "2026-10-12T06:47:34.917964+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
         "VERSION_ID": "24.04",
@@ -214,7 +214,7 @@
     },
     {
       "host": "panda8",
-      "observed_utc": "2026-10-09T12:40:24.978611+00:00",
+      "observed_utc": "2026-10-12T06:47:35.652616+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.4 LTS",
         "VERSION_ID": "24.04",
@@ -244,7 +244,7 @@
     },
     {
       "host": "panda9",
-      "observed_utc": "2026-10-09T12:40:24.828608+00:00",
+      "observed_utc": "2026-10-12T06:47:35.104245+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.3 LTS",
         "VERSION_ID": "24.04",
@@ -274,7 +274,7 @@
     },
     {
       "host": "tiger7",
-      "observed_utc": "2026-10-09T12:40:24.815407+00:00",
+      "observed_utc": "2026-10-12T06:47:34.938839+00:00",
       "os_release": {
         "PRETTY_NAME": "Ubuntu 24.04.2 LTS",
         "VERSION_ID": "24.04",
