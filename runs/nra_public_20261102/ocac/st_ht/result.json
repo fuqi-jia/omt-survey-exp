@@ -1,0 +1,22 @@
+{
+  "solver": "ocac",
+  "instance": "st_ht",
+  "status": "RETURNED",
+  "elapsed_s": 0.2375617689685896,
+  "timeout_s": 120,
+  "core": 4,
+  "x": [
+    2.9999999962747097,
+    1.0
+  ],
+  "parse_error": null,
+  "reported_objective": -1.6,
+  "witness_check_s": 0.5119159140158445,
+  "model_sha256": "936f8b23cd9ac8ccd06690babfdcd2a1aab743e9fe4a6c8c8f799e8bf96f035d",
+  "objective": -1.5999999865889551,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 8.38190308827258e-09
+}

@@ -1,0 +1,41 @@
+{
+  "index": 329,
+  "group": "heizmann",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/heizmann/filter2_reinit_true-unreach-call.c_7.var_3.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "(_ +oo 11 53)",
+        "attainable": "unknown",
+        "attainable_s": 30.066018046811223,
+        "attainable_reason": "timeout",
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.0003894586116075516
+      },
+      "solve_s": 0.06001841649413109
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "18442240474082181120",
+        "attainable": "sat",
+        "attainable_s": 3.151063859462738,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.6997786089777946
+      },
+      "solve_s": 1.334357637912035
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.003995299339294
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_glmp_fp2",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.10207208199427,
+  "timeout_s": 120,
+  "core": 4,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "9f825a34fcc6be7671bdd124885fe469da308d110356e27caa7506777a5260ee",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

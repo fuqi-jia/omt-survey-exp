@@ -1,0 +1,185 @@
+{
+  "status": "SAT",
+  "proved_optimal": false,
+  "objective": 590,
+  "runtime_s": 600.0,
+  "memory_peak_mb": 37.06,
+  "incumbents": [
+    [
+      0.2416,
+      959
+    ],
+    [
+      0.2422,
+      942
+    ],
+    [
+      0.2424,
+      916
+    ],
+    [
+      0.2427,
+      908
+    ],
+    [
+      0.2429,
+      878
+    ],
+    [
+      0.2433,
+      866
+    ],
+    [
+      0.2437,
+      865
+    ],
+    [
+      0.244,
+      827
+    ],
+    [
+      0.2444,
+      809
+    ],
+    [
+      0.2484,
+      766
+    ],
+    [
+      0.2486,
+      728
+    ],
+    [
+      0.2519,
+      726
+    ],
+    [
+      0.2522,
+      719
+    ],
+    [
+      0.2526,
+      715
+    ],
+    [
+      0.2532,
+      706
+    ],
+    [
+      0.2535,
+      693
+    ],
+    [
+      0.3565,
+      691
+    ],
+    [
+      0.3568,
+      678
+    ],
+    [
+      1.9337,
+      666
+    ],
+    [
+      1.9904,
+      658
+    ],
+    [
+      4.6828,
+      643
+    ],
+    [
+      4.8817,
+      641
+    ],
+    [
+      4.9114,
+      635
+    ],
+    [
+      4.9119,
+      631
+    ],
+    [
+      62.0456,
+      629
+    ],
+    [
+      72.7388,
+      619
+    ],
+    [
+      250.6857,
+      618
+    ],
+    [
+      250.728,
+      615
+    ],
+    [
+      329.1822,
+      604
+    ],
+    [
+      329.3395,
+      602
+    ],
+    [
+      337.6555,
+      599
+    ],
+    [
+      343.4904,
+      596
+    ],
+    [
+      343.592,
+      590
+    ]
+  ],
+  "best_at_10s": 631,
+  "best_at_30s": 631,
+  "best_at_60s": 631,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "config",
+  "category": "B",
+  "instance": "",
+  "size": 80,
+  "seed": 0,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T12:29:42Z",
+  "name": "B_config_80_0",
+  "solver": "gecode",
+  "wall_s": 601.1194789989968,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "gecode",
+    "--family",
+    "config",
+    "--size",
+    "80",
+    "--seed",
+    "0",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_config_80_0.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_config_80_0.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    2
+  ]
+}

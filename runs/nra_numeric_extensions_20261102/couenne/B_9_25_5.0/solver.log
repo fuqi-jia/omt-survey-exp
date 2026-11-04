@@ -1,0 +1,40 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_numeric_extensions_20261102/couenne/B_9_25_5.0/tmp9sfhkmgx.pyomo.nl', '-AMPL', 'bonmin.time_limit=120', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT -9.9900001e-09        9 0.00547
+Couenne: new cutoff value -9.9900000815e-09 (0.034717 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_numeric_extensions_20261102/couenne/B_9_25_5.0/tmp9sfhkmgx.pyomo.nl"
+Constraints:            1
+Variables:              1 (0 integer)
+Auxiliaries:            3 (0 integer)
+
+Coin0506I Presolve 0 (-6) rows, 0 (-4) columns and 0 (-13) elements
+Clp0000I Optimal - objective value 0
+Clp0032I Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 0
+Cbc0012I Integer solution of -9.9900001e-09 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective -9.990000081527166e-09, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value 0
+
+ 	"Finished"
+
+Linearization cuts added at root node:          6
+Linearization cuts added in total:              6  (separation time: 4.6e-05s)
+Total solve time:                        0.000935s (0.000935s in branch-and-bound)
+Lower bound:                            -9.99e-09
+Upper bound:                            -9.99e-09  (gap: 0.00%)
+Branch-and-bound nodes:                         0
+Performance of                           FBBT:	    2.7e-05s,        3 runs. fix:   0.333333 shrnk:    5.93547 ubd:          0 2ubd:          1 infeas:          0
+

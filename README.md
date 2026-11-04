@@ -1,10 +1,12 @@
 # OMT Survey — Experiments
 
+Current fixed paper material: [2026-11-04 audit entry](artifacts/review-20261104/README.md) · [release](https://github.com/fuqi-jia/omt-survey-exp/releases/tag/jos-review-20261104).
+
 A reproducible **three-paradigm comparison** — Optimization Modulo Theories
 (OMT) vs. Mixed-Integer Linear Programming (MILP) vs. Constraint Programming
 (CP) — backing the experiment section of the OMT survey.
 
-Every benchmark instance is described by **one structured spec** from which we
+Each performance benchmark instance is described by **one structured spec** from which we
 emit **four provably-equivalent encodings**. A correctness cross-check confirms
 that all solvers proving optimality on an instance agree on the objective, so
 the timing comparison is built on genuinely equivalent problems.
@@ -12,6 +14,24 @@ the timing comparison is built on genuinely equivalent problems.
 Instance generation is deterministic: `build(family, size, seed)` reproduces a
 byte-identical instance, which is what lets separate runs (Linux/Windows,
 main harness/side experiments) be merged or compared cell by cell.
+
+## 2026-11-02 nonlinear extension
+
+The nonlinear study now includes IPOPT 3.14.20 and Couenne 0.5.9, all 43 eligible
+small continuous nonconvex quadratic MINLPLib instances, and nine coupled
+nonlinear resource-allocation instances with explicit Boolean disjunctions.
+The first extension adds **360 formal solver calls**. A further **69 calls** cover nine genuinely nonconvex instances with irrational optima, including quartic constraints and OR between nonconvex branches. Commands and audits are in
+[`REPRODUCE_20261102.md`](REPRODUCE_20261102.md). The earlier performance,
+exactness and complete FP batches remain the source for their existing tables.
+
+## 2026-10-30 manuscript refresh
+
+The current rerun uses the same 97 performance instances and the complete
+1120-instance public FP suite. Z3 5.3.3 performance and numerical calls, plus all 1120 public FP cases, were rerun on October 30. Numerical calls retain the uniform 120-second limit. Current commands are in `REPRODUCE_20261030.md`; earlier batches are documented in `REPRODUCE_20261029.md` and `REPRODUCE_20261028.md`. Exact
+runtime versions and installation notes are in `docs/toolchain-20261028.md`.
+Results are saved in `runs/paper_refresh_20261030/`, `runs/public_fp_full_20261030/`,
+`runs/exact_refresh_20261030/`, `runs/illcond_refresh_20261030/`, and
+`runs/nra_20261030/`. Existing configs and archived runs are preserved.
 
 ## Where to look
 

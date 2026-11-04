@@ -1,0 +1,28 @@
+{
+  "solver": "z3",
+  "instance": "switch_n4_s2",
+  "status": "RETURNED",
+  "elapsed_s": 0.7952361900242977,
+  "timeout_s": 120,
+  "core": 6,
+  "x": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.5,
+    15.0,
+    5.0,
+    37.0
+  ],
+  "parse_error": null,
+  "reported_objective": 52.0,
+  "witness_check_s": 0.00042690400732681155,
+  "model_sha256": "88bc38f7490b59ac3dc4f6a241f819fcbda52a80cb48aa4fa1f19cdc29ab996b",
+  "objective": 52.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

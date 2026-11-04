@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "ex3_1_2",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.10137763299281,
+  "timeout_s": 120,
+  "core": 10,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "a4b1355b1b2e1bbb2c13999320bd854d4b1023062f5d35402be7f7a77804b8f5",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

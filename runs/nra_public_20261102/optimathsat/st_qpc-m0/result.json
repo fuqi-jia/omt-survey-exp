@@ -1,0 +1,22 @@
+{
+  "solver": "optimathsat",
+  "instance": "st_qpc-m0",
+  "status": "RETURNED",
+  "elapsed_s": 0.17436095897573978,
+  "timeout_s": 120,
+  "core": 6,
+  "x": [
+    4.0,
+    3.0
+  ],
+  "parse_error": null,
+  "reported_objective": -5.0,
+  "witness_check_s": 0.0008755640010349452,
+  "model_sha256": "62eb11f9d53e6093e39929a96d10bb4a92d131f1352d94565fe99c7616dcd2e9",
+  "objective": -5.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 6.000000492842225e-10
+}

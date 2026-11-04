@@ -1,0 +1,33 @@
+{
+  "index": 939,
+  "group": "wintersteiger",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/wintersteiger/sub/sub-has-solution-8050.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b11110001011 #b1010111110101011101011001101110011110010011001011001)",
+        "attainable": "sat",
+        "attainable_s": 0.05685778334736824,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.30182720720767975
+      },
+      "solve_s": 0.35988130047917366
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.001517301425338
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.00157965347171
+    }
+  }
+}

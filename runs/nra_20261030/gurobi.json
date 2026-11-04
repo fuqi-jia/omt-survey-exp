@@ -1,0 +1,51 @@
+{
+  "version": [
+    13,
+    0,
+    3
+  ],
+  "records": [
+    {
+      "case": "A_sqrt2",
+      "status": 2,
+      "x": 1.4142135621481786,
+      "objective": 1.4142135621481786,
+      "runtime": 0.004999876022338867
+    },
+    {
+      "case": "A_sqrt5",
+      "status": 2,
+      "x": 2.236067977144179,
+      "objective": 2.236067977144179,
+      "runtime": 0.0
+    },
+    {
+      "case": "B_5_9",
+      "status": 2,
+      "x": 0.0,
+      "objective": 0.0,
+      "runtime": 0.0
+    },
+    {
+      "case": "B_9_25",
+      "status": 2,
+      "x": 3.1807020889730933e-10,
+      "objective": 3.1807020889730933e-10,
+      "runtime": 0.0010001659393310547
+    },
+    {
+      "case": "C1_inf_unattained",
+      "status": 2,
+      "x": 1.4142135623908427,
+      "objective": 1.4142135623908427,
+      "runtime": 0.0
+    },
+    {
+      "case": "C2_unbounded_below",
+      "status": 5,
+      "x": 1.0,
+      "objective": 1.0,
+      "runtime": 0.003999948501586914
+    }
+  ]
+}

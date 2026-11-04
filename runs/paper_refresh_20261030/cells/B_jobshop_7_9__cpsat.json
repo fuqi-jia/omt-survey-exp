@@ -1,0 +1,61 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 40,
+  "runtime_s": 0.0115,
+  "memory_peak_mb": 0.0,
+  "incumbents": [
+    [
+      0.0101,
+      41
+    ],
+    [
+      0.0109,
+      40
+    ]
+  ],
+  "best_at_10s": 40,
+  "best_at_30s": 40,
+  "best_at_60s": 40,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "jobshop",
+  "category": "B",
+  "instance": "",
+  "size": 7,
+  "seed": 9,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T13:38:16Z",
+  "name": "B_jobshop_7_9",
+  "solver": "cpsat",
+  "wall_s": 3.3119291869807057,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "jobshop",
+    "--size",
+    "7",
+    "--seed",
+    "9",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_jobshop_7_9.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_jobshop_7_9.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    8
+  ]
+}

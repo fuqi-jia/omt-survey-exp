@@ -1,0 +1,28 @@
+{
+  "solver": "couenne",
+  "instance": "st_glmp_fp1",
+  "status": "NATIVE_ERROR_WITH_SOLUTION",
+  "elapsed_s": 2.9073476389748976,
+  "timeout_s": 120,
+  "core": 10,
+  "x": [
+    2.0000000179997004,
+    8.0000000819963,
+    10.000000099996,
+    0.9999999360034
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "8d5a2cefbd8b25555983305c840d1c87f3966cea25404259078afaedc215cf96",
+  "feasible": true,
+  "reference_hit": true,
+  "objective": 9.999999460029994,
+  "native_status": "ERROR",
+  "candidate_source": "tmp36an29_h.pyomo.sol",
+  "candidate_sha256": "52b4426f1e928d369f31dcebb22265583152b75c1e891c43df9db5e6c5e2ab02",
+  "nl_column_mapping_verified": true,
+  "max_absolute_violation": 9.999600081300741e-08,
+  "max_scaled_violation": 9.999600081300742e-09,
+  "relative_reference_error": 5.399700064856461e-08
+}

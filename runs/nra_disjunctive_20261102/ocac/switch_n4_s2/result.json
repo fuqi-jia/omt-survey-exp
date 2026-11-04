@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "switch_n4_s2",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.09914988401579,
+  "timeout_s": 120,
+  "core": 0,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "88bc38f7490b59ac3dc4f6a241f819fcbda52a80cb48aa4fa1f19cdc29ab996b",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

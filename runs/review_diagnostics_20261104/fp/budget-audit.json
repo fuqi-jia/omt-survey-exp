@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "cases": 1120,
+  "routes": 3,
+  "status_counts": {
+    "fp": {
+      "unverified_candidate": 93,
+      "timeout": 454,
+      "verified": 568,
+      "unsat": 1,
+      "nan": 4
+    },
+    "bvfp": {
+      "timeout": 388,
+      "out_of_memory": 58,
+      "verified": 622,
+      "unverified_candidate": 47,
+      "unsat": 5
+    },
+    "bv": {
+      "timeout": 824,
+      "verified": 288,
+      "out_of_memory": 3,
+      "unsat": 5
+    }
+  },
+  "completed_query_over_30_s": [],
+  "completed_verification_query_over_30_s": [],
+  "timing": {
+    "native_oms_process_s": 30,
+    "z3_prepare_process_s": 35,
+    "z3_optimize_query_s": 30,
+    "z3_solve_process_s": 35,
+    "verification_each_query_s": 30,
+    "verification_process_s": 65
+  },
+  "verified_definition": "attainable SAT and strictly-better UNSAT under original FP constraints; native fp order or declared non-NaN BV key order"
+}

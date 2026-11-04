@@ -1,0 +1,40 @@
+{
+  "index": 391,
+  "group": "heizmann",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/heizmann/cos_polynomial_true-unreach-call.c_9.var_1.min.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(_ -oo 11 53)",
+        "attainable": "sat",
+        "attainable_s": 26.796134697273374,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.00034174881875514984
+      },
+      "solve_s": 0.06158285215497017
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "4503599627370495",
+        "attainable": "sat",
+        "attainable_s": 10.202989963814616,
+        "strictly_better": "unsat",
+        "strictly_better_s": 3.089125107973814
+      },
+      "solve_s": 1.290354397147894
+    },
+    "bv": {
+      "form": "bv",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 30.531477384269238
+    }
+  }
+}

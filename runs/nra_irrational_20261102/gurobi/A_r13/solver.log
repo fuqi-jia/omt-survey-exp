@@ -1,0 +1,66 @@
+
+Gurobi 13.0.3 (win64) logging started Mon Nov  2 22:14:24 2026
+
+Set parameter LogFile to value "E:\ISCAS\papers\JOS2026\omt-exp\runs\nra_irrational_20261102\gurobi\A_r13\solver.log"
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26300.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 16 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  120
+MemLimit  4
+FeasibilityTol  1e-08
+MIPGap  1e-08
+MIPGapAbs  1e-08
+OptimalityTol  1e-08
+BarQCPConvTol  1e-08
+NonConvex  2
+Threads  1
+
+Optimize a model with 0 rows, 2 columns and 0 nonzeros (Min)
+Model fingerprint: 0xb4aa2e86
+Model has 2 linear objective coefficients
+Model has 2 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [1e+00, 2e+00]
+  Bounds range     [1e+01, 1e+01]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+00, 1e+01]
+
+
+Continuous model is non-convex -- solving as a MIP
+
+
+Loaded user MIP start with objective 19.5
+
+Presolve time: 0.01s
+Presolved: 3 rows, 5 columns, 6 nonzeros
+Presolved model has 1 quadratic constraint(s)
+Presolved model has 2 bilinear constraint(s)
+Variable types: 5 continuous, 0 integer (0 binary)
+Found heuristic solution: objective 4.1511626
+
+Root relaxation: objective 4.062031e+00, 3 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    4.06203    0    1    4.15116    4.06203  2.15%     -    0s
+     0     0    4.09698    0    1    4.15116    4.09698  1.31%     -    0s
+     0     0    4.14971    0    2    4.15116    4.14971  0.04%     -    0s
+     0     0    4.15116    0    2    4.15116    4.15116  0.00%     -    0s
+     0     0    4.15116    0    2    4.15116    4.15116  0.00%     -    0s
+     0     0    4.15116    0    2    4.15116    4.15116  0.00%     -    0s
+     0     2    4.15116    0    2    4.15116    4.15116  0.00%     -    0s
+*    8     0               4       4.1511626    4.15116  0.00%   0.6    0s
+
+Explored 9 nodes (10 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 4.15116 19.5 
+
+Optimal solution found (tolerance 1.00e-08)
+Best objective 4.151162623758e+00, best bound 4.151162623758e+00, gap 0.0000%

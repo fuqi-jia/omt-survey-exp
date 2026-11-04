@@ -1,0 +1,33 @@
+{
+  "index": 56,
+  "group": "griggio",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/e/e2.c.b24.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b11111111110 #b1111111111111111111111111111111111111111111111111111)",
+        "attainable": "sat",
+        "attainable_s": 3.077150098979473,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.4528086371719837
+      },
+      "solve_s": 3.762941824272275
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.001369170844555
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.00303770042956
+    }
+  }
+}

@@ -1,0 +1,67 @@
+
+Gurobi 13.0.3 (win64) logging started Mon Nov  2 21:00:03 2026
+
+Set parameter LogFile to value "E:\ISCAS\papers\JOS2026\omt-exp\runs\nra_public_20261102\gurobi\st_qpc-m1\solver.log"
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26300.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 16 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  120
+MemLimit  4
+FeasibilityTol  1e-08
+MIPGap  1e-08
+MIPGapAbs  1e-08
+OptimalityTol  1e-08
+NonConvex  2
+Threads  1
+
+Optimize a model with 0 rows, 5 columns and 0 nonzeros (Min)
+Model fingerprint: 0xc2b76426
+Model has 5 linear objective coefficients
+Model has 15 quadratic objective terms
+Model has 5 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QLMatrix range   [1e+00, 8e+00]
+  Objective range  [1e+01, 1e+01]
+  QObjective range [4e-01, 2e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [8e+00, 3e+01]
+
+
+Continuous model is non-convex -- solving as a MIP
+
+
+User MIP start did not produce a new incumbent solution
+
+Presolve added 5 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 31 rows, 22 columns, 87 nonzeros
+Presolved model has 15 bilinear constraint(s)
+Variable types: 22 continuous, 0 integer (0 binary)
+Found heuristic solution: objective -473.7777778
+
+Root relaxation: objective -7.226049e+02, 34 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 -722.60494    0   10 -473.77778 -722.60494  52.5%     -    0s
+Another try with MIP start
+     0     0     cutoff    0      -473.77778 -473.77778  0.00%     -    0s
+
+Cutting planes:
+  RLT: 5
+  PSD: 3
+
+Explored 1 nodes (42 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: -473.778 
+No other solutions better than -473.778
+
+Optimal solution found (tolerance 1.00e-08)
+Best objective -4.737777777778e+02, best bound -4.737777777778e+02, gap 0.0000%

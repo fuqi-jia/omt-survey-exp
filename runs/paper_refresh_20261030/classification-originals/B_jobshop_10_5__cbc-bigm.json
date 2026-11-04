@@ -1,0 +1,40 @@
+{
+  "status": "ERROR",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 630.1088736540114,
+  "error_message": "isolated worker did not emit a result",
+  "name": "B_jobshop_10_5",
+  "family": "jobshop",
+  "size": 10,
+  "seed": 5,
+  "category": "B",
+  "sense": "min",
+  "solver": "cbc-bigm",
+  "wall_s": 630.1088851790118,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cbc-bigm",
+    "--family",
+    "jobshop",
+    "--size",
+    "10",
+    "--seed",
+    "5",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_jobshop_10_5.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_jobshop_10_5.mzn"
+  ],
+  "returncode": -9,
+  "cpu": [
+    10
+  ]
+}

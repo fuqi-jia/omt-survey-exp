@@ -1,0 +1,21 @@
+{
+  "solver": "gurobi",
+  "instance": "A_r8",
+  "status": "2",
+  "elapsed_s": 0.015999999945051968,
+  "timeout_s": 120,
+  "core": 12,
+  "x": [
+    2.8058836999520596,
+    0.3563939588799388
+  ],
+  "optimization_hit": true,
+  "model_sha256": "063b4b3579a199b1c2c82c94c60fd96a6e95b4b3951eddf50aababda0612af5d",
+  "objective": 3.518671617711937,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 8.417225139112361e-09,
+  "max_scaled_violation": 1.0521531423890451e-09,
+  "relative_reference_error": 3.265559300120633e-10,
+  "correct_optimal_return": true
+}

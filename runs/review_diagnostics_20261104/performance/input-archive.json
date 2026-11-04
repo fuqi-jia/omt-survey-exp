@@ -1,0 +1,9 @@
+{
+  "path": "benchmarks/performance-20261030/inputs.tar.gz",
+  "bytes": 2304849,
+  "sha256": "a36f35b0fe8877d5e121d390c8e83a9c92a6ba6d697edf88b17e5c07519392f4",
+  "instances": 97,
+  "cli_inputs": 194,
+  "structured_api_specifications": 97,
+  "all_cli_input_hashes_match_cohort_manifest": true
+}

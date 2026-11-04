@@ -1,0 +1,129 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 37,
+  "runtime_s": 0.1107,
+  "memory_peak_mb": 96.85,
+  "incumbents": [
+    [
+      0.0147,
+      156
+    ],
+    [
+      0.0221,
+      153
+    ],
+    [
+      0.0223,
+      148
+    ],
+    [
+      0.0226,
+      105
+    ],
+    [
+      0.0231,
+      101
+    ],
+    [
+      0.0435,
+      100
+    ],
+    [
+      0.0462,
+      99
+    ],
+    [
+      0.0466,
+      93
+    ],
+    [
+      0.0473,
+      91
+    ],
+    [
+      0.0477,
+      90
+    ],
+    [
+      0.048,
+      88
+    ],
+    [
+      0.0482,
+      84
+    ],
+    [
+      0.0842,
+      78
+    ],
+    [
+      0.0846,
+      76
+    ],
+    [
+      0.0848,
+      74
+    ],
+    [
+      0.085,
+      54
+    ],
+    [
+      0.0852,
+      50
+    ],
+    [
+      0.0867,
+      45
+    ],
+    [
+      0.088,
+      37
+    ]
+  ],
+  "best_at_10s": 37,
+  "best_at_30s": 37,
+  "best_at_60s": 37,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 160,
+  "seed": 1,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T13:00:54Z",
+  "name": "B_setcover_160_1",
+  "solver": "cpsat",
+  "wall_s": 2.6697756790090352,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "setcover",
+    "--size",
+    "160",
+    "--seed",
+    "1",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_setcover_160_1.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_setcover_160_1.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    8
+  ]
+}

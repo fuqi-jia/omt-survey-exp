@@ -1,0 +1,24 @@
+{
+  "solver": "z3",
+  "instance": "st_glmp_kk92",
+  "status": "RETURNED",
+  "elapsed_s": 0.07970820501213893,
+  "timeout_s": 120,
+  "core": 2,
+  "x": [
+    -2.0,
+    4.0,
+    2.0,
+    -6.0
+  ],
+  "parse_error": null,
+  "reported_objective": -12.0,
+  "witness_check_s": 0.0016158329672180116,
+  "model_sha256": "b3b6153c6327bc209db876148d42e95ffcc573b07135e6cc0e377fb4230f5a90",
+  "objective": -12.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

@@ -1,0 +1,42 @@
+{
+  "index": 365,
+  "group": "heizmann",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/heizmann/water_pid_true-unreach-call.c_372.var_15.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "(fp #b0 #b01111111110 #b0000000000000000000000000000000000000000000000000000)",
+        "attainable": "unknown",
+        "attainable_s": 30.859421180561185,
+        "attainable_reason": "timeout",
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.0016496963798999786
+      },
+      "solve_s": 0.04726078361272812
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "13826050856027422720",
+        "attainable": "unknown",
+        "attainable_s": 30.507127482444048,
+        "attainable_reason": "timeout",
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.0010272692888975143
+      },
+      "solve_s": 0.019542207941412926
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.013849209994078
+    }
+  }
+}

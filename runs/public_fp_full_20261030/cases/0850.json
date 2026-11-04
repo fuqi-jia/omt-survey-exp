@@ -1,0 +1,47 @@
+{
+  "index": 850,
+  "group": "wintersteiger",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/wintersteiger/eq/eq-has-solution-18165.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b10000001111 #b1110110100101111010111011111101000100001001111000101)",
+        "attainable": "sat",
+        "attainable_s": 0.012648623436689377,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.01318814605474472
+      },
+      "solve_s": 0.054328322410583496
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "13906784652827431877",
+        "attainable": "sat",
+        "attainable_s": 0.013876963406801224,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.013310249894857407
+      },
+      "solve_s": 0.8441344685852528
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "13906784652827431877",
+        "attainable": "sat",
+        "attainable_s": 0.014136405661702156,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.013394525274634361
+      },
+      "solve_s": 0.881748491898179
+    }
+  }
+}

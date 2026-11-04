@@ -1,0 +1,121 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 58,
+  "runtime_s": 0.0128,
+  "memory_peak_mb": 0.0,
+  "incumbents": [
+    [
+      0.0086,
+      107
+    ],
+    [
+      0.0108,
+      98
+    ],
+    [
+      0.0111,
+      96
+    ],
+    [
+      0.0111,
+      94
+    ],
+    [
+      0.0111,
+      89
+    ],
+    [
+      0.0112,
+      88
+    ],
+    [
+      0.0114,
+      85
+    ],
+    [
+      0.0114,
+      82
+    ],
+    [
+      0.0114,
+      80
+    ],
+    [
+      0.0115,
+      77
+    ],
+    [
+      0.0116,
+      72
+    ],
+    [
+      0.0117,
+      71
+    ],
+    [
+      0.0118,
+      68
+    ],
+    [
+      0.0118,
+      67
+    ],
+    [
+      0.012,
+      65
+    ],
+    [
+      0.0121,
+      59
+    ],
+    [
+      0.0121,
+      58
+    ]
+  ],
+  "best_at_10s": 58,
+  "best_at_30s": 58,
+  "best_at_60s": 58,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 80,
+  "seed": 0,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T12:57:36Z",
+  "name": "B_setcover_80_0",
+  "solver": "cpsat",
+  "wall_s": 2.7319058729917742,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "setcover",
+    "--size",
+    "80",
+    "--seed",
+    "0",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_setcover_80_0.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_setcover_80_0.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    10
+  ]
+}

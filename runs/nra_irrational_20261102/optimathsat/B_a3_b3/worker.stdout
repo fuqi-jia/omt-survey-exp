@@ -1,0 +1,2 @@
+optimathsat B_a3_b3 TIMEOUT False 120.1
+optimathsat B_a3_b3 TIMEOUT False None

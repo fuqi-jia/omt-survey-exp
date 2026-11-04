@@ -1,0 +1,47 @@
+{
+  "index": 137,
+  "group": "griggio",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/other/square_and_power_inverse.y__47.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(_ +oo 8 24)",
+        "attainable": "sat",
+        "attainable_s": 0.011868122965097427,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.00022074952721595764
+      },
+      "solve_s": 0.04668058827519417
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "4286578688",
+        "attainable": "sat",
+        "attainable_s": 0.013223595917224884,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.012316763401031494
+      },
+      "solve_s": 0.2454387079924345
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "4286578688",
+        "attainable": "sat",
+        "attainable_s": 0.012875434011220932,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.012374671176075935
+      },
+      "solve_s": 0.24991151690483093
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "index": 415,
+  "group": "heizmann",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/heizmann/image_filter_true-unreach-call.c_2.var_6.min.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(_ -oo 11 53)",
+        "attainable": "sat",
+        "attainable_s": 26.655612614005804,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.0003514643758535385
+      },
+      "solve_s": 0.059889329597353935
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "4503599627370495",
+        "attainable": "sat",
+        "attainable_s": 8.4841227568686,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.7639039736241102
+      },
+      "solve_s": 1.3602204024791718
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 30.006266120821238
+    }
+  }
+}

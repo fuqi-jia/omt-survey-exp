@@ -11,6 +11,7 @@ as a child subprocess while HiGHS/SCIP run in-process, so both are captured.
 
 from __future__ import annotations
 
+import os
 import threading
 import time
 
@@ -22,21 +23,21 @@ def _make_solver(key, timeout):
     import pulp
     t = max(1, int(timeout))
     if key == "cbc":
-        return pulp.PULP_CBC_CMD(msg=0, timeLimit=t, threads=1)
+        return pulp.COIN_CMD(path=os.environ.get("CBC_BIN", "cbc"), msg=0, timeLimit=t, threads=1)
     if key == "highs":
         return pulp.HiGHS(msg=False, timeLimit=t, threads=1)
     if key == "scip":
-        return pulp.SCIP_PY(msg=False, timeLimit=t)
+        return pulp.SCIP_PY(msg=False, timeLimit=t, options=["parallel/maxnthreads=1"])
     if key == "gurobi":
         return pulp.GUROBI(msg=0, timeLimit=t, threads=1)
     if key == "cplex":
-        return pulp.CPLEX_PY(msg=0, timeLimit=t)
+        return pulp.CPLEX_PY(msg=0, timeLimit=t, threads=1)
     raise ValueError(key)
 
 
 # PuLP backend name -> our short key
 _PULP_NAME = {
-    "PULP_CBC_CMD": "cbc", "HiGHS": "highs", "HiGHS_CMD": "highs",
+    "PULP_CBC_CMD": "cbc", "COIN_CMD": "cbc", "HiGHS": "highs", "HiGHS_CMD": "highs",
     "SCIP_PY": "scip", "SCIP_CMD": "scip",
     "GUROBI": "gurobi", "GUROBI_CMD": "gurobi",
     "CPLEX_PY": "cplex", "CPLEX_CMD": "cplex",

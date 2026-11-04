@@ -1,0 +1,16 @@
+{
+  "solver": "optimathsat",
+  "instance": "ex3_1_4",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.11296454095282,
+  "timeout_s": 120,
+  "core": 6,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "824d846d937684132a7e3e4634b9595f7a4cc92ccb85e63375671e6c229a00e6",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

@@ -1,0 +1,26 @@
+{
+  "index": 908,
+  "group": "wintersteiger",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/wintersteiger/min/min-has-solution-9493.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unsat",
+      "stage": "solve",
+      "solve_s": 0.04635521024465561
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "unsat",
+      "stage": "solve",
+      "solve_s": 0.0011581238359212875
+    },
+    "bv": {
+      "form": "bv",
+      "status": "unsat",
+      "stage": "solve",
+      "solve_s": 0.0010953284800052643
+    }
+  }
+}

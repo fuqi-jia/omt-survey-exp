@@ -1,0 +1,57 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 87,
+  "runtime_s": 0.0272,
+  "memory_peak_mb": 0.0,
+  "incumbents": [
+    [
+      0.0256,
+      87
+    ]
+  ],
+  "best_at_10s": 87,
+  "best_at_30s": 87,
+  "best_at_60s": 87,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "gap",
+  "category": "A",
+  "instance": "",
+  "size": 40,
+  "seed": 0,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T11:24:03Z",
+  "name": "A_gap_40_0",
+  "solver": "cpsat",
+  "wall_s": 2.467352783016395,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "gap",
+    "--size",
+    "40",
+    "--seed",
+    "0",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/A_gap_40_0.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/A_gap_40_0.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    10
+  ]
+}

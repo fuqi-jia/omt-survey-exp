@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "instances": 1199,
+  "calls": 4796,
+  "excluded": [
+    {
+      "id": "cgm-n002-p12-i100",
+      "archive_member": "exp2/2N12P/Experiment_2/100.smt2",
+      "source_sha256": "b8e63c2faa07db99d8d932ae42b3dc7191285aaba22a69f970f3092b25e9138d",
+      "reason": "Published placeholder has no declarations, constraints, or soft objectives"
+    }
+  ],
+  "by_config": {
+    "z3-maxres": {
+      "optimal": 1158,
+      "unsat": 41
+    },
+    "z3-wmax": {
+      "optimal": 916,
+      "unsat": 41,
+      "timeout": 242
+    },
+    "oms-omt": {
+      "optimal": 996,
+      "unsat": 41,
+      "timeout": 162
+    },
+    "oms-maxres": {
+      "optimal": 1089,
+      "unsat": 41,
+      "timeout": 69
+    }
+  }
+}

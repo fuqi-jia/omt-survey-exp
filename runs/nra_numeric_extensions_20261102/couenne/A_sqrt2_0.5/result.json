@@ -1,0 +1,46 @@
+{
+  "case": "A_sqrt2",
+  "start": 0.5,
+  "x": 1.414213566518027,
+  "status": "optimal",
+  "elapsed_s": 0.7605069590499625,
+  "timeout_s": 120,
+  "model": {
+    "name": "A_sqrt2",
+    "variables": [
+      {
+        "name": "x",
+        "lb": "0",
+        "ub": "INF"
+      }
+    ],
+    "constraints": [
+      {
+        "lb": "-INF",
+        "ub": "2",
+        "constant": "0",
+        "terms": [
+          [
+            "1",
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      }
+    ],
+    "objective": {
+      "constant": "0",
+      "terms": [
+        [
+          "1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    "sense": "max"
+  }
+}

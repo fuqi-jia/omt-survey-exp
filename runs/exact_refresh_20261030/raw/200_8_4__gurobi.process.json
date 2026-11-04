@@ -1,0 +1,21 @@
+{
+  "returncode": 0,
+  "wall_s": 0.3119999999762513,
+  "command": [
+    "D:\\softwares\\Miniconda\\envs\\milp\\python.exe",
+    "E:\\ISCAS\\papers\\JOS2026\\omt-exp\\scripts\\diagnostics_refresh_20261028.py",
+    "--kind",
+    "exact",
+    "--worker",
+    "--solver",
+    "gurobi",
+    "--n",
+    "8",
+    "--timeout",
+    "120",
+    "--exp",
+    "200",
+    "--seed",
+    "4"
+  ]
+}

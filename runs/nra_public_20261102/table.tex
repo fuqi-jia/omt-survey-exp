@@ -1,0 +1,21 @@
+\begin{table}[H]
+\centering
+\caption{公开多变量非凸实例中达到参考最优值的数量}
+\label{tab:exp-nra-public}
+\small
+\setlength{\tabcolsep}{6pt}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+求解器 & 2 变量 (14) & 3 变量 (10) & 4 变量 (10) & 5 变量 (9) & 合计 (43) \\
+\midrule
+Z3 & 13 & 10 & 6 & 6 & 35 \\
+OCAC & 14 & 4 & 2 & 2 & 22 \\
+OptiMathSAT & 9 & 7 & 7 & 5 & 28 \\
+\midrule
+SLSQP & 6 & 5 & 5 & 6 & 22 \\
+IPOPT & 9 & 5 & 7 & 7 & 28 \\
+Gurobi & 14 & 10 & 10 & 9 & 43 \\
+Couenne & 14 & 10 & 9 & 9 & 42 \\
+\bottomrule
+\end{tabular}
+\end{table}

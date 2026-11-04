@@ -1,0 +1,23 @@
+{
+  "solver": "optimathsat",
+  "instance": "st_ph12",
+  "status": "RETURNED",
+  "elapsed_s": 0.1927818710100837,
+  "timeout_s": 120,
+  "core": 2,
+  "x": [
+    3.5,
+    4.0,
+    4.0
+  ],
+  "parse_error": null,
+  "reported_objective": -22.625,
+  "witness_check_s": 0.0005831170128658414,
+  "model_sha256": "24866cbb41f4e6f4eacf7f8d8ba60f8f2b5b597322c52f8063642788b05e31fe",
+  "objective": -22.625,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

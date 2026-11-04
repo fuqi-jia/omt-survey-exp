@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e18/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e18/tmpped1vx6n.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e18/tmpped1vx6n.pyomo.nl',)
+couenne st_e18 optimal True 0.762

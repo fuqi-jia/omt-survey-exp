@@ -1,0 +1,58 @@
+{
+  "solver": "scip",
+  "version": "10.1.0",
+  "encoding": "original",
+  "input_instance": {
+    "n": 8,
+    "seed": 0,
+    "exp": 40,
+    "val": [
+      1099511627782,
+      1099511627782,
+      1099511627776,
+      1099511627780,
+      1099511627783,
+      1099511627782,
+      1099511627780,
+      1099511627783
+    ],
+    "w": [
+      2,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      1
+    ],
+    "C": 7,
+    "opt": 5497558138910
+  },
+  "cpu_affinity": [
+    0
+  ],
+  "memory_limit_bytes": 4294967296,
+  "time_limit_s": 120,
+  "native_status": "optimal",
+  "native_objective": 5497558138880.0,
+  "native_bound": 5497558138904.0,
+  "native_mip_gap": 0.0,
+  "adapter_status": "Optimal",
+  "adapter_solution_status": 1,
+  "paper_classification": "wrong",
+  "exact_validation": {
+    "status": "wrong",
+    "value": 5497558138904,
+    "gap_to_opt": 6,
+    "selected": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "feasible": true
+  },
+  "scope": "Targeted diagnostic; original paper cohort is preserved."
+}

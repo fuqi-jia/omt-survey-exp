@@ -1,0 +1,4 @@
+sat
+(objectives
+	((+ obj 0.0) (_ real_algebraic_number <1*x^2 + (-8), (-2965821/1048576, -5931641/2097152)>))
+)

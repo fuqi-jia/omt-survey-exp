@@ -1,0 +1,24 @@
+{
+  "solver": "optimathsat",
+  "instance": "st_glmp_fp2",
+  "status": "RETURNED",
+  "elapsed_s": 27.912091795005836,
+  "timeout_s": 120,
+  "core": 8,
+  "x": [
+    0.509090909090909,
+    6.454363636363636,
+    6.963454545454545,
+    1.0547272727272727
+  ],
+  "parse_error": null,
+  "reported_objective": 7.344545421487603,
+  "witness_check_s": 0.0006191169959492981,
+  "model_sha256": "9f825a34fcc6be7671bdd124885fe469da308d110356e27caa7506777a5260ee",
+  "objective": 7.344545421487603,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 2.220446049250313e-16,
+  "max_scaled_violation": 2.220446049250313e-16,
+  "relative_reference_error": 4.748562227774795e-10
+}

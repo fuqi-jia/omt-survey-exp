@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_ph14/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_ph14/tmppkcd8xrr.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_ph14/tmppkcd8xrr.pyomo.nl',)
+ipopt st_ph14 optimal False 0.472

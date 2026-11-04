@@ -1,0 +1,46 @@
+{
+  "case": "C1_inf_unattained",
+  "start": 5.0,
+  "x": 1.414213564874846,
+  "status": "optimal",
+  "elapsed_s": 0.10114654002245516,
+  "timeout_s": 120,
+  "model": {
+    "name": "C1_inf_unattained",
+    "variables": [
+      {
+        "name": "x",
+        "lb": "0",
+        "ub": "INF"
+      }
+    ],
+    "constraints": [
+      {
+        "lb": "2",
+        "ub": "INF",
+        "constant": "0",
+        "terms": [
+          [
+            "1",
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      }
+    ],
+    "objective": {
+      "constant": "0",
+      "terms": [
+        [
+          "1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    "sense": "min"
+  }
+}

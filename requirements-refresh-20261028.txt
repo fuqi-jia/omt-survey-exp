@@ -1,0 +1,10 @@
+# Scientific environment: Python 3.12+. Build PySCIPOpt from source as documented.
+z3-solver==5.3.2.0
+highspy==1.15.1
+ortools==9.15.6755
+scipy==1.18.1
+numpy==2.5.4
+PuLP==3.3.2
+Pyomo==6.10.1
+PyYAML==6.0.3
+psutil==7.2.2

@@ -1,0 +1,55 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/ex7_3_3/tmpltjy7jbc.pyomo.nl', '-AMPL', 'bonmin.time_limit=120', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 0.81752902       26 0.020835
+Couenne: new cutoff value 8.1752901810e-01 (0.051511 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/ex7_3_3/tmpltjy7jbc.pyomo.nl"
+Constraints:            8
+Variables:              5 (0 integer)
+Auxiliaries:           10 (0 integer)
+
+Coin0506I Presolve 22 (-1) rows, 8 (-7) columns and 60 (-6) elements
+Clp0006I 0  Obj -0.81771077 Primal inf 3.3332985 (9)
+Clp0006I 8  Obj 8.159522e-18
+Clp0000I Optimal - objective value 0
+Clp0032I Optimal objective 0 - 8 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 0
+Cbc0012I Integer solution of 0.81752902 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT 0.81752902        7 0.004188
+solution found, obj. 0.817529
+Clp0000I Optimal - objective value 0
+Optimality Based BT: 8 improved bounds
+Probing: 6 improved bounds
+NLP Heuristic: no solution.
+Cbc0031I 3 added rows had average density of 2.6666667
+Cbc0013I At root node, 3 cuts changed objective from 0 to 0.79023982 in 4 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 8 row cuts average 2.8 elements, 6 column cuts (6 active)
+Cbc0010I After 0 nodes, 1 on tree, 0.81752902 best solution, best possible 0.79023982 (0.02 seconds)
+Optimality Based BT: 12 improved bounds
+Optimality Based BT: 12 improved bounds
+Optimality Based BT: 7 improved bounds
+Cbc0001I Search completed - best objective 0.8175290181035588, took 25 iterations and 4 nodes (0.04 seconds)
+Cbc0035I Maximum depth 1, 0 variables fixed on reduced cost
+
+ 	"Finished"
+
+Linearization cuts added at root node:         23
+Linearization cuts added in total:             23  (separation time: 0.000341s)
+Total solve time:                        0.045705s (0.045704s in branch-and-bound)
+Lower bound:                             0.817529
+Upper bound:                             0.817529  (gap: 0.00%)
+Branch-and-bound nodes:                         4
+Performance of                           FBBT:	   0.000381s,       12 runs. fix:          0 shrnk:   0.669715 ubd:    1.41667 2ubd:    1.58333 infeas:          0
+Performance of                           OBBT:	   0.010906s,        4 runs. fix:          0 shrnk:     16.343 ubd:          0 2ubd:          1 infeas:          0
+

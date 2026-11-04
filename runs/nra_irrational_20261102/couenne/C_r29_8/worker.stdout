@@ -1,0 +1,5 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_8/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_8/tmp3719ueu1.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_8/tmp3719ueu1.pyomo.nl',)
+couenne C_r29_8 optimal True 0.752
+couenne C_r29_8 optimal True 5.75357030414388

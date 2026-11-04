@@ -1,0 +1,13 @@
+{
+  "hostname": "DESKTOP-4QPPQ5C",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "python": "3.10.22 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:15:38) [MSC v.1942 64 bit (AMD64)]",
+  "cores": [
+    12
+  ],
+  "solver_budget_s": 600,
+  "memory_bytes": 4294967296,
+  "manifest_sha256": "5af0289a4e528b79223179fac1f423ed159cb8ff8346f95044b8b8ff92136601",
+  "script_sha256": "aa7640b0dda67463aa8dbee5fa1f29c56076bc012c46bb5a58a7871686f49189",
+  "cpu": "Intel64 Family 6 Model 167 Stepping 1, GenuineIntel"
+}

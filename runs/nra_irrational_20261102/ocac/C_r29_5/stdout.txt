@@ -1,0 +1,4 @@
+sat
+(objectives
+	((+ obj 0.0) (_ real_algebraic_number <1*x^4 + (-33*x^2) + 225, (1267375/262144, 10139001/2097152)>))
+)

@@ -1,0 +1,118 @@
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+MIP has 1 row; 12 cols; 12 nonzeros; 12 integer variables (12 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 3e+00]
+  Cost    [1e+12, 1e+12]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+01, 1e+01]
+WARNING: Problem has some excessively large costs
+WARNING:    Consider scaling the objective by 1e-7, or setting the user_objective_scale option to -21
+Presolving model
+1 rows, 12 cols, 12 nonzeros 0s
+1 rows, 11 cols, 11 nonzeros 0s
+Presolve reductions: rows 1(-0); columns 11(-1); nonzeros 11(-1) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   1 row
+   11 cols (10 binary, 1 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   11 nonzeros
+   Thread count 8 (of 16 threads). Using 1 max workers. Parallel search off
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ z       0       0         0   0.00%   -inf            0                  Large        0      0      0         0     0.0s
+ J       0       0         0   0.00%   -inf            -2.19902326e+12    Large        0      0      0         0     0.0s
+ S       0       0         0   0.00%   -1.31941395e+13 -7.69658139e+12   71.43%        0      0      0         0     0.0s
+         0       0         0   0.00%   -8.24633721e+12 -7.69658139e+12    7.14%        0      0      0         0     0.0s
+         1       0         1 100.00%   -7.69658139e+12 -7.69658139e+12    0.00%        2      1      0         4     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      -7.69658139446e+12
+  Dual bound        -7.69658139446e+12
+  Gap               0%
+  P-D integral      0.00624983651297
+  Solution status   feasible
+                    -7.69658139446e+12 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.02
+                    0.01 (Presolve)
+                    0.01 (Solve)
+                    0.00 (Postsolve)
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    4 (separation)
+                    0 (heuristics)
+Writing the option values to /mnt/e/iscas/papers/jos2026/omt-exp/runs/review_diagnostics_20261104/bigcoeff/highs/original/settings.set
+Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
+Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+MIP has 1 row; 12 cols; 12 nonzeros; 12 integer variables (12 binary)
+Coefficient ranges:
+  Matrix  [1e+00, 3e+00]
+  Cost    [1e+12, 1e+12]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+01, 1e+01]
+WARNING: Problem has some excessively large costs
+WARNING:    Consider scaling the objective by 1e-7, or setting the user_objective_scale option to -21
+Presolving model
+1 rows, 12 cols, 12 nonzeros 0s
+1 rows, 11 cols, 11 nonzeros 0s
+Presolve reductions: rows 1(-0); columns 11(-1); nonzeros 11(-1) 
+Objective function is integral with scale 1
+
+Solving MIP model with:
+   1 row
+   11 cols (10 binary, 1 integer, 0 implied int., 0 continuous, 0 domain fixed)
+   11 nonzeros
+   Thread count 8 (of 16 threads). Using 1 max workers. Parallel search off
+
+Src: B => Branching; C => Central rounding; F => Feasibility pump; H => Heuristic;
+     I => Shifting; J => Feasibility jump; L => Sub-MIP; P => Empty MIP; R => Randomized rounding;
+     S => Solve LP; T => Evaluate node; U => Unbounded; X => User solution; Y => HiGHS solution;
+     Z => ZI Round; l => Trivial lower; p => Trivial point; u => Trivial upper; z => Trivial zero
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+Src  Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ z       0       0         0   0.00%   -inf            0                  Large        0      0      0         0     0.0s
+ J       0       0         0   0.00%   -inf            -2.19902326e+12    Large        0      0      0         0     0.1s
+ S       0       0         0   0.00%   -1.31941395e+13 -7.69658139e+12   71.43%        0      0      0         0     0.1s
+         0       0         0   0.00%   -8.24633721e+12 -7.69658139e+12    7.14%        0      0      0         0     0.1s
+         1       0         1 100.00%   -7.69658139e+12 -7.69658139e+12    0.00%        2      1      0         4     0.1s
+
+Solving report
+  Status            Optimal
+  Primal bound      -7.69658139446e+12
+  Dual bound        -7.69658139446e+12
+  Gap               0%
+  P-D integral      0.00678488186427
+  Solution status   feasible
+                    -7.69658139446e+12 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.08
+                    0.03 (Presolve)
+                    0.05 (Solve)
+                    0.00 (Postsolve)
+  Max sub-MIP depth 0
+  Nodes             1
+  Repair LPs        0
+  LP iterations     4
+                    0 (strong br.)
+                    4 (separation)
+                    0 (heuristics)
+Writing the option values to /mnt/e/iscas/papers/jos2026/omt-exp/runs/review_diagnostics_20261104/bigcoeff/highs/original/settings.set

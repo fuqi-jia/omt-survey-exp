@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "hostname": "panda1.ios.ac.cn",
+  "platform": "Linux-7.0.0-15-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "z3": "5.3.3",
+  "optimathsat": "MathSAT5 version 1.7.4.b (2a04d1bee804) (Jul 24 2023 17:18:37, gmp 6.2.0, gcc 9.4.0, 64-bit)",
+  "solver_budget_s": 30,
+  "verification_budget_s_per_query": 30,
+  "memory_bytes": 4294967296,
+  "workers": 64,
+  "selection_sha256": "bdaa85e482df4a2aa4ffd432615dbb8c7c8e5b08c1ba05456ccec32c2ba5a6c6",
+  "oms_sha256": "c5548eff57036aa200a99deb0668667c1f52a4cab28b069f45682e8297696757",
+  "script_sha256": "03efd61c7011adb692ea3558662950ba123f5a45e092e5982da14f452e92b3c0",
+  "cpu": "Intel(R) Xeon(R) Platinum 8153 CPU @ 2.00GHz"
+}

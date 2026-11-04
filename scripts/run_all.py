@@ -42,14 +42,8 @@ CSV_FIELDS = [
 # Worker mode: solve ONE (instance, solver) in this isolated process
 # =====================================================================
 def _limit_memory(gb):
-    if not gb or gb <= 0:
-        return
-    try:
-        import resource
-        nbytes = int(gb * 1024 ** 3)
-        resource.setrlimit(resource.RLIMIT_AS, (nbytes, nbytes))
-    except Exception:
-        pass
+    from memory_limit import limit_memory
+    limit_memory(gb)
 
 
 def solve_one(args):
@@ -62,7 +56,12 @@ def solve_one(args):
     spec = build(args.family, args.size, args.seed)
     solver = make_solver(args.solver)
     res = solver.solve(spec, files, args.timeout)
-    sys.stdout.write(RESULT_MARK + res.to_json() + "\n")
+    payload = res.to_dict()
+    if args.solver.startswith("gurobi") and "gurobipy" in sys.modules:
+        payload["engine_version"] = list(sys.modules["gurobipy"].gurobi.version())
+    elif args.solver.startswith("cplex") and "cplex" in sys.modules:
+        payload["engine_version"] = sys.modules["cplex"].__version__
+    sys.stdout.write(RESULT_MARK + json.dumps(payload, default=str) + "\n")
     sys.stdout.flush()
 
 

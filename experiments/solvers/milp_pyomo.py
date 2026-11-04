@@ -29,11 +29,8 @@ from ..encodings.milp_gdp import GDP_FAMILIES, build_transformed
 
 
 def _cbc_path():
-    try:
-        import pulp
-        return pulp.apis.PULP_CBC_CMD().path
-    except Exception:
-        return None
+    import shutil
+    return os.environ.get("CBC_BIN") or shutil.which("cbc")
 
 
 # ---- per backend: prep (untimed) returns ctx; run (timed) -> (proved, obj) ----
@@ -81,6 +78,7 @@ def _prep_scip(m, timeout):
     sm.hideOutput()
     sm.readProblem(lp)
     sm.setParam("limits/time", float(timeout))
+    sm.setParam("parallel/maxnthreads", 1)
     return ("scip", sm, lp)
 
 

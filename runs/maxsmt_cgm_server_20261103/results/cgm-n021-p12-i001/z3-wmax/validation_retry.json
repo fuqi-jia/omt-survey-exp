@@ -1,0 +1,15 @@
+{
+  "started": "2026-11-03 12:26:16",
+  "core": 13,
+  "timeout_ms": 300000,
+  "elapsed_s": 0.12854741513729095,
+  "check": "sat",
+  "objective": [
+    13,
+    48,
+    189
+  ],
+  "previous_status": "invalid",
+  "previous_error": "invalid model or recomputed costs: unknown",
+  "error": null
+}

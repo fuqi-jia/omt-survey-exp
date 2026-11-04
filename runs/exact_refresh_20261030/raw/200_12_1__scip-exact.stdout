@@ -1,0 +1,1 @@
+__DIAGNOSTIC__{"status": "refused", "note": "coeff >= SCIP infinity (~1e20)"}

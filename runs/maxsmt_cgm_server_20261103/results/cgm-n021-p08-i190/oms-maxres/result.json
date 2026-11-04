@@ -1,0 +1,32 @@
+{
+  "instance": "cgm-n021-p08-i190",
+  "config": "oms-maxres",
+  "command": [
+    "/pub/data/jiafq/omt-maxsmt-20261103/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+    "-optimization=TRUE",
+    "-opt.priority=lex",
+    "-opt.maxsmt_engine=maxres",
+    "-unsat_core_generation=1",
+    "/pub/data/jiafq/omt-maxsmt-20261103/runs/maxsmt_cgm_server_20261103/inputs/cgm-n021-p08-i190/oms-maxres.smt2"
+  ],
+  "core": 19,
+  "input_sha256": "ac07b627625e00d6cb14a5bc676cec226a8be398b33e7dc1273d5cce8ea02de2",
+  "elapsed_s": 91.25926981121302,
+  "returncode": 0,
+  "timeout_s": 600,
+  "validation": {
+    "feasible": true,
+    "recomputed_costs": [
+      7,
+      23,
+      152
+    ],
+    "check": "sat"
+  },
+  "objective": [
+    7,
+    23,
+    152
+  ],
+  "status": "optimal"
+}

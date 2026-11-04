@@ -1,0 +1,10 @@
+# SCIP version 10.1.0
+
+# maximal time in seconds to run
+# [type: real, advanced: FALSE, range: [0,1e+20], default: 1e+20]
+limits/time = 120
+
+# timing when propagator should be called (1:BEFORELP, 2:DURINGLPLOOP, 4:AFTERLPLOOP, 15:ALWAYS))
+# [type: int, advanced: TRUE, range: [0,15], default: 15]
+propagating/genvbounds/timingmask = 0
+

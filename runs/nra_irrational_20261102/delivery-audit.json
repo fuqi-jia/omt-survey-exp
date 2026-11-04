@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "total_calls": 69,
+  "instances": 9,
+  "all_irrational": true,
+  "all_nonconvex": true,
+  "all_results_checked": true,
+  "source_sha256": "673fa69467a3d45bfc43a7667d87dba5467e2dc9b814394a7db5417ea2be52ee"
+}

@@ -1,0 +1,47 @@
+{
+  "index": 857,
+  "group": "wintersteiger",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/wintersteiger/gt/gt-has-solution-1116.max.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b10011101111 #b0011110111011011100111101011000001001001100001001000)",
+        "attainable": "sat",
+        "attainable_s": 0.014243585988879204,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.015037933364510536
+      },
+      "solve_s": 0.05445080064237118
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "14912506581735479368",
+        "attainable": "sat",
+        "attainable_s": 0.018441949039697647,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.017458174377679825
+      },
+      "solve_s": 1.3322163093835115
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "14912506581735479368",
+        "attainable": "sat",
+        "attainable_s": 0.018964475020766258,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.01753980852663517
+      },
+      "solve_s": 1.3992151208221912
+    }
+  }
+}

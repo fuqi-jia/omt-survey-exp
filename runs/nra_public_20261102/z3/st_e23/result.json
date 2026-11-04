@@ -1,0 +1,22 @@
+{
+  "solver": "z3",
+  "instance": "st_e23",
+  "status": "RETURNED",
+  "elapsed_s": 0.04408410401083529,
+  "timeout_s": 120,
+  "core": 10,
+  "x": [
+    1.1666666666666667,
+    0.5
+  ],
+  "parse_error": null,
+  "reported_objective": -1.0833333333333333,
+  "witness_check_s": 0.0005190909723751247,
+  "model_sha256": "603e1e6b0d4e10e87b2b99a80855f25155323e466eb801109c12065cc594b4b2",
+  "objective": -1.0833333333333335,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 3.0769253820980873e-10
+}

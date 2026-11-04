@@ -1,0 +1,45 @@
+{
+  "case": "C1_inf_unattained",
+  "construction": "original constraints rebuilt through the OptiMathSAT 1.7.4 Python API; C1 uses strict x*x > 2",
+  "asserted_formulas": [
+    "(`not` (`<=_rat` x 0))",
+    "(`not` (`<=_rat` (`*_rat` x x) 2))"
+  ],
+  "original_cli_input": "runs/nra_20261030/optimathsat/C1_inf_unattained.smt2",
+  "original_cli_sha256": "6ae0ede474576caf83b7edc3192f03ae2a5f07fa8aacc1042f55fb8c77523275",
+  "solve_result": 1,
+  "objective_status_code": 3,
+  "objective_status": "SAT_OPTIMAL",
+  "values": {
+    "optimum": {
+      "term": "(`+_rat` 1 diagnostic_eps)",
+      "epsilon": 1,
+      "unbounded": 0
+    },
+    "final_lower": {
+      "term": "diagnostic_inf",
+      "epsilon": 0,
+      "unbounded": 1
+    },
+    "final_upper": {
+      "term": "diagnostic_inf",
+      "epsilon": 0,
+      "unbounded": 1
+    },
+    "final_error": {
+      "term": "0",
+      "epsilon": 0,
+      "unbounded": 0
+    }
+  },
+  "model_load_result": 0,
+  "model": {
+    "x": "2"
+  },
+  "candidate_objective": "2",
+  "independent_reference": {
+    "exact": "sqrt(2), not attained",
+    "numeric": 1.4142135623730951
+  },
+  "elapsed_s": 0.044843361945822835
+}

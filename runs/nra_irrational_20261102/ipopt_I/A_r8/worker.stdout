@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/ipopt_I/A_r8/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/ipopt_I/A_r8/tmpj5ag4ybz.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/ipopt_I/A_r8/tmpj5ag4ybz.pyomo.nl',)
+ipopt_I A_r8 optimal True 3.518671623866949

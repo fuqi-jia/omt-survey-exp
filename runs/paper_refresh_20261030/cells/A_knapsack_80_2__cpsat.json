@@ -1,0 +1,61 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 724,
+  "runtime_s": 0.0216,
+  "memory_peak_mb": 0.0,
+  "incumbents": [
+    [
+      0.019,
+      709
+    ],
+    [
+      0.0203,
+      724
+    ]
+  ],
+  "best_at_10s": 724,
+  "best_at_30s": 724,
+  "best_at_60s": 724,
+  "sense": "max",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "knapsack",
+  "category": "A",
+  "instance": "",
+  "size": 80,
+  "seed": 2,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T12:12:03Z",
+  "name": "A_knapsack_80_2",
+  "solver": "cpsat",
+  "wall_s": 3.179464807995828,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "knapsack",
+    "--size",
+    "80",
+    "--seed",
+    "2",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/A_knapsack_80_2.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/A_knapsack_80_2.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    2
+  ]
+}

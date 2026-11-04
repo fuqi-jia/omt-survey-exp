@@ -1,0 +1,18 @@
+{
+  "instance": "cgm-n021-p12-i038",
+  "config": "oms-omt",
+  "command": [
+    "/pub/data/jiafq/omt-maxsmt-20261103/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+    "-optimization=TRUE",
+    "-opt.priority=lex",
+    "-opt.maxsmt_engine=omt",
+    "-unsat_core_generation=0",
+    "/pub/data/jiafq/omt-maxsmt-20261103/runs/maxsmt_cgm_server_20261103/inputs/cgm-n021-p12-i038/oms-omt.smt2"
+  ],
+  "core": 117,
+  "input_sha256": "b137257016b865f1b9eb7f9f01c037b0d8a5378738c44368bfa6c51d9244f312",
+  "elapsed_s": 600.2632435709238,
+  "returncode": -9,
+  "timeout_s": 600,
+  "status": "timeout"
+}

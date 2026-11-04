@@ -1,0 +1,12 @@
+{
+  "files": {
+    "scripts/nra_irrational_20261102.py": "88c198903b6c930823efaa6d90c5e607162ceedbe2a818cd98794dadd1969ad3",
+    "scripts/nra_irrational_gurobi_20261102.py": "f25df78a8e5a4df2bc7969f652305891f174eca9af08ffd76e41a1c78cf35868",
+    "scripts/audit_nra_irrational_20261102.py": "673fa69467a3d45bfc43a7667d87dba5467e2dc9b814394a7db5417ea2be52ee",
+    "scripts/render_nra_irrational_20261102.py": "f583049adc213f49f41c2acb58777f43059d5bf9756de1e25ee3caef91e08fee"
+  },
+  "binary_manifest": "../nra_public_20261102/toolchain.json",
+  "formal_calls": 69,
+  "diagnostic_calls": 3,
+  "generator_snapshot_restored_by_hash": true
+}

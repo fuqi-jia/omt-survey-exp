@@ -1,0 +1,15 @@
+{
+  "instance": "cgm-n021-p12-i032",
+  "config": "z3-wmax",
+  "command": [
+    "/pub/data/jiafq/omt-maxsmt-20261103/tools/z3-5.3.3/python/z3_solver-5.3.3.0.data/data/bin/z3",
+    "-T:600",
+    "/pub/data/jiafq/omt-maxsmt-20261103/runs/maxsmt_cgm_server_20261103/inputs/cgm-n021-p12-i032/z3-wmax.smt2"
+  ],
+  "core": 35,
+  "input_sha256": "3e08380870cdd186b1fba736c6abb85c80b1aaecd3814a4989a219f183e338aa",
+  "elapsed_s": 600.1859130878001,
+  "returncode": -9,
+  "timeout_s": 600,
+  "status": "timeout"
+}

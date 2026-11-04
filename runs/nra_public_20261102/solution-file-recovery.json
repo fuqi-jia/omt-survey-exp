@@ -1,0 +1,30 @@
+[
+  {
+    "instance": "st_glmp_fp1",
+    "cohort": "nra_public_20261102",
+    "recovered": true,
+    "feasible": true,
+    "reference_hit": true
+  },
+  {
+    "instance": "st_glmp_fp2",
+    "cohort": "nra_public_20261102",
+    "recovered": true,
+    "feasible": true,
+    "reference_hit": true
+  },
+  {
+    "instance": "st_glmp_fp3",
+    "cohort": "nra_public_20261102",
+    "recovered": true,
+    "feasible": true,
+    "reference_hit": true
+  },
+  {
+    "instance": "st_glmp_kk92",
+    "cohort": "nra_public_20261102",
+    "recovered": true,
+    "feasible": true,
+    "reference_hit": true
+  }
+]

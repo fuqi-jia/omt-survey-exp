@@ -1,0 +1,10 @@
+{
+  "path": "benchmarks/maxsmt-cgm-20261103/inputs.tar.gz",
+  "sha256": "59f2b413014ce50e4ceabb3da44db7616fc43e6711072289895501fc5b9093ef",
+  "bytes": 85747182,
+  "original_instances": 1199,
+  "encoded_inputs": 4796,
+  "all_input_hashes_match_server_runs": true,
+  "source_archive_url": "http://www.cgm-tool.eu/download/Experiment_SMT_Files.zip",
+  "source_archive_sha256": "d780f44fbaf3f73e5a307d6b74bb37fa1fe2c2896842981ecb3df55c55acf281"
+}

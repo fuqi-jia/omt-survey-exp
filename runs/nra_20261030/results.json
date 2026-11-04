@@ -1,0 +1,278 @@
+[
+  {
+    "solver": "ocac",
+    "case": "A_sqrt2",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/A_sqrt2.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.8306235419986479,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "f9d08c8faf6ed05185a1fa5c12992049eec973bcfd2b99df54763a827f1c5598",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) (_ real_algebraic_number <1*x^2 + (-2), (5/4, 3/2)>))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "ocac",
+    "case": "A_sqrt5",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/A_sqrt5.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.8175788119988283,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "dd9a42cf1fed91f36d856ec0cd88de11c3dc379f50e95aa650192579a9c26c3b",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) (_ real_algebraic_number <1*x^2 + (-5), (2, 9/4)>))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "ocac",
+    "case": "B_5_9",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/B_5_9.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.7937307159991178,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "33d2915e3812c59abfca91abd671b8aeda285aa7da507ecd660056cd3c1ff97d",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) 0.0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "ocac",
+    "case": "B_9_25",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/B_9_25.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.470839364999847,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "847fd5bc2c35fb9706f37ade9412c13c4bf6b45565b232148e144e2239ee6e43",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) 0.0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "ocac",
+    "case": "C1_inf_unattained",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/C1_inf_unattained.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.4725493699988874,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "912e9be50edb5df0021c624063fc32b539f727cc352de1440a024a0d32829353",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) (+ (_ real_algebraic_number <1*x^2 + (-2), (5/4, 3/2)>) epsilon))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "ocac",
+    "case": "C2_unbounded_below",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/ocac/C2_unbounded_below.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.46720807700330624,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "5b339b6e88bb5f8eb68484f3bda3ddeaf9794493d6967123cb831c62cc106b50",
+    "stdout": "sat\n(objectives\n\t((+ x 0.0) -oo)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "A_sqrt2",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/A_sqrt2.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 120.10122105099799,
+    "returncode": null,
+    "timed_out": true,
+    "input_sha256": "6b8bf6b30d01075fabca5f714c75b4a92e1e6b8aa885f8b378f5169e1a26cc24",
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "A_sqrt5",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/A_sqrt5.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 120.09855633099869,
+    "returncode": null,
+    "timed_out": true,
+    "input_sha256": "cd1286eec8acf15382eebceb6b0a462cbd85dd1214229aa47f0cb61a712c14e5",
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "B_5_9",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/B_5_9.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.1439671879998059,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "dfe7653694cfefde1f3a067cf46d0b8d9e43b18547b2f7637851d12b76f2e52b",
+    "stdout": "sat\n\n(objectives\n (x 0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "B_9_25",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/B_9_25.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.008493509998515947,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "8a1d3b6849318b04dd4445bc05625549d5f34382897f58ebbba8c60859ce9459",
+    "stdout": "sat\n\n(objectives\n (x 0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "C1_inf_unattained",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/C1_inf_unattained.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.011677228001644835,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "6ae0ede474576caf83b7edc3192f03ae2a5f07fa8aacc1042f55fb8c77523275",
+    "stdout": "sat\n\n(objectives\n (x (+ 1 epsilon))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "optimathsat",
+    "case": "C2_unbounded_below",
+    "command": [
+      "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+      "-optimization=TRUE",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261029/optimathsat/C2_unbounded_below.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 120.10271993700007,
+    "returncode": null,
+    "timed_out": true,
+    "input_sha256": "1cc48dfe96dbf71c8e6410649c0e85263fce2e85e0fae9bd1195f014ab6cb464",
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "A_sqrt2",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/A_sqrt2.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.0816340329911327,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "6b8bf6b30d01075fabca5f714c75b4a92e1e6b8aa885f8b378f5169e1a26cc24",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) (root-obj (+ (^ x 2) (- 2)) 2))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "A_sqrt5",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/A_sqrt5.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.07802794699091464,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "cd1286eec8acf15382eebceb6b0a462cbd85dd1214229aa47f0cb61a712c14e5",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) (root-obj (+ (^ x 2) (- 5)) 2))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "B_5_9",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/B_5_9.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.075304607002181,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "dfe7653694cfefde1f3a067cf46d0b8d9e43b18547b2f7637851d12b76f2e52b",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) 0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "B_9_25",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/B_9_25.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.017021872990881093,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "8a1d3b6849318b04dd4445bc05625549d5f34382897f58ebbba8c60859ce9459",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) 0)\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "C1_inf_unattained",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/C1_inf_unattained.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.0745059670007322,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "6ae0ede474576caf83b7edc3192f03ae2a5f07fa8aacc1042f55fb8c77523275",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) (+ (root-obj (+ (^ x 2) (- 2)) 2) epsilon))\n)\n",
+    "stderr": ""
+  },
+  {
+    "solver": "z3",
+    "case": "C2_unbounded_below",
+    "command": [
+      "/tmp/gomt-z3-5.3.3/bin/z3",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_20261030/z3/C2_unbounded_below.smt2"
+    ],
+    "timeout_s": 120,
+    "elapsed_s": 0.04248180901049636,
+    "returncode": 0,
+    "timed_out": false,
+    "input_sha256": "1cc48dfe96dbf71c8e6410649c0e85263fce2e85e0fae9bd1195f014ab6cb464",
+    "stdout": "sat\n(objectives\n ((+ x 0.0) (* (- 1) oo))\n)\n",
+    "stderr": ""
+  }
+]

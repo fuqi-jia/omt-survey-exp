@@ -1,5 +1,42 @@
 # 数据来源与完整性记录
 
+## 2026-11-02 非线性扩展（当前）
+
+- `benchmarks/minlplib-qcqp-20261102/` 保存完整原始元数据、全部 43 个符合预定条件的 OSiL 模型及公开最优参考点；原系数未修改。全部公开参考点均通过共享多项式编码核对。
+- `runs/nra_public_20261102/` 包含 43 实例×7 求解器的 301 次调用；`runs/nra_disjunctive_20261102/` 包含 9 实例×5 求解器的 45 次调用；`runs/nra_numeric_extensions_20261102/` 为 IPOPT 8 次及 Couenne 6 次补充调用。统一限时 120 秒、单线程、4 GB。
+- 析取基准使用原生 OR 与等价 0–1 编码，参考值由枚举所有启用集合并以有理数解凸二次子问题计算；九个参考值均与 Gurobi 独立求解吻合。完整生成参数、精确分数、参考向量与输入校验值随数据保存。
+- 版本为 IPOPT 3.14.20、Couenne 0.5.9；Couenne 与 Bonmin 1.8.9 从正式发行源码构建，使用相同的 IPOPT、CBC 和 ASL 运行库。安装、动态库校验与源代码记录见 `runs/nra_public_20261102/toolchain.json` 和 `docs/toolchain-nra-20261102.md`。
+- Couenne 在四个公开实例上先写出完整 `.sol` 后异常退出。`recover_nra_solution_files_20261102.py` 通过逐字节相同的 NL 输入核对列映射，读取原文件并按同一可行性/目标误差标准检查向量。原进程结果保存在 `solver-run.json`，异常状态、日志及原解文件均保留；这四组向量均达到参考值。表格统计的是达到参考值的可行向量。
+- Gurobi 析取编码的开发验证批次完整保存在 `tools/nlp-20261102/`；正式批次统一采用 `BarQCPConvTol=1e-8`，与其可行性/最优性容差一致，对全部九个实例重新执行。未按实例选择性调参或替换结果。
+- 当前验证入口为 `scripts/audit_nra_public_20261102.py` 与 `scripts/audit_nra_disjunctive_20261102.py`，分别核对全部 301 和 45 个单元。复现说明见 `REPRODUCE_20261102.md`。此前批次不覆盖。
+
+Z3 的 36 项编码/参数诊断及一次原输入重复调用另存于 `runs/nra_z3_check_20261102/`。逐约束等价性验证通过；简化编码与放宽内部最优界检查限额均未改善完成数。原正式结果保留，诊断不混入主表。该析取模型的0–1编码具有凸二次连续松弛，正文已明确这一结构。
+
+### 无理最优值非凸补充
+
+新增 `runs/nra_irrational_20261102/`：九个预先固定的参数组合，全部具有解析无理最优值与非凸可行域，共69次正式调用。参考值通过解析推导、精确实代数运算和80位Decimal计算分别核对；每例保存两个可行端点及不可行中点。完整原始系数、辅助变量与分支编码见 `benchmarks/nra-irrational-20261102/`。
+
+Z3和OCAC的九个精确返回值均与理论根式相等；Gurobi九例正常返回并达到参考精度。Couenne八例正常最优终止，在 `C_r29_5` 报告不可行；同一NL输入三次复跑重复该状态。其附带候选向量的数值核验与终止状态分开存储，正文表格采用原始状态。OptiMathSAT八例超时，在A_r5返回3+ε。IPOPT与SLSQP的两组初值分别到达全局和另一局部极小值。
+
+审计入口为 `scripts/audit_nra_irrational_20261102.py`，生成表格为 `scripts/render_nra_irrational_20261102.py`。本轮新增正式调用累计为429次，原批次均保留。
+
+## 2026-10-30 基础实验批次
+
+当前表格统一采用 `runs/paper_refresh_20261030/`（性能）、`runs/exact_refresh_20261030/`（大系数）、`runs/illcond_refresh_20261030/`（病态约束）、`runs/nra_20261030/`（非线性）及 `runs/public_fp_full_20261030/`（公开浮点）。汇总见 `RESULTS_FOR_PAPER.md`。下方旧批次记录保留其原始含义，不作为当前表格的数据入口。
+
+- 性能实例来自原有生成器；57 个线性实例与 40 个调度实例保持相同规模、种子和编码。清单记录每个 SMT2/MiniZinc 输入的 SHA-256。线性商业模型使用原生接口，编码及构建在计时前完成；调度分别使用原有 Pyomo.GDP 大 M 与原生指示约束。
+- 主要性能环境为 Intel Core i7-11700F、32 GB 内存，单线程、600 秒、每次 4 GB。开源与商业接口均独立进程运行并固定 CPU。Windows 进程采用 Job Object 内存限制，POSIX 采用 RLIMIT_AS。
+- CPLEX 按作者明确选择使用现有完整授权的 22.1.0；Gurobi 为 13.0.3。Z3已更新为5.3.3，官方wheel的地址与SHA-256见 `runs/toolchain_20261030/z3-installation.json`。其余实际版本与官方包校验值见 `runs/toolchain_20261028/versions.json`。PySCIPOpt 从源码链接 SCIP 10.1.0。
+- 993 次性能调用已完成；97 个实例的已证明最优值全部一致。三个 Gecode GAP320 调用耗尽内存。九个 CBC 调用由 630 秒外层保护终止，原始分类误记为 ERROR，依据终止码和时间校正为 TIMEOUT；原始 JSON 保存在 `runs/paper_refresh_20261030/classification-originals/`，实测时间和原始输出未改动。
+- 公开浮点采用 o300 集合全部 1120 个输入；固定数据层及全部输入校验值见 `selection-full.json`。旧式非法带反斜杠符号仅作一一重命名，原始文件不变。NaN 与不可满足单列，已核验结果必须同时通过可达性和严格改进查询。原始日志和运行脚本由 `delivery.json` 校验。
+- 2026-10-29 将大系数、病态约束及非线性实数实验统一为 120 秒并全部复跑，分别完成 360、42、32 次调用。新结果与前一批次的表格数据一致；原 60/120 秒混合预算的 2026-10-28 记录完整保留。复现入口为 `REPRODUCE_20261029.md`。2026-10-30再以Z3 5.3.3重跑40项大系数、6项病态约束与6项非线性调用，结果不变；其他求解器记录保留其原批次来源。
+- 完整复核命令为 `python scripts/audit_refresh_20261030.py`，结果为 `runs/toolchain_20261030/delivery-audit.json`。原有配置和归档运行没有覆盖。
+
+本轮另以Z3 5.3.3重跑97个性能实例，并对全部1120个浮点实例重新执行三条路线与核验。非Z3性能单元与10月28日记录逐文件SHA-256相同；当前矩阵共993个单元。各运行目录的 `cohort-provenance.json` 记录复用来源，复现入口为 `REPRODUCE_20261030.md`。
+
+## 历史批次记录
+
+
 > 记录分离实验表 (`sections/exp-evaluation.tex` 的 `tab:exp-sep`) 各列数据来源、为何商业
 > 求解器单独跑、以及一次完整的目标值交叉核验结论 (2026-06-28)。
 
@@ -314,3 +351,29 @@ setcover240         6 格全部 T/O → T/O
 `long600` 是连续 12.8 h 的长跑(机器持续高温),探针则是冷机短跑,主要怀疑对象是本机的
 热降频与缓存状态。**论文所依赖的结论均为数量级判断,不受该量级波动影响**;但据此不应
 在正文中比较同一族内相差不足一倍的两个 OMT 数字。
+
+
+## Published CGM MaxSMT inputs (2026-11-03)
+
+The source is Nguyen, Sebastiani, Giorgini and Mylopoulos, *Multi-objective
+reasoning with constrained goal models*, Requirements Engineering 23(2),
+189–225 (2018), DOI 10.1007/s00766-016-0263-5. The author's public artifact is
+http://www.cgm-tool.eu/download/Experiment_SMT_Files.zip (SHA-256
+`d780f44fbaf3f73e5a307d6b74bb37fa1fe2c2896842981ecb3df55c55acf281`).
+
+The fixed cohort uses all valid PRT inputs at N=2,11,21 and p=6,8,12:
+1,199 models from 1,200 candidate files. The omitted file is an empty
+651-byte placeholder, preserved verbatim with its hash and exclusion reason.
+Every other file in the selected groups is included. These are the source
+authors' application-model benchmarks; no replacement random instances are
+created. The manuscript's four-configuration results and exact model checks are
+recorded under `runs/maxsmt_cgm_server_20261103/`: all 4,796 calls completed,
+with 4,159 optimal, 164 hard-UNSAT and 473 timeout outcomes. The independent
+local control run is under `runs/maxsmt_cgm_20261103/`; no timings are mixed
+between these directories. The server run used the public-FP machine and at
+most 64 single-threaded workers, with per-call 600-second and 4-GiB limits.
+Two initial high-contention witness-check timeouts have preserved raw records
+and successful independent exact revalidation. The source archive, member
+hashes, interface mapping, resources, aggregation, and reproduction commands
+are documented in
+[REPRODUCE_MAXSMT_20261103.md](REPRODUCE_MAXSMT_20261103.md).

@@ -1,0 +1,205 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 31,
+  "runtime_s": 123.0672,
+  "memory_peak_mb": 106.36,
+  "incumbents": [
+    [
+      0.0696,
+      116
+    ],
+    [
+      0.1049,
+      107
+    ],
+    [
+      0.1054,
+      105
+    ],
+    [
+      0.2001,
+      102
+    ],
+    [
+      0.2004,
+      100
+    ],
+    [
+      0.211,
+      94
+    ],
+    [
+      0.2328,
+      92
+    ],
+    [
+      0.2419,
+      89
+    ],
+    [
+      0.2426,
+      88
+    ],
+    [
+      0.243,
+      82
+    ],
+    [
+      0.2433,
+      80
+    ],
+    [
+      0.4939,
+      79
+    ],
+    [
+      0.4952,
+      78
+    ],
+    [
+      0.4964,
+      77
+    ],
+    [
+      0.4975,
+      76
+    ],
+    [
+      0.4984,
+      75
+    ],
+    [
+      0.5011,
+      74
+    ],
+    [
+      0.5016,
+      71
+    ],
+    [
+      0.5046,
+      67
+    ],
+    [
+      0.5059,
+      66
+    ],
+    [
+      0.5076,
+      65
+    ],
+    [
+      0.5187,
+      64
+    ],
+    [
+      0.5189,
+      61
+    ],
+    [
+      0.5192,
+      54
+    ],
+    [
+      0.5193,
+      50
+    ],
+    [
+      0.5196,
+      49
+    ],
+    [
+      0.5215,
+      46
+    ],
+    [
+      0.5228,
+      42
+    ],
+    [
+      1.4275,
+      41
+    ],
+    [
+      1.428,
+      39
+    ],
+    [
+      1.4296,
+      38
+    ],
+    [
+      1.4323,
+      37
+    ],
+    [
+      1.5071,
+      36
+    ],
+    [
+      16.8252,
+      35
+    ],
+    [
+      19.0403,
+      34
+    ],
+    [
+      36.3438,
+      33
+    ],
+    [
+      109.2169,
+      32
+    ],
+    [
+      109.8033,
+      31
+    ]
+  ],
+  "best_at_10s": 36,
+  "best_at_30s": 34,
+  "best_at_60s": 33,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "cpsat",
+  "paradigm": "cp",
+  "encoding_name": "cpsat",
+  "family": "setcover",
+  "category": "B",
+  "instance": "",
+  "size": 320,
+  "seed": 2,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T13:33:02Z",
+  "name": "B_setcover_320_2",
+  "solver": "cpsat",
+  "wall_s": 126.97160267201252,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cpsat",
+    "--family",
+    "setcover",
+    "--size",
+    "320",
+    "--seed",
+    "2",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_setcover_320_2.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_setcover_320_2.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    8
+  ]
+}

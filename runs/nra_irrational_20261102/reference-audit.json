@@ -1,0 +1,56 @@
+[
+  {
+    "instance": "A_r13",
+    "decimal_reference": "4.1511626241334254032114317313382560742858382851427094413520195761119823166009466",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "A_r5",
+    "decimal_reference": "3.1026015628124472389887004597059544550939861477184849565245981990756367263910254",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "A_r8",
+    "decimal_reference": "3.5186716188609799488996982792961321045963589686594901760699109955634114692301998",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "B_a3_b3",
+    "decimal_reference": "-2.0010029896154586502168225554302114664943495751655486352479125666461273744542678",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "B_a4_b6",
+    "decimal_reference": "-2.3972120409568326635758261286145461179929617238240758990100159017691806776059736",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "B_a5_b8",
+    "decimal_reference": "-2.6650951721531377681053946337039423256007103818382454415161843881485651009417859",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "C_r29_5",
+    "decimal_reference": "4.8346523703813245325161468012118268220367914015288655845804051785275697432998254",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "C_r29_8",
+    "decimal_reference": "5.7535703328917169428880374361190157303003821856400505138689384092274852335181545",
+    "irrational": true,
+    "nonconvex": true
+  },
+  {
+    "instance": "C_r5_5",
+    "decimal_reference": "3.1026015628124472389887004597059544550939861477184849565245981990756367263910254",
+    "irrational": true,
+    "nonconvex": true
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "version": [
+    13,
+    0,
+    3
+  ],
+  "python": "3.10.22 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:15:38) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "script_sha256": "f25df78a8e5a4df2bc7969f652305891f174eca9af08ffd76e41a1c78cf35868"
+}

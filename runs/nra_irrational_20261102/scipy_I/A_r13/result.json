@@ -1,0 +1,27 @@
+{
+  "solver": "scipy",
+  "instance": "A_r13",
+  "start_key": "I",
+  "start": [
+    13.0,
+    1.0
+  ],
+  "status": "SUCCESS",
+  "elapsed_s": 0.032415683032013476,
+  "timeout_s": 120,
+  "core": 0,
+  "x": [
+    3.5948040682814257,
+    0.2781792779260068
+  ],
+  "error": null,
+  "model_sha256": "a5431473bfe687fa1f6df21089a46ff76e526895bf409fccf01ec5a82dc0f7a1",
+  "objective": 4.151162624133439,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 1.4432899320127035e-15,
+  "max_scaled_violation": 1.4432899320127035e-15,
+  "relative_reference_error": 3.42334329004241e-15,
+  "optimization_hit": true,
+  "correct_optimal_return": true
+}

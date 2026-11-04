@@ -86,6 +86,11 @@ def make_solver(name):
         return OptiMathSATSolver(_sense)
     if name in ("cbc", "highs", "scip"):
         return MILPSolver(name)
+    if name in ("gurobi", "cplex"):
+        solver = GurobiIndicatorSolver() if name == "gurobi" else CplexIndicatorSolver()
+        solver.name = name
+        solver.encoding = "native-linear"
+        return solver
     if name.endswith("-bigm") or name.endswith("-hull"):
         backend, transform = name.rsplit("-", 1)
         return PyomoGDPSolver(backend, transform)

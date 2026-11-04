@@ -1,0 +1,16 @@
+{
+  "solver": "z3",
+  "instance": "switch_n12_s0",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.10175412503304,
+  "timeout_s": 120,
+  "core": 4,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "6a0e1aa224c2f17e049d677455df07dfca17e96cbe64a3f9c8dcb9ceddde66e8",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

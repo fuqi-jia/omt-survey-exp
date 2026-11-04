@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_glmp_ss2/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_glmp_ss2/tmppg10j_y2.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_glmp_ss2/tmppg10j_y2.pyomo.nl',)
+ipopt st_glmp_ss2 optimal False 0.547

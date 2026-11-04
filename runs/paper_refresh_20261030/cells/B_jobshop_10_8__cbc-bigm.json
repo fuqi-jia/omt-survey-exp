@@ -1,0 +1,46 @@
+{
+  "status": "TIMEOUT",
+  "proved_optimal": false,
+  "objective": null,
+  "runtime_s": 630.105419235013,
+  "error_message": null,
+  "name": "B_jobshop_10_8",
+  "family": "jobshop",
+  "size": 10,
+  "seed": 8,
+  "category": "B",
+  "sense": "min",
+  "solver": "cbc-bigm",
+  "wall_s": 630.1054602439981,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "cbc-bigm",
+    "--family",
+    "jobshop",
+    "--size",
+    "10",
+    "--seed",
+    "8",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_jobshop_10_8.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_jobshop_10_8.mzn"
+  ],
+  "returncode": -9,
+  "cpu": [
+    2
+  ],
+  "external_timeout_s": 630,
+  "termination_reason": "external wall-time guard expired",
+  "original_classification": {
+    "status": "ERROR",
+    "error_message": "isolated worker did not emit a result"
+  }
+}

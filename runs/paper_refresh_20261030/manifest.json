@@ -1,0 +1,1769 @@
+{
+  "instances": [
+    {
+      "name": "A_gap_40_0",
+      "family": "gap",
+      "size": 40,
+      "seed": 0,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_40_0.smt2",
+          "sha256": "205e8df9a1b6f079d3f60a1d4f911f10fa8479a225f3d7f223f862afb9dfa868"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_40_0.mzn",
+          "sha256": "a87075fe94707df65d5333c26704db3ba420398c4a54a331271b0bff2752e26d"
+        }
+      }
+    },
+    {
+      "name": "A_gap_40_1",
+      "family": "gap",
+      "size": 40,
+      "seed": 1,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_40_1.smt2",
+          "sha256": "90898e5cef226729856e55daf6902aaecf8c5815de18dd0217fc385cd0350ecd"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_40_1.mzn",
+          "sha256": "0e5fc88c37efdd1d70ab7693e04137aa1c627c99fe325781129b9d84edc769b0"
+        }
+      }
+    },
+    {
+      "name": "A_gap_40_2",
+      "family": "gap",
+      "size": 40,
+      "seed": 2,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_40_2.smt2",
+          "sha256": "baa01e24d9d5f4ed57b060f67cfc0ae02e4302205f469278beb50735cfffe56e"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_40_2.mzn",
+          "sha256": "46cf673589bd9a1497558f56917e8c429aa563ab7c47c38ae906e2db3e8047dd"
+        }
+      }
+    },
+    {
+      "name": "A_gap_80_0",
+      "family": "gap",
+      "size": 80,
+      "seed": 0,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_80_0.smt2",
+          "sha256": "69cf860e8cd279eec8bdf728445f8901d83762b9899849f8545249bd5b4a46af"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_80_0.mzn",
+          "sha256": "d7c311e02d18e75e50ad4018adfb5ee98423c94c5b42be0df775f99220f8d7d1"
+        }
+      }
+    },
+    {
+      "name": "A_gap_80_1",
+      "family": "gap",
+      "size": 80,
+      "seed": 1,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_80_1.smt2",
+          "sha256": "ddaafba4368ba2156cebbf41a75025420776e7caab417edf7b5ac9f6101184bf"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_80_1.mzn",
+          "sha256": "5a39b563767eca427831abea737c297c809e53640e200dff0072c5087381bcf0"
+        }
+      }
+    },
+    {
+      "name": "A_gap_80_2",
+      "family": "gap",
+      "size": 80,
+      "seed": 2,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_80_2.smt2",
+          "sha256": "66fae736981718a3ca25b7b2253a64609e7fecc5c975fb738ffe4c1bb7e64cf3"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_80_2.mzn",
+          "sha256": "53c7a7c052bb4fb5af2039e91c08d254c4d6ab29331d8a3cb92c085ca9534cd9"
+        }
+      }
+    },
+    {
+      "name": "A_gap_160_0",
+      "family": "gap",
+      "size": 160,
+      "seed": 0,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_160_0.smt2",
+          "sha256": "cc0ecb29ad650755470ce31a3a120afabe86317f59422710b903f343f6b0b9db"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_160_0.mzn",
+          "sha256": "b1837648164d28195197cfea444dd1551f433521fb808a86cbdfeab4f22fe661"
+        }
+      }
+    },
+    {
+      "name": "A_gap_160_1",
+      "family": "gap",
+      "size": 160,
+      "seed": 1,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_160_1.smt2",
+          "sha256": "3169194d3d9a5a623ec9b3501cab5d531308e0b80606f09daecd30175cfd79a4"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_160_1.mzn",
+          "sha256": "5c0327376a20b98a5711a7aeb28cd1efd2594c71022d1584047e528870c82b84"
+        }
+      }
+    },
+    {
+      "name": "A_gap_160_2",
+      "family": "gap",
+      "size": 160,
+      "seed": 2,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_160_2.smt2",
+          "sha256": "7cd3f5035ca2cbe0195383f2d4700ec323d8110072b3fe602b013c9620631897"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_160_2.mzn",
+          "sha256": "734a4ba13063424812a78e791953f1edf30ad332bccea4eb309b4fe5a4353daa"
+        }
+      }
+    },
+    {
+      "name": "A_gap_320_0",
+      "family": "gap",
+      "size": 320,
+      "seed": 0,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_320_0.smt2",
+          "sha256": "a0aafbfe661aa9d230c10c97aa47c422f99a708921934e2d6d8190bd1268dd1d"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_320_0.mzn",
+          "sha256": "49e0d68db3850933c0a38065104a4bcdfd32204b2fe1e15427f20c9c872db78d"
+        }
+      }
+    },
+    {
+      "name": "A_gap_320_1",
+      "family": "gap",
+      "size": 320,
+      "seed": 1,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_320_1.smt2",
+          "sha256": "604715f42094c4ee28c026f262a45dee103bb8df7e3bbea468f548325f40ba34"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_320_1.mzn",
+          "sha256": "c811d2a373c846051b6e2310d88399d99c3bc1d5010a7b51a35cf9a594aa3d5b"
+        }
+      }
+    },
+    {
+      "name": "A_gap_320_2",
+      "family": "gap",
+      "size": 320,
+      "seed": 2,
+      "category": "A",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_gap_320_2.smt2",
+          "sha256": "f01a1a4fb513c4050d02b523b943798c22c13bf5c48a73fd1a241ab7630e198b"
+        },
+        "mzn": {
+          "path": "mzn/A_gap_320_2.mzn",
+          "sha256": "ea4a13d9f70fb896ee9f9985413feca64faa72d1275567b0d7f908f3a87aa88f"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_40_0",
+      "family": "knapsack",
+      "size": 40,
+      "seed": 0,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_40_0.smt2",
+          "sha256": "8b7bffbabbbc422f7fce34bc8a79222eb6fb5ad2762e738308dcec409757ebce"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_40_0.mzn",
+          "sha256": "8c1f81442613be53f18af60a420b9b03361b4063f72184d4ef925ae64798e890"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_40_1",
+      "family": "knapsack",
+      "size": 40,
+      "seed": 1,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_40_1.smt2",
+          "sha256": "965cf574754270c29d8c455e4c3aba1618ba6025f78d68cab7c6bebe8831b659"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_40_1.mzn",
+          "sha256": "9e11282d7ac16d0ff51acdf41df1935f1b78eb73d887175381498a8bdfdca1fa"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_40_2",
+      "family": "knapsack",
+      "size": 40,
+      "seed": 2,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_40_2.smt2",
+          "sha256": "fa4c8bb49512f44fb4e6fd7cc2ad2919d65f4ead22b8050cb3cd88f704ad58cc"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_40_2.mzn",
+          "sha256": "91adfc9da2e27d118435f54957cc7f7243759ad815c1fc02b1ec7702a6ac84f6"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_80_0",
+      "family": "knapsack",
+      "size": 80,
+      "seed": 0,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_80_0.smt2",
+          "sha256": "36a6dca19d93eaad94efbebe60c1ce8b45a377e9622a334419b696a9664cc922"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_80_0.mzn",
+          "sha256": "6939c5d008b028825f3093dd5944359821e57c8477ed0d631973d3fdbc9b8837"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_80_1",
+      "family": "knapsack",
+      "size": 80,
+      "seed": 1,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_80_1.smt2",
+          "sha256": "8be963479e6b166d7f7283972713797b870c01bd14c70e9dc383fcd1b24d1f81"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_80_1.mzn",
+          "sha256": "2d0d0e319f7d3e5f8b777483783bfeda8617f62b0ca3deafcdc81debc5e78291"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_80_2",
+      "family": "knapsack",
+      "size": 80,
+      "seed": 2,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_80_2.smt2",
+          "sha256": "7d22b86eec883ab4cc792566f885d3606ba179d9ee9908e7d207e7991e7b4fa7"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_80_2.mzn",
+          "sha256": "0e8b843178e63d17aa9293ccc8e416f8a926a53f8ed83cf979961fc72abb26fa"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_160_0",
+      "family": "knapsack",
+      "size": 160,
+      "seed": 0,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_160_0.smt2",
+          "sha256": "3bc79c1c0b54d032602ab3f03aa2de1f48b2f285ee7fca625f4c9a9e7b90baea"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_160_0.mzn",
+          "sha256": "69e521142252606e1bc020aaba05441dc9297571233496f95d7af777353761a5"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_160_1",
+      "family": "knapsack",
+      "size": 160,
+      "seed": 1,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_160_1.smt2",
+          "sha256": "4aeaa707201acb9cb53a339ec5ed1d671cc875d7f3044a5ef70dac463c714096"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_160_1.mzn",
+          "sha256": "62dbe74d81a2551e122348918dbf5f3f3af9bc4ff7b48ab0d6973f997739a671"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_160_2",
+      "family": "knapsack",
+      "size": 160,
+      "seed": 2,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_160_2.smt2",
+          "sha256": "231eabc12987149749f5b0f264900c50e33103cc981b52c3bb0a93249de322d7"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_160_2.mzn",
+          "sha256": "2a6aa05b056448db6a4611b7b8d9c464f679d9667dcaf8c3b7f6dd687ddf8110"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_320_0",
+      "family": "knapsack",
+      "size": 320,
+      "seed": 0,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_320_0.smt2",
+          "sha256": "025401f1af0deb9c411c5ff7a9075eb8ddec2792e5eb594720bd51feeb8a68f9"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_320_0.mzn",
+          "sha256": "02fafa285838a7e9acba2dcf65498b63f3e12cb3ec6296506b1b125c1ac75a34"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_320_1",
+      "family": "knapsack",
+      "size": 320,
+      "seed": 1,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_320_1.smt2",
+          "sha256": "a6b4e6a7e621bc37b90be3d6397e1ed711321c0a5193a58f9e1459f0b26164d7"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_320_1.mzn",
+          "sha256": "9661062c7d6814833d263a7b0bfb51105a92076d6a237a511502faf0466a3aff"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_320_2",
+      "family": "knapsack",
+      "size": 320,
+      "seed": 2,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_320_2.smt2",
+          "sha256": "dcfd7e7ca22508c3c6aab325b201e5fc90256aba8eedb7faac3a76394689f002"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_320_2.mzn",
+          "sha256": "bec9d1a106189fcbb30d7a0e092534dd703e4509a5d854853f50cd26f3140b67"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_640_0",
+      "family": "knapsack",
+      "size": 640,
+      "seed": 0,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_640_0.smt2",
+          "sha256": "dc8c399189e414ea118efa4e28dd9e3548b63bb95e0ccdd237d217b447521fe8"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_640_0.mzn",
+          "sha256": "bf3a5a31e187190998fa64bd198112ec5e58803d8fdce272b48e420f9363a286"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_640_1",
+      "family": "knapsack",
+      "size": 640,
+      "seed": 1,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_640_1.smt2",
+          "sha256": "1aab68b4d012c67f7ec62c40feb8bc3dd164b4303a5b26ea1a001e30cc93edc8"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_640_1.mzn",
+          "sha256": "39fda9a0ac70bb77ffe231a6fc083acf6c5f3cb5865e43cc4fb809748032ccf6"
+        }
+      }
+    },
+    {
+      "name": "A_knapsack_640_2",
+      "family": "knapsack",
+      "size": 640,
+      "seed": 2,
+      "category": "A",
+      "sense": "max",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/A_knapsack_640_2.smt2",
+          "sha256": "9866fe8f52ea87f882bf5128358080e123af6df910e3449eb4631bb9e44f93c6"
+        },
+        "mzn": {
+          "path": "mzn/A_knapsack_640_2.mzn",
+          "sha256": "c1a8a130f64baa611fa687cd56192ed53c1ee1d8b78a867e21475531d51c379f"
+        }
+      }
+    },
+    {
+      "name": "B_config_40_0",
+      "family": "config",
+      "size": 40,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_40_0.smt2",
+          "sha256": "2c4ca1e21eedb33440080c517d547e4765f6a58e3806911f692c02f5366ae8d8"
+        },
+        "mzn": {
+          "path": "mzn/B_config_40_0.mzn",
+          "sha256": "85d71393ba547e0c0c3ed1f618dd4fbe60132a1f7dfb071cbebcb8d9f7b0fbc7"
+        }
+      }
+    },
+    {
+      "name": "B_config_40_1",
+      "family": "config",
+      "size": 40,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_40_1.smt2",
+          "sha256": "e01d6a9d41b5514963d3521f87e02faf90924bd111e305f872b5a883dd6ff0a0"
+        },
+        "mzn": {
+          "path": "mzn/B_config_40_1.mzn",
+          "sha256": "f580bcdac88666000b85a6fa857c75db9bacfbcd1c6422449fa35448b0e907fe"
+        }
+      }
+    },
+    {
+      "name": "B_config_40_2",
+      "family": "config",
+      "size": 40,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_40_2.smt2",
+          "sha256": "e0a84933eeb7adf34f752c5b8e94edf774cb256edbd20f06580dd09bdef9c81e"
+        },
+        "mzn": {
+          "path": "mzn/B_config_40_2.mzn",
+          "sha256": "3453144c4e46a056589ee55d6affd1933ea2b4aa510e25987a451dce041cd7c6"
+        }
+      }
+    },
+    {
+      "name": "B_config_80_0",
+      "family": "config",
+      "size": 80,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_80_0.smt2",
+          "sha256": "9d9a7a988041621c95fe6f24edadbd4045e026e4c529b3e1bc03f326dc3d6f8c"
+        },
+        "mzn": {
+          "path": "mzn/B_config_80_0.mzn",
+          "sha256": "0afdbd505fa3a5f69f9b453277fb9edbb823e4e0b63ab367e8a555a190d576ed"
+        }
+      }
+    },
+    {
+      "name": "B_config_80_1",
+      "family": "config",
+      "size": 80,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_80_1.smt2",
+          "sha256": "16d3095ef54a566d091fdfa8318b3f030f8b724a39979c06870ea762b314e922"
+        },
+        "mzn": {
+          "path": "mzn/B_config_80_1.mzn",
+          "sha256": "4b6a2c410c2dbdb80a93327f81eb0ab20df370b638f6e136f4ba6eede71003c4"
+        }
+      }
+    },
+    {
+      "name": "B_config_80_2",
+      "family": "config",
+      "size": 80,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_80_2.smt2",
+          "sha256": "7a568cc413a8e27efc961e8cf6306ef1dcc57a781553d02fcee509e562d14171"
+        },
+        "mzn": {
+          "path": "mzn/B_config_80_2.mzn",
+          "sha256": "a55660e654a55a368424c565403c9c0c1c6675c3c51687e4770a8b03c4abe8b9"
+        }
+      }
+    },
+    {
+      "name": "B_config_150_0",
+      "family": "config",
+      "size": 150,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_150_0.smt2",
+          "sha256": "46df97bf30197ab5f02b50b7169f1bfcb4d5947cdb8e644523f1f19f1bc2908a"
+        },
+        "mzn": {
+          "path": "mzn/B_config_150_0.mzn",
+          "sha256": "b53427e53dfff97533b16a3d9f243a1601fee37d6155ca7c0ad708baea459ac6"
+        }
+      }
+    },
+    {
+      "name": "B_config_150_1",
+      "family": "config",
+      "size": 150,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_150_1.smt2",
+          "sha256": "16aa9da8a362c743d9e1643d87453968df6207e76c50674535c4b5c4e1875916"
+        },
+        "mzn": {
+          "path": "mzn/B_config_150_1.mzn",
+          "sha256": "dd52ad41fffcf0a10115ed722dde984147ed3443b6082d175ec81f361eb86ace"
+        }
+      }
+    },
+    {
+      "name": "B_config_150_2",
+      "family": "config",
+      "size": 150,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_150_2.smt2",
+          "sha256": "4dc0173d70f03a22467121041db68cf85071eba83670531f9d410a781d35648a"
+        },
+        "mzn": {
+          "path": "mzn/B_config_150_2.mzn",
+          "sha256": "8541ae218b427a361a519e85e7b69bf9d72c58f26ea2892d29303f7fdb81cf04"
+        }
+      }
+    },
+    {
+      "name": "B_config_200_0",
+      "family": "config",
+      "size": 200,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_200_0.smt2",
+          "sha256": "2e8f33dbfd01d6b1ef5fda333a7ac4f3de2a64864c3fc4fb9816691cf0bce925"
+        },
+        "mzn": {
+          "path": "mzn/B_config_200_0.mzn",
+          "sha256": "92607ea4e882035090781e8ddb4df62261f1ab9100baf0e2d58289c54655292f"
+        }
+      }
+    },
+    {
+      "name": "B_config_200_1",
+      "family": "config",
+      "size": 200,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_200_1.smt2",
+          "sha256": "b7f90e4fc3180c001be0314d3181db92f9be03ddd698d1a92312d90470d2b596"
+        },
+        "mzn": {
+          "path": "mzn/B_config_200_1.mzn",
+          "sha256": "511c79fa321f2f0ab5fce984d0b0a81986c90798415db0627167a60f0e9b9200"
+        }
+      }
+    },
+    {
+      "name": "B_config_200_2",
+      "family": "config",
+      "size": 200,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_200_2.smt2",
+          "sha256": "a61d2eabe4e7c84f18c92b907b920d3359f3de886647a65d93bb18533680dfe3"
+        },
+        "mzn": {
+          "path": "mzn/B_config_200_2.mzn",
+          "sha256": "ef403c42910ec166e2ffd8055e2946ebd09650730726bd778764bc571f39df4b"
+        }
+      }
+    },
+    {
+      "name": "B_config_300_0",
+      "family": "config",
+      "size": 300,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_300_0.smt2",
+          "sha256": "89d41d27cafe4d9b4d33a2de6bd8b0d6ffc7177a427af04be5ae5243b3e5435d"
+        },
+        "mzn": {
+          "path": "mzn/B_config_300_0.mzn",
+          "sha256": "946eec03a0ba635021fb2b1fd4749066fc86aaf8f7ea8c57c7682669d42ce3ef"
+        }
+      }
+    },
+    {
+      "name": "B_config_300_1",
+      "family": "config",
+      "size": 300,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_300_1.smt2",
+          "sha256": "7882575b2e7171f51024ba325b7a4c17309a5ef38c7132f380b1ba65ba75995e"
+        },
+        "mzn": {
+          "path": "mzn/B_config_300_1.mzn",
+          "sha256": "3d8c57e36a01159a02f48143e8b0b743c3177660e51dbac9e59b8ac484fed2b5"
+        }
+      }
+    },
+    {
+      "name": "B_config_300_2",
+      "family": "config",
+      "size": 300,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_config_300_2.smt2",
+          "sha256": "3bb72d619d46ebef937f4eb38d61c70c9dd4738f5d6d7c9bd2efe29aea46342d"
+        },
+        "mzn": {
+          "path": "mzn/B_config_300_2.mzn",
+          "sha256": "13064dec663c76340a57ca105dcc5e05111fe12e2e2499fc0493354fbe8885ab"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_40_0",
+      "family": "setcover",
+      "size": 40,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_40_0.smt2",
+          "sha256": "681f376bc7b5c4edbbfde00a10225fa592cbc8a46681827ca65965b3aa65f36e"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_40_0.mzn",
+          "sha256": "df47a89a7a98d517e03cc050db77e54c3a7c691ff7b1b3d596aff5345cfa1089"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_40_1",
+      "family": "setcover",
+      "size": 40,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_40_1.smt2",
+          "sha256": "bcb025c33b273171ffd65eb5dd9c6815910f234737e2492de831d1a0a8a25d19"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_40_1.mzn",
+          "sha256": "23e7416a6b26c8d0bec58c7127959532634e58aad0f55ece381e2b5c3a1a2c54"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_40_2",
+      "family": "setcover",
+      "size": 40,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_40_2.smt2",
+          "sha256": "3909894044ab695b2d91570078225e8a2091dc1746bda92244784cb171db559c"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_40_2.mzn",
+          "sha256": "399951877714e16e44e37317d690cfaa91bfba0ef7946485b934b964c6d8bcac"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_80_0",
+      "family": "setcover",
+      "size": 80,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_80_0.smt2",
+          "sha256": "44ff495d9a4cd621735e0d403a7ccec44c30e8e9dcc30164942c9c046cd0dc1d"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_80_0.mzn",
+          "sha256": "8866a8274e46fb95f2c911ba4e39bb7c63b932e7839e3b9dee50c9d1ea0a133a"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_80_1",
+      "family": "setcover",
+      "size": 80,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_80_1.smt2",
+          "sha256": "ecc26c0e0a6d33812b7826dd1f818c3eed7f8a249838e4cf30219d53a7770469"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_80_1.mzn",
+          "sha256": "610a7c10d19443a2c00cf50cb9e4f90b545f03b49df5dd95b9459021d72c5883"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_80_2",
+      "family": "setcover",
+      "size": 80,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_80_2.smt2",
+          "sha256": "f7d4ddc6062420e3251fc2f3fe7ef3a61b959701e476aea568e6893831b23a8a"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_80_2.mzn",
+          "sha256": "c7dd1e9ae70a305a219a982433a8003784ce414ead0c6cb39bbda6ca7d96e16d"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_160_0",
+      "family": "setcover",
+      "size": 160,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_160_0.smt2",
+          "sha256": "2d6933e3f222e0a92693266198f3a017999b546976b228e13d9126383967a0ef"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_160_0.mzn",
+          "sha256": "31ae2bae1f143c0c578a9618f1463cd899ed4acdfa009e04ef8d98360d3844b8"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_160_1",
+      "family": "setcover",
+      "size": 160,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_160_1.smt2",
+          "sha256": "8ddc5eff9e4b11f81d1b3b76bef8b408c14d35738db00d2061de13a303c38332"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_160_1.mzn",
+          "sha256": "286e5023cd92eb7d09308fa86e7bcef5b3b4e709022da521256b4fd158a3fc7a"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_160_2",
+      "family": "setcover",
+      "size": 160,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_160_2.smt2",
+          "sha256": "3ea8b0e2986db61f47445fca23b7624d12b7e3245ad826e59bf8a9a5d21a61cc"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_160_2.mzn",
+          "sha256": "bfe0140af4edd6d8795e94efbb21f5697c482fdacad3f67b1521cdcfee81ed37"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_240_0",
+      "family": "setcover",
+      "size": 240,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_240_0.smt2",
+          "sha256": "3347230e11c900eb562b2e5cff1daaf2282272ec83a5891f1fd731631425fae5"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_240_0.mzn",
+          "sha256": "cc7a755710be89a7894e19698aee6a3d04010107e350dbf1f93f81f547cb8c5b"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_240_1",
+      "family": "setcover",
+      "size": 240,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_240_1.smt2",
+          "sha256": "c993e035b049c35721857cb27dda1c4061250da4b71211cad41ff3a2cd7009ce"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_240_1.mzn",
+          "sha256": "5042fd0a1d89159d0612578a597b92e297245399376112403981fc74f227529a"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_240_2",
+      "family": "setcover",
+      "size": 240,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_240_2.smt2",
+          "sha256": "534fc841b6bc4895b5209e5c494a089e66ae71a0db1714acf2a12e4405142f87"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_240_2.mzn",
+          "sha256": "e44bf2b9d6e01c2e5ed5bdb7b1b7b09ae32d73a38439735805b0bd1ee65c669b"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_320_0",
+      "family": "setcover",
+      "size": 320,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_320_0.smt2",
+          "sha256": "a51c81025c0da3123c517bfc912b98c0f4fc272e838f112cfdcdf8b269a7b0c2"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_320_0.mzn",
+          "sha256": "900b3711cbeadf6a7ae92280bb82757e864312f860decb3ab4a42f6809259e39"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_320_1",
+      "family": "setcover",
+      "size": 320,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_320_1.smt2",
+          "sha256": "334d7562d33a779eddebf34f875dc78075bc055621c07cda5922df89e70bb249"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_320_1.mzn",
+          "sha256": "3ada02371ad879226e94ff3b0ce1ce34f5a57108fa599d49797b52f0d09c67b0"
+        }
+      }
+    },
+    {
+      "name": "B_setcover_320_2",
+      "family": "setcover",
+      "size": 320,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_setcover_320_2.smt2",
+          "sha256": "b9efed7dab8914c938ba7a8767cd10bf4bcabb3533cd54492949c1df5f753ac2"
+        },
+        "mzn": {
+          "path": "mzn/B_setcover_320_2.mzn",
+          "sha256": "4f961fe326aa7a97667fff7f7dedb90e2083589fb020b5af789e43bd9870e5d4"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_0",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_0.smt2",
+          "sha256": "7637d3c3dac52dc77513236915598d98355ed76ac23a98c0e51911380d89d662"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_0.mzn",
+          "sha256": "1631efaf3e0a71a79e52c40df013f3ae58e439d516a36e41797d3661539f8171"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_1",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_1.smt2",
+          "sha256": "05bde847d8007a98ee17fab750579cfc4e6ac064ff5e05510490cbfdada3126f"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_1.mzn",
+          "sha256": "902ca1962a3a724437fe6263fa147e569e3cfee6156986176e1aaa989adaff7e"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_2",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_2.smt2",
+          "sha256": "bfbce99f407636f22dc6c844810b6213f4eb3a92bea379f0e49001888c132302"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_2.mzn",
+          "sha256": "6ef22fecc9daaa808cc50abcbe1e3a2f3ed67e85bb614fc46202c940c610ee6e"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_3",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 3,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_3.smt2",
+          "sha256": "da5600c2e6e579254b8da4e00e173569ff1a1cb81a05181e769adeb39a1e5a9b"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_3.mzn",
+          "sha256": "9004b3097d1fac50ec20938d83bd85560e251ee9ab75cc38789753014ef1a8ae"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_4",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 4,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_4.smt2",
+          "sha256": "0e9529c4b6c9afee166d7f50b189022fceacc25bd152c22cb4e8fdb5e7642f59"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_4.mzn",
+          "sha256": "946aabe751f374efe5ca7bfcc7261efe072e8c03ed20c980cae0294fa8dd0eb1"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_5",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 5,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_5.smt2",
+          "sha256": "dfdbf1c5c1f6c8feb5245a14b9dd6c93fb31929c7bc9be7f91cb0d81fdc9c5ba"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_5.mzn",
+          "sha256": "ea70516a665e71402ce24f8bbaefe270d0c110b0fae2fec514643e337af4849d"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_6",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 6,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_6.smt2",
+          "sha256": "c91614dee17db5f6012f27b3decd5f58b40e259a67ef905e83520b81c849fce8"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_6.mzn",
+          "sha256": "70297c685747d0da8e2efd51bbe454c7eebeee87e4f3c463402816cf2a164714"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_7",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 7,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_7.smt2",
+          "sha256": "4e2de35210d1e30e2c7a745682c7206829a9742d94670e9976787a803ddd39db"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_7.mzn",
+          "sha256": "7668753007c431d63a3246ee2f5a7b9650529cf698b533c91913a0dc8682d08c"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_8",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 8,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_8.smt2",
+          "sha256": "1fee29c776ef77c595af757a596b15198af2d5cec66a3434a81a7ffd0273b38e"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_8.mzn",
+          "sha256": "8a2312fe1436e906a2fb16f3f6eb7f206f5d3c9d25710e28a6a5fae8eb8f5148"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_7_9",
+      "family": "jobshop",
+      "size": 7,
+      "seed": 9,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_7_9.smt2",
+          "sha256": "de1e6db34d27d2bafe5d0c1bb3d0ac4cb15df6027bef5fd2e868a4f933f291d4"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_7_9.mzn",
+          "sha256": "a15defc984f62bd143e3ada08e790687dc862d6808fb33f55e7fb0a4e7ca22f3"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_0",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_0.smt2",
+          "sha256": "62aa10593cb7ab64eb503f4db2abea94f36def5e18e42005b29c7b7a82963c71"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_0.mzn",
+          "sha256": "268e80e0bee6a8873cab7022bba17e0ed3cd56c0acc091057f68bd76095f0885"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_1",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_1.smt2",
+          "sha256": "bd169483a8c3ca48cf26fe385073a770d1288ad8d1b443f9aa4a8d254f4febc6"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_1.mzn",
+          "sha256": "a81edebccc0f12dc06ab36ff2f81304a03c265a72e0e22ed52cf9a1d4b7c8c0f"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_2",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_2.smt2",
+          "sha256": "2cb93f33a94a5e29e03976e4aa5e6ee416cb66731e6f9e7f446d64dba85088f2"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_2.mzn",
+          "sha256": "cb15ebfcfca6e382bc9f774329554425e0132af8abf189c31c6dbd92d3dc83a2"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_3",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 3,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_3.smt2",
+          "sha256": "52e39ea63b6fe5481f8791168006c8337251887ab66eb1dc0db8913b9c7d0e4f"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_3.mzn",
+          "sha256": "fa02c21a8649060f2abc9d69dbf6e63b017391354f8d5e67529b9711bf0d81de"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_4",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 4,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_4.smt2",
+          "sha256": "ce2841da80ce08dbdcb5daa26f03c6ea5a17820331d737c20f59ee2690dcff7a"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_4.mzn",
+          "sha256": "a492ec987a31042046d94013a44e6be456c55ff8dc3de2c4a8807b87c5bc16e7"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_5",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 5,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_5.smt2",
+          "sha256": "fcb93dbbb9000a515d0609bbff875e44bda094b17d2d4ad343d555f0edb0229b"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_5.mzn",
+          "sha256": "04a11cb4148b970abedf70d5422b4f35e7acd1d25a8eaf24ab440d557205b34f"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_6",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 6,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_6.smt2",
+          "sha256": "281b88b05a2469dca150686fa16c1453b107f6a5a24e900467ff823978531677"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_6.mzn",
+          "sha256": "c4ace095e7f8fd711afc2efde47f0bf0a60d33f7df6045a0ad0d5017d4cb42aa"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_7",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 7,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_7.smt2",
+          "sha256": "30c720dd7072fa912fe5f60405db022dfa6ecdb1cd3254dffd7c47e09faeace4"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_7.mzn",
+          "sha256": "6afb37e4ec8f4d0c81d96fe2a5c1f2fa53e1fc537a2bb1e5d78415e7cb27c143"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_8",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 8,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_8.smt2",
+          "sha256": "d149ef73b1265075f4ea62f4baa12ccb1f4e179a7f659ad6116daf61dcefa112"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_8.mzn",
+          "sha256": "b868d0a25c21adf09c31fcd6254eaff8dd47aafda165919aa87557c1c3cb0686"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_8_9",
+      "family": "jobshop",
+      "size": 8,
+      "seed": 9,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_8_9.smt2",
+          "sha256": "3d5cc0936b993c758273aaa9560e2ee88cfef3f56cba1577fb32db12ddf5db7f"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_8_9.mzn",
+          "sha256": "8280a7a03d520733a684694ce1bf174d2cd7a1fdd60a8baf82964f1a9f3447bc"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_0",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_0.smt2",
+          "sha256": "1a85eeed075adb022ef70ccb3fe01b57fc9c280c04970564553cdccbee0d37da"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_0.mzn",
+          "sha256": "c7799865684f91d9da6a056629940f94c0e3c86bb9955b48047acf7984d3831e"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_1",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_1.smt2",
+          "sha256": "87660aa13b69a3785e6ad43c98c9873256ebb5008936f21c7d28e3fb1dbcbe67"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_1.mzn",
+          "sha256": "092a248f3c28392d656f73a86d329ff852e82dc0b2db9a4bc93be4ba810bcbb3"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_2",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_2.smt2",
+          "sha256": "581f7f972f5bcc6cae8a710e44d339c2ea5f55a6067ee9aeaf67dea240c41f1e"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_2.mzn",
+          "sha256": "5b91e4b130d4fd5413a6238a9f7b185394cbfe95c080ee38fa346ea54ebaf711"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_3",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 3,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_3.smt2",
+          "sha256": "5fc37ad07fdbc795b41f178a0b96ca5920af9a8c72cf9951ac2e979d67a7fbf1"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_3.mzn",
+          "sha256": "9f4f964f74df8b68a8372f16a41cc5f8ce5469f1810c1045e30773ecc131ddaa"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_4",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 4,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_4.smt2",
+          "sha256": "17681cf098464e67eae42950eaa853b7bc0ea6a261e5cd638b6ed77ca4bf86a2"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_4.mzn",
+          "sha256": "94d7ade66986699504e8c058310b13aa1dcd6ab5d4ca660cfc9dba55b314f831"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_5",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 5,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_5.smt2",
+          "sha256": "cfd1e7deb6a086216575afb77491515565ae95a3bcdb57831e67237054141682"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_5.mzn",
+          "sha256": "6adf35023a9de90eeeca36df7e1119dc7c36bce51ddc9e9254301152f5b14fb8"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_6",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 6,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_6.smt2",
+          "sha256": "bdc93b8adf5b883287d850a265fb41fba31db36103b91a955c67f155cdc54214"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_6.mzn",
+          "sha256": "a8412384bcf6f3d09c114a1254b7d0081bb72f61a204614e66209d231790950a"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_7",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 7,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_7.smt2",
+          "sha256": "27c39af59c9d5960442552ac4f28746711f3b0b090cc6ea5d7ac87a5fb169cbd"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_7.mzn",
+          "sha256": "a7dd901b09c22bf33cc4a138198cd58f036ac36ed8ee7a37132574ac0367c6fa"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_8",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 8,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_8.smt2",
+          "sha256": "c34f24263ffa854392822122b9b05ed3ac5b77f48d8e197839ace541a8011472"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_8.mzn",
+          "sha256": "e8a344ca6362a2e1c23a4aaf3cd848ff1ed4055096cb08aaab56cbe14fad74b7"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_9_9",
+      "family": "jobshop",
+      "size": 9,
+      "seed": 9,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_9_9.smt2",
+          "sha256": "4c0fe5f48eb13503fc1ce40f4ebb8408d8ccf49b2af5720a9eb3b9d99c9eb86f"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_9_9.mzn",
+          "sha256": "68ccc37b6c0ba0a9afd38b704093bee59104db5b085abffb93891987e0b370b9"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_0",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 0,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_0.smt2",
+          "sha256": "bb5535a9a79fae15541efb672a88106e3091830ddfce331017c955dffdf643b3"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_0.mzn",
+          "sha256": "bc789f0e9b56f237760925a6f89559e90633462abe102d3ecd10621a86f1c98f"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_1",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 1,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_1.smt2",
+          "sha256": "6fb879af1c3b6fed654e2615f21e6a7ff254cad3aa1f59e284872b02102853a3"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_1.mzn",
+          "sha256": "d27db4c35d60d6b162d2ccaf8a39cd89d3cec2e3ca82198d4595e59cee593b4c"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_2",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 2,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_2.smt2",
+          "sha256": "47af8977e5aeac9cf4c05edca608bb260c194e8371525b10308842f38d3e9ce6"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_2.mzn",
+          "sha256": "9a8f36224a0f2b7503c0f0d353f644569d8aea4f800b9e66032f738357699c61"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_3",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 3,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_3.smt2",
+          "sha256": "1f1086abc8fbe55aa4f1b30b4c9e3353536876d92e001321430d84d0086e1b22"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_3.mzn",
+          "sha256": "febcfed405adb057b4e1cf4e1a5fc0e1fa6e748ba92a0a39a20e90ddb37eb47e"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_4",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 4,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_4.smt2",
+          "sha256": "df5454518f8debc43949170c133ff36d9776c769352e873c3a0eb346af6bb18f"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_4.mzn",
+          "sha256": "de726d0b856c49805ffb8acf790812851087838d832a891461357d5f954ec50b"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_5",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 5,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_5.smt2",
+          "sha256": "0d92a0405818b11a1487c0bf1d2df1e8dc4985344047f4db66e785867161ea01"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_5.mzn",
+          "sha256": "673c326b267c7cc6f2b44b474ff659118ac028cff7b75b048979d5ffaa534778"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_6",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 6,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_6.smt2",
+          "sha256": "13524e3eeaa19190e6256f79ccf9218556c451c2d364f738ccf5f4d81cabe3c6"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_6.mzn",
+          "sha256": "d3c6c0ee2a878651f401b6775e83b553fc08e5b25f744b1526b3457c19694f33"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_7",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 7,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_7.smt2",
+          "sha256": "ea2a4532e57eff6a5737f86fda7d02e18c3d827f5d9b92fa84716681a4eab93d"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_7.mzn",
+          "sha256": "ff0f8cc07ddda310cd0e638de288eb81c24bf33ac2b07ad42a180ad35b04f953"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_8",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 8,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_8.smt2",
+          "sha256": "2f7b2c64e09e2c1960ac5df7483a63f771672d6fd1ead810b55f8ae1fe243765"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_8.mzn",
+          "sha256": "b698f089b80842e3af954cfd7a70a2b18ee235ea4bf6c9a60f08866035ae25ef"
+        }
+      }
+    },
+    {
+      "name": "B_jobshop_10_9",
+      "family": "jobshop",
+      "size": 10,
+      "seed": 9,
+      "category": "B",
+      "sense": "min",
+      "inputs": {
+        "smt2": {
+          "path": "smt2/B_jobshop_10_9.smt2",
+          "sha256": "f65ea5682fbe3703e2cc67690376b8e569c5203433ebf157138176542638278c"
+        },
+        "mzn": {
+          "path": "mzn/B_jobshop_10_9.mzn",
+          "sha256": "7d7f67a28d0e72aaba1efde05032409a57d83db5c9a258b653ead2955c79e51c"
+        }
+      }
+    }
+  ],
+  "timeout_s": 600,
+  "memory_bytes": 4294967296,
+  "linear_seeds": [
+    0,
+    1,
+    2
+  ],
+  "jobshop_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

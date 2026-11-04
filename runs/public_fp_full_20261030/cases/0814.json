@@ -1,0 +1,47 @@
+{
+  "index": 814,
+  "group": "schanda",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/schanda/spark/riposte_floats_are_not_rational.x.min.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b01111011 #b10011001100110011001101)",
+        "attainable": "sat",
+        "attainable_s": 0.012247290462255478,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.036654699593782425
+      },
+      "solve_s": 0.0803490299731493
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "3184315597",
+        "attainable": "sat",
+        "attainable_s": 0.026960091665387154,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.03573273681104183
+      },
+      "solve_s": 0.5435468330979347
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "3184315597",
+        "attainable": "sat",
+        "attainable_s": 0.02697330340743065,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.03605588153004646
+      },
+      "solve_s": 0.39483936689794064
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 54,
+  "runtime_s": 0.7352,
+  "memory_peak_mb": 37.47,
+  "incumbents": [
+    [
+      0.4342,
+      72
+    ],
+    [
+      0.4354,
+      66
+    ],
+    [
+      0.4452,
+      65
+    ],
+    [
+      0.4457,
+      62
+    ],
+    [
+      0.4534,
+      58
+    ],
+    [
+      0.5701,
+      56
+    ],
+    [
+      0.5979,
+      55
+    ],
+    [
+      0.6301,
+      54
+    ]
+  ],
+  "best_at_10s": 54,
+  "best_at_30s": 54,
+  "best_at_60s": 54,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "jobshop",
+  "category": "B",
+  "instance": "",
+  "size": 8,
+  "seed": 6,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T13:43:23Z",
+  "name": "B_jobshop_8_6",
+  "solver": "gecode",
+  "wall_s": 2.4844203559914604,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "gecode",
+    "--family",
+    "jobshop",
+    "--size",
+    "8",
+    "--seed",
+    "6",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_jobshop_8_6.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_jobshop_8_6.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    8
+  ]
+}

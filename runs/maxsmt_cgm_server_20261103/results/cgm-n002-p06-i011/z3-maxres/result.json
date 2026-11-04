@@ -1,0 +1,29 @@
+{
+  "instance": "cgm-n002-p06-i011",
+  "config": "z3-maxres",
+  "command": [
+    "/pub/data/jiafq/omt-maxsmt-20261103/tools/z3-5.3.3/python/z3_solver-5.3.3.0.data/data/bin/z3",
+    "-T:600",
+    "/pub/data/jiafq/omt-maxsmt-20261103/runs/maxsmt_cgm_server_20261103/inputs/cgm-n002-p06-i011/z3-maxres.smt2"
+  ],
+  "core": 29,
+  "input_sha256": "7af6a706b2d9f3ab1c77efade8344f665ab8f39f2412e623695fe2627ec5de2c",
+  "elapsed_s": 0.6932859439402819,
+  "returncode": 0,
+  "timeout_s": 600,
+  "validation": {
+    "feasible": true,
+    "recomputed_costs": [
+      0,
+      3,
+      17
+    ],
+    "check": "sat"
+  },
+  "objective": [
+    0,
+    3,
+    17
+  ],
+  "status": "optimal"
+}

@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_bsj2/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_bsj2/tmpr3d_509v.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_bsj2/tmpr3d_509v.pyomo.nl',)
+ipopt st_bsj2 optimal True 0.637

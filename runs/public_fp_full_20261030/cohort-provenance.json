@@ -1,0 +1,7 @@
+{
+  "batch": "2026-10-30",
+  "scope": "Fresh full 1120-case rerun of all three routes and candidate verification",
+  "z3": "5.3.3",
+  "optimathsat": "1.7.4",
+  "previous": "runs/public_fp_full_20261028"
+}

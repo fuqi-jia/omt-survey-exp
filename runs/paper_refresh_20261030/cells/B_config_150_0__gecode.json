@@ -1,0 +1,145 @@
+{
+  "status": "SAT",
+  "proved_optimal": false,
+  "objective": 1465,
+  "runtime_s": 600.0,
+  "memory_peak_mb": 37.54,
+  "incumbents": [
+    [
+      0.2441,
+      1948
+    ],
+    [
+      0.2446,
+      1861
+    ],
+    [
+      0.2466,
+      1833
+    ],
+    [
+      0.2471,
+      1829
+    ],
+    [
+      0.2475,
+      1824
+    ],
+    [
+      0.248,
+      1792
+    ],
+    [
+      0.2484,
+      1695
+    ],
+    [
+      0.2487,
+      1669
+    ],
+    [
+      0.2489,
+      1664
+    ],
+    [
+      0.2511,
+      1659
+    ],
+    [
+      0.2526,
+      1656
+    ],
+    [
+      0.2585,
+      1655
+    ],
+    [
+      0.2591,
+      1614
+    ],
+    [
+      0.2598,
+      1609
+    ],
+    [
+      0.2647,
+      1606
+    ],
+    [
+      0.2657,
+      1595
+    ],
+    [
+      0.2681,
+      1586
+    ],
+    [
+      0.2693,
+      1555
+    ],
+    [
+      0.2713,
+      1528
+    ],
+    [
+      0.272,
+      1523
+    ],
+    [
+      0.2729,
+      1500
+    ],
+    [
+      0.2747,
+      1492
+    ],
+    [
+      36.8883,
+      1465
+    ]
+  ],
+  "best_at_10s": 1492,
+  "best_at_30s": 1492,
+  "best_at_60s": 1465,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "config",
+  "category": "B",
+  "instance": "",
+  "size": 150,
+  "seed": 0,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T12:34:00Z",
+  "name": "B_config_150_0",
+  "solver": "gecode",
+  "wall_s": 601.1659549050091,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "gecode",
+    "--family",
+    "config",
+    "--size",
+    "150",
+    "--seed",
+    "0",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_config_150_0.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_config_150_0.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    4
+  ]
+}

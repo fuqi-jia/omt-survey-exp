@@ -1,0 +1,55 @@
+
+Gurobi 13.0.3 (win64) logging started Mon Nov  2 22:14:24 2026
+
+Set parameter LogFile to value "E:\ISCAS\papers\JOS2026\omt-exp\runs\nra_irrational_20261102\gurobi\B_a4_b6\solver.log"
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26300.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i7-11700F @ 2.50GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 8 physical cores, 16 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  120
+MemLimit  4
+FeasibilityTol  1e-08
+MIPGap  1e-08
+MIPGapAbs  1e-08
+OptimalityTol  1e-08
+BarQCPConvTol  1e-08
+NonConvex  2
+Threads  1
+
+Optimize a model with 0 rows, 3 columns and 0 nonzeros (Min)
+Model fingerprint: 0x5e0c8291
+Model has 2 linear objective coefficients
+Model has 2 quadratic constraints
+Coefficient statistics:
+  Matrix range     [0e+00, 0e+00]
+  QMatrix range    [1e+00, 1e+00]
+  QLMatrix range   [1e+00, 8e+00]
+  Objective range  [1e-01, 1e+00]
+  Bounds range     [1e+00, 2e+01]
+  RHS range        [0e+00, 0e+00]
+  QRHS range       [1e+01, 1e+01]
+
+Presolve removed 0 rows and 1 columns
+
+Continuous model is non-convex -- solving as a MIP
+
+
+User MIP start did not produce a new incumbent solution
+
+Presolve removed 0 rows and 1 columns
+Presolve time: 0.00s
+Presolved: 3 rows, 3 columns, 5 nonzeros
+Presolved model has 1 bilinear constraint(s)
+Variable types: 3 continuous, 0 integer (0 binary)
+Found heuristic solution: objective -2.3972120
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 1: -2.39721 
+No other solutions better than -2.39721
+
+Optimal solution found (tolerance 1.00e-08)
+Best objective -2.397212040957e+00, best bound -2.397212040957e+00, gap 0.0000%

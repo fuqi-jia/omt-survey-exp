@@ -1,0 +1,25 @@
+{
+  "solver": "couenne",
+  "instance": "st_glmp_kk90",
+  "status": "optimal",
+  "elapsed_s": 0.7711468430352397,
+  "timeout_s": 120,
+  "core": 2,
+  "x": [
+    -9.99750000215756e-09,
+    4.0000000349962495,
+    -9.99750000215756e-09,
+    0.9999999550062508,
+    3.0000000249987497
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "a4c10fcf3bbf9c3bc52ccd7c45af8ae28220070a0119e2d380733f9f14ba67a6",
+  "objective": 2.9999998800200007,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 7.99899986247965e-08,
+  "max_scaled_violation": 9.998749828099562e-09,
+  "relative_reference_error": 3.999333308968289e-08
+}

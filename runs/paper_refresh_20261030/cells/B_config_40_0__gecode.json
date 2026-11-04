@@ -1,0 +1,105 @@
+{
+  "status": "OPTIMAL",
+  "proved_optimal": true,
+  "objective": 195,
+  "runtime_s": 0.3282,
+  "memory_peak_mb": 15.82,
+  "incumbents": [
+    [
+      0.2528,
+      486
+    ],
+    [
+      0.2531,
+      361
+    ],
+    [
+      0.2533,
+      339
+    ],
+    [
+      0.2535,
+      312
+    ],
+    [
+      0.2536,
+      304
+    ],
+    [
+      0.254,
+      277
+    ],
+    [
+      0.2546,
+      263
+    ],
+    [
+      0.255,
+      242
+    ],
+    [
+      0.2583,
+      235
+    ],
+    [
+      0.2586,
+      227
+    ],
+    [
+      0.2604,
+      223
+    ],
+    [
+      0.261,
+      215
+    ],
+    [
+      0.2627,
+      195
+    ]
+  ],
+  "best_at_10s": 195,
+  "best_at_30s": 195,
+  "best_at_60s": 195,
+  "sense": "min",
+  "solution": null,
+  "error_message": null,
+  "solver_name": "gecode",
+  "paradigm": "cp",
+  "encoding_name": "minizinc",
+  "family": "config",
+  "category": "B",
+  "instance": "",
+  "size": 40,
+  "seed": 0,
+  "timeout_s": 600.0,
+  "timestamp": "2026-10-28T12:29:14Z",
+  "name": "B_config_40_0",
+  "solver": "gecode",
+  "wall_s": 1.353509053005837,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/scripts/run_all.py",
+    "--solve-one",
+    "--solver",
+    "gecode",
+    "--family",
+    "config",
+    "--size",
+    "40",
+    "--seed",
+    "0",
+    "--timeout",
+    "600",
+    "--memgb",
+    "4",
+    "--smt2",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/smt2/B_config_40_0.smt2",
+    "--mzn",
+    "/mnt/e/ISCAS/papers/JOS2026/omt-exp/runs/paper_refresh_20261028/mzn/B_config_40_0.mzn"
+  ],
+  "returncode": 0,
+  "cpu": [
+    2
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "solver": "gurobi",
+  "instance": "st_ph11",
+  "status": "2",
+  "elapsed_s": 0.015999999945051968,
+  "native_runtime": 0.015000104904174805,
+  "objective_bound": -11.28125,
+  "timeout_s": 120,
+  "core": 12,
+  "x": [
+    4.0,
+    4.0,
+    3.75
+  ],
+  "model_sha256": "37ae9f364aa43d4793de3ab157fcc6fdd919da1d37ac1ed94a5ef323d6005773",
+  "objective": -11.28125,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

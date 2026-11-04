@@ -1,0 +1,196 @@
+{
+  "performance_calls": 993,
+  "performance_instances": 97,
+  "objective_mismatches": {},
+  "memory_failures": [
+    [
+      "A_gap_320_0",
+      "gecode"
+    ],
+    [
+      "A_gap_320_1",
+      "gecode"
+    ],
+    [
+      "A_gap_320_2",
+      "gecode"
+    ]
+  ],
+  "exact_rates": {
+    "cbc": {
+      "40": 10,
+      "54": 2,
+      "60": 2,
+      "200": 0
+    },
+    "cplex": {
+      "40": 10,
+      "54": 4,
+      "60": 1,
+      "200": 1
+    },
+    "cpsat": {
+      "40": 10,
+      "54": 10,
+      "60": 0,
+      "200": 0
+    },
+    "gurobi": {
+      "40": 10,
+      "54": 2,
+      "60": 1,
+      "200": 1
+    },
+    "highs": {
+      "40": 9,
+      "54": 3,
+      "60": 2,
+      "200": 0
+    },
+    "optimathsat": {
+      "40": 10,
+      "54": 10,
+      "60": 10,
+      "200": 10
+    },
+    "scip": {
+      "40": 2,
+      "54": 2,
+      "60": 2,
+      "200": 0
+    },
+    "scip-exact": {
+      "40": 10,
+      "54": 10,
+      "60": 10,
+      "200": 0
+    },
+    "z3": {
+      "40": 10,
+      "54": 10,
+      "60": 10,
+      "200": 10
+    }
+  },
+  "external_timeouts": [
+    [
+      "B_jobshop_10_0",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_1",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_2",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_3",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_4",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_5",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_8",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_10_9",
+      "cbc-bigm"
+    ],
+    [
+      "B_jobshop_9_9",
+      "cbc-bigm"
+    ]
+  ],
+  "hilbert": {
+    "z3": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "optimathsat": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "cbc": {
+      "6": "correct",
+      "8": "infeasible",
+      "10": "correct",
+      "12": "infeasible",
+      "14": "infeasible",
+      "16": "infeasible"
+    },
+    "highs": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "scip": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "gurobi": {
+      "6": "correct",
+      "8": "correct",
+      "10": "wrong",
+      "12": "wrong",
+      "14": "wrong",
+      "16": "wrong"
+    },
+    "cplex": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "infeasible",
+      "14": "infeasible",
+      "16": "infeasible"
+    }
+  },
+  "nra_calls": 32,
+  "public_fp_instances": 1120,
+  "public_fp_calls": 3360,
+  "public_fp_statuses": {
+    "fp": {
+      "timeout": 458,
+      "verified": 570,
+      "unverified_candidate": 87,
+      "unsat": 1,
+      "nan": 4
+    },
+    "bvfp": {
+      "timeout": 381,
+      "verified": 631,
+      "out_of_memory": 55,
+      "unverified_candidate": 48,
+      "unsat": 5
+    },
+    "bv": {
+      "timeout": 829,
+      "verified": 283,
+      "out_of_memory": 3,
+      "unsat": 5
+    }
+  }
+}

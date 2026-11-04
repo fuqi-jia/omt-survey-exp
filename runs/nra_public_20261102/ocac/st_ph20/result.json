@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_ph20",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.10298664600123,
+  "timeout_s": 120,
+  "core": 10,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "06e02f0806a14b660e4c94856208ee0a2c5b0938a80204328fa206cff4654390",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

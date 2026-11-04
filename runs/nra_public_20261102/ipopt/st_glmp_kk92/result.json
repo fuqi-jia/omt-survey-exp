@@ -1,0 +1,24 @@
+{
+  "solver": "ipopt",
+  "instance": "st_glmp_kk92",
+  "status": "optimal",
+  "elapsed_s": 0.5470224419841543,
+  "timeout_s": 120,
+  "core": 2,
+  "x": [
+    -1.999999998982231,
+    3.999999998551505,
+    1.9999999995692737,
+    -5.999999997533736
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "b3b6153c6327bc209db876148d42e95ffcc573b07135e6cc0e377fb4230f5a90",
+  "objective": -11.999999992483115,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 4.440892098500626e-16,
+  "max_scaled_violation": 4.440892098500626e-16,
+  "relative_reference_error": 6.264070743592735e-10
+}

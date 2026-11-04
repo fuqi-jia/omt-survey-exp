@@ -1,44 +1,18 @@
 #!/usr/bin/env python3
-"""Exactness / boundary experiment: separating ALL solver techniques by arithmetic.
+"""Sweep integer objective magnitudes on small binary knapsack instances.
 
-The three paradigms use fundamentally different arithmetic, with different
-*exactness guarantees and failure modes*:
+Enumerate every feasible subset with Python integers to obtain a reference.
+Recompute each returned selection under the original coefficients and classify
+it as exact, wrong, refused, or error. The experiment records the tested
+encodings, solver configurations, and outputs; magnitude alone does not
+identify the cause of an inexact result. In particular, 2**40 coefficients
+are exactly representable in binary64, yet some tested configurations return
+suboptimal selections. Large-magnitude interface refusals are recorded
+separately from finite but incorrect candidates.
 
-  * float MILP (CBC/HiGHS/SCIP/CPLEX/Gurobi) -- IEEE-754 double precision.
-    Integers above the 53-bit mantissa (> 2**53) cannot be represented exactly,
-    so the objective and the *ranking* of candidate solutions silently lose
-    precision: the solver returns a feasible solution that is EXACTLY sub-optimal
-    while reporting it as optimal. Failure mode: SILENT WRONG ANSWER.
-
-  * CP-SAT (OR-Tools) -- exact 64-bit integer arithmetic. Correct as long as all
-    coefficients and the values reachable by any linear expression stay within
-    int64 (~2**63). Beyond that it does NOT return a wrong answer: it rejects the
-    model (status MODEL_INVALID). Failure mode: SAFE REFUSAL. Integer-only.
-
-  * OMT (z3 / OptiMathSAT) -- exact arbitrary-precision rational arithmetic (GMP).
-    Correct at ANY magnitude, unbounded, and handles true rationals. No failure.
-
-This script sweeps the coefficient magnitude (BASE = 2**e for several e) over the
-SAME small 0/1 knapsacks, computes the TRUE optimum by exact big-integer brute
-force, and asks every solver to solve. For MILP/CP we read back the chosen items
-and recompute the objective with exact Python integers; for OMT we read the
-reported (exact) objective. Each (instance, solver) is classified as:
-    exact   -- returned solution is exactly the true optimum
-    wrong   -- returned a feasible but exactly-sub-optimal solution (silent error)
-    refused -- solver declined the model (MODEL_INVALID / coefficient-range error)
-    error   -- solver failed for another reason / no solution parsed
-
-The magnitudes are chosen to cross every boundary:
-    2**40  control  : < 2**53 and < 2**63  -> everyone exact
-    2**54  : just past the double mantissa  -> float MILP starts failing
-    2**60  : 8 items sum to ~2**63          -> CP-SAT hits its int64 limit
-    2**90  : far beyond int64 (and 2**53)   -> only OMT stays exact
-
-Run with the full-CPLEX environment so cplex/gurobi are unbounded:
-    .venv-cplex/bin/python scripts/exact_experiment.py
-
-Output: runs/exact/results.json (raw) + runs/exact/summary.json (per-magnitude
-rates, the data backing the paper's exactness table) + a printed summary.
+The refreshed paper cohort is runs/exact_refresh_20261030; earlier batches
+remain archived. Use diagnostics_refresh_20261028.py with an explicit output
+and 120-second limit to reproduce a selected solver batch.
 """
 
 import _bootstrap  # noqa: F401
@@ -51,6 +25,7 @@ import subprocess
 import tempfile
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+TIMEOUT_S = int(os.environ.get("OMT_DIAGNOSTIC_TIMEOUT_S", "60"))
 OMT_BIN = os.path.join(REPO, "tools", "optimathsat-1.7.4-linux-64-bit", "bin",
                        "optimathsat")
 SCIP_EXACT_BIN = os.environ.get("SCIP_EXACT",
@@ -93,7 +68,7 @@ def _classify(sel, inst):
         return {"status": "error", "value": exact_obj, "note": "infeasible"}
     ok = exact_obj == inst["opt"]
     return {"status": "exact" if ok else "wrong", "value": exact_obj,
-            "gap_to_opt": inst["opt"] - exact_obj}
+            "gap_to_opt": inst["opt"] - exact_obj, "selected": list(sel), "feasible": feasible}
 
 
 # ---------------- MILP (float) ----------------
@@ -104,14 +79,19 @@ def solve_milp_pulp(inst, backend):
     x = [pulp.LpVariable(f"x{i}", cat="Binary") for i in range(n)]
     p += pulp.lpSum(inst["val"][i] * x[i] for i in range(n))
     p += pulp.lpSum(inst["w"][i] * x[i] for i in range(n)) <= inst["C"]
-    # zero optimality-gap tolerance => MILP's BEST case: no early stop on the
-    # relative-gap criterion, so any wrong answer is purely a precision effect.
-    cls = {"cbc": pulp.PULP_CBC_CMD, "highs": pulp.HiGHS, "scip": pulp.SCIP_PY}[backend]
-    kw = dict(gapRel=0, gapAbs=0)
+    # Disable relative/absolute gap stopping; exact recomputation checks the
+    # returned selection independently of the solver's termination report.
+    cls = {"cbc": pulp.COIN_CMD, "highs": pulp.HiGHS, "scip": pulp.SCIP_PY}[backend]
+    kw = dict(gapRel=0, gapAbs=0, timeLimit=TIMEOUT_S)
+    if backend == "cbc":
+        kw.update(path=os.environ.get("CBC_BIN", "cbc"), threads=1)
     try:
         p.solve(cls(msg=0, **kw) if backend == "cbc" else cls(msg=False, **kw))
     except Exception as e:
         return {"status": "error", "note": str(e)[:80]}
+    if p.status != pulp.LpStatusOptimal or getattr(p, "sol_status", None) != pulp.constants.LpSolutionOptimal:
+        return {"status": "refused", "note": "solver did not return an optimal solution",
+                "solver_status": pulp.LpStatus[p.status]}
     sel = [i for i in range(n) if (x[i].value() or 0) > 0.5]
     return _classify(sel, inst)
 
@@ -122,6 +102,7 @@ def solve_cplex(inst):
         from docplex.mp.model import Model
         n = inst["n"]
         m = Model("k"); m.context.cplex_parameters.threads = 1
+        m.parameters.timelimit = TIMEOUT_S
         m.parameters.mip.tolerances.mipgap = 0.0
         m.parameters.mip.tolerances.absmipgap = 0.0
         x = m.binary_var_list(n)
@@ -143,6 +124,7 @@ def solve_gurobi(inst):
         from gurobipy import GRB
         n = inst["n"]
         m = gp.Model(); m.Params.OutputFlag = 0; m.Params.Threads = 1
+        m.Params.TimeLimit = TIMEOUT_S
         m.Params.MIPGap = 0.0; m.Params.MIPGapAbs = 0.0
         x = m.addVars(n, vtype=GRB.BINARY)
         m.addConstr(gp.quicksum(inst["w"][i] * x[i] for i in range(n)) <= inst["C"])
@@ -165,6 +147,7 @@ def solve_cpsat(inst):
     md.Add(sum(inst["w"][i] * x[i] for i in range(n)) <= inst["C"])
     md.Maximize(sum(inst["val"][i] * x[i] for i in range(n)))
     s = cp_model.CpSolver()
+    s.parameters.max_time_in_seconds = TIMEOUT_S
     try:
         st = s.Solve(md)
     except Exception as e:                       # overflow rejected at build time
@@ -196,7 +179,7 @@ def solve_omt(inst, binary):
     f.write("\n".join(L)); f.close()
     cmd = [binary, f.name] if binary == "z3" else [binary, "-optimization=TRUE", f.name]
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=60).stdout
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT_S).stdout
     except Exception as e:
         os.unlink(f.name)
         return {"status": "error", "note": str(e)[:80]}
@@ -229,7 +212,7 @@ def solve_scip_exact(inst):
     try:
         out = subprocess.run([SCIP_EXACT_BIN, "-c", "set exact enable TRUE",
               "-c", f"read {f.name}", "-c", "optimize", "-c", "quit"],
-              capture_output=True, text=True, timeout=120)
+              capture_output=True, text=True, timeout=TIMEOUT_S)
     except Exception as e:
         os.unlink(f.name); return {"status": "error", "note": str(e)[:80]}
     os.unlink(f.name)

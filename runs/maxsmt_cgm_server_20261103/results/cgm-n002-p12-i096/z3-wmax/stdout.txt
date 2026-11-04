@@ -1,0 +1,7 @@
+unsat
+(objectives
+ (unsat_preferences 0)
+ (unsat_requirements 0)
+ (sat_tasks 0)
+)
+(error "line 288 column 1981: model is not available")

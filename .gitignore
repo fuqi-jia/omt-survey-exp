@@ -20,3 +20,28 @@ runs/*/run.log
 .venv-win/
 tools/cdcl_ocac/
 tools/scip-exact/scip
+
+# Published full-suite source and generated solver inputs
+benchmarks/public_fp/upstream-layer.tar.gz
+benchmarks/public_fp/full/
+runs/public_fp_full_20261028/[0-9]*/*.smt2
+
+# Preliminary environment checks, excluded from manuscript results
+runs/bootstrap_smoke_20261028/
+runs/refresh_20261028/
+runs/bootstrap_scip_contention_20261028/
+runs/bootstrap_interrupted_20261028/
+runs/paper_refresh_20261028/cells/*.tmp
+runs/bootstrap_commercial_pulp_20261028/
+
+# Regenerable inputs for the Z3 5.3.3 update
+runs/paper_refresh_20261030/smt2/
+runs/paper_refresh_20261030/mzn/
+runs/paper_refresh_20261030/cells/*.tmp
+runs/public_fp_full_20261030/[0-9]*/*.smt2
+
+# Published CGM encodings are regenerated from the archive and manifest.
+runs/maxsmt_cgm_20261103/inputs/
+runs/maxsmt_cgm_20261103/interrupted_calls/
+runs/maxsmt_public_20261103/inputs/
+runs/maxsmt_public_20261103/results/

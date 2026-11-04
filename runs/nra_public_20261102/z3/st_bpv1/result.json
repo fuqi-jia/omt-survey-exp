@@ -1,0 +1,24 @@
+{
+  "solver": "z3",
+  "instance": "st_bpv1",
+  "status": "RETURNED",
+  "elapsed_s": 0.04466986801708117,
+  "timeout_s": 120,
+  "core": 8,
+  "x": [
+    27.0,
+    1.0,
+    0.0,
+    10.0
+  ],
+  "parse_error": null,
+  "reported_objective": 10.0,
+  "witness_check_s": 0.000644439016468823,
+  "model_sha256": "5bcb10347397255f3d6c50b3102ae6848b52f2e84c180007e1c0f60c039fd945",
+  "objective": 10.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

@@ -1,0 +1,8 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e01/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e01/tmp8qs0kbsf.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/couenne/st_e01/tmp8qs0kbsf.pyomo.nl',)
+WARNING: Loading a SolverResults object with a warning status into
+model.name="unknown";
+    - termination condition: infeasible
+    - message from solver: couenne\x3a Infeasible problem
+couenne st_e01 infeasible True 0.556

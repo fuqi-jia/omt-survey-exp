@@ -1,0 +1,26 @@
+{
+  "case": "C_r29_5",
+  "fixed_variables": {
+    "x": 1,
+    "y": 2
+  },
+  "expected_witness_branch": 1,
+  "exact_witness_checks": {
+    "xy": 2,
+    "xy_at_least_1": true,
+    "x_squared_plus_y_squared": 5,
+    "second_radius_at_least_5": true,
+    "x_at_most_1": true,
+    "bounds_0_to_7": true
+  },
+  "solver_status": "ok",
+  "termination_condition": "optimal",
+  "returned_x": [
+    1,
+    2
+  ],
+  "returned_objective": 5.0,
+  "original_nl": "runs/nra_irrational_20261102/couenne/C_r29_5/tmpco28k909.pyomo.nl",
+  "original_nl_sha256": "42c97027169a6c3cad616f9db59fcfb4ee19e3a36e17c826a10e2c7ebc310fb1",
+  "elapsed_s": 0.4934877609484829
+}

@@ -1,0 +1,94 @@
+{
+  "version": "1.18.1",
+  "records": [
+    {
+      "case": "A_sqrt2",
+      "start": 0.5,
+      "x": 1.4142135623732102,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        -3.255173908200959e-13
+      ]
+    },
+    {
+      "case": "A_sqrt5",
+      "start": 0.5,
+      "x": 2.2360679775227608,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        -1.0272938055777558e-10
+      ]
+    },
+    {
+      "case": "B_5_9",
+      "start": 5.0,
+      "x": 4.000000000695692,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        8.348308710992569e-09
+      ]
+    },
+    {
+      "case": "B_5_9",
+      "start": 0.2,
+      "x": 5.551115123125783e-17,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        16.0
+      ]
+    },
+    {
+      "case": "B_9_25",
+      "start": 5.0,
+      "x": 5.0,
+      "success": false,
+      "status": 8,
+      "message": "Positive directional derivative for linesearch",
+      "constraints_at_x": [
+        -24.0
+      ]
+    },
+    {
+      "case": "B_9_25",
+      "start": 0.2,
+      "x": 5.551115123125783e-17,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        56.0
+      ]
+    },
+    {
+      "case": "C1_inf_unattained",
+      "start": 5.0,
+      "x": 1.4142135651543164,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        7.866482132357078e-09,
+        1.4142135651543164
+      ]
+    },
+    {
+      "case": "C2_unbounded_below",
+      "start": 5.0,
+      "x": 1.0000001548293977,
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "constraints_at_x": [
+        3.0965881947508933e-07
+      ]
+    }
+  ]
+}

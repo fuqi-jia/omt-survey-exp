@@ -1,0 +1,20 @@
+[
+  {
+    "repeat": 1,
+    "status": "infeasible",
+    "candidate_objective": 4.834652140888818,
+    "same_nl_input": true
+  },
+  {
+    "repeat": 2,
+    "status": "infeasible",
+    "candidate_objective": 4.834652140888818,
+    "same_nl_input": true
+  },
+  {
+    "repeat": 3,
+    "status": "infeasible",
+    "candidate_objective": 4.834652140888818,
+    "same_nl_input": true
+  }
+]

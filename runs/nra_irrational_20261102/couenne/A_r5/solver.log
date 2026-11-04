@@ -1,0 +1,49 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/A_r5/tmp15b99y_5.pyomo.nl', '-AMPL', 'bonmin.time_limit=120', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=120
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: Couenne: new cutoff value 7.5000000000e+00 (0.012767 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 3.1026015        9 0.004149
+Couenne: new cutoff value 3.1026015473e+00 (0.017362 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/A_r5/tmp15b99y_5.pyomo.nl"
+Constraints:            2
+Variables:              2 (0 integer)
+Auxiliaries:            5 (0 integer)
+
+Coin0506I Presolve 18 (0) rows, 6 (-1) columns and 41 (-1) elements
+Clp0006I 0  Obj 3.1014538 Primal inf 0.0049078455 (8)
+Clp0006I 6  Obj 3.1026015
+Clp0000I Optimal - objective value 3.1026015
+Clp0032I Optimal objective 3.102601526 - 6 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 3.1026015
+Cbc0012I Integer solution of 3.1026015 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT 3.1026015        2 0.002274
+no solution.
+Clp0001I Primal infeasible - objective value 3.1026015
+Clp0001I Primal infeasible - objective value 3.1026015
+Clp0006I 0  Obj 3.1026015
+Clp0000I Optimal - objective value 3.1026015
+Cbc0001I Search completed - best objective 3.102601547319441, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value 3.1026015
+
+ 	"Finished"
+
+Linearization cuts added at root node:         18
+Linearization cuts added in total:             18  (separation time: 9.2e-05s)
+Total solve time:                         0.00481s (0.004809s in branch-and-bound)
+Lower bound:                               3.1026
+Upper bound:                               3.1026  (gap: 0.00%)
+Branch-and-bound nodes:                         0
+Performance of                           FBBT:	    3.5e-05s,        3 runs. fix:          0 shrnk:    29.0261 ubd:          0 2ubd:          0 infeas:          0
+

@@ -1,0 +1,68 @@
+{
+  "solver": "highs",
+  "version": "1.15.1",
+  "encoding": "original",
+  "input_instance": {
+    "n": 12,
+    "seed": 4,
+    "exp": 40,
+    "val": [
+      1099511627779,
+      1099511627780,
+      1099511627777,
+      1099511627782,
+      1099511627783,
+      1099511627778,
+      1099511627777,
+      1099511627777,
+      1099511627776,
+      1099511627782,
+      1099511627780,
+      1099511627776
+    ],
+    "w": [
+      1,
+      3,
+      3,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      3,
+      2
+    ],
+    "C": 10,
+    "opt": 7696581394458
+  },
+  "cpu_affinity": [
+    0
+  ],
+  "memory_limit_bytes": 4294967296,
+  "time_limit_s": 120,
+  "native_status": "HighsModelStatus.kOptimal",
+  "native_objective": -7696581394457.0,
+  "native_bound": -7696581394457.0,
+  "native_mip_gap": 0.0,
+  "adapter_status": "Optimal",
+  "adapter_solution_status": 1,
+  "paper_classification": "wrong",
+  "exact_validation": {
+    "status": "wrong",
+    "value": 7696581394457,
+    "gap_to_opt": 1,
+    "selected": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "feasible": true
+  },
+  "scope": "Targeted diagnostic; original paper cohort is preserved."
+}

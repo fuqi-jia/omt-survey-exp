@@ -1,0 +1,16 @@
+{
+  "solver": "z3",
+  "instance": "st_bpk1",
+  "status": "TIMEOUT",
+  "elapsed_s": 120.09565224102698,
+  "timeout_s": 120,
+  "core": 10,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "f97ffe5871a86c6462f89831f924673fd1ebcd614f898a366af9abec5e8ded6f",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

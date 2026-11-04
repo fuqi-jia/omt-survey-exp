@@ -1,0 +1,52 @@
+{
+  "case": "B_9_25",
+  "start": 5.0,
+  "x": 4.999999999982974,
+  "status": "infeasible",
+  "elapsed_s": 0.10076256695901975,
+  "timeout_s": 120,
+  "model": {
+    "name": "B_9_25",
+    "variables": [
+      {
+        "name": "x",
+        "lb": "0",
+        "ub": "5"
+      }
+    ],
+    "constraints": [
+      {
+        "lb": "0",
+        "ub": "INF",
+        "constant": "56",
+        "terms": [
+          [
+            "4",
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            "-36",
+            [
+              0
+            ]
+          ]
+        ]
+      }
+    ],
+    "objective": {
+      "constant": "0",
+      "terms": [
+        [
+          "1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    "sense": "min"
+  }
+}

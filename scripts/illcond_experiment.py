@@ -29,6 +29,7 @@ import tempfile
 from fractions import Fraction as F
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+TIMEOUT_S = int(os.environ.get("OMT_DIAGNOSTIC_TIMEOUT_S", "60"))
 OMT_BIN = os.path.join(REPO, "tools", "optimathsat-1.7.4-linux-64-bit", "bin",
                        "optimathsat")
 SIZES = [6, 8, 10, 12, 14, 16]
@@ -65,9 +66,11 @@ def milp_pulp(n, backend):
     p += (pulp.lpSum(x) if WITH_OBJ else 0)
     for i in range(n):
         p += pulp.lpSum(float(H[i][j]) * x[j] for j in range(n)) == float(b[i])
-    cls = {"cbc": pulp.PULP_CBC_CMD, "highs": pulp.HiGHS, "scip": pulp.SCIP_PY}[backend]
+    cls = {"cbc": pulp.COIN_CMD, "highs": pulp.HiGHS, "scip": pulp.SCIP_PY}[backend]
     try:
-        p.solve(cls(msg=0) if backend == "cbc" else cls(msg=False))
+        p.solve(cls(msg=0, path=os.environ.get("CBC_BIN", "cbc"), threads=1,
+                    timeLimit=TIMEOUT_S) if backend == "cbc" else
+                cls(msg=False, timeLimit=TIMEOUT_S))
     except Exception:
         return "error"
     st = pulp.LpStatus[p.status]
@@ -82,6 +85,7 @@ def gurobi(n):
         from gurobipy import GRB
         H, b = hilbert(n)
         m = gp.Model(); m.Params.OutputFlag = 0
+        m.Params.TimeLimit = TIMEOUT_S
         x = [m.addVar(0, UB, vtype=GRB.INTEGER) for _ in range(n)]
         if WITH_OBJ:
             m.setObjective(gp.quicksum(x), GRB.MINIMIZE)
@@ -100,6 +104,7 @@ def cplex(n):
         from docplex.mp.model import Model
         H, b = hilbert(n)
         m = Model(); x = [m.integer_var(0, UB) for _ in range(n)]
+        m.parameters.timelimit = TIMEOUT_S
         if WITH_OBJ:
             m.minimize(m.sum(x))
         for i in range(n):
@@ -129,7 +134,7 @@ def omt(n, binary):
     f.write("\n".join(L)); f.close()
     cmd = [binary, f.name]
     try:
-        out = subprocess.run(cmd, capture_output=True, text=True, timeout=60).stdout
+        out = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT_S).stdout
     except Exception:
         os.unlink(f.name); return "error"
     os.unlink(f.name)

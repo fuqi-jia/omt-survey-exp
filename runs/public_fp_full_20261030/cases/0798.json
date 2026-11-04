@@ -1,0 +1,47 @@
+{
+  "index": 798,
+  "group": "schanda",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/schanda/spark/average_3.a.min.smt2",
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b1 #b11111101 #b11111111111111111111111)",
+        "attainable": "sat",
+        "attainable_s": 0.14038873463869095,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.15293917059898376
+      },
+      "solve_s": 0.3812244273722172
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "16777216",
+        "attainable": "sat",
+        "attainable_s": 0.17485793493688107,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.17759619653224945
+      },
+      "solve_s": 14.554684180766344
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "16777216",
+        "attainable": "sat",
+        "attainable_s": 0.1681896448135376,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.1760615799576044
+      },
+      "solve_s": 9.961458273231983
+    }
+  }
+}
