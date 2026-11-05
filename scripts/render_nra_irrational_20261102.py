@@ -22,7 +22,7 @@ def main():
         for solver in ('z3','ocac','optimathsat','gurobi','couenne'):
             r=json.loads((spec.OUT/solver/name/'result.json').read_text())
             if r['status']=='TIMEOUT':value='超时'
-            elif r['status']=='infeasible':value='判不可行'
+            elif r['status']=='infeasible':value='报不可行'
             elif solver in ('z3','ocac','optimathsat'):
                 if r.get('reported_value') is not None:value='$'+f"{r['reported_value']:.8f}"+'$'
                 elif r.get('reported_exact_expression')=='(+ 3 epsilon)':value=r'$3+\varepsilon$'

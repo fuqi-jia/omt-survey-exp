@@ -124,8 +124,9 @@ python scripts/nra_irrational_gurobi_20261102.py
 
 `reference_hit` 记录候选向量在数值容差内是否达到参考值，
 `correct_optimal_return` 同时要求原始终止状态正确。Couenne 的 `C_r29_5`
-同时给出了可行候选和 `infeasible` 状态；论文列出候选值并说明状态冲突，不据此
-判定原模型不可行。三次相同 NL 输入复跑记录见 `couenne-status-recheck.json`，
+返回 `infeasible`，论文表格列为“报不可行”，正文给出精确可行点 `(1,2)`。
+候选向量在本文数值容差内满足约束，其值和约束违反量保留在原始记录中。
+三次相同 NL 输入复跑记录见 `couenne-status-recheck.json`，
 不计入正式 69 次调用。
 
 ## 2026-11-03 异常与语义复核
