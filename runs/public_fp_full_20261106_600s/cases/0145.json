@@ -1,0 +1,26 @@
+{
+  "group": "griggio",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/sin/sin2.c.5.b333.max.smt2",
+  "index": 145,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1738214697689
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 364.3288847412914
+    },
+    "bv": {
+      "form": "bv",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 209.87710735946894
+    }
+  }
+}

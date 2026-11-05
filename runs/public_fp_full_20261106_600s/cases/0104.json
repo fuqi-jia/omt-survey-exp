@@ -1,0 +1,47 @@
+{
+  "group": "griggio",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/mult/mult1.c.3.b20.max.smt2",
+  "index": 104,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b11111111110 #b1111111111111111111111111111111111111111111111111111)",
+        "attainable": "sat",
+        "attainable_s": 1.018593218177557,
+        "strictly_better": "unsat",
+        "strictly_better_s": 2.842189211398363
+      },
+      "solve_s": 1.1119258739054203
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "18442240474082181119",
+        "attainable": "sat",
+        "attainable_s": 0.9700317960232496,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.5776314362883568
+      },
+      "solve_s": 20.366231663152575
+    },
+    "bv": {
+      "form": "bv",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "18442240474082181119",
+        "attainable": "sat",
+        "attainable_s": 1.0133286286145449,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.6472063437104225
+      },
+      "solve_s": 17.33828865364194
+    }
+  }
+}

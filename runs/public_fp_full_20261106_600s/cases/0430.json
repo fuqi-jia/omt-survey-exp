@@ -1,0 +1,40 @@
+{
+  "group": "heizmann",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/heizmann/water_pid_true-unreach-call.c_14.var_8.min.smt2",
+  "index": 430,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(_ -oo 11 53)",
+        "attainable": "sat",
+        "attainable_s": 129.34751969389617,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.00046939216554164886
+      },
+      "solve_s": 0.05358266271650791
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "4503599627370495",
+        "attainable": "sat",
+        "attainable_s": 33.13992580771446,
+        "strictly_better": "unsat",
+        "strictly_better_s": 5.974981065839529
+      },
+      "solve_s": 1.795937690883875
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1675407607108
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "schanda",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/schanda/spark/angle_between_2.pt_c_y.max.smt2",
+  "index": 755,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1812398098409
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1874442845583
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1831223350018
+    }
+  }
+}

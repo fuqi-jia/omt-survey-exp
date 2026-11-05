@@ -1,0 +1,35 @@
+{
+  "group": "griggio",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/div/div2.c.20.b65.min.smt2",
+  "index": 181,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "(fp #b1 #b11111110 #b11111111111111111111111)",
+        "attainable": "unknown",
+        "attainable_s": 168.86527440696955,
+        "attainable_reason": "out of memory",
+        "strictly_better": "unknown",
+        "strictly_better_s": 605.7676487565041,
+        "strictly_better_reason": "timeout"
+      },
+      "solve_s": 310.99746620468795
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.6668984331191
+    },
+    "bv": {
+      "form": "bv",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 470.8864683024585
+    }
+  }
+}

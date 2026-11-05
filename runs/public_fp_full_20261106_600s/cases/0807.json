@@ -1,0 +1,34 @@
+{
+  "group": "schanda",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/schanda/spark/exp_3_precision.x.min.smt2",
+  "index": 807,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "(fp #b1 #b10101001 #b10010110010111111110101)",
+        "attainable": "sat",
+        "attainable_s": 0.015039948746562004,
+        "strictly_better": "unknown",
+        "strictly_better_s": 600.8474243897945,
+        "strictly_better_reason": "timeout"
+      },
+      "solve_s": 32.02392112277448
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1460657082498
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1614151112735
+    }
+  }
+}

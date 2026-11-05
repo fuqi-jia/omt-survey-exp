@@ -1,0 +1,58 @@
+{
+  "population": 1120,
+  "started_instances": 560,
+  "completed_instances": 560,
+  "completed_routes": 1680,
+  "groups": {
+    "griggio": {
+      "instances": 150,
+      "fp": 31,
+      "bvfp": 23,
+      "bv": 21
+    },
+    "heizmann": {
+      "instances": 74,
+      "fp": 64,
+      "bvfp": 48,
+      "bv": 8
+    },
+    "ramalho": {
+      "instances": 150,
+      "fp": 105,
+      "bvfp": 149,
+      "bv": 0
+    },
+    "schanda": {
+      "instances": 36,
+      "fp": 28,
+      "bvfp": 22,
+      "bv": 22
+    },
+    "wintersteiger": {
+      "instances": 150,
+      "fp": 148,
+      "bvfp": 139,
+      "bv": 139
+    }
+  },
+  "route_status_counts": {
+    "fp": {
+      "unverified_candidate": 75,
+      "verified": 376,
+      "timeout": 107,
+      "nan": 2
+    },
+    "bvfp": {
+      "timeout": 113,
+      "verified": 381,
+      "out_of_memory": 64,
+      "unsat": 2
+    },
+    "bv": {
+      "out_of_memory": 92,
+      "verified": 190,
+      "timeout": 276,
+      "unsat": 2
+    }
+  }
+}

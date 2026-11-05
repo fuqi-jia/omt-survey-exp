@@ -1,0 +1,33 @@
+{
+  "group": "schanda",
+  "sense": "min",
+  "upstream": "data/floatingpoint_test/o300/schanda/spark/average_6.a.min.smt2",
+  "index": 802,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b00000001 #b00000000000000000000001)",
+        "attainable": "sat",
+        "attainable_s": 0.6052082311362028,
+        "strictly_better": "unsat",
+        "strictly_better_s": 1.357751863077283
+      },
+      "solve_s": 1.8121630977839231
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1323654521257
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1378129608929
+    }
+  }
+}

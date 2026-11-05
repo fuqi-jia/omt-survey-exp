@@ -1,0 +1,33 @@
+{
+  "group": "wintersteiger",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/wintersteiger/sqrt/sqrt-has-solution-2279.max.smt2",
+  "index": 925,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b10100111000 #b1011001001110101010000101011111100010011101110100010)",
+        "attainable": "sat",
+        "attainable_s": 0.7424980234354734,
+        "strictly_better": "unsat",
+        "strictly_better_s": 3.006890347227454
+      },
+      "solve_s": 0.5596728567034006
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1628831885755
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1897835060954
+    }
+  }
+}

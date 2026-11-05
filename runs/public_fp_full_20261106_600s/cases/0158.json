@@ -1,0 +1,34 @@
+{
+  "group": "griggio",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/griggio/fmcad12/sqrt/sqrt.c.5.b476.max.smt2",
+  "index": 158,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "unverified_candidate",
+      "verification": {
+        "status": "unverified",
+        "value": "(_ +oo 8 24)",
+        "attainable": "unknown",
+        "attainable_s": 72.6884204633534,
+        "attainable_reason": "out of memory",
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.0005160309374332428
+      },
+      "solve_s": 232.59131813421845
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 173.97952496632934
+    },
+    "bv": {
+      "form": "bv",
+      "status": "out_of_memory",
+      "stage": "solve",
+      "solve_s": 106.45478311553597
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "group": "ramalho",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/ramalho/esbmc/Float_div_bad-main.var_260.max.smt2",
+  "index": 493,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b00100110 #b11001101101001011110111)",
+        "attainable": "sat",
+        "attainable_s": 0.24970904178917408,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.005767403170466423
+      },
+      "solve_s": 174.61690036579967
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "2472989431",
+        "attainable": "sat",
+        "attainable_s": 0.5108909793198109,
+        "strictly_better": "unsat",
+        "strictly_better_s": 0.013222116976976395
+      },
+      "solve_s": 0.04561537131667137
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.8438576459885
+    }
+  }
+}

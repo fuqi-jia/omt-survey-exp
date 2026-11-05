@@ -1,0 +1,12 @@
+{
+  "parity": 1,
+  "instances": 560,
+  "routes": 1680,
+  "selected_indices_sha256": "87f4a408ac947d8cbf12cdac028a08be33a93eb9532da6502029db6e70a25e7e",
+  "raw_logs_sha256": "1288d241866799a03f9a9a72c33f4a142c6bfaa8c21ea4d80beafc67dbe20d0f",
+  "cases_sha256": "a9a0027747b4776e4e0292b6452e854527ec91017f5b3335b83a9b4c1a709bda",
+  "runner_sha256": "32a60f959be1ad15dd267d8ec10395daa7293fb8dd5f90323a4bcaf0f9166bd6",
+  "physical_memory_bytes": 2164090834944,
+  "finished_utc": "2026-11-05T21:38:14Z",
+  "z3_library_sha256": "dec9b3180cf904803b0a67505746c90ffa55b9e8f3b05df44a8a7ab7b548ad80"
+}

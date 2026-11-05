@@ -1,0 +1,33 @@
+{
+  "group": "heizmann",
+  "sense": "max",
+  "upstream": "data/floatingpoint_test/o300/heizmann/Newlib-BadKrozingenChallenge-Oversimplified.var_2.max.smt2",
+  "index": 308,
+  "routes": {
+    "fp": {
+      "form": "fp",
+      "status": "verified",
+      "verification": {
+        "status": "verified",
+        "value": "(fp #b0 #b11111111110 #b1111111111111111111111111111111111111111111111111111)",
+        "attainable": "sat",
+        "attainable_s": 366.59901591204107,
+        "strictly_better": "unsat",
+        "strictly_better_s": 345.67998399958014
+      },
+      "solve_s": 267.9021258689463
+    },
+    "bvfp": {
+      "form": "bvfp",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.1943049002439
+    },
+    "bv": {
+      "form": "bv",
+      "status": "timeout",
+      "stage": "solve",
+      "solve_s": 600.4885843582451
+    }
+  }
+}

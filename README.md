@@ -19,18 +19,28 @@ main harness/side experiments) be merged or compared cell by cell.
 
 The manuscript runtime-distribution table is replaced by observed cumulative call-time curves. [Plotting source](scripts/plot_jobshop_cumulative_20261106.py) and [data, figure and audit bundle](runs/jobshop_figure_20261106/README.md) reproduce all 44 totals from the 440 archived calls in the 11 scheduling-table configurations. No solver experiments were rerun.
 
+## 2026-11-06 public FP: 600-second budgets
+
+The current public-FP table uses `runs/public_fp_full_20261106_600s/`: all
+1120 original inputs and all three routes, with 600-second solving,
+preparation and per-verification-query budgets. Two Xeon Platinum 8153
+machines run 128 single-core workers each, with a 4 GiB per-process limit.
+Even and odd input indices form disjoint, balanced shards. Commands and
+the complete timing protocol are in [`REPRODUCE_FP_20261106.md`](REPRODUCE_FP_20261106.md).
+The earlier 30-second cohort is retained at `runs/public_fp_full_20261030/`.
+
 ## 2026-11-02 nonlinear extension
 
 The nonlinear study now includes IPOPT 3.14.20 and Couenne 0.5.9, all 43 eligible
 small continuous nonconvex quadratic MINLPLib instances, and nine coupled
 nonlinear resource-allocation instances with explicit Boolean disjunctions.
 The first extension adds **360 formal solver calls**. A further **69 calls** cover nine genuinely nonconvex instances with irrational optima, including quartic constraints and OR between nonconvex branches. Commands and audits are in
-[`REPRODUCE_20261102.md`](REPRODUCE_20261102.md). The earlier performance,
-exactness and complete FP batches remain the source for their existing tables.
+[`REPRODUCE_20261102.md`](REPRODUCE_20261102.md). The earlier performance and exactness batches remain the source for their
+existing tables; the public-FP table now uses the November 6 batch above.
 
 ## 2026-10-30 manuscript refresh
 
-The current rerun uses the same 97 performance instances and the complete
+The October 30 rerun used the same 97 performance instances and the complete
 1120-instance public FP suite. Z3 5.3.3 performance and numerical calls, plus all 1120 public FP cases, were rerun on October 30. Numerical calls retain the uniform 120-second limit. Current commands are in `REPRODUCE_20261030.md`; earlier batches are documented in `REPRODUCE_20261029.md` and `REPRODUCE_20261028.md`. Exact
 runtime versions and installation notes are in `docs/toolchain-20261028.md`.
 Results are saved in `runs/paper_refresh_20261030/`, `runs/public_fp_full_20261030/`,

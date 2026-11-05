@@ -1,5 +1,11 @@
 # 数据来源与完整性记录
 
+## 2026-11-06 公开浮点与位向量编码
+
+当前公开浮点表采用 `runs/public_fp_full_20261106_600s/`：全部1120个原始输入、三条路线，共3360项优化任务。求解进程、独立编码准备进程和单项核验查询均限时600秒，单线程、4 GiB地址空间上限；两台同型号Xeon Platinum 8153机器合计256路并行。偶数、奇数索引分别对应两台机器，各来源组均分。
+
+`shard-manifest.json`记录分组，`environment.json`记录实际版本与配置，`delivery.json`校验全部原始记录及运行脚本，`audit.json`核对逐项状态、预算、核验结果和跨路线目标值。`results.csv`与`table-rows.tex`提供表12对应关系。复现入口为 `REPRODUCE_FP_20261106.md`；原30秒批次保留。
+
 ## 2026-11-02 非线性扩展（当前）
 
 - `benchmarks/minlplib-qcqp-20261102/` 保存完整原始元数据、全部 43 个符合预定条件的 OSiL 模型及公开最优参考点；原系数未修改。全部公开参考点均通过共享多项式编码核对。
@@ -22,7 +28,7 @@ Z3和OCAC的九个精确返回值均与理论根式相等；Gurobi九例正常�
 
 ## 2026-10-30 基础实验批次
 
-当前表格统一采用 `runs/paper_refresh_20261030/`（性能）、`runs/exact_refresh_20261030/`（大系数）、`runs/illcond_refresh_20261030/`（病态约束）、`runs/nra_20261030/`（非线性）及 `runs/public_fp_full_20261030/`（公开浮点）。汇总见 `RESULTS_FOR_PAPER.md`。下方旧批次记录保留其原始含义，不作为当前表格的数据入口。
+当前性能及基础数值表采用 `runs/paper_refresh_20261030/`（性能）、`runs/exact_refresh_20261030/`（大系数）、`runs/illcond_refresh_20261030/`（病态约束）和 `runs/nra_20261030/`（非线性）。该批次的公开浮点结果 `runs/public_fp_full_20261030/` 已由上方600秒批次替换。汇总见 `RESULTS_FOR_PAPER.md`，下方旧批次记录保留原始含义。
 
 - 性能实例来自原有生成器；57 个线性实例与 40 个调度实例保持相同规模、种子和编码。清单记录每个 SMT2/MiniZinc 输入的 SHA-256。线性商业模型使用原生接口，编码及构建在计时前完成；调度分别使用原有 Pyomo.GDP 大 M 与原生指示约束。
 - 主要性能环境为 Intel Core i7-11700F、32 GB 内存，单线程、600 秒、每次 4 GB。开源与商业接口均独立进程运行并固定 CPU。Windows 进程采用 Job Object 内存限制，POSIX 采用 RLIMIT_AS。
