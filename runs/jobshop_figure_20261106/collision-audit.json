@@ -1,0 +1,23 @@
+{
+  "pdf": "runs/jobshop_figure_20261106/jobshop-cumulative.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 41,
+  "text_trace_count": 41,
+  "stroke_path_count": 125,
+  "filled_region_count": 100,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 11,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

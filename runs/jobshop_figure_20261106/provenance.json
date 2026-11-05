@@ -1,0 +1,303 @@
+{
+  "source": "runs/paper_refresh_20261030/results.csv",
+  "source_sha256": "63f9f14def9f40ec910f2a4f71d8aa18a1b8a6293d56e85b347f3dcfd869df6d",
+  "jobshop_rows_before_selection": 480,
+  "included_rows": 440,
+  "selection": "All 11 configurations in the manuscript scheduling table; all four sizes and ten generation seeds.",
+  "excluded_configuration": "highs-hull (40 calls); the separate convex-hull encoding is not a column in the scheduling table.",
+  "metric": "Sum of recorded runtime_s for all ten calls at each problem size, including calls not proving optimality.",
+  "uncertainty": "None: observed totals only, as requested by the author.",
+  "unfinished_marker": "x at a size with fewer than ten proved-optimal calls",
+  "figure_size_mm": [
+    155.15,
+    88
+  ],
+  "summary": {
+    "cbc-bigm": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 384.6238
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 920.9195
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 9,
+        "total_runtime_s": 3276.377446743997
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 1,
+        "total_runtime_s": 6079.885781797021
+      }
+    ],
+    "cplex-bigm": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 6.6646
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 17.3537
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 400.3348
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 9,
+        "total_runtime_s": 1887.2081
+      }
+    ],
+    "cplex-ind": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 7.7456000000000005
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 44.7167
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 510.71520000000004
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 2,
+        "total_runtime_s": 4998.4186
+      }
+    ],
+    "cpsat": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 0.1466
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 0.1707
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 0.1888
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 0.1601
+      }
+    ],
+    "gecode": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 6.1030999999999995
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 15.8028
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 187.8923
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 9,
+        "total_runtime_s": 2860.8214
+      }
+    ],
+    "gurobi-bigm": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 3.0686
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 6.1059
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 22.380399999999998
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 99.9315
+      }
+    ],
+    "gurobi-ind": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 1.6685
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 3.1069
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 16.082900000000002
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 9,
+        "total_runtime_s": 637.8415
+      }
+    ],
+    "highs-bigm": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 39.9858
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 179.8031
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 1755.4384
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 0,
+        "total_runtime_s": 6014.7489000000005
+      }
+    ],
+    "optimathsat": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 3.2682
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 16.4782
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 99.271
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 1634.0158999999999
+      }
+    ],
+    "scip-bigm": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 19.839
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 272.1311
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 3,
+        "total_runtime_s": 4674.1578
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 0,
+        "total_runtime_s": 6000.0565
+      }
+    ],
+    "z3": [
+      {
+        "size": 7,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 2.4093
+      },
+      {
+        "size": 8,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 6.4844
+      },
+      {
+        "size": 9,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 47.6302
+      },
+      {
+        "size": 10,
+        "calls": 10,
+        "proved_optimal": 10,
+        "total_runtime_s": 795.2395
+      }
+    ]
+  }
+}

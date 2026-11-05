@@ -15,6 +15,10 @@ Instance generation is deterministic: `build(family, size, seed)` reproduces a
 byte-identical instance, which is what lets separate runs (Linux/Windows,
 main harness/side experiments) be merged or compared cell by cell.
 
+## 2026-11-06 cumulative job-shop runtime figure
+
+The manuscript runtime-distribution table is replaced by observed cumulative call-time curves. [Plotting source](scripts/plot_jobshop_cumulative_20261106.py) and [data, figure and audit bundle](runs/jobshop_figure_20261106/README.md) reproduce all 44 totals from the 440 archived calls in the 11 scheduling-table configurations. No solver experiments were rerun.
+
 ## 2026-11-02 nonlinear extension
 
 The nonlinear study now includes IPOPT 3.14.20 and Couenne 0.5.9, all 43 eligible
