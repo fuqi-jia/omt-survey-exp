@@ -49,6 +49,15 @@ def prepare():
             dest.write_bytes(data)
             manifest.append(dict(name=path.stem, sha256=hashlib.sha256(data).hexdigest()))
         protocol = json.loads((source / 'protocol.json').read_text())
+        save(target / 'model-definition-protocol.json', protocol)
+        if 'date' in protocol:
+            protocol['model_definition_date'] = protocol.pop('date')
+        if 'script_sha256' in protocol:
+            protocol['model_generator_script_sha256'] = protocol.pop('script_sha256')
+        protocol['execution_date'] = time.strftime('%Y-%m-%d')
+        protocol['model_definition_protocol'] = 'model-definition-protocol.json'
+        protocol['worker_script_sha256'] = hashlib.sha256(
+            (ROOT / 'scripts' / (old + '.py')).read_bytes()).hexdigest()
         protocol.update(timeout_s=LIMIT, time_limit_s=LIMIT, memory_gb=4, threads=1,
                         model_manifest=manifest, archived_model_source=str(source.relative_to(ROOT)),
                         witness_query_timeout_s=LIMIT)

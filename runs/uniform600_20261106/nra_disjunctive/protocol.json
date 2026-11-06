@@ -38,7 +38,6 @@
   "reference": "enumerate every active set; exact rational KKT/water-filling solution in each set",
   "numeric_encoding": "l*y<=x<=u*y; z<=M*y; z>=s*y+a*x^2; y binary, M=s+a*u^2",
   "acceptance": "same 1e-6 feasibility and reference-objective tolerances as MINLPLib cohort",
-  "script_sha256": "7deaedc8454139c8e763f908a2d342375eb9a75494835c77bf7fb06010338cec",
   "gurobi_options": {
     "MIPGap": 1e-08,
     "MIPGapAbs": 1e-08,
@@ -88,5 +87,9 @@
     }
   ],
   "archived_model_source": "runs/nra_disjunctive_20261102",
-  "witness_query_timeout_s": 600
+  "witness_query_timeout_s": 600,
+  "model_generator_script_sha256": "7deaedc8454139c8e763f908a2d342375eb9a75494835c77bf7fb06010338cec",
+  "execution_date": "2026-11-06",
+  "model_definition_protocol": "model-definition-protocol.json",
+  "worker_script_sha256": "65d95c3201678a9fedcae27491cb2843c4bfd934c7f76863d6ed0e8eef6153f2"
 }

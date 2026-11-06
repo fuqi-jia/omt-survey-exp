@@ -3556,7 +3556,6 @@
   "starting_point": "midpoint of two finite bounds; zero projected to one-sided bounds otherwise",
   "feasibility": "max(bound/constraint violation / max(1, absolute relevant bound)) <= 1e-6",
   "reference_hit": "feasible and abs(f-reference)/max(1,abs(reference)) <= 1e-6",
-  "script_sha256": "fcd718988f99f38ac6eeb8e81c6e9f6c10c0663e3eaa83e76eb14265452b3c07",
   "final_runner_sha256": "5a0c013742d9f31db0feeb83d228d25cc04e93ae30a255b5eeaceff65cdedc65",
   "time_limit_s": 600,
   "model_manifest": [
@@ -3734,5 +3733,9 @@
     }
   ],
   "archived_model_source": "runs/nra_public_20261102",
-  "witness_query_timeout_s": 600
+  "witness_query_timeout_s": 600,
+  "model_generator_script_sha256": "fcd718988f99f38ac6eeb8e81c6e9f6c10c0663e3eaa83e76eb14265452b3c07",
+  "execution_date": "2026-11-06",
+  "model_definition_protocol": "model-definition-protocol.json",
+  "worker_script_sha256": "b38c47a0312dd35c1ebba52c3954644321ea22d4d741a600f157f8ef5bccd5c3"
 }

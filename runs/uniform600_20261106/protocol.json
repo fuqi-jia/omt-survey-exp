@@ -11,6 +11,7 @@
     "source-snapshots/diagnostics_refresh_20261028.py": "1132563988010e4365d8ebc1abb8258bc32d43e107cf50df506cd7c7217e55c8",
     "source-snapshots/driver-before-affinity-policy.py": "79fe27a9758cca95f9fc7e2c3f6b8b87dd2d8cd47e28e59f9264e76c98145997",
     "source-snapshots/driver-before-local-pool-extension.py": "dc165be2826d44013c916a4f61afda9a502f1064e0917d3c7c87eba5c825d094",
+    "source-snapshots/driver-executed-local600.py": "5829a1055aed5ace668c8a7e2c029ab94dd71bd995e27044cec96f0309d56f37",
     "source-snapshots/driver-initial-local-pool.py": "3a32fc2834993f8a75b8d4917a0284df8fa732db02fd3ba2ee5db30f48536944",
     "source-snapshots/driver-with-scipy-deadlines.py": "1dc0bb4c63d831d8ad9968fd51dd16ae0f93f9b2b8c15f63cd2a9242251d2ad7",
     "source-snapshots/driver-with-shared-local-claims.py": "0589b10a96d845b7ec22b8aa727821c0cf36cc92c702c29723d4d55b9fdaa4e7",
@@ -32,7 +33,7 @@
     "source-snapshots/render_nra_tables_20261102.py": "2b0de1c9068ee22b80412c862388cd1da5bf0e3990d2b0841f34945e34773023",
     "source-snapshots/render_uniform600_20261106.py": "562c1b428aa491e39d62961accbef0577bfd1a1e48d9037800474540cbf89884",
     "source-snapshots/review_diagnostics_20261104.py": "1e3a97e54108fbf6eaa3992379bfe54206a58844898a2c8a1fb0fc0b7f776e7c",
-    "source-snapshots/uniform600_20261106.py": "5829a1055aed5ace668c8a7e2c029ab94dd71bd995e27044cec96f0309d56f37"
+    "source-snapshots/uniform600_20261106.py": "d407e74b17f9654a50555a323b22813abe104b05544c84945764cf09742af052"
   },
   "execution_host": "local Intel Core i7-11700F, 32 GB installed memory",
   "remote_execution": false,
@@ -44,5 +45,6 @@
   ],
   "affinity_policy": "affinity-policy.json",
   "affinity_adjustments": "affinity-adjustments.json",
-  "auxiliary_api_calls": 2
+  "auxiliary_api_calls": 2,
+  "runner_execution_source": "source-snapshots/driver-executed-local600.py"
 }
