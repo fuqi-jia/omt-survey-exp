@@ -1,4 +1,0 @@
-sat
-(objectives
-	((+ obj 0.0) (_ real_algebraic_number <1*x^4 + (-153*x^2) + 3969, (12066111/2097152, 188533/32768)>))
-)

@@ -1,5 +1,0 @@
-Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_irrational/couenne/C_r5_5/solver.log'
-Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_irrational/couenne/C_r5_5/tmp1qanm_pg.pyomo.sol'
-Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_irrational/couenne/C_r5_5/tmp1qanm_pg.pyomo.nl',)
-couenne C_r5_5 optimal True 1.535
-couenne C_r5_5 optimal True 3.1026015473199844

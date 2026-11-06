@@ -1,1 +1,0 @@
-optimathsat st_ph15 TIMEOUT False 600.128

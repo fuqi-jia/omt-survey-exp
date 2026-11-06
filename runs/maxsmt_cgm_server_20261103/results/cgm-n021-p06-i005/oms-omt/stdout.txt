@@ -1,9 +1,0 @@
-unsat
-
-(objectives
- (unsat_preferences unsat)
- (unsat_requirements unsat)
- (sat_tasks unsat)
-)
-(error "load-objective-model: objective has no solution.")
-(error "model generation not enabled")

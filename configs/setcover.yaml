@@ -1,5 +1,0 @@
-name: setcover
-timeout: 30
-seeds: 1
-families:
-  setcover: [48, 96, 192, 384]

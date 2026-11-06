@@ -1,8 +1,0 @@
-{
-  "instances": 1120,
-  "routes": 3360,
-  "raw_logs_sha256": "faba8d3f199454bc9fbc658bde900a57daee448f10d32726d1a71d18d208810f",
-  "raw_logs_bytes": 3839519,
-  "runner_sha256": "32a60f959be1ad15dd267d8ec10395daa7293fb8dd5f90323a4bcaf0f9166bd6",
-  "complete_shards": 2
-}

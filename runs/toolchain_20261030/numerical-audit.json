@@ -1,9 +1,0 @@
-{
-  "z3_version": "5.3.3",
-  "timeout_s": 120,
-  "large_coefficient_calls": 40,
-  "hilbert_calls": 6,
-  "nra_calls": 6,
-  "results_unchanged": true,
-  "other_solvers_unchanged": true
-}

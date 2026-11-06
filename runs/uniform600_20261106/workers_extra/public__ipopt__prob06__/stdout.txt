@@ -1,4 +1,0 @@
-Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/prob06/solver.log'
-Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/prob06/tmpdbtf1d81.pyomo.sol'
-Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/prob06/tmpdbtf1d81.pyomo.nl',)
-ipopt prob06 optimal True 0.745

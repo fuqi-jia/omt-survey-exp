@@ -1,0 +1,3 @@
+case,status,status_code,reported_optimum,reference,model,elapsed_s,timeout_s,record
+A_r5,SAT_OPTIMAL,3,(`+_rat` 3 diagnostic_eps),(3*sqrt(7)-sqrt(3))/2,"{""x"": ""7/3"", ""y"": ""4/9""}",0.2342751359101385,600,results/nonlinear/optimathsat-api/records.tar.gz#optimathsat/A_r5.json
+C1_inf_unattained,SAT_OPTIMAL,3,(`+_rat` 1 diagnostic_eps),"sqrt(2), not attained","{""x"": ""2""}",0.0866530230268836,600,results/nonlinear/optimathsat-api/records.tar.gz#optimathsat/C1_inf_unattained.json

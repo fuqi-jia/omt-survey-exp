@@ -1,4 +1,0 @@
-Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/st_ph15/solver.log'
-Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/st_ph15/tmp6ja3ycb8.pyomo.sol'
-Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/ipopt/st_ph15/tmp6ja3ycb8.pyomo.nl',)
-ipopt st_ph15 optimal False 0.796

@@ -1,0 +1,2 @@
+# CSV uses RFC 4180 line endings; preserve archived data bytes on every platform.
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

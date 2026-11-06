@@ -1,9 +1,0 @@
-Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_5/solver.log'
-Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_5/tmpco28k909.pyomo.sol'
-Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_irrational_20261102/couenne/C_r29_5/tmpco28k909.pyomo.nl',)
-WARNING: Loading a SolverResults object with a warning status into
-model.name="unknown";
-    - termination condition: infeasible
-    - message from solver: couenne\x3a Infeasible problem
-couenne C_r29_5 infeasible True 0.623
-couenne C_r29_5 infeasible True 4.834652140888818

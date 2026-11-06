@@ -1,0 +1,7 @@
+case,reference,z3,ocac,optimathsat,scipy,ipopt,gurobi,couenne
+A_sqrt2,sqrt(2),sqrt(2),sqrt(2),超时,1.4142,1.4142,1.4142,1.4142
+A_sqrt5,sqrt(5),sqrt(5),sqrt(5),超时,2.2361,2.2361,2.2361,2.2361
+B_5_9,0,0,0,0,4/0,4/0,0.0000,0.0000
+B_9_25,0,0,0,0,失败/0,失败/0,0.0000,0.0000
+C1_inf_unattained,sqrt(2)+epsilon,sqrt(2)+epsilon,sqrt(2)+epsilon,1+epsilon (OPT),1.4142,1.4142,1.4142,1.4142
+C2_unbounded_below,-infinity,-infinity,-infinity,超时,1.0000,1.0000,-infinity,-9.99\times10^{12} (候选)

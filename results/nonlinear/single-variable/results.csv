@@ -1,0 +1,47 @@
+case,solver,configuration,status,x,start,record,elapsed_s,input_sha256,message,objective,returncode,runtime,success,timed_out,timeout_s
+A_sqrt2,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/A_sqrt2.json,0.05282697395887226,6b8bf6b30d01075fabca5f714c75b4a92e1e6b8aa885f8b378f5169e1a26cc24,,,0,,,False,600
+A_sqrt5,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/A_sqrt5.json,0.03917769808322191,cd1286eec8acf15382eebceb6b0a462cbd85dd1214229aa47f0cb61a712c14e5,,,0,,,False,600
+B_5_9,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/B_5_9.json,0.03279367205686867,dfe7653694cfefde1f3a067cf46d0b8d9e43b18547b2f7637851d12b76f2e52b,,,0,,,False,600
+B_9_25,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/B_9_25.json,0.029219682095572352,8a1d3b6849318b04dd4445bc05625549d5f34382897f58ebbba8c60859ce9459,,,0,,,False,600
+C1_inf_unattained,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/C1_inf_unattained.json,0.11044752399902791,6ae0ede474576caf83b7edc3192f03ae2a5f07fa8aacc1042f55fb8c77523275,,,0,,,False,600
+C2_unbounded_below,z3,z3,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/z3/C2_unbounded_below.json,0.05417821602895856,1cc48dfe96dbf71c8e6410649c0e85263fce2e85e0fae9bd1195f014ab6cb464,,,0,,,False,600
+A_sqrt2,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/A_sqrt2.json,1.5153500459855422,f9d08c8faf6ed05185a1fa5c12992049eec973bcfd2b99df54763a827f1c5598,,,0,,,False,600
+A_sqrt5,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/A_sqrt5.json,1.2006907450268045,dd9a42cf1fed91f36d856ec0cd88de11c3dc379f50e95aa650192579a9c26c3b,,,0,,,False,600
+B_5_9,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/B_5_9.json,0.19062478502746671,33d2915e3812c59abfca91abd671b8aeda285aa7da507ecd660056cd3c1ff97d,,,0,,,False,600
+B_9_25,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/B_9_25.json,1.014099008985795,847fd5bc2c35fb9706f37ade9412c13c4bf6b45565b232148e144e2239ee6e43,,,0,,,False,600
+C1_inf_unattained,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/C1_inf_unattained.json,1.0025137540651485,912e9be50edb5df0021c624063fc32b539f727cc352de1440a024a0d32829353,,,0,,,False,600
+C2_unbounded_below,ocac,ocac,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/ocac/C2_unbounded_below.json,0.7994242369895801,5b339b6e88bb5f8eb68484f3bda3ddeaf9794493d6967123cb831c62cc106b50,,,0,,,False,600
+A_sqrt2,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/A_sqrt2.json,600.121544499998,6b8bf6b30d01075fabca5f714c75b4a92e1e6b8aa885f8b378f5169e1a26cc24,,,,,,True,600
+A_sqrt5,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/A_sqrt5.json,600.1135482660029,cd1286eec8acf15382eebceb6b0a462cbd85dd1214229aa47f0cb61a712c14e5,,,,,,True,600
+B_5_9,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/B_5_9.json,0.021407622029073536,dfe7653694cfefde1f3a067cf46d0b8d9e43b18547b2f7637851d12b76f2e52b,,,0,,,False,600
+B_9_25,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/B_9_25.json,0.02143040089868009,8a1d3b6849318b04dd4445bc05625549d5f34382897f58ebbba8c60859ce9459,,,0,,,False,600
+C1_inf_unattained,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/C1_inf_unattained.json,0.03589610196650028,6ae0ede474576caf83b7edc3192f03ae2a5f07fa8aacc1042f55fb8c77523275,,,0,,,False,600
+C2_unbounded_below,optimathsat,optimathsat,,,,results/nonlinear/single-variable/records.tar.gz#nra_base/optimathsat/C2_unbounded_below.json,600.1169042940019,1cc48dfe96dbf71c8e6410649c0e85263fce2e85e0fae9bd1195f014ab6cb464,,,,,,True,600
+A_sqrt2,scipy,scipy,0,1.4142135623732102,0.5,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/0,0.006476592039689422,,Optimization terminated successfully,,,,True,,600
+A_sqrt5,scipy,scipy,0,2.2360679775227608,0.5,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/1,0.0041842719074338675,,Optimization terminated successfully,,,,True,,600
+B_5_9,scipy,scipy,0,4.000000000695692,5.0,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/2,0.0031762279104441404,,Optimization terminated successfully,,,,True,,600
+B_5_9,scipy,scipy,0,5.551115123125783e-17,0.2,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/3,0.0018616719171404839,,Optimization terminated successfully,,,,True,,600
+B_9_25,scipy,scipy,8,5.0,5.0,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/4,0.0015452340012416244,,Positive directional derivative for linesearch,,,,False,,600
+B_9_25,scipy,scipy,0,5.551115123125783e-17,0.2,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/5,0.0017373799346387386,,Optimization terminated successfully,,,,True,,600
+C1_inf_unattained,scipy,scipy,0,1.4142135651543164,5.0,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/6,0.00496064405888319,,Optimization terminated successfully,,,,True,,600
+C2_unbounded_below,scipy,scipy,0,1.0000001548293977,5.0,results/nonlinear/single-variable/records.tar.gz#nra_base/scipy.json#/records/7,0.0035283180186524987,,Optimization terminated successfully,,,,True,,600
+A_sqrt2,gurobi,gurobi,2,1.4142135621481786,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/0,,,,1.4142135621481786,,0.003999948501586914,,,
+A_sqrt5,gurobi,gurobi,2,2.236067977144179,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/1,,,,2.236067977144179,,0.006000041961669922,,,
+B_5_9,gurobi,gurobi,2,0.0,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/2,,,,0.0,,0.0,,,
+B_9_25,gurobi,gurobi,2,3.1807020889730933e-10,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/3,,,,3.1807020889730933e-10,,0.0,,,
+C1_inf_unattained,gurobi,gurobi,2,1.4142135623908427,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/4,,,,1.4142135623908427,,0.0,,,
+C2_unbounded_below,gurobi,gurobi,5,1.0,,results/nonlinear/single-variable/records.tar.gz#nra_base/gurobi.json#/records/5,,,,1.0,,0.004000186920166016,,,
+A_sqrt2,ipopt,ipopt,optimal,1.4142135598635694,0.5,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/0,0.8542373600648716,,,,,,,,600
+A_sqrt5,ipopt,ipopt,optimal,2.2360679749915984,0.5,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/1,0.1012052180012688,,,,,,,,600
+B_5_9,ipopt,ipopt,optimal,4.000000002507276,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/2,0.10365668800659478,,,,,,,,600
+B_5_9,ipopt,ipopt,optimal,2.5108664955458315e-09,0.2,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/3,0.10578257194720209,,,,,,,,600
+B_9_25,ipopt,ipopt,infeasible,4.999999999982974,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/4,0.09573843597900122,,,,,,,,600
+B_9_25,ipopt,ipopt,optimal,2.5087799212946073e-09,0.2,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/5,0.1274083600146696,,,,,,,,600
+C1_inf_unattained,ipopt,ipopt,optimal,1.414213564874846,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/6,0.10720195202156901,,,,,,,,600
+C2_unbounded_below,ipopt,ipopt,optimal,1.0000000025042062,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/ipopt.json#/records/7,0.14503288897685707,,,,,,,,600
+A_sqrt2,couenne,couenne,optimal,1.414213566518027,0.5,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/0,0.967793071991764,,,,,,,,600
+A_sqrt5,couenne,couenne,optimal,2.2360679886721613,0.5,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/1,0.16814788803458214,,,,,,,,600
+B_5_9,couenne,couenne,optimal,-9.990000070935762e-09,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/2,0.1819773999741301,,,,,,,,600
+B_9_25,couenne,couenne,optimal,-9.990000081527166e-09,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/3,0.18274791492149234,,,,,,,,600
+C1_inf_unattained,couenne,couenne,optimal,1.4142135553128674,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/4,0.18415890401229262,,,,,,,,600
+C2_unbounded_below,couenne,couenne,optimal,-9990000000000.0,5.0,results/nonlinear/single-variable/records.tar.gz#nra_extensions/couenne.json#/records/5,8.488416759995744,,,,,,,,600

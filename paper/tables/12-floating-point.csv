@@ -1,0 +1,4 @@
+route,griggio,heizmann,ramalho,schanda,wintersteiger,total
+OptiMathSAT: 原生浮点优化,68,133,221,56,295,773
+Z3: 浮点约束与位向量目标,47,105,298,46,278,774
+Z3: 全部转换为位向量,44,18,0,46,275,383

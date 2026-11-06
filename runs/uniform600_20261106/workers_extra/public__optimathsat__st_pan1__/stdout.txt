@@ -1,1 +1,0 @@
-optimathsat st_pan1 TIMEOUT False 600.113

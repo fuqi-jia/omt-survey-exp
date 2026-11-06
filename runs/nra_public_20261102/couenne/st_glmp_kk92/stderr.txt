@@ -1,1 +1,0 @@
-ApplicationError('Solver (asl) did not exit normally')

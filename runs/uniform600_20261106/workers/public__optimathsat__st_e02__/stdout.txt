@@ -1,1 +1,0 @@
-optimathsat st_e02 TIMEOUT False 600.119

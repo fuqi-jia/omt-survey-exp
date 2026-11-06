@@ -1,4 +1,0 @@
-Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_qpc-m1/solver.log'
-Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_qpc-m1/tmp_iny8y8s.pyomo.sol'
-Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/nra_public_20261102/ipopt/st_qpc-m1/tmp_iny8y8s.pyomo.nl',)
-ipopt st_qpc-m1 optimal True 0.598

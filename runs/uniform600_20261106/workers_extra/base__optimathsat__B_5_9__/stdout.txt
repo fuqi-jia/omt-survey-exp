@@ -1,1 +1,0 @@
-optimathsat B_5_9 sat  (objectives  (x 0) )

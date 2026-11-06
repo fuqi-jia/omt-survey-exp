@@ -1,1 +1,0 @@
-scipy_I B_a4_b6 SUCCESS True -2.39721204104768

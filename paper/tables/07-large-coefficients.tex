@@ -1,0 +1,24 @@
+\begin{table}[!htbp]
+\centering
+\caption{大系数背包实例上得到正确最优值的数量}
+\label{tab:exp-exact}
+\small
+\begin{tabular}{@{}ll rrrr@{}}
+\toprule
+\textbf{方法} & \textbf{求解器} & $\mathbf{2^{40}}$ & $\mathbf{2^{54}}$ & $\mathbf{2^{60}}$ & $\mathbf{2^{200}}$ \\
+\midrule
+OMT & $\nu Z$ (Z3) & 10/10 & 10/10 & 10/10 & 10/10 \\
+OMT & OptiMathSAT & 10/10 & 10/10 & 10/10 & 10/10 \\
+\midrule
+CP & CP-SAT & 10/10 & 10/10 & 0/10 & 0/10 \\
+\midrule
+MILP & CBC & 10/10 & 2/10 & 2/10 & 0/10 \\
+MILP & HiGHS & 9/10 & 3/10 & 2/10 & 0/10 \\
+MILP & SCIP & 2/10 & 2/10 & 2/10 & 0/10 \\
+MILP & CPLEX & 10/10 & 4/10 & 1/10 & 1/10 \\
+MILP & Gurobi & 10/10 & 2/10 & 1/10 & 1/10 \\
+\midrule
+MILP & SCIP (精确模式) & 10/10 & 10/10 & 10/10 & 0/10 \\
+\bottomrule
+\end{tabular}
+\end{table}

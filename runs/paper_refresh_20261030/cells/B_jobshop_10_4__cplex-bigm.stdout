@@ -1,3 +1,0 @@
-WARNING: Loading a SolverResults object with an 'aborted' status, but
-containing a solution
-__RESULT__{"status": "SAT", "proved_optimal": false, "objective": 57, "runtime_s": 600.5121, "memory_peak_mb": 116.61, "incumbents": [], "best_at_10s": null, "best_at_30s": null, "best_at_60s": null, "sense": "min", "solution": null, "error_message": null, "solver_name": "cplex-bigm", "paradigm": "milp", "encoding_name": "gdp-bigm", "family": "", "category": "", "instance": "", "size": 0, "seed": 0, "timeout_s": 600.0, "timestamp": "2026-10-28T13:37:41Z", "engine_version": "22.1.0.0"}

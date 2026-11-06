@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering
+\caption{小系数希尔伯特系统的求解结果}
+\label{tab:exp-illcond}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}ll cccccc@{}}
+\toprule
+\textbf{方法} & \textbf{求解器} & $n{=}6$ & $n{=}8$ & $n{=}10$ & $n{=}12$ & $n{=}14$ & $n{=}16$ \\
+\midrule
+\multicolumn{2}{l}{矩阵条件数 $\kappa_2(H)$} & $1.50\!\times\!10^7$ & $1.53\!\times\!10^{10}$ & $1.60\!\times\!10^{13}$ & $1.71\!\times\!10^{16}$ & $1.85\!\times\!10^{19}$ & $2.02\!\times\!10^{22}$ \\
+\midrule
+OMT  & $\nu Z$ (Z3)  & 正确 & 正确 & 正确 & 正确 & 正确 & 正确 \\
+OMT  & OptiMathSAT  & 正确 & 正确 & 正确 & 正确 & 正确 & 正确 \\
+\midrule
+MILP & CBC          & 正确 & 判不可行 & 正确 & 判不可行 & 判不可行 & 判不可行 \\
+MILP & HiGHS        & 正确 & 正确 & 正确 & 正确 & 正确 & 正确 \\
+MILP & SCIP         & 正确 & 正确 & 正确 & 正确 & 正确 & 正确 \\
+MILP & Gurobi       & 正确 & 正确 & $\ne$精确解 & $\ne$精确解 & $\ne$精确解 & $\ne$精确解 \\
+MILP & CPLEX        & 正确 & 正确 & 正确 & 判不可行 & 判不可行 & 判不可行 \\
+\bottomrule
+\end{tabular}
+\end{table}

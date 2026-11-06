@@ -1,1 +1,0 @@
-z3 B_5_9 sat (objectives  ((+ x 0.0) 0) )

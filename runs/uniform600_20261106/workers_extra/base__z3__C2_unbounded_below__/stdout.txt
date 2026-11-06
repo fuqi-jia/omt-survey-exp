@@ -1,1 +1,0 @@
-z3 C2_unbounded_below sat (objectives  ((+ x 0.0) (* (- 1) oo)) )

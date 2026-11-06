@@ -1,0 +1,94 @@
+{
+  "manuscript_repository": "https://github.com/fuqi-jia/GOMT",
+  "manuscript_commit": "b6ac750",
+  "manuscript_section_sha256": "596ba4690cf154a5769ae4e6d20506f9d329958a3e409837d16f76fdf5480cb2",
+  "table_index": {
+    "tab:exp-sep": {
+      "table": "05",
+      "tex": "paper/tables/05-linear.tex",
+      "results": [
+        "results/performance"
+      ]
+    },
+    "tab:exp-jobshop": {
+      "table": "06",
+      "tex": "paper/tables/06-jobshop.tex",
+      "results": [
+        "results/performance"
+      ]
+    },
+    "tab:exp-exact": {
+      "table": "07",
+      "tex": "paper/tables/07-large-coefficients.tex",
+      "results": [
+        "results/large-coefficients"
+      ]
+    },
+    "tab:exp-illcond": {
+      "table": "08",
+      "tex": "paper/tables/08-hilbert.tex",
+      "results": [
+        "results/hilbert"
+      ]
+    },
+    "tab:exp-nra": {
+      "table": "09",
+      "tex": "paper/tables/09-nra-single.tex",
+      "results": [
+        "results/nonlinear/single-variable",
+        "results/nonlinear/optimathsat-api"
+      ]
+    },
+    "tab:exp-nra-multi": {
+      "table": "10",
+      "tex": "paper/tables/10-nra-multi.tex",
+      "results": [
+        "results/nonlinear/public",
+        "results/nonlinear/disjunctive",
+        "results/nonlinear/irrational"
+      ]
+    },
+    "tab:exp-maxsmt": {
+      "table": "11",
+      "tex": "paper/tables/11-maxsmt.tex",
+      "results": [
+        "results/maxsmt"
+      ]
+    },
+    "tab:exp-public-fp": {
+      "table": "12",
+      "tex": "paper/tables/12-floating-point.tex",
+      "results": [
+        "results/floating-point"
+      ]
+    }
+  },
+  "formal_calls": {
+    "performance": 993,
+    "large_coefficients": 360,
+    "hilbert": 42,
+    "nra_single": 46,
+    "nra_public": 301,
+    "nra_disjunctive": 45,
+    "nra_irrational": 69,
+    "maxsmt": 4796,
+    "floating_point": 3360,
+    "auxiliary_api": 2
+  },
+  "source_commit": "51e7c0981a0c0e04eea3629ea3e4251a8d514bfd",
+  "figure": {
+    "label": "fig:jobshop-cumulative",
+    "path": "paper/figures/05-jobshop-cumulative/figure.pdf",
+    "source": "results/performance/results.csv",
+    "plotted_calls": 440,
+    "points": 44
+  },
+  "corrected_transcription": {
+    "table": 5,
+    "row": "config/200",
+    "solver": "cplex",
+    "recorded_median_s": 0.0177,
+    "previous_display": "0.01",
+    "correct_display": "0.02"
+  }
+}

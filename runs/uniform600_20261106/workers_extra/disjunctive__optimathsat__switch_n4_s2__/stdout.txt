@@ -1,1 +1,0 @@
-optimathsat switch_n4_s2 TIMEOUT False 600.121

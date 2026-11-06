@@ -1,1 +1,0 @@
-optimathsat st_e09 TIMEOUT False 600.149

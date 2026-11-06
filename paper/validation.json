@@ -1,0 +1,60 @@
+{
+  "preserved_bytes": {
+    "original_paths": 21918,
+    "unique_preserved_objects": 21879,
+    "passed": true
+  },
+  "inputs": {
+    "performance_instances": 97,
+    "cgm_instances": 1199,
+    "cgm_input_files": 7194,
+    "fp_instances": 1120,
+    "passed": true
+  },
+  "results": {
+    "performance": {
+      "calls": 993,
+      "linear_cells": 171,
+      "jobshop_cells": 44,
+      "figure_points": 44,
+      "passed": true
+    },
+    "numerical": {
+      "large_coefficient_calls": 360,
+      "hilbert_calls": 42,
+      "passed": true
+    },
+    "nonlinear": {
+      "single_calls": 46,
+      "public_calls": 301,
+      "disjunctive_calls": 45,
+      "irrational_calls": 69,
+      "passed": true
+    },
+    "maxsmt": {
+      "calls": 4796,
+      "statuses": {
+        "optimal": 4159,
+        "unsat": 164,
+        "timeout": 473
+      },
+      "passed": true
+    },
+    "floating_point": {
+      "calls": 3360,
+      "verified": {
+        "fp": 773,
+        "bvfp": 774,
+        "bv": 383
+      },
+      "passed": true
+    },
+    "primary_calls": 10012
+  },
+  "deep": {
+    "passed": true,
+    "original_audits": 5,
+    "optimizers_rerun": 0
+  },
+  "passed": true
+}

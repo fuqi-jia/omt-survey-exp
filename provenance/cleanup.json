@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-07",
+  "source_commit": "51e7c0981a0c0e04eea3629ea3e4251a8d514bfd",
+  "previous_tracked_files": 29792,
+  "previous_untracked_files": 21308,
+  "retained_primary_calls": 10012,
+  "retained_auxiliary_api_calls": 2,
+  "retained_solver_bytes": "unaltered; see paths.csv.gz",
+  "removed_categories": [
+    "superseded 30/120-second runs",
+    "independent local CGM control not used by current manuscript",
+    "bootstrap/smoke/tuning/partial runs",
+    "superseded result and review packages",
+    "duplicate FP shard data and obsolete summaries",
+    "scheduler locks, PIDs and duplicate claim skips",
+    "page previews, layout overlays and obsolete plots",
+    "unused dated launchers, configs and historical narratives"
+  ],
+  "history": "Existing commits and tags are unchanged; deleted historical runs are not carried forward to the current tree.",
+  "correction": {
+    "table": 5,
+    "instance": "config/200",
+    "solver": "cplex",
+    "previous_display": "0.01",
+    "median_s": 0.0177,
+    "correct_display": "0.02"
+  },
+  "runtime_installs": "Retained .venv and tools/{python,optimathsat-1.7.4-linux-64-bit,local-nra-20261028}; removed obsolete downloads, pilots and cached old data.",
+  "removed_local_tool_caches": [
+    "maxsmt-20261103",
+    "nlp-20261102",
+    "refresh-20261028",
+    "refresh-20261029",
+    "refresh-20261030",
+    "scip-exact",
+    "uv-cache"
+  ]
+}

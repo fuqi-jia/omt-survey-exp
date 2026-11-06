@@ -1,2 +1,0 @@
-optimathsat C_r29_8 TIMEOUT False 600.115
-optimathsat C_r29_8 TIMEOUT False None

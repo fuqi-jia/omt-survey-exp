@@ -1,8 +1,0 @@
-{
-  "version": "5.3.3.0",
-  "url": "https://files.pythonhosted.org/packages/2e/04/d785e50a2f6cd78549bebe730f2afeab5187c62085fc19b7ac272602fb2f/z3_solver-5.3.3.0-py3-none-manylinux_2_27_x86_64.whl",
-  "sha256": "0431023a82278dab706c02a320f63178ee0755fb8f10a5c980f0bfe3c84f6f96",
-  "wheel": "/tmp/gomt-z3-5.3.3/z3_solver-5.3.3.0-py3-none-manylinux_2_27_x86_64.whl",
-  "python_path": "/tmp/gomt-z3-5.3.3/python",
-  "binary": "/tmp/gomt-z3-5.3.3/bin/z3"
-}

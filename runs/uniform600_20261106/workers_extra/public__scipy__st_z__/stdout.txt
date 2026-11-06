@@ -1,1 +1,0 @@
-scipy st_z SUCCESS True 0.006

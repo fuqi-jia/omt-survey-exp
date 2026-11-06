@@ -1,4 +1,0 @@
-sat
-(objectives
-	((+ obj 0.0) (/ (- 1) 2))
-)

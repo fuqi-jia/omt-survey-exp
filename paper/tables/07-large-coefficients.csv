@@ -1,0 +1,10 @@
+solver,total_per_exponent,correct_e40,correct_e54,correct_e60,correct_e200
+z3,10,10,10,10,10
+optimathsat,10,10,10,10,10
+cpsat,10,10,10,0,0
+cbc,10,10,2,2,0
+highs,10,9,3,2,0
+scip,10,2,2,2,0
+cplex,10,10,4,1,1
+gurobi,10,10,2,1,1
+scip-exact,10,10,10,10,0

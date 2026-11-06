@@ -1,7 +1,0 @@
-sat
-
-(objectives
- (obj (+ 3 epsilon))
-)
-( (x0 (/ 47 21))
-  (x1 (/ 10 21)) )

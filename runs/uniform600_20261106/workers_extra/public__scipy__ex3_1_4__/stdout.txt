@@ -1,1 +1,0 @@
-scipy ex3_1_4 SUCCESS True 0.073

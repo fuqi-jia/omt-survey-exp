@@ -1,1 +1,0 @@
-scipy ex2_1_1 SUCCESS False 0.008

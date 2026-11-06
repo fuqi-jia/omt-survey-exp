@@ -1,1 +1,0 @@
-ocac A_sqrt5 sat (objectives 	((+ x 0.0) (_ real_algebraic_number <1*x^2 + (-5), (2, 9/4)>)) )

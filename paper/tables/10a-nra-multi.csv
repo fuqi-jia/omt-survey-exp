@@ -1,0 +1,8 @@
+solver,public_2,public_3,public_4,public_5,public_total,disjunctive_4,disjunctive_8,disjunctive_12,disjunctive_total
+z3,13,10,6,6,35,3,0,0,3
+ocac,14,4,2,2,22,0,0,0,0
+optimathsat,9,7,7,5,28,0,0,0,0
+scipy,6,5,5,6,22,,,,
+ipopt,9,5,7,7,28,,,,
+gurobi,14,10,10,9,43,3,3,3,9
+couenne,14,10,9,9,42,3,3,3,9

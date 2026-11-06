@@ -1,7 +1,0 @@
-sat
-
-(objectives
- (obj (- 85))
-)
-( (x0 7)
-  (x1 3) )

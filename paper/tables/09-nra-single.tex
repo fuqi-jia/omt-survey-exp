@@ -1,0 +1,19 @@
+\begin{table}[!htbp]
+\centering
+\caption{单变量非线性实例的优化结果 (数值工具将严格约束中的 $>$ 改为 $\ge$)}
+\label{tab:exp-nra}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}l*{8}{c}@{}}
+\toprule
+\textbf{实例} & \textbf{理论结果} & \textbf{Z3} & \textbf{OCAC} & \textbf{OptiM.} & \textbf{SLSQP} & \textbf{IPOPT} & \textbf{Gurobi} & \textbf{Couenne} \\
+\midrule
+$\max x,\ 0{\le}x \wedge x^2{\le}2$ & $\sqrt2$ & $\sqrt2$ & $\sqrt2$ & 超时 & $1.4142$ & $1.4142$ & $1.4142$ & $1.4142$ \\
+$\max x,\ 0{\le}x \wedge x^2{\le}5$ & $\sqrt5$ & $\sqrt5$ & $\sqrt5$ & 超时 & $2.2361$ & $2.2361$ & $2.2361$ & $2.2361$ \\
+$\min x,\ 0{\le}x{\le}5 \wedge (2x{-}5)^2{\ge}9$ & $0$ & $0$ & $0$ & $0$ & $4\,/\,0$ & $4\,/\,0$ & $0.0000$ & $0.0000$ \\
+$\min x,\ 0{\le}x{\le}5 \wedge (2x{-}9)^2{\ge}25$ & $0$ & $0$ & $0$ & $0$ & $\text{失败}\,/\,0$ & $\text{失败}\,/\,0$ & $0.0000$ & $0.0000$ \\
+$\min x,\ x{>}0 \wedge x^2{>}2$ & $\sqrt2+\varepsilon$ & $\sqrt2+\varepsilon$ & $\sqrt2+\varepsilon$ & $1+\varepsilon$ (\texttt{OPT}) & $1.4142$ & $1.4142$ & $1.4142$ & $1.4142$ \\
+$\min x,\ x^2{\ge}1$ & $-\infty$ & $-\infty$ & $-\infty$ & 超时 & $1.0000$ & $1.0000$ & $-\infty$ & $-9.99\times10^{12}$ (候选) \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[!htbp]
+\centering
+\caption{公开浮点基准上通过可达性与最优性核验的实例数}
+\label{tab:exp-public-fp}
+\small
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrr@{}}
+\toprule
+求解器与编码 & \shortstack{griggio\\(300)} & \shortstack{heizmann\\(148)} & \shortstack{ramalho\\(300)} & \shortstack{schanda\\(72)} & \shortstack{wintersteiger\\(300)} & \shortstack{合计\\(1120)} \\
+\midrule
+OptiMathSAT: 原生浮点优化 & 68 & 133 & 221 & 56 & 295 & 773 \\
+Z3: 浮点约束与位向量目标 & 47 & 105 & 298 & 46 & 278 & 774 \\
+Z3: 全部转换为位向量 & 44 & 18 & 0 & 46 & 275 & 383 \\
+\bottomrule
+\end{tabular*}
+\end{table}

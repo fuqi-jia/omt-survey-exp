@@ -1,1 +1,0 @@
-optimathsat st_ph20 RETURNED True 0.297

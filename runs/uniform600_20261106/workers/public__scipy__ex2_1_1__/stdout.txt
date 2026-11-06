@@ -1,1 +1,0 @@
-ALREADY_CLAIMED public scipy ex2_1_1 

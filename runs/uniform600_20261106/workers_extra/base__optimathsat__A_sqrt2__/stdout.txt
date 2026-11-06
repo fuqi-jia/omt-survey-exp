@@ -1,1 +1,0 @@
-optimathsat A_sqrt2 timeout

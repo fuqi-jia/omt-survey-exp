@@ -1,24 +1,14 @@
-# Python deps for the OMT-survey experiment (install into .venv).
-# External binaries are NOT pip packages and must be on PATH separately:
-#   z3            (OMT)  -- apt/brew/github release
-#   minizinc      (CP)   -- with the Gecode solver; Chuffed optional
-#   optimathsat   (OMT)  -- fetched by scripts/setup_env.sh (1.7.4)
-# Gurobi / CPLEX are optional and auto-detected via PuLP if licensed.
-
-pulp>=2.8           # MILP modelling + CBC/HiGHS/SCIP/Gurobi/CPLEX backends
-pyomo>=6.7          # GDP disjunctions -> recognized big-M / hull reformulation
-ortools>=9.8        # CP-SAT (native CP solver)
-highspy>=1.5        # HiGHS backend for PuLP
-pyscipopt>=4.3      # SCIP backend for PuLP
-# optional commercial MILP (auto-detected; skipped if absent):
-#   cplex + docplex  -> `pip install cplex docplex` (pip = Community Edition,
-#                       capped at 1000 vars/constraints; full trial needs a
-#                       license from IBM). Enables the cplex-ind adapter.
-#   gurobipy         -> `pip install gurobipy` + a license (grbgetkey).
-#                       Enables the gurobi-ind adapter.
-
-numpy>=1.24
-pandas>=2.0         # results aggregation
-matplotlib>=3.7     # figures
-pyyaml>=6.0         # config files
-psutil>=5.9         # peak-RSS sampling
+# Deep data validation and the original experimental Python environment.
+# Z3 Python bindings and CLI must both be 5.3.3; native binaries are separate.
+z3-solver==5.3.3.0
+numpy==2.5.4
+scipy==1.18.1
+Pyomo==6.10.1
+PuLP==3.3.2
+highspy==1.15.1
+ortools==9.15.6755
+pyscipopt==6.3.0
+psutil==7.2.2
+PyYAML==6.0.3
+# Plot export additionally uses matplotlib; commercial runs require the
+# licensed gurobipy 13.0.3 / CPLEX 22.1.0 installation and docplex.

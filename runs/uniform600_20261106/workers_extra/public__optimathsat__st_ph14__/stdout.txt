@@ -1,1 +1,0 @@
-optimathsat st_ph14 RETURNED True 0.192

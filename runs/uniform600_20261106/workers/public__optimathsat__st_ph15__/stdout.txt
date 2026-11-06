@@ -1,1 +1,0 @@
-ALREADY_CLAIMED public optimathsat st_ph15 

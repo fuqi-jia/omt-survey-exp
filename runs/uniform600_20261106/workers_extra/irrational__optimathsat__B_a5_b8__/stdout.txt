@@ -1,2 +1,0 @@
-optimathsat B_a5_b8 TIMEOUT False 600.112
-optimathsat B_a5_b8 TIMEOUT False None
