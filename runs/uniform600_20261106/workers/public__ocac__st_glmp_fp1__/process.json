@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "ocac",
+    "st_glmp_fp1",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "ocac",
+    "--name",
+    "st_glmp_fp1",
+    "--core",
+    "0",
+    "--start",
+    ""
+  ],
+  "core": 0,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 602.794250646024
+}

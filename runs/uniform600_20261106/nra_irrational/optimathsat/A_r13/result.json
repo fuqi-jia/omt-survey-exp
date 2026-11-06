@@ -1,0 +1,21 @@
+{
+  "solver": "optimathsat",
+  "instance": "A_r13",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.1238065349171,
+  "timeout_s": 600,
+  "core": 6,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "a5431473bfe687fa1f6df21089a46ff76e526895bf409fccf01ec5a82dc0f7a1",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null,
+  "reported_exact_expression": null,
+  "reported_value": null,
+  "exact_expression_matches_reference": false,
+  "optimization_hit": false,
+  "correct_optimal_return": false
+}

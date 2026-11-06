@@ -1,0 +1,7 @@
+sat
+
+(objectives
+ (obj (- 5))
+)
+( (x0 4)
+  (x1 3) )

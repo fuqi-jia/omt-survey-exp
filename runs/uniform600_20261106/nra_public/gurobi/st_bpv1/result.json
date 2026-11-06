@@ -1,0 +1,23 @@
+{
+  "solver": "gurobi",
+  "instance": "st_bpv1",
+  "status": "2",
+  "elapsed_s": 0.0,
+  "native_runtime": 0.0009999275207519531,
+  "objective_bound": 9.999999995957651,
+  "timeout_s": 600,
+  "core": 12,
+  "x": [
+    26.99999999967326,
+    1.0000000004655556,
+    0.0,
+    10.0
+  ],
+  "model_sha256": "5bcb10347397255f3d6c50b3102ae6848b52f2e84c180007e1c0f60c039fd945",
+  "objective": 10.000000004655556,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 4.6555559407579494e-10
+}

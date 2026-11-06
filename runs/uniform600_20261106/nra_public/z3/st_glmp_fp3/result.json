@@ -1,0 +1,24 @@
+{
+  "solver": "z3",
+  "instance": "st_glmp_fp3",
+  "status": "RETURNED",
+  "elapsed_s": 0.12411887606140226,
+  "timeout_s": 600,
+  "core": 6,
+  "x": [
+    -2.0,
+    4.0,
+    2.0,
+    -6.0
+  ],
+  "parse_error": null,
+  "reported_objective": -12.0,
+  "witness_check_s": 0.00045485596638172865,
+  "model_sha256": "7d0f6198e2dcdc1e1a462b747100fa6ed85c7475f3eb8421a752ef783161d6c3",
+  "objective": -12.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

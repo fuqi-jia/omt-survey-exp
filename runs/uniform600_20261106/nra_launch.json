@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "nra-open",
+    "pid": 7895,
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "scripts/uniform600_20261106.py",
+      "batch",
+      "--workers",
+      "6",
+      "--exclude-gurobi"
+    ]
+  },
+  {
+    "kind": "public",
+    "pid": 7896,
+    "command": [
+      "/mnt/d/softwares/Miniconda/envs/milp/python.exe",
+      "E:\\ISCAS\\papers\\jos2026\\omt-exp\\scripts\\uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "gurobi",
+      "--core",
+      "12"
+    ]
+  },
+  {
+    "kind": "disjunctive",
+    "pid": 7897,
+    "command": [
+      "/mnt/d/softwares/Miniconda/envs/milp/python.exe",
+      "E:\\ISCAS\\papers\\jos2026\\omt-exp\\scripts\\uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "gurobi",
+      "--core",
+      "13"
+    ]
+  },
+  {
+    "kind": "irrational",
+    "pid": 7898,
+    "command": [
+      "/mnt/d/softwares/Miniconda/envs/milp/python.exe",
+      "E:\\ISCAS\\papers\\jos2026\\omt-exp\\scripts\\uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "gurobi",
+      "--core",
+      "14"
+    ]
+  },
+  {
+    "kind": "base",
+    "pid": 7899,
+    "command": [
+      "/mnt/d/softwares/Miniconda/envs/milp/python.exe",
+      "E:\\ISCAS\\papers\\jos2026\\omt-exp\\scripts\\uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "gurobi",
+      "--core",
+      "15"
+    ]
+  }
+]

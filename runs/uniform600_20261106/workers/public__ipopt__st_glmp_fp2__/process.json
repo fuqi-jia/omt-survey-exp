@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "ipopt",
+    "st_glmp_fp2",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "ipopt",
+    "--name",
+    "st_glmp_fp2",
+    "--core",
+    "2",
+    "--start",
+    ""
+  ],
+  "core": 2,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.238215469988063
+}

@@ -1,0 +1,68 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n4_s2/tmp1etp3xtp.pyomo.nl', '-AMPL', 'bonmin.time_limit=600', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: Couenne: new cutoff value 1.3600000000e+02 (0.011372 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 40.655624       10 0.013351
+NLP0014I             2         OPT 59.999999       10 0.007541
+Couenne: new cutoff value 5.9999999408e+01 (0.034555 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n4_s2/tmp1etp3xtp.pyomo.nl"
+Constraints:           17
+Variables:             12 (4 integer)
+Auxiliaries:           17 (0 integer)
+
+Coin0506I Presolve 36 (-2) rows, 17 (-12) columns and 83 (-14) elements
+Clp0006I 0  Obj 7.1054274e-15 Primal inf 38.506068 (4)
+Clp0006I 18  Obj 38.870321
+Clp0000I Optimal - objective value 38.870321
+Clp0032I Optimal objective 38.87032097 - 18 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 38.870321
+Cbc0012I Integer solution of 59.999999 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: time limit reached.
+Clp0000I Optimal - objective value 38.870321
+Optimality Based BT: 18 improved bounds
+Probing: 5 improved bounds
+NLP Heuristic: no solution.
+Cbc0031I 7 added rows had average density of 2
+Cbc0013I At root node, 7 cuts changed objective from 38.870321 to 41.812424 in 16 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 57 row cuts average 2.0 elements, 2 column cuts (2 active)
+Cbc0010I After 0 nodes, 1 on tree, 59.999999 best solution, best possible 41.812424 (0.02 seconds)
+Optimality Based BT: 8 improved bounds
+Optimality Based BT: 9 improved bounds
+Couenne: new cutoff value 5.5777777082e+01 (0.121102 seconds)
+Cbc0012I Integer solution of 55.777777 found by Couenne Rounding NLP after 98 iterations and 2 nodes (0.09 seconds)
+Optimality Based BT: 8 improved bounds
+Couenne: new cutoff value 5.1999998687e+01 (0.140088 seconds)
+Cbc0012I Integer solution of 51.999999 found by Couenne Rounding NLP after 119 iterations and 4 nodes (0.10 seconds)
+Cbc0001I Search completed - best objective 51.99999868695811, took 128 iterations and 6 nodes (0.11 seconds)
+Cbc0035I Maximum depth 2, 0 variables fixed on reduced cost
+Clp1001I Initial range of elements is 0.071428571 to 112
+Clp1003I Final range of elements is 0.18585403 to 1
+Clp0022I Absolute values of scaled rhs range from 0.70443125 to 26.864248, minimum gap 1e+100
+Clp0020I Absolute values of scaled objective range from 1.8036499 to 1.8036499
+Clp0021I Absolute values of scaled bounds range from 1.110223e-16 to 58.862749, minimum gap 2.6785869
+Clp0006I 0  Obj 51.237556 Primal inf 5.8987733e-07 (3)
+Clp0006I 0  Obj 51.237556 Primal inf 5.8987733e-07 (3)
+Clp0001I Primal infeasible - objective value 51.237556
+
+ 	"Finished"
+
+Linearization cuts added at root node:         38
+Linearization cuts added in total:             38  (separation time: 0.000246s)
+Total solve time:                        0.115627s (0.115626s in branch-and-bound)
+Lower bound:                                   52
+Upper bound:                                   52  (gap: 0.00%)
+Branch-and-bound nodes:                         6
+Performance of                           FBBT:	   0.000495s,       43 runs. fix:          0 shrnk:   0.349608 ubd:          0 2ubd:          0 infeas:          0
+Performance of                           OBBT:	   0.019847s,        4 runs. fix:       0.25 shrnk:    8.47753 ubd:          0 2ubd:          0 infeas:          0
+

@@ -1,0 +1,792 @@
+[
+  {
+    "exp": 40,
+    "n": 8,
+    "seed": 0,
+    "true_opt": 5497558138910,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5497558138910,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          4,
+          5,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 8,
+    "seed": 1,
+    "true_opt": 5497558138903,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5497558138903,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          1,
+          4,
+          5,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 8,
+    "seed": 2,
+    "true_opt": 5497558138895,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5497558138895,
+        "gap_to_opt": 0,
+        "selected": [
+          1,
+          3,
+          4,
+          5,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 8,
+    "seed": 3,
+    "true_opt": 5497558138899,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5497558138899,
+        "gap_to_opt": 0,
+        "selected": [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 8,
+    "seed": 4,
+    "true_opt": 5497558138902,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5497558138902,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 12,
+    "seed": 0,
+    "true_opt": 7696581394470,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 7696581394470,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          1,
+          4,
+          7,
+          8,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 12,
+    "seed": 1,
+    "true_opt": 7696581394466,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 7696581394466,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 12,
+    "seed": 2,
+    "true_opt": 7696581394458,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 7696581394458,
+        "gap_to_opt": 0,
+        "selected": [
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 12,
+    "seed": 3,
+    "true_opt": 7696581394465,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 7696581394465,
+        "gap_to_opt": 0,
+        "selected": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 40,
+    "n": 12,
+    "seed": 4,
+    "true_opt": 7696581394458,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 7696581394458,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 8,
+    "seed": 0,
+    "true_opt": 90071992547409950,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 90071992547409944,
+        "gap_to_opt": 6,
+        "selected": [
+          0,
+          2,
+          4,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 8,
+    "seed": 1,
+    "true_opt": 90071992547409943,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 90071992547409937,
+        "gap_to_opt": 6,
+        "selected": [
+          0,
+          1,
+          3,
+          5,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 8,
+    "seed": 2,
+    "true_opt": 90071992547409935,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 90071992547409934,
+        "gap_to_opt": 1,
+        "selected": [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 8,
+    "seed": 3,
+    "true_opt": 90071992547409939,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 90071992547409939,
+        "gap_to_opt": 0,
+        "selected": [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 8,
+    "seed": 4,
+    "true_opt": 90071992547409942,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 90071992547409942,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 12,
+    "seed": 0,
+    "true_opt": 126100789566373926,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 126100789566373923,
+        "gap_to_opt": 3,
+        "selected": [
+          0,
+          1,
+          3,
+          7,
+          8,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 12,
+    "seed": 1,
+    "true_opt": 126100789566373922,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 126100789566373909,
+        "gap_to_opt": 13,
+        "selected": [
+          0,
+          1,
+          3,
+          5,
+          8,
+          10,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 12,
+    "seed": 2,
+    "true_opt": 126100789566373914,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 126100789566373910,
+        "gap_to_opt": 4,
+        "selected": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 12,
+    "seed": 3,
+    "true_opt": 126100789566373921,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 126100789566373917,
+        "gap_to_opt": 4,
+        "selected": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 54,
+    "n": 12,
+    "seed": 4,
+    "true_opt": 126100789566373914,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 126100789566373906,
+        "gap_to_opt": 8,
+        "selected": [
+          0,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 8,
+    "seed": 0,
+    "true_opt": 5764607523034234910,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 5764607523034234904,
+        "gap_to_opt": 6,
+        "selected": [
+          0,
+          2,
+          4,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 8,
+    "seed": 1,
+    "true_opt": 5764607523034234903,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 5764607523034234897,
+        "gap_to_opt": 6,
+        "selected": [
+          0,
+          1,
+          3,
+          5,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 8,
+    "seed": 2,
+    "true_opt": 5764607523034234895,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 5764607523034234894,
+        "gap_to_opt": 1,
+        "selected": [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 8,
+    "seed": 3,
+    "true_opt": 5764607523034234899,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5764607523034234899,
+        "gap_to_opt": 0,
+        "selected": [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 8,
+    "seed": 4,
+    "true_opt": 5764607523034234902,
+    "solvers": {
+      "cbc": {
+        "status": "exact",
+        "value": 5764607523034234902,
+        "gap_to_opt": 0,
+        "selected": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 12,
+    "seed": 0,
+    "true_opt": 8070450532247928870,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 8070450532247928867,
+        "gap_to_opt": 3,
+        "selected": [
+          0,
+          1,
+          3,
+          7,
+          8,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 12,
+    "seed": 1,
+    "true_opt": 8070450532247928866,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 8070450532247928853,
+        "gap_to_opt": 13,
+        "selected": [
+          0,
+          1,
+          3,
+          5,
+          8,
+          10,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 12,
+    "seed": 2,
+    "true_opt": 8070450532247928858,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 8070450532247928854,
+        "gap_to_opt": 4,
+        "selected": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 12,
+    "seed": 3,
+    "true_opt": 8070450532247928865,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 8070450532247928861,
+        "gap_to_opt": 4,
+        "selected": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 60,
+    "n": 12,
+    "seed": 4,
+    "true_opt": 8070450532247928858,
+    "solvers": {
+      "cbc": {
+        "status": "wrong",
+        "value": 8070450532247928850,
+        "gap_to_opt": 8,
+        "selected": [
+          0,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "feasible": true
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 8,
+    "seed": 0,
+    "true_opt": 8034690221294951377709810461705813012611014968913964176506910,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 8,
+    "seed": 1,
+    "true_opt": 8034690221294951377709810461705813012611014968913964176506903,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 8,
+    "seed": 2,
+    "true_opt": 8034690221294951377709810461705813012611014968913964176506895,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 8,
+    "seed": 3,
+    "true_opt": 8034690221294951377709810461705813012611014968913964176506899,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 8,
+    "seed": 4,
+    "true_opt": 8034690221294951377709810461705813012611014968913964176506902,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 12,
+    "seed": 0,
+    "true_opt": 11248566309812931928793734646388138217655420956479549847109670,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 12,
+    "seed": 1,
+    "true_opt": 11248566309812931928793734646388138217655420956479549847109666,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 12,
+    "seed": 2,
+    "true_opt": 11248566309812931928793734646388138217655420956479549847109658,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 12,
+    "seed": 3,
+    "true_opt": 11248566309812931928793734646388138217655420956479549847109665,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  },
+  {
+    "exp": 200,
+    "n": 12,
+    "seed": 4,
+    "true_opt": 11248566309812931928793734646388138217655420956479549847109658,
+    "solvers": {
+      "cbc": {
+        "status": "refused",
+        "note": "solver did not return an optimal solution",
+        "solver_status": "Infeasible"
+      }
+    }
+  }
+]

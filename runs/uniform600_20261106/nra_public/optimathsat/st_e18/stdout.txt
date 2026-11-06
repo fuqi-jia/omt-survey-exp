@@ -1,0 +1,7 @@
+sat
+
+(objectives
+ (obj (+ (- 3) epsilon))
+)
+( (x0 (- (/ 3 2)))
+  (x1 (- (/ 5 4))) )

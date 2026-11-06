@@ -1,0 +1,27 @@
+{
+  "job": [
+    "irrational",
+    "optimathsat",
+    "A_r5",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "irrational",
+    "--solver",
+    "optimathsat",
+    "--name",
+    "A_r5",
+    "--core",
+    "12",
+    "--start",
+    ""
+  ],
+  "core": 12,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 1.1937081690412015
+}

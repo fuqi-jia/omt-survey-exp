@@ -1,6 +1,6 @@
 # OMT Survey — Experiments
 
-Current fixed paper material: [2026-11-04 audit entry](artifacts/review-20261104/README.md) · [release](https://github.com/fuqi-jia/omt-survey-exp/releases/tag/jos-review-20261104).
+Current paper data: [2026-11-06 local 600-second refresh](REPRODUCE_UNIFORM600_20261106.md) · [fixed version](https://github.com/fuqi-jia/omt-survey-exp/tree/jos-local600-20261106), with the source directories below. Earlier fixed audit package: [2026-11-04 entry](artifacts/review-20261104/README.md) · [release](https://github.com/fuqi-jia/omt-survey-exp/releases/tag/jos-review-20261104).
 
 A reproducible **three-paradigm comparison** — Optimization Modulo Theories
 (OMT) vs. Mixed-Integer Linear Programming (MILP) vs. Constraint Programming
@@ -14,6 +14,17 @@ the timing comparison is built on genuinely equivalent problems.
 Instance generation is deterministic: `build(family, size, seed)` reproduces a
 byte-identical instance, which is what lets separate runs (Linux/Windows,
 main harness/side experiments) be merged or compared cell by cell.
+
+## 2026-11-06 local numerical and NRA refresh
+
+The numerical and nonlinear tables use `runs/uniform600_20261106/`: 402
+numerical calls and 461 NRA calls, plus two auxiliary OptiMathSAT API-state
+queries. These are fresh local i7-11700F runs with a 600-second cap,
+single-threaded solvers and a 4 GiB per-process limit. Models, starts and
+assessment thresholds are unchanged. Commands and per-table input/result
+mapping are in [the reproduction guide](REPRODUCE_UNIFORM600_20261106.md),
+`paper-result-index.json`, `paper-cells.json` and `delivery-audit.json`.
+Performance, CGM MaxSMT and public-FP source cohorts are unchanged.
 
 ## 2026-11-06 cumulative job-shop runtime figure
 
@@ -35,13 +46,12 @@ The nonlinear study now includes IPOPT 3.14.20 and Couenne 0.5.9, all 43 eligibl
 small continuous nonconvex quadratic MINLPLib instances, and nine coupled
 nonlinear resource-allocation instances with explicit Boolean disjunctions.
 The first extension adds **360 formal solver calls**. A further **69 calls** cover nine genuinely nonconvex instances with irrational optima, including quartic constraints and OR between nonconvex branches. Commands and audits are in
-[`REPRODUCE_20261102.md`](REPRODUCE_20261102.md). The earlier performance and exactness batches remain the source for their
-existing tables; the public-FP table now uses the November 6 batch above.
+[`REPRODUCE_20261102.md`](REPRODUCE_20261102.md). The model selection and original 120-second outputs remain archived. The current numerical and nonlinear tables use the November 6 local batch above; the public-FP table uses its separate November 6 batch.
 
 ## 2026-10-30 manuscript refresh
 
 The October 30 rerun used the same 97 performance instances and the complete
-1120-instance public FP suite. Z3 5.3.3 performance and numerical calls, plus all 1120 public FP cases, were rerun on October 30. Numerical calls retain the uniform 120-second limit. Current commands are in `REPRODUCE_20261030.md`; earlier batches are documented in `REPRODUCE_20261029.md` and `REPRODUCE_20261028.md`. Exact
+1120-instance public FP suite. Z3 5.3.3 performance and numerical calls, plus all 1120 public FP cases, were rerun on October 30. The October 30 numerical calls used a 120-second limit; the current numerical tables use the November 6 600-second refresh above. Commands for the archived October batch are in `REPRODUCE_20261030.md`; earlier batches are documented in `REPRODUCE_20261029.md` and `REPRODUCE_20261028.md`. Exact
 runtime versions and installation notes are in `docs/toolchain-20261028.md`.
 Results are saved in `runs/paper_refresh_20261030/`, `runs/public_fp_full_20261030/`,
 `runs/exact_refresh_20261030/`, `runs/illcond_refresh_20261030/`, and

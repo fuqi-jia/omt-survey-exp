@@ -1,0 +1,92 @@
+{
+  "sizes": [
+    4,
+    8,
+    12
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "timeout_s": 600,
+  "memory_gb": 4,
+  "threads": 1,
+  "demand_fraction": "floor(0.45 * total weighted capacity)",
+  "parameter_ranges": {
+    "l": [
+      1,
+      3
+    ],
+    "u_minus_l": [
+      2,
+      6
+    ],
+    "a": [
+      1,
+      5
+    ],
+    "s": [
+      2,
+      15
+    ],
+    "b": [
+      1,
+      4
+    ]
+  },
+  "reference": "enumerate every active set; exact rational KKT/water-filling solution in each set",
+  "numeric_encoding": "l*y<=x<=u*y; z<=M*y; z>=s*y+a*x^2; y binary, M=s+a*u^2",
+  "acceptance": "same 1e-6 feasibility and reference-objective tolerances as MINLPLib cohort",
+  "script_sha256": "7deaedc8454139c8e763f908a2d342375eb9a75494835c77bf7fb06010338cec",
+  "gurobi_options": {
+    "MIPGap": 1e-08,
+    "MIPGapAbs": 1e-08,
+    "FeasibilityTol": 1e-08,
+    "OptimalityTol": 1e-08,
+    "BarQCPConvTol": 1e-08
+  },
+  "calibration": "All nine pilot runs were archived under tools/nlp-20261102; final QCP convergence tolerance matches the other 1e-8 numerical tolerances. No selective per-instance reruns.",
+  "final_runner_sha256": "d969fa7487f1b35ba39c72ac519d09056dca9eda063ce5fbc438da93480b86ea",
+  "time_limit_s": 600,
+  "model_manifest": [
+    {
+      "name": "switch_n12_s0",
+      "sha256": "6a0e1aa224c2f17e049d677455df07dfca17e96cbe64a3f9c8dcb9ceddde66e8"
+    },
+    {
+      "name": "switch_n12_s1",
+      "sha256": "34fa9b2dee867657fcc1b508026213b9cd8e475c7b8ead19f9b3de884bdf010b"
+    },
+    {
+      "name": "switch_n12_s2",
+      "sha256": "691c57d7cb486e8afc369ef59408a8c554681dca0b0cac78e9b477730b776df9"
+    },
+    {
+      "name": "switch_n4_s0",
+      "sha256": "e3a7381fdd0fee6343b3bad71db699944424e82bf324be72df4475ea3cb46bab"
+    },
+    {
+      "name": "switch_n4_s1",
+      "sha256": "fae9fdc832bbeb2cb787059d157c34756d5619d6147c191328538100aa6d928e"
+    },
+    {
+      "name": "switch_n4_s2",
+      "sha256": "88bc38f7490b59ac3dc4f6a241f819fcbda52a80cb48aa4fa1f19cdc29ab996b"
+    },
+    {
+      "name": "switch_n8_s0",
+      "sha256": "3c0ac520f6cf53028080bb1060c1255a7046ef1fa4a2a90f4f5cfecfc7bcd6e9"
+    },
+    {
+      "name": "switch_n8_s1",
+      "sha256": "b45e03354e7cb91d8014d2f8ad469b95a4006a7c269a56f287b1f7a675204b22"
+    },
+    {
+      "name": "switch_n8_s2",
+      "sha256": "a001ade3228b34b0c9e00b63d4396168856f566d056ab1255abb71613ec63640"
+    }
+  ],
+  "archived_model_source": "runs/nra_disjunctive_20261102",
+  "witness_query_timeout_s": 600
+}

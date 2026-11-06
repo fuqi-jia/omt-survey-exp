@@ -1,0 +1,15 @@
+{
+  "solver": "z3",
+  "case": "B_5_9",
+  "command": [
+    "/tmp/gomt-z3-5.3.3/bin/z3",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_base/z3/B_5_9.smt2"
+  ],
+  "timeout_s": 600,
+  "elapsed_s": 0.03279367205686867,
+  "returncode": 0,
+  "timed_out": false,
+  "input_sha256": "dfe7653694cfefde1f3a067cf46d0b8d9e43b18547b2f7637851d12b76f2e52b",
+  "stdout": "sat\n(objectives\n ((+ x 0.0) 0)\n)\n",
+  "stderr": ""
+}

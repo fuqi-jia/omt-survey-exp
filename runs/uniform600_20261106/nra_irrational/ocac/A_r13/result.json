@@ -1,0 +1,27 @@
+{
+  "solver": "ocac",
+  "instance": "A_r13",
+  "status": "RETURNED",
+  "elapsed_s": 1.164265027968213,
+  "timeout_s": 600,
+  "core": 0,
+  "x": [
+    3.5948040683288127,
+    0.27817927801515907
+  ],
+  "parse_error": null,
+  "reported_objective": 4.151162624133425,
+  "witness_check_s": 0.29864326503593475,
+  "model_sha256": "a5431473bfe687fa1f6df21089a46ff76e526895bf409fccf01ec5a82dc0f7a1",
+  "objective": 4.151162624359131,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 5.437167772200983e-11,
+  "reported_exact_expression": "(root-obj (+ (^ x 4) (* (- 73) (^ x 2)) 961) 3)",
+  "reported_value": 4.151162624133425,
+  "exact_expression_matches_reference": true,
+  "optimization_hit": true,
+  "correct_optimal_return": true
+}

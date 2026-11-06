@@ -20,7 +20,7 @@ import nra_disjunctive_20261102 as logical
 
 
 def main():
-    manifest_path = public.ROOT / "runs/nra_public_20261102/solution-file-recovery.json"
+    manifest_path = public.OUT / "solution-file-recovery.json"
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else []
     for module in (public, logical):
         for path in sorted((module.OUT / "couenne").glob("*/result.json")):

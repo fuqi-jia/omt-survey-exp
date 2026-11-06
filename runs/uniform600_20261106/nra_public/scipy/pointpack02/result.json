@@ -1,0 +1,25 @@
+{
+  "solver": "scipy",
+  "instance": "pointpack02",
+  "status": "SUCCESS",
+  "elapsed_s": 0.014576271991245449,
+  "timeout_s": 600,
+  "core": 11,
+  "x": [
+    0.9999999999999866,
+    1.563643264684592e-14,
+    0.5000000238275499,
+    0.5000000238260593,
+    0.9999999999999828
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "4f17d864216780cf9ae409a068669bcb994955e72340479e411a27371941f9ae",
+  "objective": 0.9999999999999828,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 4.093180560793003e-14,
+  "max_scaled_violation": 4.093180560793003e-14,
+  "relative_reference_error": 0.4999999985000086
+}

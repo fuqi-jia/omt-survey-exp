@@ -1,3 +1,5 @@
+> Current numerical and nonlinear cells: `runs/uniform600_20261106/paper-cells.json`; reproduction: [REPRODUCE_UNIFORM600_20261106.md](REPRODUCE_UNIFORM600_20261106.md). Earlier numerical/NRA batches below remain archived.
+
 # 论文实验结果（2026-11-06）
 
 本文件对应当前论文实验表。公开浮点全部1120个实例的三条路线更新为600秒批次；Z3 5.3.3的97个性能实例和52项数值诊断沿用10月30日记录。其他求解器的性能和数值记录来自已完成的2026-10-28、2026-10-29批次。原有运行目录和服务器 `full` 配置保留。

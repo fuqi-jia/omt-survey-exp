@@ -1,0 +1,21 @@
+{
+  "solver": "gurobi",
+  "instance": "st_e26",
+  "status": "2",
+  "elapsed_s": 0.015999999945051968,
+  "native_runtime": 0.003999948501586914,
+  "objective_bound": -185.77919999964888,
+  "timeout_s": 600,
+  "core": 12,
+  "x": [
+    7.079999999929769,
+    0.0
+  ],
+  "model_sha256": "cea3e13b90c9660778c4163300bb943d5d791e30c557861674767440e98b3779",
+  "objective": -185.77919999666545,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 1.794898803102134e-11
+}

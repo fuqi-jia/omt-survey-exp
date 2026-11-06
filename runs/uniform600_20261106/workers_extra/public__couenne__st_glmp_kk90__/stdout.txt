@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_glmp_kk90/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_glmp_kk90/tmp7h6u2tsa.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_glmp_kk90/tmp7h6u2tsa.pyomo.nl',)
+couenne st_glmp_kk90 optimal True 0.798

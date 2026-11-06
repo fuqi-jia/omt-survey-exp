@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "couenne",
+    "pointpack02",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "couenne",
+    "--name",
+    "pointpack02",
+    "--core",
+    "11",
+    "--start",
+    ""
+  ],
+  "core": 11,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 4.199396548909135
+}

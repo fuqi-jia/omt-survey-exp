@@ -6,7 +6,7 @@ import hashlib
 import json
 from pathlib import Path
 
-from nra_public_20261102 import BENCH, OUT, ROOT, assess, save
+from nra_public_20261102 import BENCH, OUT, ROOT, LIMIT, assess, save
 
 
 def main():
@@ -37,7 +37,7 @@ def main():
             checked = assess(model, result.get("x"), model["reference"])
             assert checked["feasible"] == result["feasible"]
             assert checked["reference_hit"] == result["reference_hit"]
-            assert result["elapsed_s"] <= 166, (solver, name, result["elapsed_s"])
+            assert result["elapsed_s"] <= LIMIT + 46, (solver, name, result["elapsed_s"])
             records.append(result)
             if solver not in table:
                 table[solver] = {str(i): 0 for i in range(2, 6)}

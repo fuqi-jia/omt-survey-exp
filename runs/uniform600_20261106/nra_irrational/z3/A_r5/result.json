@@ -1,0 +1,27 @@
+{
+  "solver": "z3",
+  "instance": "A_r5",
+  "status": "RETURNED",
+  "elapsed_s": 0.08036188594996929,
+  "timeout_s": 600,
+  "core": 8,
+  "x": [
+    2.1889010593167337,
+    0.45685025174785665
+  ],
+  "parse_error": "Invalid literal for Fraction: 'x'",
+  "reported_objective": null,
+  "witness_check_s": 0.0011925220023840666,
+  "model_sha256": "34bd434036af1b9b50517ce54b919167a8f4d2d1beddea2e508b043e3831c4a8",
+  "objective": 3.1026015628124473,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 8.881784197001252e-16,
+  "max_scaled_violation": 1.7763568394002506e-16,
+  "relative_reference_error": 0.0,
+  "reported_exact_expression": "(root-obj (+ (^ x 4) (* (- 33) (^ x 2)) 225) 3)",
+  "reported_value": 3.1026015628124473,
+  "exact_expression_matches_reference": true,
+  "optimization_hit": true,
+  "correct_optimal_return": true
+}

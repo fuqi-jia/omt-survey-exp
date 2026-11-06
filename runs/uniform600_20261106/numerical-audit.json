@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "exact_calls": 360,
+  "hilbert_calls": 42,
+  "exact": {
+    "cbc": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "60": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "200": {
+        "refused": 10
+      }
+    },
+    "cplex": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "wrong": 6,
+        "exact": 4
+      },
+      "60": {
+        "wrong": 9,
+        "exact": 1
+      },
+      "200": {
+        "wrong": 9,
+        "exact": 1
+      }
+    },
+    "cpsat": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "exact": 10
+      },
+      "60": {
+        "refused": 10
+      },
+      "200": {
+        "refused": 10
+      }
+    },
+    "gurobi": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "60": {
+        "wrong": 9,
+        "exact": 1
+      },
+      "200": {
+        "wrong": 9,
+        "exact": 1
+      }
+    },
+    "highs": {
+      "40": {
+        "exact": 9,
+        "wrong": 1
+      },
+      "54": {
+        "wrong": 7,
+        "exact": 3
+      },
+      "60": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "200": {
+        "refused": 10
+      }
+    },
+    "optimathsat": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "exact": 10
+      },
+      "60": {
+        "exact": 10
+      },
+      "200": {
+        "exact": 10
+      }
+    },
+    "scip": {
+      "40": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "54": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "60": {
+        "wrong": 8,
+        "exact": 2
+      },
+      "200": {
+        "error": 10
+      }
+    },
+    "scip-exact": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "exact": 10
+      },
+      "60": {
+        "exact": 10
+      },
+      "200": {
+        "refused": 10
+      }
+    },
+    "z3": {
+      "40": {
+        "exact": 10
+      },
+      "54": {
+        "exact": 10
+      },
+      "60": {
+        "exact": 10
+      },
+      "200": {
+        "exact": 10
+      }
+    }
+  },
+  "illcond": {
+    "cbc": {
+      "6": "correct",
+      "8": "infeasible",
+      "10": "correct",
+      "12": "infeasible",
+      "14": "infeasible",
+      "16": "infeasible"
+    },
+    "cplex": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "infeasible",
+      "14": "infeasible",
+      "16": "infeasible"
+    },
+    "gurobi": {
+      "6": "correct",
+      "8": "correct",
+      "10": "wrong",
+      "12": "wrong",
+      "14": "wrong",
+      "16": "wrong"
+    },
+    "highs": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "optimathsat": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "scip": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    },
+    "z3": {
+      "6": "correct",
+      "8": "correct",
+      "10": "correct",
+      "12": "correct",
+      "14": "correct",
+      "16": "correct"
+    }
+  },
+  "inputs": 46,
+  "timeout_s": 600,
+  "execution": "local"
+}

@@ -1,0 +1,1 @@
+optimathsat st_glmp_fp2 RETURNED True 75.199

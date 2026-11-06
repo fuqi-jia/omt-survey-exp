@@ -1,0 +1,1 @@
+optimathsat switch_n8_s0 TIMEOUT False 600.102

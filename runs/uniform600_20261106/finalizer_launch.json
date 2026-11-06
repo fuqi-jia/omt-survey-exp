@@ -1,0 +1,7 @@
+{
+  "pid": 11110,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "scripts/finalize_uniform600_20261106.py"
+  ]
+}

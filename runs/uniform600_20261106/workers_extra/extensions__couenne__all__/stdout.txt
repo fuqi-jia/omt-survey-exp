@@ -1,0 +1,24 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt2_0.5/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt2_0.5/tmp1srbmi7a.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt2_0.5/tmp1srbmi7a.pyomo.nl',)
+couenne A_sqrt2 0.5 1.414213566518027 optimal
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt5_0.5/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt5_0.5/tmp8_fy0xs3.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/A_sqrt5_0.5/tmp8_fy0xs3.pyomo.nl',)
+couenne A_sqrt5 0.5 2.2360679886721613 optimal
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_5_9_5.0/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_5_9_5.0/tmpq9x8mg21.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_5_9_5.0/tmpq9x8mg21.pyomo.nl',)
+couenne B_5_9 5.0 -9.990000070935762e-09 optimal
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_9_25_5.0/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_9_25_5.0/tmpuyefyup3.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_9_25_5.0/tmpuyefyup3.pyomo.nl',)
+couenne B_9_25 5.0 -9.990000081527166e-09 optimal
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C1_inf_unattained_5.0/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C1_inf_unattained_5.0/tmp1_1ba48g.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C1_inf_unattained_5.0/tmp1_1ba48g.pyomo.nl',)
+couenne C1_inf_unattained 5.0 1.4142135553128674 optimal
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C2_unbounded_below_5.0/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C2_unbounded_below_5.0/tmpk7hjzotm.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/C2_unbounded_below_5.0/tmpk7hjzotm.pyomo.nl',)
+couenne C2_unbounded_below 5.0 -9990000000000.0 optimal

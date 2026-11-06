@@ -1,0 +1,22 @@
+{
+  "solver": "gurobi",
+  "instance": "ex3_1_4",
+  "status": "2",
+  "elapsed_s": 0.030999999959021807,
+  "native_runtime": 0.02500009536743164,
+  "objective_bound": -4.0,
+  "timeout_s": 600,
+  "core": 12,
+  "x": [
+    2.0,
+    0.0,
+    0.0
+  ],
+  "model_sha256": "824d846d937684132a7e3e4634b9595f7a4cc92ccb85e63375671e6c229a00e6",
+  "objective": -4.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

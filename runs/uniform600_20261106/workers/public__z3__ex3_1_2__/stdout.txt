@@ -1,0 +1,1 @@
+z3 ex3_1_2 TIMEOUT False 600.104

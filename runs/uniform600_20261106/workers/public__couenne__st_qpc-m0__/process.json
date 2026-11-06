@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "couenne",
+    "st_qpc-m0",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "couenne",
+    "--name",
+    "st_qpc-m0",
+    "--core",
+    "2",
+    "--start",
+    ""
+  ],
+  "core": 2,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.277131381095387
+}

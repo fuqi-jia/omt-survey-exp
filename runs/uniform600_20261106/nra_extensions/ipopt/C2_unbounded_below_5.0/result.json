@@ -1,0 +1,46 @@
+{
+  "case": "C2_unbounded_below",
+  "start": 5.0,
+  "x": 1.0000000025042062,
+  "status": "optimal",
+  "elapsed_s": 0.14503288897685707,
+  "timeout_s": 600,
+  "model": {
+    "name": "C2_unbounded_below",
+    "variables": [
+      {
+        "name": "x",
+        "lb": "-INF",
+        "ub": "INF"
+      }
+    ],
+    "constraints": [
+      {
+        "lb": "1",
+        "ub": "INF",
+        "constant": "0",
+        "terms": [
+          [
+            "1",
+            [
+              0,
+              0
+            ]
+          ]
+        ]
+      }
+    ],
+    "objective": {
+      "constant": "0",
+      "terms": [
+        [
+          "1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    "sense": "min"
+  }
+}

@@ -1,0 +1,46 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_e08/tmpcjntwzub.pyomo.nl', '-AMPL', 'bonmin.time_limit=600', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: Couenne: new cutoff value 1.5000000000e+00 (0.029263 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 0.74178195        8 0
+Couenne: new cutoff value 7.4178195456e-01 (0.029263 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_e08/tmpcjntwzub.pyomo.nl"
+Constraints:            2
+Variables:              2 (0 integer)
+Auxiliaries:            6 (0 integer)
+
+Coin0506I Presolve 18 (-1) rows, 6 (-2) columns and 41 (-3) elements
+Clp0006I 0  Obj 0.74049636 Primal inf 0.0021656951 (8)
+Clp0006I 5  Obj 0.74178189
+Clp0000I Optimal - objective value 0.74178189
+Clp0032I Optimal objective 0.7417818941 - 5 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 0.74178189
+Cbc0012I Integer solution of 0.74178195 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT 0.74178195        2 0.001202
+no solution.
+Cbc0001I Search completed - best objective 0.7417819545581863, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0006I 0  Obj 0.74178189 Primal inf 1.0857522e-08 (1)
+Clp0006I 1  Obj 0.74178195
+Clp0000I Optimal - objective value 0.74178195
+
+ 	"Finished"
+
+Linearization cuts added at root node:         19
+Linearization cuts added in total:             19  (separation time: 0s)
+Total solve time:                        0.002317s (0.002312s in branch-and-bound)
+Lower bound:                             0.741782
+Upper bound:                             0.741782  (gap: 0.00%)
+Branch-and-bound nodes:                         0
+

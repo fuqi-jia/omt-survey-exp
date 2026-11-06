@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n12_s1/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n12_s1/tmp8_yyt5kn.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n12_s1/tmp8_yyt5kn.pyomo.nl',)
+couenne switch_n12_s1 optimal True 3.205

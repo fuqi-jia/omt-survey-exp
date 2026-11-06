@@ -24,8 +24,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BENCH = ROOT / "benchmarks/minlplib-qcqp-20261102"
-OUT = ROOT / "runs/nra_public_20261102"
-LIMIT = 120
+OUT = Path(os.environ.get("OMT_NRA_PUBLIC_OUTPUT", ROOT / "runs/nra_public_20261102"))
+LIMIT = int(os.environ.get("OMT_NRA_TIMEOUT_S", "120"))
 SOLVERS = {
     "z3": "/tmp/gomt-z3-5.3.3/bin/z3",
     "ocac": str(ROOT / "tools/local-nra-20261028/cvc5-ocac"),
@@ -257,7 +257,7 @@ def recover_witness(model, value):
     z3 = load_z3()
     text = re.split(r"\((?:minimize|maximize) ", smt_source(model, "z3"))[0]
     s = z3.Solver()
-    s.set(timeout=30000)
+    s.set(timeout=int(os.environ.get("OMT_NRA_WITNESS_TIMEOUT_S", "30")) * 1000)
     s.add(z3.parse_smt2_string(text))
     eps = 1e-8 * max(1.0, abs(value))
     obj = z3.Real("obj")

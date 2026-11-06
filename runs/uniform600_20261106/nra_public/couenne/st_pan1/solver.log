@@ -1,0 +1,59 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_pan1/tmp4d2bl8vl.pyomo.nl', '-AMPL', 'bonmin.time_limit=600', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: Couenne: new cutoff value 0.0000000000e+00 (0.032141 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT -8.7467269e-08        5 0
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_pan1/tmp4d2bl8vl.pyomo.nl"
+Constraints:            4
+Variables:              3 (0 integer)
+Auxiliaries:            7 (0 integer)
+
+Coin0506I Presolve 20 (0) rows, 7 (-3) columns and 49 (-3) elements
+Clp0006I 0  Obj -16.464181 Primal inf 2.1952231 (1)
+Clp0006I 10  Obj -5.6893002
+Clp0000I Optimal - objective value -5.6893002
+Clp0032I Optimal objective -5.689300219 - 10 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value -5.6893002
+Couenne: new cutoff value -4.6164509793e+00 (0.032141 seconds)
+Cbc0012I Integer solution of -8.7467269e-08 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT -4.6164511        8 0.003945
+Couenne: new cutoff value -4.6164511496e+00 (0.036132 seconds)
+solution found, obj. -4.61645
+Cbc0012I Integer solution of -4.6164511 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+Clp0000I Optimal - objective value -5.6893002
+Optimality Based BT: Couenne: new cutoff value -4.7016717059e+00 (0.036677 seconds)
+Couenne: new cutoff value -5.2837091844e+00 (0.036761 seconds)
+2 improved bounds
+Probing: 3 improved bounds
+NLP Heuristic: no solution.
+Cbc0031I 3 added rows had average density of 2
+Cbc0013I At root node, 3 cuts changed objective from -5.6893002 to -5.5785613 in 5 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 6 row cuts average 2.0 elements, 6 column cuts (6 active)
+Cbc0010I After 0 nodes, 1 on tree, -4.6164511 best solution, best possible -5.5785613 (0.02 seconds)
+Optimality Based BT: 7 improved bounds
+Cbc0004I Integer solution of -5.2837092 found after 9 iterations and 1 nodes (0.03 seconds)
+Cbc0001I Search completed - best objective -5.283709184449163, took 10 iterations and 2 nodes (0.03 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+
+ 	"Finished"
+
+Linearization cuts added at root node:         20
+Linearization cuts added in total:             20  (separation time: 0s)
+Total solve time:                        0.034674s (0.034673s in branch-and-bound)
+Lower bound:                             -5.28371
+Upper bound:                             -5.28371  (gap: 0.00%)
+Branch-and-bound nodes:                         2
+Performance of                           FBBT:	    5.4e-05s,       10 runs. fix:          0 shrnk: 0.00641453 ubd:          1 2ubd:          0 infeas:          0
+Performance of                           OBBT:	   0.001923s,        2 runs. fix:          0 shrnk:    4.37766 ubd:          0 2ubd:          0 infeas:          0
+

@@ -1,0 +1,1 @@
+z3 st_e05 RETURNED True 37.212

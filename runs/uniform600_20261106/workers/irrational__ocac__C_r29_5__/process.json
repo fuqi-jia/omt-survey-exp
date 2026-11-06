@@ -1,0 +1,27 @@
+{
+  "job": [
+    "irrational",
+    "ocac",
+    "C_r29_5",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "irrational",
+    "--solver",
+    "ocac",
+    "--name",
+    "C_r29_5",
+    "--core",
+    "8",
+    "--start",
+    ""
+  ],
+  "core": 8,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 4.382970453007147
+}

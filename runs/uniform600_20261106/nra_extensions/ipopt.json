@@ -1,0 +1,397 @@
+{
+  "records": [
+    {
+      "case": "A_sqrt2",
+      "start": 0.5,
+      "x": 1.4142135598635694,
+      "status": "optimal",
+      "elapsed_s": 0.8542373600648716,
+      "timeout_s": 600,
+      "model": {
+        "name": "A_sqrt2",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "INF"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "-INF",
+            "ub": "2",
+            "constant": "0",
+            "terms": [
+              [
+                "1",
+                [
+                  0,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "max"
+      }
+    },
+    {
+      "case": "A_sqrt5",
+      "start": 0.5,
+      "x": 2.2360679749915984,
+      "status": "optimal",
+      "elapsed_s": 0.1012052180012688,
+      "timeout_s": 600,
+      "model": {
+        "name": "A_sqrt5",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "INF"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "-INF",
+            "ub": "5",
+            "constant": "0",
+            "terms": [
+              [
+                "1",
+                [
+                  0,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "max"
+      }
+    },
+    {
+      "case": "B_5_9",
+      "start": 5.0,
+      "x": 4.000000002507276,
+      "status": "optimal",
+      "elapsed_s": 0.10365668800659478,
+      "timeout_s": 600,
+      "model": {
+        "name": "B_5_9",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "5"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "0",
+            "ub": "INF",
+            "constant": "16",
+            "terms": [
+              [
+                "4",
+                [
+                  0,
+                  0
+                ]
+              ],
+              [
+                "-20",
+                [
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    },
+    {
+      "case": "B_5_9",
+      "start": 0.2,
+      "x": 2.5108664955458315e-09,
+      "status": "optimal",
+      "elapsed_s": 0.10578257194720209,
+      "timeout_s": 600,
+      "model": {
+        "name": "B_5_9",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "5"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "0",
+            "ub": "INF",
+            "constant": "16",
+            "terms": [
+              [
+                "4",
+                [
+                  0,
+                  0
+                ]
+              ],
+              [
+                "-20",
+                [
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    },
+    {
+      "case": "B_9_25",
+      "start": 5.0,
+      "x": 4.999999999982974,
+      "status": "infeasible",
+      "elapsed_s": 0.09573843597900122,
+      "timeout_s": 600,
+      "model": {
+        "name": "B_9_25",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "5"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "0",
+            "ub": "INF",
+            "constant": "56",
+            "terms": [
+              [
+                "4",
+                [
+                  0,
+                  0
+                ]
+              ],
+              [
+                "-36",
+                [
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    },
+    {
+      "case": "B_9_25",
+      "start": 0.2,
+      "x": 2.5087799212946073e-09,
+      "status": "optimal",
+      "elapsed_s": 0.1274083600146696,
+      "timeout_s": 600,
+      "model": {
+        "name": "B_9_25",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "5"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "0",
+            "ub": "INF",
+            "constant": "56",
+            "terms": [
+              [
+                "4",
+                [
+                  0,
+                  0
+                ]
+              ],
+              [
+                "-36",
+                [
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    },
+    {
+      "case": "C1_inf_unattained",
+      "start": 5.0,
+      "x": 1.414213564874846,
+      "status": "optimal",
+      "elapsed_s": 0.10720195202156901,
+      "timeout_s": 600,
+      "model": {
+        "name": "C1_inf_unattained",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "0",
+            "ub": "INF"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "2",
+            "ub": "INF",
+            "constant": "0",
+            "terms": [
+              [
+                "1",
+                [
+                  0,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    },
+    {
+      "case": "C2_unbounded_below",
+      "start": 5.0,
+      "x": 1.0000000025042062,
+      "status": "optimal",
+      "elapsed_s": 0.14503288897685707,
+      "timeout_s": 600,
+      "model": {
+        "name": "C2_unbounded_below",
+        "variables": [
+          {
+            "name": "x",
+            "lb": "-INF",
+            "ub": "INF"
+          }
+        ],
+        "constraints": [
+          {
+            "lb": "1",
+            "ub": "INF",
+            "constant": "0",
+            "terms": [
+              [
+                "1",
+                [
+                  0,
+                  0
+                ]
+              ]
+            ]
+          }
+        ],
+        "objective": {
+          "constant": "0",
+          "terms": [
+            [
+              "1",
+              [
+                0
+              ]
+            ]
+          ]
+        },
+        "sense": "min"
+      }
+    }
+  ],
+  "script_sha256": "186ac5dbb9a339b6e645e06265b511cc06488509a851bbc4e27b7b9a868d83db"
+}

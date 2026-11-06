@@ -11,7 +11,7 @@ import time
 
 from nra_public_20261102 import ROOT, SOLVERS, LIMIT, pyomo_model, save
 
-OUT = ROOT / "runs/nra_numeric_extensions_20261102"
+OUT = Path(os.environ.get("OMT_NRA_EXT_OUTPUT", ROOT / "runs/nra_numeric_extensions_20261102"))
 
 
 def cases():

@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "z3",
+    "st_qpc-m0",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "z3",
+    "--name",
+    "st_qpc-m0",
+    "--core",
+    "6",
+    "--start",
+    ""
+  ],
+  "core": 6,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 3.1219168530078605
+}

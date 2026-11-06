@@ -1,0 +1,45 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_5_9_5.0/tmpq9x8mg21.pyomo.nl', '-AMPL', 'bonmin.time_limit=600', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: Couenne: new cutoff value 5.0000000000e+00 (0.02101 seconds)
+NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 4        7 0.003636
+Couenne: new cutoff value 3.9999999869e+00 (0.025393 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_extensions/couenne/B_5_9_5.0/tmpq9x8mg21.pyomo.nl"
+Constraints:            1
+Variables:              1 (0 integer)
+Auxiliaries:            3 (0 integer)
+
+Coin0506I Presolve 6 (0) rows, 2 (-2) columns and 12 (-1) elements
+Clp0000I Optimal - objective value 0
+Clp0032I Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 0
+Couenne: new cutoff value 0.0000000000e+00 (0.026013 seconds)
+Cbc0012I Integer solution of 4 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: NLP0014I             2         OPT -9.9900001e-09        5 0.002823
+solution found, obj. -9.99e-09
+Cbc0012I Integer solution of -9.9900001e-09 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective -9.990000070935762e-09, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Clp0000I Optimal - objective value 0
+
+ 	"Finished"
+
+Linearization cuts added at root node:          6
+Linearization cuts added in total:              6  (separation time: 4.1e-05s)
+Total solve time:                        0.005732s (0.00573s in branch-and-bound)
+Lower bound:                            -9.99e-09
+Upper bound:                            -9.99e-09  (gap: 0.00%)
+Branch-and-bound nodes:                         0
+Performance of                           FBBT:	    1.9e-05s,        3 runs. fix:          0 shrnk:   0.393087 ubd:          0 2ubd:          1 infeas:          0
+

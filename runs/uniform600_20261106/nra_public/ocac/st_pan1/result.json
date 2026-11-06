@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_pan1",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.1026799349347,
+  "timeout_s": 600,
+  "core": 13,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "2fc26e21802a3289e2ce07accd8dc4c7fbe1f8c5e53ef8841952ff2ac5d48516",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

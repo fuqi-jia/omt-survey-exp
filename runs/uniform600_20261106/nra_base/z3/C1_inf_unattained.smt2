@@ -1,0 +1,7 @@
+(set-option :produce-models true)
+(set-logic QF_NRA)
+(declare-fun x () Real)
+(assert (and (> x 0) (> (* x x) 2)))
+(minimize (+ x 0))
+(check-sat)
+(get-objectives)

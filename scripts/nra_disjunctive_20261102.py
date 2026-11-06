@@ -25,7 +25,7 @@ import time
 import nra_public_20261102 as base
 
 ROOT = base.ROOT
-OUT = ROOT / "runs/nra_disjunctive_20261102"
+OUT = Path(os.environ.get("OMT_NRA_DISJ_OUTPUT", ROOT / "runs/nra_disjunctive_20261102"))
 BENCH = ROOT / "benchmarks/nra-disjunctive-20261102"
 ORIGINAL_SMT = base.smt_source
 ORIGINAL_ASSESS = base.assess
@@ -170,7 +170,7 @@ def prepare():
             assert assess(model, vector, model["reference"])["reference_hit"]
             base.save(OUT / "models" / (model["name"] + ".json"), model)
             base.save(BENCH / (model["name"] + ".json"), model)
-    base.save(OUT / "protocol.json", dict(sizes=[4, 8, 12], seeds=[0, 1, 2], timeout_s=120,
+    base.save(OUT / "protocol.json", dict(sizes=[4, 8, 12], seeds=[0, 1, 2], timeout_s=base.LIMIT,
          memory_gb=4, threads=1, demand_fraction="floor(0.45 * total weighted capacity)",
          parameter_ranges=dict(l=[1, 3], u_minus_l=[2, 6], a=[1, 5], s=[2, 15], b=[1, 4]),
          reference="enumerate every active set; exact rational KKT/water-filling solution in each set",
@@ -208,7 +208,7 @@ def batch(solvers, cores):
             proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
                                     env=env, start_new_session=True)
             try:
-                stdout, stderr = proc.communicate(timeout=165)
+                stdout, stderr = proc.communicate(timeout=2 * base.LIMIT + 45)
                 (folder / "worker.stdout").write_text(stdout)
                 (folder / "worker.stderr").write_text(stderr)
                 if not (folder / "result.json").exists():
@@ -229,7 +229,7 @@ def gurobi():
     import gurobipy as gp
     from gurobipy import GRB
     import psutil
-    psutil.Process().cpu_affinity([12])
+    psutil.Process().cpu_affinity([int(os.environ.get("OMT_NRA_CORE", "12"))])
     for path in sorted((OUT / "models").glob("*.json")):
         data = json.loads(path.read_text())
         folder = OUT / "gurobi" / data["name"]
@@ -237,7 +237,7 @@ def gurobi():
         if (folder / "result.json").exists():
             continue
         m = gp.Model()
-        m.Params.Threads, m.Params.TimeLimit, m.Params.MemLimit = 1, 120, 4
+        m.Params.Threads, m.Params.TimeLimit, m.Params.MemLimit = 1, base.LIMIT, 4
         m.Params.MIPGap, m.Params.MIPGapAbs = 1e-8, 1e-8
         m.Params.FeasibilityTol, m.Params.OptimalityTol = 1e-8, 1e-8
         m.Params.BarQCPConvTol = 1e-8
@@ -259,7 +259,7 @@ def gurobi():
         elapsed = time.monotonic()-begun
         vector = [value for pair in zip(x, z) for value in (pair[0].X, pair[1].X)] if m.SolCount else None
         base.save(folder / "result.json", dict(solver="gurobi", instance=data["name"],
-             status=str(m.Status), elapsed_s=elapsed, timeout_s=120, core=12, x=vector,
+             status=str(m.Status), elapsed_s=elapsed, timeout_s=base.LIMIT, core=int(os.environ.get("OMT_NRA_CORE", "12")), x=vector,
              model_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
              **assess(data, vector, data["reference"])))
         m.dispose()

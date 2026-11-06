@@ -1,0 +1,25 @@
+{
+  "solver": "couenne",
+  "instance": "pointpack02",
+  "status": "optimal",
+  "elapsed_s": 0.9250470220576972,
+  "timeout_s": 600,
+  "core": 11,
+  "x": [
+    1.000000009995,
+    -9.995000000254869e-09,
+    1.000000009995,
+    -9.995000000306017e-09,
+    2.00000008995
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "4f17d864216780cf9ae409a068669bcb994955e72340479e411a27371941f9ae",
+  "objective": 2.00000008995,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 9.995000000306017e-09,
+  "max_scaled_violation": 9.995000000306017e-09,
+  "relative_reference_error": 4.797500011659141e-08
+}

@@ -1,0 +1,23 @@
+{
+  "solver": "scipy",
+  "instance": "ex3_1_4",
+  "status": "SUCCESS",
+  "elapsed_s": 0.07321184396278113,
+  "timeout_s": 600,
+  "core": 8,
+  "x": [
+    2.0,
+    0.0,
+    0.0
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "824d846d937684132a7e3e4634b9595f7a4cc92ccb85e63375671e6c229a00e6",
+  "objective": -4.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

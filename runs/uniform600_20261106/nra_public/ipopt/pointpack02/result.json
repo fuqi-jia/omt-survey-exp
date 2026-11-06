@@ -1,0 +1,25 @@
+{
+  "solver": "ipopt",
+  "instance": "pointpack02",
+  "status": "optimal",
+  "elapsed_s": 1.042080583050847,
+  "timeout_s": 600,
+  "core": 11,
+  "x": [
+    0.9999999987463227,
+    1.2528835756378375e-09,
+    0.9999999987469541,
+    1.2530458341275756e-09,
+    1.9999999874624168
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "4f17d864216780cf9ae409a068669bcb994955e72340479e411a27371941f9ae",
+  "objective": 1.9999999874624168,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 3.2687915805604784e-09
+}

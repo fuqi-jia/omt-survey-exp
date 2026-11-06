@@ -1,0 +1,2 @@
+optimathsat A_r8 TIMEOUT False 600.111
+optimathsat A_r8 TIMEOUT False None

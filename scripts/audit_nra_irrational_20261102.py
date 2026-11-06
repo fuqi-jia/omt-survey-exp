@@ -78,7 +78,7 @@ def main():
             checked=spec.assess(model,result.get('x'),model['reference'])
             assert checked['reference_hit']==result['reference_hit']
             assert checked['feasible']==result['feasible']
-            assert result['elapsed_s']<=201
+            assert result['elapsed_s']<=common.LIMIT+81
             native_ok=(result['status'] in ('RETURNED','optimal','SUCCESS','2'))
             if label in ('z3','ocac','optimathsat'):
                 native_ok=native_ok and (folder/'stdout.txt').read_text().strip().splitlines()[:1]==['sat']

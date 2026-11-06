@@ -1,0 +1,79 @@
+Solver command line: ['/tmp/gomt-nlp-20261102/bin/couenne', '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n12_s1/tmp8_yyt5kn.pyomo.nl', '-AMPL', 'bonmin.time_limit=600', 'bonmin.allowable_gap=1e-08', 'bonmin.allowable_fraction_gap=1e-08']
+
+Couenne 0.5.9 -- an Open-Source solver for Mixed Integer Nonlinear Optimization
+Mailing list: couenne@list.coin-or.org
+Instructions: http://www.coin-or.org/Couenne
+couenne: bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+bonmin.time_limit=600
+bonmin.allowable_gap=1e-08
+bonmin.allowable_fraction_gap=1e-08
+
+ANALYSIS TEST: NLP0012I 
+              Num      Status      Obj             It       time                 Location
+NLP0014I             1         OPT 282.53795       11 0.002575
+NLP0014I             2         OPT 655.79244       18 0.023934
+Couenne: new cutoff value 6.5579243587e+02 (0.057449 seconds)
+Loaded instance "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_disjunctive/couenne/switch_n12_s1/tmp8_yyt5kn.pyomo.nl"
+Constraints:           49
+Variables:             36 (12 integer)
+Auxiliaries:           49 (0 integer)
+
+Coin0506I Presolve 108 (-2) rows, 49 (-36) columns and 251 (-38) elements
+Clp0006I 0  Obj 5.6843419e-14 Primal inf 91.062046 (4)
+Clp0006I 31  Obj 5.8304565e-14 Primal inf 564.45397 (30)
+Clp0006I 55  Obj 263.875
+Clp0000I Optimal - objective value 263.875
+Clp0032I Optimal objective 263.875 - 55 iterations time 0.002, Presolve 0.00
+Clp0000I Optimal - objective value 263.875
+Cbc0012I Integer solution of 655.79244 found by Couenne Rounding NLP after 0 iterations and 0 nodes (0.00 seconds)
+NLP Heuristic: time limit reached.
+Clp0000I Optimal - objective value 263.875
+Optimality Based BT: 0 improved bounds
+Probing: 27 improved bounds
+NLP Heuristic: time limit reached.
+Cbc0031I 23 added rows had average density of 2
+Cbc0013I At root node, 23 cuts changed objective from 263.875 to 282.53795 in 18 passes
+Cbc0014I Cut generator 0 (Couenne convexifier cuts) - 187 row cuts average 2.0 elements, 1 column cuts (1 active)
+Cbc0010I After 0 nodes, 1 on tree, 655.79244 best solution, best possible 282.53795 (0.07 seconds)
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Optimality Based BT: 0 improved bounds
+Couenne: new cutoff value 4.0746807908e+02 (0.468526 seconds)
+Cbc0012I Integer solution of 407.46808 found by Couenne Rounding NLP after 318 iterations and 3 nodes (0.41 seconds)
+Optimality Based BT: 8 improved bounds
+Couenne: new cutoff value 3.6894117128e+02 (0.548301 seconds)
+Cbc0012I Integer solution of 368.94117 found by Couenne Rounding NLP after 376 iterations and 4 nodes (0.49 seconds)
+Optimality Based BT: 17 improved bounds
+Optimality Based BT: 19 improved bounds
+Couenne: new cutoff value 3.5444943305e+02 (0.752407 seconds)
+Cbc0012I Integer solution of 354.44943 found by Couenne Rounding NLP after 528 iterations and 6 nodes (0.69 seconds)
+Optimality Based BT: 17 improved bounds
+Optimality Based BT: 17 improved bounds
+Optimality Based BT: 19 improved bounds
+Couenne: new cutoff value 3.3542307553e+02 (1.02955 seconds)
+Cbc0004I Integer solution of 335.42308 found after 1455 iterations and 46 nodes (0.97 seconds)
+Optimality Based BT: 16 improved bounds
+Optimality Based BT: 17 improved bounds
+Optimality Based BT: 0 improved bounds
+Cbc0010I After 100 nodes, 10 on tree, 335.42308 best solution, best possible 319.57781 (1.68 seconds)
+Couenne: new cutoff value 3.3480860605e+02 (1.74631 seconds)
+Cbc0004I Integer solution of 334.80861 found after 3423 iterations and 101 nodes (1.69 seconds)
+Optimality Based BT: 13 improved bounds
+Couenne: new cutoff value 3.3480850970e+02 (1.79533 seconds)
+Cbc0004I Integer solution of 334.80851 found after 3865 iterations and 128 nodes (1.74 seconds)
+Cbc0001I Search completed - best objective 334.8085096971986, took 3865 iterations and 128 nodes (1.74 seconds)
+Cbc0035I Maximum depth 22, 0 variables fixed on reduced cost
+
+ 	"Finished"
+
+Linearization cuts added at root node:        110
+Linearization cuts added in total:            110  (separation time: 0.000384s)
+Total solve time:                         1.73805s (1.73805s in branch-and-bound)
+Lower bound:                              334.809
+Upper bound:                              334.809  (gap: 0.00%)
+Branch-and-bound nodes:                       128
+Performance of                           FBBT:	   0.021758s,      418 runs. fix:          0 shrnk: 0.00337653 ubd:          0 2ubd:          0 infeas:          0
+Performance of                           OBBT:	   0.232099s,       14 runs. fix:    2.27148 shrnk:    9.60186 ubd:          0 2ubd:          0 infeas:          1
+

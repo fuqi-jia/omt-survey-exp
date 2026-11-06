@@ -1,0 +1,4 @@
+Solver log file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_qpc-m0/solver.log'
+Solver solution file: '/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_qpc-m0/tmp86__fivv.pyomo.sol'
+Solver problem files: ('/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_public/couenne/st_qpc-m0/tmp86__fivv.pyomo.nl',)
+couenne st_qpc-m0 optimal True 1.034

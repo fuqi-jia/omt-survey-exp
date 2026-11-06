@@ -1,0 +1,24 @@
+{
+  "solver": "ocac",
+  "instance": "st_bpv2",
+  "status": "RETURNED",
+  "elapsed_s": 15.336899226997048,
+  "timeout_s": 600,
+  "core": 10,
+  "x": [
+    2.999999985098839,
+    0.0,
+    4.0,
+    4.0
+  ],
+  "parse_error": null,
+  "reported_objective": -8.0,
+  "witness_check_s": 0.2370341990608722,
+  "model_sha256": "b1508d6629d88936415bce84de41a6c9cf33940b8e75b1855e845142c9ec213e",
+  "objective": -7.999999940395355,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 7.450580596923828e-09
+}

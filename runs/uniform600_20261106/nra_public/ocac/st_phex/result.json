@@ -1,0 +1,22 @@
+{
+  "solver": "ocac",
+  "instance": "st_phex",
+  "status": "RETURNED",
+  "elapsed_s": 2.4476571780396625,
+  "timeout_s": 600,
+  "core": 8,
+  "x": [
+    7.0,
+    2.9999999701976776
+  ],
+  "parse_error": null,
+  "reported_objective": -85.0,
+  "witness_check_s": 0.17258717899676412,
+  "model_sha256": "dda6a26ba46804d03746814dfe3d54229ab7d4b15708aeb6e8d7950ba4645a58",
+  "objective": -84.99999928474426,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 8.414773380055147e-09
+}

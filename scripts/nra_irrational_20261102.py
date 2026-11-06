@@ -24,7 +24,7 @@ import time
 import nra_public_20261102 as common
 
 ROOT = common.ROOT
-OUT = ROOT / "runs/nra_irrational_20261102"
+OUT = Path(os.environ.get("OMT_NRA_IRR_OUTPUT", ROOT / "runs/nra_irrational_20261102"))
 BENCH = ROOT / "benchmarks/nra-irrational-20261102"
 BASE_ASSESS, BASE_SMT, BASE_PYOMO = common.assess, common.smt_source, common.pyomo_model
 
@@ -202,7 +202,7 @@ def worker(solver,name,core,start_key):
             from pyomo.common.tempfiles import TempfileManager
             TempfileManager.tempdir=str(folder)
             m=pyomo_model(model,start);opt=p.SolverFactory('ipopt',executable=common.SOLVERS['ipopt'])
-            opt.options.update(dict(max_cpu_time=120,tol=1e-8,constr_viol_tol=1e-8,bound_relax_factor=0))
+            opt.options.update(dict(max_cpu_time=common.LIMIT,tol=1e-8,constr_viol_tol=1e-8,bound_relax_factor=0))
             t=time.monotonic()
             try:
                 r=opt.solve(m,tee=False,keepfiles=True,load_solutions=False,logfile=str(folder/'solver.log'))
@@ -222,7 +222,7 @@ def worker(solver,name,core,start_key):
             bounds=[(common.number(v['lb']),common.number(v['ub'])) for v in model['variables']]
             t=time.monotonic()
             def callback(v):
-                if time.monotonic()-t>120:raise TimeoutError('time limit')
+                if time.monotonic()-t>common.LIMIT:raise TimeoutError('time limit')
             try:
                 r=minimize(lambda v:common.evaluate(model['objective'],v),start,bounds=bounds,
                     constraints=cons,method='SLSQP',callback=callback,options=dict(ftol=1e-8,maxiter=10000))
@@ -230,7 +230,7 @@ def worker(solver,name,core,start_key):
                 (folder/'stdout.txt').write_text(str(r))
             except Exception as exc:error=repr(exc)
         record=dict(solver=solver,instance=name,start_key=start_key,start=start,status=status,
-                    elapsed_s=time.monotonic()-t,timeout_s=120,core=core,x=x,error=error,
+                    elapsed_s=time.monotonic()-t,timeout_s=common.LIMIT,core=core,x=x,error=error,
                     model_sha256=hashlib.sha256((OUT/'models'/(name+'.json')).read_bytes()).hexdigest(),
                     **assess(model,x,model['reference']))
     if solver in ('z3','ocac','optimathsat'):
@@ -256,7 +256,7 @@ def prepare():
     for m in generate():
         common.save(OUT/'models'/(m['name']+'.json'),m);common.save(BENCH/(m['name']+'.json'),m)
     common.save(OUT/'protocol.json',dict(date='2026-11-02',families=dict(A=[5,8,13],B=[[3,3],[4,6],[5,8]],C=[[5,5],[29,5],[29,8]]),
-        time_limit_s=120,memory_gb=4,threads=1,global_solvers=['z3','ocac','optimathsat','couenne','gurobi'],
+        time_limit_s=common.LIMIT,memory_gb=4,threads=1,global_solvers=['z3','ocac','optimathsat','couenne','gurobi'],
         local_solvers=['ipopt','scipy'],local_starts=['I','II'],expected_formal_calls=69,
         selection='all nine predeclared parameter combinations; no outcome-based selection',
         references='analytic radical formulas; independent nonconvexity certificates stored with each instance',
@@ -283,7 +283,7 @@ def batch(cores):
             p=subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,env=env,start_new_session=True)
             t=time.monotonic()
             try:
-                stdout,stderr=p.communicate(timeout=200)
+                stdout,stderr=p.communicate(timeout=2 * common.LIMIT + 80)
                 (folder/'worker.stdout').write_text(stdout);(folder/'worker.stderr').write_text(stderr)
                 if not (folder/'result.json').exists():
                     common.save(folder/'result.json',dict(solver=s,instance=name,start_key=k,status='WORKER_ERROR',elapsed_s=time.monotonic()-t,x=None,feasible=False,reference_hit=False,optimization_hit=False))

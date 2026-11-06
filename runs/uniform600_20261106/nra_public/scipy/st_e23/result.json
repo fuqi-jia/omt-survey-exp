@@ -1,0 +1,22 @@
+{
+  "solver": "scipy",
+  "instance": "st_e23",
+  "status": "SUCCESS",
+  "elapsed_s": 0.0062856749864295125,
+  "timeout_s": 600,
+  "core": 6,
+  "x": [
+    1.0,
+    1.0
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "603e1e6b0d4e10e87b2b99a80855f25155323e466eb801109c12065cc594b4b2",
+  "objective": -1.0,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.07692307663905316
+}

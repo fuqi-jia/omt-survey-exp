@@ -1,0 +1,4 @@
+sat
+(objectives
+	((+ x 0.0) (_ real_algebraic_number <1*x^2 + (-2), (5/4, 3/2)>))
+)

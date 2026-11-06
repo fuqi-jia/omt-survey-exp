@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import os
 from pathlib import Path
 import platform
 import sys
@@ -16,7 +17,7 @@ from nra_public_20261102 import OUT, LIMIT, assess, number, save, starting_point
 
 def main():
     import psutil
-    psutil.Process().cpu_affinity([12])
+    psutil.Process().cpu_affinity([int(os.environ.get("OMT_NRA_CORE", "12"))])
     for path in sorted((OUT / "models").glob("*.json")):
         data = json.loads(path.read_text())
         name = data["name"]
@@ -63,7 +64,7 @@ def main():
         save(folder / "result.json", dict(solver="gurobi", instance=name,
              status=str(m.Status), elapsed_s=elapsed, native_runtime=m.Runtime,
              objective_bound=m.ObjBound if m.Status in (GRB.OPTIMAL, GRB.TIME_LIMIT) else None,
-             timeout_s=LIMIT, core=12, x=x, model_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
+             timeout_s=LIMIT, core=int(os.environ.get("OMT_NRA_CORE", "12")), x=x, model_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
              **assess(data, x, data["reference"])))
         print(name, m.Status, elapsed, flush=True)
         m.dispose()

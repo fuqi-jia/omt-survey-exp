@@ -1,0 +1,22 @@
+{
+  "solver": "ocac",
+  "instance": "st_e23",
+  "status": "RETURNED",
+  "elapsed_s": 0.20279421203304082,
+  "timeout_s": 600,
+  "core": 10,
+  "x": [
+    1.1666666666666667,
+    0.5000000596046448
+  ],
+  "parse_error": null,
+  "reported_objective": -1.0833333333333333,
+  "witness_check_s": 0.266811131965369,
+  "model_sha256": "603e1e6b0d4e10e87b2b99a80855f25155323e466eb801109c12065cc594b4b2",
+  "objective": -1.083333323399226,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 8.862252882993228e-09
+}

@@ -1,0 +1,1 @@
+optimathsat st_ph10 RETURNED True 0.088

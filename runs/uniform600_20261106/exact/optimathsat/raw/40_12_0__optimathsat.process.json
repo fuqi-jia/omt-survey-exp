@@ -1,0 +1,21 @@
+{
+  "returncode": 0,
+  "wall_s": 2.3869191739941016,
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/diagnostics_refresh_20261028.py",
+    "--kind",
+    "exact",
+    "--worker",
+    "--solver",
+    "optimathsat",
+    "--n",
+    "12",
+    "--timeout",
+    "600",
+    "--exp",
+    "40",
+    "--seed",
+    "0"
+  ]
+}

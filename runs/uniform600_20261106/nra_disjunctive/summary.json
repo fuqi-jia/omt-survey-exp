@@ -1,0 +1,87 @@
+{
+  "couenne": {
+    "4": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 1.2213301069568843
+    },
+    "8": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 1.8859953570645303
+    },
+    "12": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 2.9419166049920022
+    }
+  },
+  "gurobi": {
+    "4": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 0.015999999945051968
+    },
+    "8": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 0.03100000007543713
+    },
+    "12": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 0.03100000007543713
+    }
+  },
+  "ocac": {
+    "4": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    },
+    "8": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    },
+    "12": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    }
+  },
+  "optimathsat": {
+    "4": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    },
+    "8": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    },
+    "12": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    }
+  },
+  "z3": {
+    "4": {
+      "total": 3,
+      "hits": 3,
+      "median_s": 0.4132364079123363
+    },
+    "8": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    },
+    "12": {
+      "total": 3,
+      "hits": 0,
+      "median_s": null
+    }
+  }
+}

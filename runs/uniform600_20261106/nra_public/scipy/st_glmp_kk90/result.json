@@ -1,0 +1,25 @@
+{
+  "solver": "scipy",
+  "instance": "st_glmp_kk90",
+  "status": "SUCCESS",
+  "elapsed_s": 0.04227755905594677,
+  "timeout_s": 600,
+  "core": 6,
+  "x": [
+    5.748197464204433e-15,
+    3.9999999999999947,
+    5.734603048279935e-15,
+    1.0000000000000113,
+    3.0000000000000004
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "a4c10fcf3bbf9c3bc52ccd7c45af8ae28220070a0119e2d380733f9f14ba67a6",
+  "objective": 3.0000000000000404,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 1.3594415924497929e-17,
+  "max_scaled_violation": 1.3594415924497929e-17,
+  "relative_reference_error": 1.3470706032118565e-14
+}

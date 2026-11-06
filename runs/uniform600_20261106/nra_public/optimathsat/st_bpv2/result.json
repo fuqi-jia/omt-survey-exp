@@ -1,0 +1,24 @@
+{
+  "solver": "optimathsat",
+  "instance": "st_bpv2",
+  "status": "RETURNED",
+  "elapsed_s": 0.08838225796353072,
+  "timeout_s": 600,
+  "core": 4,
+  "x": [
+    3.0,
+    0.0,
+    4.0,
+    4.0
+  ],
+  "parse_error": null,
+  "reported_objective": -8.0,
+  "witness_check_s": 0.0005062140990048647,
+  "model_sha256": "b1508d6629d88936415bce84de41a6c9cf33940b8e75b1855e845142c9ec213e",
+  "objective": -8.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

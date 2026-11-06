@@ -1,0 +1,24 @@
+{
+  "solver": "couenne",
+  "instance": "st_ph15",
+  "status": "optimal",
+  "elapsed_s": 0.896358649013564,
+  "timeout_s": 600,
+  "core": 11,
+  "x": [
+    12.222222358888377,
+    2.888888915556366,
+    -9.999926315596667e-09,
+    1.666666676666372
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "c6d6e5243f0c632ae1614fb13e359e34eb66eabd39287fb265d09806a071752a",
+  "objective": -392.70371503366374,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 2.899996403016303e-07,
+  "max_scaled_violation": 9.99998759660794e-09,
+  "relative_reference_error": 2.8860598025251717e-08
+}

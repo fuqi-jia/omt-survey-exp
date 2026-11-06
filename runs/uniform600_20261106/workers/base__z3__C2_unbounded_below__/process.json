@@ -1,0 +1,27 @@
+{
+  "job": [
+    "base",
+    "z3",
+    "C2_unbounded_below",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "base",
+    "--solver",
+    "z3",
+    "--name",
+    "C2_unbounded_below",
+    "--core",
+    "4",
+    "--start",
+    ""
+  ],
+  "core": 4,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 1.7345107180299237
+}

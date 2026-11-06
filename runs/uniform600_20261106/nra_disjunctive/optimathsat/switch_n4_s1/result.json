@@ -1,0 +1,28 @@
+{
+  "solver": "optimathsat",
+  "instance": "switch_n4_s1",
+  "status": "RETURNED",
+  "elapsed_s": 0.06808814301621169,
+  "timeout_s": 600,
+  "core": 3,
+  "x": [
+    0.0,
+    0.0,
+    3.5,
+    58.0,
+    0.0,
+    0.0,
+    1.0,
+    27.0
+  ],
+  "parse_error": "Invalid literal for Fraction: 'epsilon'",
+  "reported_objective": null,
+  "witness_check_s": 0.000601810053922236,
+  "model_sha256": "fae9fdc832bbeb2cb787059d157c34756d5619d6147c191328538100aa6d928e",
+  "objective": 85.0,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 1.4285714285714286
+}

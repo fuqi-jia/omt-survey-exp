@@ -1,0 +1,16 @@
+{
+  "solver": "z3",
+  "instance": "ex2_1_1",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.0997681019362,
+  "timeout_s": 600,
+  "core": 2,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "35895b809354eba60060b9e3d6d3e3df6144a77017031e4b1305d13f46f31d98",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

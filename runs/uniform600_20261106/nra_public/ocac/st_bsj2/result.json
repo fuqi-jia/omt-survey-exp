@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_bsj2",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.1063117020531,
+  "timeout_s": 600,
+  "core": 9,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "1c592aa29797db5d1b281bc9c03ad03428f39af7ff6f0f71703c406e59febf36",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

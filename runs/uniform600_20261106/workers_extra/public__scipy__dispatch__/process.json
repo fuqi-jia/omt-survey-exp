@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "scipy",
+    "dispatch",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "scipy",
+    "--name",
+    "dispatch",
+    "--core",
+    "8",
+    "--start",
+    ""
+  ],
+  "core": 8,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 12.666848286986351
+}

@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "ocac",
+    "st_e22",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "ocac",
+    "--name",
+    "st_e22",
+    "--core",
+    "4",
+    "--start",
+    ""
+  ],
+  "core": 4,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 5.051632755086757
+}

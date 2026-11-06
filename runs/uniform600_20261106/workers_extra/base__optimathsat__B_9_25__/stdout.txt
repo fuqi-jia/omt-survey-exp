@@ -1,0 +1,1 @@
+optimathsat B_9_25 sat  (objectives  (x 0) )

@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_glmp_kk90",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.2140012510354,
+  "timeout_s": 600,
+  "core": 2,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "a4c10fcf3bbf9c3bc52ccd7c45af8ae28220070a0119e2d380733f9f14ba67a6",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

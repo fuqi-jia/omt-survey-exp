@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "couenne",
+    "st_e24",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "couenne",
+    "--name",
+    "st_e24",
+    "--core",
+    "0",
+    "--start",
+    ""
+  ],
+  "core": 0,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.1847801570547745
+}

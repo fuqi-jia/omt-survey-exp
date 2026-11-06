@@ -1,0 +1,1 @@
+scipy st_bpk1 SUCCESS False 0.034

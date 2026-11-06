@@ -1,0 +1,24 @@
+{
+  "solver": "gurobi",
+  "instance": "st_qpc-m1",
+  "status": "2",
+  "elapsed_s": 0.0,
+  "native_runtime": 0.006999969482421875,
+  "objective_bound": -473.7777777777778,
+  "timeout_s": 600,
+  "core": 12,
+  "x": [
+    0.0,
+    0.0,
+    0.0,
+    3.3333333333333335,
+    26.666666666666668
+  ],
+  "model_sha256": "e06eef5a2a5985aa7ad5a0a6eaa5557fcce4e4262e9db1f609ba97ebd1a5e955",
+  "objective": -473.77777777777794,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 4.690401912799461e-11
+}

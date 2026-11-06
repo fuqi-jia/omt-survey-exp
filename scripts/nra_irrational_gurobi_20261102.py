@@ -3,6 +3,7 @@
 
 import hashlib
 import json
+import os
 from pathlib import Path
 import platform
 import sys
@@ -13,15 +14,15 @@ from gurobipy import GRB
 import psutil
 
 import nra_irrational_20261102 as spec
-from nra_public_20261102 import number, save, starting_point
+from nra_public_20261102 import LIMIT, number, save, starting_point
 
 
 def main():
-    psutil.Process().cpu_affinity([12])
+    psutil.Process().cpu_affinity([int(os.environ.get("OMT_NRA_CORE", "12"))])
     for path in sorted((spec.OUT/'models').glob('*.json')):
         data=json.loads(path.read_text());folder=spec.OUT/'gurobi'/data['name'];folder.mkdir(parents=True,exist_ok=True)
         if (folder/'result.json').exists():continue
-        m=gp.Model();m.Params.Threads=1;m.Params.TimeLimit=120;m.Params.MemLimit=4;m.Params.NonConvex=2
+        m=gp.Model();m.Params.Threads=1;m.Params.TimeLimit=LIMIT;m.Params.MemLimit=4;m.Params.NonConvex=2
         m.Params.MIPGap=1e-8;m.Params.MIPGapAbs=1e-8;m.Params.FeasibilityTol=1e-8;m.Params.OptimalityTol=1e-8
         m.Params.BarQCPConvTol=1e-8;m.Params.LogFile=str(folder/'solver.log')
         vs=[m.addVar(lb=number(v['lb']),ub=number(v['ub']),name=f'x{i}') for i,v in enumerate(data['variables'])]
@@ -49,7 +50,7 @@ def main():
         x=[v.X for v in vs] if m.SolCount else None
         checked=spec.assess(data,x,data['reference'])
         record=dict(solver='gurobi',instance=data['name'],status=str(m.Status),elapsed_s=elapsed,
-            timeout_s=120,core=12,x=x,optimization_hit=checked['reference_hit'],
+            timeout_s=LIMIT,core=int(os.environ.get("OMT_NRA_CORE", "12")),x=x,optimization_hit=checked['reference_hit'],
             model_sha256=hashlib.sha256(path.read_bytes()).hexdigest(),**checked)
         save(folder/'result.json',record);print(data['name'],record['optimization_hit'],checked.get('objective'),flush=True)
         m.dispose()

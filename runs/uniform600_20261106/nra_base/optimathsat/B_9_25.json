@@ -1,0 +1,16 @@
+{
+  "solver": "optimathsat",
+  "case": "B_9_25",
+  "command": [
+    "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+    "-optimization=TRUE",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_base/optimathsat/B_9_25.smt2"
+  ],
+  "timeout_s": 600,
+  "elapsed_s": 0.02143040089868009,
+  "returncode": 0,
+  "timed_out": false,
+  "input_sha256": "8a1d3b6849318b04dd4445bc05625549d5f34382897f58ebbba8c60859ce9459",
+  "stdout": "sat\n\n(objectives\n (x 0)\n)\n",
+  "stderr": ""
+}

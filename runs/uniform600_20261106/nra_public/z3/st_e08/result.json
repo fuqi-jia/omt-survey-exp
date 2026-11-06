@@ -1,0 +1,22 @@
+{
+  "solver": "z3",
+  "instance": "st_e08",
+  "status": "RETURNED",
+  "elapsed_s": 0.026626711012795568,
+  "timeout_s": 600,
+  "core": 8,
+  "x": [
+    0.12940952255126037,
+    0.48296291314453416
+  ],
+  "parse_error": null,
+  "reported_objective": 0.741781958247055,
+  "witness_check_s": 0.0003654869506135583,
+  "model_sha256": "072b9dfb355df632f692852714c0caf658b61734f6d9bf20219b994462a69e1f",
+  "objective": 0.7417819582470548,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 1.1102230246251565e-16,
+  "max_scaled_violation": 1.1102230246251565e-16,
+  "relative_reference_error": 4.7054804497292935e-11
+}

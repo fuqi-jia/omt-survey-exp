@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "nemhaus",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.1480712189805,
+  "timeout_s": 600,
+  "core": 8,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "420d2ca0add3f53a4e722edd2ecda7f46c5d9bd1a59bf0c523821cde7ebcc249",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

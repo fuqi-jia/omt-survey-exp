@@ -1,0 +1,24 @@
+{
+  "solver": "scipy",
+  "instance": "st_glmp_fp3",
+  "status": "SUCCESS",
+  "elapsed_s": 0.02037967403884977,
+  "timeout_s": 600,
+  "core": 11,
+  "x": [
+    -3.725290076417309e-09,
+    -5.043712065507383e-17,
+    -3.725290298461914e-09,
+    -3.7252901874396116e-09
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "7d0f6198e2dcdc1e1a462b747100fa6ed85c7475f3eb8421a752ef783161d6c3",
+  "objective": 1.387778739422415e-17,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 1.7160748426995748e-16,
+  "max_scaled_violation": 1.7160748426995748e-16,
+  "relative_reference_error": 1.0
+}

@@ -1,0 +1,27 @@
+{
+  "job": [
+    "disjunctive",
+    "optimathsat",
+    "switch_n8_s2",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "disjunctive",
+    "--solver",
+    "optimathsat",
+    "--name",
+    "switch_n8_s2",
+    "--core",
+    "10",
+    "--start",
+    ""
+  ],
+  "core": 10,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 602.2164737399435
+}

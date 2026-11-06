@@ -1,0 +1,2 @@
+optimathsat B_a4_b6 TIMEOUT False 600.125
+optimathsat B_a4_b6 TIMEOUT False None

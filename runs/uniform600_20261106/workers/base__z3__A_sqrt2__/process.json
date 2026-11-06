@@ -1,0 +1,27 @@
+{
+  "job": [
+    "base",
+    "z3",
+    "A_sqrt2",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "base",
+    "--solver",
+    "z3",
+    "--name",
+    "A_sqrt2",
+    "--core",
+    "10",
+    "--start",
+    ""
+  ],
+  "core": 10,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 1.3628102890215814
+}

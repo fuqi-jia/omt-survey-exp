@@ -1,0 +1,1 @@
+optimathsat st_e01 RETURNED True 0.164

@@ -1,0 +1,3 @@
+[scip_var.c:251] ERROR: invalid objective function value: value is infinite
+[scip_var.c:150] ERROR: Error <-9> in function call
+[scip_var.c:196] ERROR: Error <-9> in function call

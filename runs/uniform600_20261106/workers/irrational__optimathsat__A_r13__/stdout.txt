@@ -1,0 +1,2 @@
+optimathsat A_r13 TIMEOUT False 600.124
+optimathsat A_r13 TIMEOUT False None

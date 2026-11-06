@@ -383,3 +383,18 @@ and successful independent exact revalidation. The source archive, member
 hashes, interface mapping, resources, aggregation, and reproduction commands
 are documented in
 [REPRODUCE_MAXSMT_20261103.md](REPRODUCE_MAXSMT_20261103.md).
+
+
+## 2026-11-06：600 秒本地数值与非线性刷新
+
+本轮以本地 Intel Core i7-11700F、32 GB 内存重新运行原先 120 秒的实验，每次调用单线程、4 GB 上限、600 秒限时。新增目录为 `runs/uniform600_20261106/`；此前的目录与原始日志均保留。新运行未使用远程服务器。
+
+- 大系数背包 360 次、Hilbert 线性系统 42 次，共 402 次数值调用。
+- 单变量及扩展数值方法 46 次、公开 MINLPLib 301 次、析取非线性 45 次、无理最优值算例 69 次，共 461 次非线性调用。
+- 严格约束例与 A5 的原生 OptiMathSAT API 状态另查询两次，限时同为 600 秒。
+
+所有多变量模型与原模型逐字节一致，初值、可行性标准与目标误差阈值不变。数值组保留原始整数或有理数规格，按原规格重算候选。非线性组采集最终接口或解文件候选；原始终止状态单独保存。异常退出后的解文件读取沿用字节一致的 NL 列映射检查，候选不作修补。
+
+`paper-result-index.json` 将表格映射到实际输入与调用目录；`paper-cells.json` 提供经审计的单元格数据。`source-snapshots/`、`launch/`、`workers/`、`workers_extra/` 和各求解器目录保留源码、命令、原始输出与状态。独立审计结果为 `numerical-audit.json`、三组 NRA `delivery-audit.json` 与总 `delivery-audit.json`。运行和复跑命令见 [REPRODUCE_UNIFORM600_20261106.md](REPRODUCE_UNIFORM600_20261106.md)。
+
+现有 600 秒性能、CGM MaxSMT 和公开浮点数据保持原来源。本文“统一限时”只改变此前 120 秒组的运行预算，没有混用旧时限的超时记录。

@@ -1,0 +1,25 @@
+{
+  "solver": "ipopt",
+  "instance": "st_glmp_ss2",
+  "status": "optimal",
+  "elapsed_s": 0.9505327549995854,
+  "timeout_s": 600,
+  "core": 9,
+  "x": [
+    2.504765711946812e-10,
+    2.5000000026134526,
+    2.504765711946812e-10,
+    5.499999992660596,
+    1.5000000028639289
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "6f6144e37cf1683bceaea8db913be3a4ce69b34e17fbd8348e67bd35c0ad7f67",
+  "objective": 8.25000000499298,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 2.220446049250313e-16,
+  "max_scaled_violation": 2.220446049250313e-16,
+  "relative_reference_error": 1.7500000044143267
+}

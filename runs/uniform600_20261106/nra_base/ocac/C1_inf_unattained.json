@@ -1,0 +1,15 @@
+{
+  "solver": "ocac",
+  "case": "C1_inf_unattained",
+  "command": [
+    "/mnt/e/iscas/papers/jos2026/omt-exp/tools/local-nra-20261028/cvc5-ocac",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_base/ocac/C1_inf_unattained.smt2"
+  ],
+  "timeout_s": 600,
+  "elapsed_s": 1.0025137540651485,
+  "returncode": 0,
+  "timed_out": false,
+  "input_sha256": "912e9be50edb5df0021c624063fc32b539f727cc352de1440a024a0d32829353",
+  "stdout": "sat\n(objectives\n\t((+ x 0.0) (+ (_ real_algebraic_number <1*x^2 + (-2), (5/4, 3/2)>) epsilon))\n)\n",
+  "stderr": ""
+}

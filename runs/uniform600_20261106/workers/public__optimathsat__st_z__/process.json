@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "optimathsat",
+    "st_z",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "optimathsat",
+    "--name",
+    "st_z",
+    "--core",
+    "4",
+    "--start",
+    ""
+  ],
+  "core": 4,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.5116513579851016
+}

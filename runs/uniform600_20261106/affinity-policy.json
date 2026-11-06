@@ -1,0 +1,43 @@
+{
+  "parent_pools": {
+    "8265": {
+      "6": 1,
+      "8": 3,
+      "10": 5
+    }
+  },
+  "primary_cores": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "extra_initial_cores": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "extra_effective_cores": [
+    1,
+    7,
+    3,
+    9,
+    5,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "changed_epoch": 1793939470.6444528,
+  "reason": "Use all logical CPUs once across both local queues."
+}

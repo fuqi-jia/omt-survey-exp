@@ -1,0 +1,16 @@
+{
+  "solver": "optimathsat",
+  "case": "A_sqrt2",
+  "command": [
+    "/mnt/e/iscas/papers/jos2026/omt-exp/tools/optimathsat-1.7.4-linux-64-bit/bin/optimathsat",
+    "-optimization=TRUE",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/runs/uniform600_20261106/nra_base/optimathsat/A_sqrt2.smt2"
+  ],
+  "timeout_s": 600,
+  "elapsed_s": 600.121544499998,
+  "returncode": null,
+  "timed_out": true,
+  "input_sha256": "6b8bf6b30d01075fabca5f714c75b4a92e1e6b8aa885f8b378f5169e1a26cc24",
+  "stdout": "",
+  "stderr": ""
+}

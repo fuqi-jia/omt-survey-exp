@@ -1,0 +1,27 @@
+{
+  "solver": "ipopt",
+  "instance": "A_r5",
+  "start_key": "II",
+  "start": [
+    1.0,
+    5.0
+  ],
+  "status": "optimal",
+  "elapsed_s": 1.0318735160399228,
+  "timeout_s": 600,
+  "core": 15,
+  "x": [
+    0.45685025572669496,
+    2.188901059826075
+  ],
+  "error": null,
+  "model_sha256": "34bd434036af1b9b50517ce54b919167a8f4d2d1beddea2e508b043e3831c4a8",
+  "objective": 4.8346523753788455,
+  "feasible": true,
+  "reference_hit": false,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.5582575711063358,
+  "optimization_hit": false,
+  "correct_optimal_return": false
+}

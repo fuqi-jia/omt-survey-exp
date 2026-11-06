@@ -1,0 +1,27 @@
+{
+  "job": [
+    "base",
+    "ocac",
+    "C2_unbounded_below",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "base",
+    "--solver",
+    "ocac",
+    "--name",
+    "C2_unbounded_below",
+    "--core",
+    "11",
+    "--start",
+    ""
+  ],
+  "core": 11,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.8631018379237503
+}

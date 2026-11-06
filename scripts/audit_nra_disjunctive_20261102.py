@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 
 from nra_disjunctive_20261102 import OUT, BENCH, assess, summary
-from nra_public_20261102 import save
+from nra_public_20261102 import LIMIT, save
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
             checked = assess(model, result.get("x"), model["reference"])
             assert checked["feasible"] == result["feasible"]
             assert checked["reference_hit"] == result["reference_hit"]
-            assert result["elapsed_s"] <= 166
+            assert result["elapsed_s"] <= LIMIT + 46
             rows.append(result)
     assert len(rows) == 45
     assert all(r["reference_hit"] for r in rows if r["solver"] == "gurobi")

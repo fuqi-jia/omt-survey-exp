@@ -1,0 +1,27 @@
+{
+  "job": [
+    "irrational",
+    "z3",
+    "A_r5",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "irrational",
+    "--solver",
+    "z3",
+    "--name",
+    "A_r5",
+    "--core",
+    "15",
+    "--start",
+    ""
+  ],
+  "core": 15,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 1.391152199008502
+}

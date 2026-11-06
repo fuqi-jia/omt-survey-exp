@@ -1,0 +1,27 @@
+{
+  "job": [
+    "public",
+    "ocac",
+    "st_qpc-m0",
+    ""
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "public",
+    "--solver",
+    "ocac",
+    "--name",
+    "st_qpc-m0",
+    "--core",
+    "11",
+    "--start",
+    ""
+  ],
+  "core": 11,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 2.6940608490258455
+}

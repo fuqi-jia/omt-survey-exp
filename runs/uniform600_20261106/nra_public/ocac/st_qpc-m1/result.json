@@ -1,0 +1,16 @@
+{
+  "solver": "ocac",
+  "instance": "st_qpc-m1",
+  "status": "TIMEOUT",
+  "elapsed_s": 600.1459308909252,
+  "timeout_s": 600,
+  "core": 8,
+  "x": null,
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "e06eef5a2a5985aa7ad5a0a6eaa5557fcce4e4262e9db1f609ba97ebd1a5e955",
+  "feasible": false,
+  "reference_hit": false,
+  "objective": null
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "nra_multi_a_rows": 7,
+  "nra_multi_b_rows": 9,
+  "cells_unchanged_from_previous_paper": true,
+  "manuscript_sha256": "46aaa13eaec344d6857dc381c3a2627e1c93aade017f1b6189c6333943571f4a",
+  "exact_table_rows": 9,
+  "hilbert_table_rows": 7,
+  "base_symbolic_outputs_unchanged": true,
+  "base_numeric_results_unchanged": true
+}

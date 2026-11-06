@@ -1,0 +1,10127 @@
+[
+  {
+    "job": [
+      "public",
+      "z3",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2964207680197433
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2861982940230519
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2904744519619271
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "pointpack02",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3026971560902894
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "nemhaus",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.305362040991895
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "prob06",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2954493489814922
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3840471529401839
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.451062362990342
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4528241669759154
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "dispatch",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4748975499533117
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e02",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4636758799897507
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e01",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4681769780581817
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5668633240275085
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e08",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.544647269998677
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e05",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5489906929433346
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e18",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4467781679704785
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.716082923929207
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e09",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.751173801952973
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e22",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7196234109578654
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e23",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7959033009829
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e24",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6823999850312248
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e25",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6787659209221601
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_e26",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6730116710532457
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6666896770475432
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6722858629655093
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.000650334986858
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.8393365039955825
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9483032620046288
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.0272141969762743
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ht",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.244357171934098
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_pan1",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6313091620104387
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph10",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6267055469797924
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph11",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6754319469910115
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph12",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6758479049894959
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph13",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6558708499651402
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph14",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6539603809360415
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph15",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.962628646986559
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_ph20",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.5032108599552885
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.0142966919811442
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.1219168530078605
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_z",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.175991544034332
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "pointpack02",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.840779607067816
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "prob06",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.2498633139766753
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 128.72806407301687
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 139.31470364390407
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 18.674443093012087
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e01",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.055051236995496
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_phex",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.6409344560234
+  },
+  {
+    "job": [
+      "public",
+      "z3",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "z3",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.943638722063
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "dispatch",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.9281586769503
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.8471836870303
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.8930156759452
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e05",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5503258330281824
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e08",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4289830919587985
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e09",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4745432829950005
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.3588272719644
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e18",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3620032519102097
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e22",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.384955242043361
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "nemhaus",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4863791069947
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e26",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.1883773389272392
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e25",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2887856619199738
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e23",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5517476669047028
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e24",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4923397609964013
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3051145439967513
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7206827159970999
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5826869260054082
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2643649029778317
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.265175121021457
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ht",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.210630434914492
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph10",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.6036569249117747
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.6651868110057
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph11",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 10.49329440004658
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph12",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 15.509453799924813
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_phex",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.829050738015212
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.6940608490258455
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.14021485298872
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_z",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 46.118653125013225
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.6987220150186
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.8143282029777765
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_e02",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 604.1147469559219
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.9853404409951
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_pan1",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.1158213759772
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph13",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.5535827799467
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5757486990187317
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "nemhaus",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4865039619617164
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph14",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.0777207879582
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "pointpack02",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.538658172939904
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph15",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.7582396310754
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_ph20",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.7482551049907
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "prob06",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9467487999936566
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.0186194609850645
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7169735460774973
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6776063030119985
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e01",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5782456650631502
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5850876030744985
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e02",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9211948809679598
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e08",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4702875479124486
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e09",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4617040399461985
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e05",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.791851761052385
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e22",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.8292305700015277
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e18",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.00778021896258
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e26",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6242211579810828
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e24",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9503655669977888
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.455253132036887
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.635256013018079
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.412911753053777
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.3795312349684536
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.054198598023504
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ht",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.1441313949180767
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph10",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.1770467230817303
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph11",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.4180095919873565
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph12",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.4163819489767775
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph13",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.276244967011735
+  },
+  {
+    "job": [
+      "public",
+      "ocac",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ocac",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4276161009911
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph14",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.097709108958952
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph20",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.536314393975772
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_phex",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.855369622935541
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.960353458998725
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.03648544405587
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_z",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.167569921934046
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "dispatch",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 12.666848286986351
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.17051889502909
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.651891503948718
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 10.46505642903503
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "dispatch",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.5382644259371
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "nemhaus",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.982710021082312
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.063334363978356
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "pointpack02",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.359658378991298
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "prob06",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.893251623027027
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 77.56896294897888
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.800007837009616
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.707602360052988
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.9720957869431
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.294896748033352
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e01",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.723652613000013
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e02",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.841444107936695
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e05",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.981018099933863
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e08",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.0503790989751
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e09",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.890775538049638
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e18",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.220212360960431
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e22",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.7087888300884515
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e23",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.219264685059898
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e24",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.467689060023986
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e25",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.70895465509966
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.0659130789572373
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_e26",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.7592188499402255
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.880553681985475
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9889322149101645
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.699488527025096
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.48619603109546
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.896636122954078
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ht",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.358924126951024
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_pan1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.3195434120716527
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph10",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.7627911620074883
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph11",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.087332215043716
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph12",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.282579382066615
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph13",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.1749490179354325
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph15",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.639864267082885
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph14",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.321253995993175
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_ph20",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.166074818000197
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_phex",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.9897806459339336
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.56481775699649
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.8689751530764624
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.065433876006864
+  },
+  {
+    "job": [
+      "public",
+      "scipy",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "scipy",
+      "--name",
+      "st_z",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.8883250220678747
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "dispatch",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.733800346031785
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.946522009093314
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.604778590030037
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.803394934046082
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.05760926194489
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "nemhaus",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.506329507916234
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "pointpack02",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9888674430549145
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.3977897099685
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "prob06",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.589178160065785
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.252818088047206
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.5468274779850617
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.4866217490052804
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.575615091016516
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e02",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.0270298060495406
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e01",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.40636745095253
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e05",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.3716740149538964
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e09",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.021040676976554
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e22",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.5917806059587747
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e08",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.929510887945071
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e18",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.556953318999149
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e24",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.5095814960077405
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e23",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.755989453056827
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4696119790897
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e25",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.777289075078443
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_e26",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.244196210987866
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.695105787948705
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.718381853075698
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.14341386500746
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.024203235981986
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.936172118061222
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.030053518014029
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ht",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.079283991013654
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_pan1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.888270806055516
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph10",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.217161440989003
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph11",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.145878948038444
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph12",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.87023002107162
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph13",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.177165528992191
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph14",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.021954209078103
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph15",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.894137914991006
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_ph20",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.796315912040882
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_phex",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.434528360958211
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.431985343922861
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.514221177902073
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.04414108407218
+  },
+  {
+    "job": [
+      "public",
+      "ipopt",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "ipopt",
+      "--name",
+      "st_z",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.897247741930187
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "dispatch",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "dispatch",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.477217479026876
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "ex2_1_1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "ex2_1_1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.873430012958124
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "ex3_1_2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "ex3_1_2",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.150469203013927
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "nemhaus",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "nemhaus",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9093369760084897
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "ex7_3_3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "ex7_3_3",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.659443903947249
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "ex3_1_4",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "ex3_1_4",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.374758655903861
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "pointpack02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "pointpack02",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.199396548909135
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_bpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_bpk1",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.4888604088919237
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "prob06",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "prob06",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.0024403490824625
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_bpv1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_bpv1",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.119358032010496
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_bsj2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_bsj2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.6993193840608
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_bpv2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_bpv2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.189032151014544
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e01",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e01",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.6107681969879195
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e02",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e02",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.990431991056539
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e08",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e08",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.524994489038363
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e05",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e05",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.4951200829818845
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e09",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e09",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.293998187989928
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e18",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e18",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.595355285098776
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e22",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e22",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.944724199012853
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e23",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.404161748010665
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e24",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e24",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9649172690697014
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e25",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9560264910105616
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_e26",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_e26",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.502449896070175
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_kk90",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_kk90",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.12628948490601
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_fp2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_fp2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.122407009010203
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_fp1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_fp1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 8.947014558012597
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ht",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ht",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.072213427978568
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_ss2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_ss2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.793473158963025
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_fp3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_fp3",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 10.152316302992404
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_pan1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.088458542944863
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_glmp_kk92",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_glmp_kk92",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 12.175096662947908
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph10",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph10",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.501869554980658
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph11",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph11",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.934514163993299
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph12",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph12",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.455409407033585
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph14",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph14",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.33380975201726
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph15",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.166820811107755
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph13",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.088424114976078
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_ph20",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_ph20",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.044024475035258
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_phex",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_phex",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.016348683973774
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_qpc-m0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_qpc-m0",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.9312860970385373
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.159341451944783
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_qpk1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_qpk1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.766256127040833
+  },
+  {
+    "job": [
+      "public",
+      "couenne",
+      "st_z",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "couenne",
+      "--name",
+      "st_z",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.029955028090626
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n4_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n4_s0",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.826355988974683
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n4_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n4_s1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.4236455720383674
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n4_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n4_s2",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.524223458021879
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e25",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.5470312760444
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_e23",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_e23",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.9215686729876
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n8_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n8_s2",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4738364500226453
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n12_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n12_s0",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4304074550746009
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n12_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n12_s1",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5195163280004635
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n12_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n12_s2",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5673193760449067
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n4_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n4_s0",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3580444609979168
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n4_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n4_s1",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3138129729777575
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_pan1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_pan1",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.1622027329868
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_ph15",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_ph15",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.8872763810214
+  },
+  {
+    "job": [
+      "public",
+      "optimathsat",
+      "st_qpc-m1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "public",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "st_qpc-m1",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 603.4312979859533
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n12_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n12_s0",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.9238926210674
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n12_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n12_s1",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.8518512990559
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n12_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n12_s2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.7609047950245
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n8_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n8_s0",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.6728082000045
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n4_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n4_s1",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.184695159900002
+  },
+  {
+    "job": [
+      "disjunctive",
+      "z3",
+      "switch_n8_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "z3",
+      "--name",
+      "switch_n8_s1",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 604.7959269019775
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n4_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n4_s2",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.5806369439233
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n8_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n8_s0",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.6041204739595
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n8_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n8_s1",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.0157100369688123
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n8_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n8_s2",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9616984849562868
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n8_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n8_s1",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.9342478699982
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n12_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n12_s0",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.975344411097467
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n12_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n12_s1",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.826693959068507
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n12_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n12_s2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9355294089764357
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n4_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n4_s0",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.465370636084117
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n4_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n4_s1",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.475015242001973
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n4_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n4_s2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.9717424389673397
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n8_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n8_s0",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.573225834988989
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n8_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n8_s1",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.543811562936753
+  },
+  {
+    "job": [
+      "disjunctive",
+      "ocac",
+      "switch_n8_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "ocac",
+      "--name",
+      "switch_n8_s2",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.0036033759825
+  },
+  {
+    "job": [
+      "disjunctive",
+      "couenne",
+      "switch_n8_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "couenne",
+      "--name",
+      "switch_n8_s2",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.8969209170900285
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "A_r13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "A_r13",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.3635565340518951
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "A_r5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.391152199008502
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "A_r8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "A_r8",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6616154219955206
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "B_a3_b3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5567448950605467
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "B_a4_b6",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4448719650972635
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "B_a5_b8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4120714069576934
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "C_r29_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "C_r29_5",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6761819230159745
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "C_r29_8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "C_r29_8",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4563602699199691
+  },
+  {
+    "job": [
+      "irrational",
+      "z3",
+      "C_r5_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "z3",
+      "--name",
+      "C_r5_5",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2024085639277473
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "A_r13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.283772566006519
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "A_r5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "A_r5",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.8979824649868533
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "B_a3_b3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7199919549748302
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "A_r8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "A_r8",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7533189000096172
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "B_a4_b6",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.005290554021485
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n12_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n12_s0",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.0027935780818
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "B_a5_b8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2391955320490524
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "C_r29_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "C_r29_5",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.2302416660822928
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "C_r29_8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "C_r29_8",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.6128267240710557
+  },
+  {
+    "job": [
+      "irrational",
+      "ocac",
+      "C_r5_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ocac",
+      "--name",
+      "C_r5_5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.5758615389931947
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "A_r5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "A_r5",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.1937081690412015
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "A_r13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "A_r13",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.4723974879598245
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "A_r8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "A_r8",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.205997098935768
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "B_a3_b3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.606082163983956
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "B_a4_b6",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.654809664003551
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "A_r13",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.768220226978883
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "A_r5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.149676028988324
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "A_r8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "A_r8",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 7.139581030933186
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "B_a3_b3",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 7.386212534969673
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "B_a4_b6",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.797805161913857
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "B_a5_b8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.853796693962067
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "C_r29_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "C_r29_5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 7.3587145149940625
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "C_r29_8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "C_r29_8",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.993492633919232
+  },
+  {
+    "job": [
+      "irrational",
+      "couenne",
+      "C_r5_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "couenne",
+      "--name",
+      "C_r5_5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.402295297943056
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r13",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.533846882986836
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r13",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.111801879946142
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r13",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.13452459697146
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r13",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r13",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.54721215099562
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r5",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.524405251024291
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r5",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.036952528054826
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r5",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.655374723952264
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r5",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r5",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.70751428604126
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r8",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r8",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 7.238698787987232
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "A_r8",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "A_r8",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.052162557956763
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r8",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r8",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.950497746001929
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "A_r8",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "A_r8",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.942250828025863
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a3_b3",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.906526405015029
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a3_b3",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.823847995023243
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a3_b3",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.146032722084783
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a3_b3",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a3_b3",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.362577555002645
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a4_b6",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.958351555978879
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a4_b6",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.234909548074938
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a4_b6",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.1448684190399945
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a4_b6",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a4_b6",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.098721518996172
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a5_b8",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 6.387936415034346
+  },
+  {
+    "job": [
+      "irrational",
+      "ipopt",
+      "B_a5_b8",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "ipopt",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.775559588917531
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a5_b8",
+      "I"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      "I"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 5.505394161911681
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n12_s1",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n12_s1",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.9595197520684
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n12_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n12_s2",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4210916720331
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n4_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n4_s0",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.6575080160983
+  },
+  {
+    "job": [
+      "irrational",
+      "scipy",
+      "B_a5_b8",
+      "II"
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "scipy",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "15",
+      "--start",
+      "II"
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.709129132097587
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "A_sqrt2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "A_sqrt2",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.4269303549081087
+  },
+  {
+    "job": [
+      "extensions",
+      "ipopt",
+      "all",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "extensions",
+      "--solver",
+      "ipopt",
+      "--name",
+      "all",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.993239484960213
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "A_sqrt5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "A_sqrt5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.0687574109761044
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "B_5_9",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "B_5_9",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.0541997640393674
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "B_9_25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "B_9_25",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.5594918159767985
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "C1_inf_unattained",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "C1_inf_unattained",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.3807216009590775
+  },
+  {
+    "job": [
+      "base",
+      "z3",
+      "C2_unbounded_below",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "z3",
+      "--name",
+      "C2_unbounded_below",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.2707612350350246
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n4_s2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n4_s2",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.9957537810551
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "A_sqrt2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "A_sqrt2",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.6256574280560017
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "B_5_9",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "B_5_9",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.7148191379383206
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "A_sqrt5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "A_sqrt5",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.337253449950367
+  },
+  {
+    "job": [
+      "disjunctive",
+      "optimathsat",
+      "switch_n8_s0",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "disjunctive",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "switch_n8_s0",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 603.5723225550028
+  },
+  {
+    "job": [
+      "extensions",
+      "couenne",
+      "all",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "extensions",
+      "--solver",
+      "couenne",
+      "--name",
+      "all",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 13.188568448997103
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "C2_unbounded_below",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "C2_unbounded_below",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.8631018379237503
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "B_9_25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "B_9_25",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 3.081043191952631
+  },
+  {
+    "job": [
+      "base",
+      "ocac",
+      "C1_inf_unattained",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "ocac",
+      "--name",
+      "C1_inf_unattained",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.9210584569955245
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "B_5_9",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "B_5_9",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 2.15939858101774
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "B_9_25",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "B_9_25",
+      "--core",
+      "11",
+      "--start",
+      ""
+    ],
+    "core": 11,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.7059451809618622
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "C1_inf_unattained",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "C1_inf_unattained",
+      "--core",
+      "8",
+      "--start",
+      ""
+    ],
+    "core": 8,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 1.728738058009185
+  },
+  {
+    "job": [
+      "base",
+      "scipy",
+      "all",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "scipy",
+      "--name",
+      "all",
+      "--core",
+      "9",
+      "--start",
+      ""
+    ],
+    "core": 9,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 4.991064729983918
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "B_a5_b8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "B_a5_b8",
+      "--core",
+      "12",
+      "--start",
+      ""
+    ],
+    "core": 12,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.6593028369825
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "C_r29_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "C_r29_5",
+      "--core",
+      "13",
+      "--start",
+      ""
+    ],
+    "core": 13,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 601.6584812189685
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "C_r29_8",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "C_r29_8",
+      "--core",
+      "7",
+      "--start",
+      ""
+    ],
+    "core": 7,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.1299787310418
+  },
+  {
+    "job": [
+      "irrational",
+      "optimathsat",
+      "C_r5_5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "irrational",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "C_r5_5",
+      "--core",
+      "14",
+      "--start",
+      ""
+    ],
+    "core": 14,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4818949269829
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "A_sqrt2",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "A_sqrt2",
+      "--core",
+      "15",
+      "--start",
+      ""
+    ],
+    "core": 15,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.2994437060552
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "A_sqrt5",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "A_sqrt5",
+      "--core",
+      "10",
+      "--start",
+      ""
+    ],
+    "core": 10,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.4536389840068
+  },
+  {
+    "job": [
+      "base",
+      "optimathsat",
+      "C2_unbounded_below",
+      ""
+    ],
+    "command": [
+      "/tmp/gomt-refresh-venv/bin/python",
+      "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+      "worker",
+      "--kind",
+      "base",
+      "--solver",
+      "optimathsat",
+      "--name",
+      "C2_unbounded_below",
+      "--core",
+      "6",
+      "--start",
+      ""
+    ],
+    "core": 6,
+    "returncode": 0,
+    "watchdog_timeout": false,
+    "wall_s": 602.0378449750133
+  }
+]

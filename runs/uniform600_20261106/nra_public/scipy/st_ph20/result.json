@@ -1,0 +1,23 @@
+{
+  "solver": "scipy",
+  "instance": "st_ph20",
+  "status": "SUCCESS",
+  "elapsed_s": 0.04455143993254751,
+  "timeout_s": 600,
+  "core": 8,
+  "x": [
+    4.000000000004647,
+    14.000000000028162,
+    22.00000000002724
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "06e02f0806a14b660e4c94856208ee0a2c5b0938a80204328fa206cff4654390",
+  "objective": -158.00000000078512,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 2.816236133185157e-11,
+  "max_scaled_violation": 2.0115972379893977e-12,
+  "relative_reference_error": 4.969122160161267e-12
+}

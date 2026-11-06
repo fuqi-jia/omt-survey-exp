@@ -1,0 +1,13 @@
+{
+  "hostname": "DESKTOP-4QPPQ5C",
+  "python": "3.10.22 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:15:38) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "packages": {
+    "pulp": "3.3.2",
+    "gurobipy": "13.0.3",
+    "cplex": "22.1.0.0"
+  },
+  "timeout_s": 600,
+  "scip_exact": null,
+  "cbc": null
+}

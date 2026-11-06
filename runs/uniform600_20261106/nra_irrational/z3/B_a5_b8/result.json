@@ -1,0 +1,28 @@
+{
+  "solver": "z3",
+  "instance": "B_a5_b8",
+  "status": "RETURNED",
+  "elapsed_s": 6.955264816991985,
+  "timeout_s": 600,
+  "core": 0,
+  "x": [
+    -2.7650951721531376,
+    1.0,
+    7.645751311064591
+  ],
+  "parse_error": "Invalid literal for Fraction: 'x'",
+  "reported_objective": null,
+  "witness_check_s": 0.0012464849278330803,
+  "model_sha256": "e522634e5046055b6bc5bd519a3b458af073ee1e7f693a028763fc37b9099b82",
+  "objective": -2.6650951721531375,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 8.881784197001252e-16,
+  "max_scaled_violation": 8.881784197001252e-16,
+  "relative_reference_error": 1.6663165146604564e-16,
+  "reported_exact_expression": "(root-obj (+ (* 10000 (^ x 4)) (* (- 4000) (^ x 3)) (* (- 99400) (^ x 2)) (* 19960 x) 179001) 1)",
+  "reported_value": -2.665095172153138,
+  "exact_expression_matches_reference": true,
+  "optimization_hit": true,
+  "correct_optimal_return": true
+}

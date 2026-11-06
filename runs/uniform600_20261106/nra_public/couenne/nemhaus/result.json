@@ -1,0 +1,25 @@
+{
+  "solver": "couenne",
+  "instance": "nemhaus",
+  "status": "optimal",
+  "elapsed_s": 0.8457317469874397,
+  "timeout_s": 600,
+  "core": 9,
+  "x": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "420d2ca0add3f53a4e722edd2ecda7f46c5d9bd1a59bf0c523821cde7ebcc249",
+  "objective": 31.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

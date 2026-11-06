@@ -1,0 +1,27 @@
+{
+  "job": [
+    "irrational",
+    "ipopt",
+    "B_a4_b6",
+    "I"
+  ],
+  "command": [
+    "/tmp/gomt-refresh-venv/bin/python",
+    "/mnt/e/iscas/papers/jos2026/omt-exp/scripts/uniform600_20261106.py",
+    "worker",
+    "--kind",
+    "irrational",
+    "--solver",
+    "ipopt",
+    "--name",
+    "B_a4_b6",
+    "--core",
+    "10",
+    "--start",
+    "I"
+  ],
+  "core": 10,
+  "returncode": 0,
+  "watchdog_timeout": false,
+  "wall_s": 1.3051875659730285
+}

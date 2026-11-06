@@ -1,0 +1,22 @@
+{
+  "solver": "couenne",
+  "instance": "st_e24",
+  "status": "optimal",
+  "elapsed_s": 0.8787311760243028,
+  "timeout_s": 600,
+  "core": 6,
+  "x": [
+    -9.997503068428068e-09,
+    4.000000034996354
+  ],
+  "parse_error": null,
+  "reported_objective": null,
+  "witness_check_s": 0.0,
+  "model_sha256": "4c9b92cbe4873f1c167b7407d323ae1846d9e055bc520e5e9cc2465e4e4aae86",
+  "objective": 2.999999880019776,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 7.999021178761723e-08,
+  "max_scaled_violation": 9.998776473452153e-09,
+  "relative_reference_error": 3.966007464503619e-08
+}

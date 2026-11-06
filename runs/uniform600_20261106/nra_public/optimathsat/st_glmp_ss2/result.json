@@ -1,0 +1,25 @@
+{
+  "solver": "optimathsat",
+  "instance": "st_glmp_ss2",
+  "status": "RETURNED",
+  "elapsed_s": 0.06526777695398778,
+  "timeout_s": 600,
+  "core": 13,
+  "x": [
+    0.0,
+    4.0,
+    0.0,
+    1.0,
+    3.0
+  ],
+  "parse_error": null,
+  "reported_objective": 3.0,
+  "witness_check_s": 0.001015409012325108,
+  "model_sha256": "6f6144e37cf1683bceaea8db913be3a4ce69b34e17fbd8348e67bd35c0ad7f67",
+  "objective": 3.0,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 9.999999357106343e-10
+}

@@ -1,0 +1,23 @@
+{
+  "solver": "z3",
+  "instance": "st_ph11",
+  "status": "RETURNED",
+  "elapsed_s": 0.05549775995314121,
+  "timeout_s": 600,
+  "core": 6,
+  "x": [
+    4.0,
+    4.0,
+    3.75
+  ],
+  "parse_error": null,
+  "reported_objective": -11.28125,
+  "witness_check_s": 0.00037347397301346064,
+  "model_sha256": "37ae9f364aa43d4793de3ab157fcc6fdd919da1d37ac1ed94a5ef323d6005773",
+  "objective": -11.28125,
+  "feasible": true,
+  "reference_hit": true,
+  "max_absolute_violation": 0.0,
+  "max_scaled_violation": 0.0,
+  "relative_reference_error": 0.0
+}

@@ -1,0 +1,1 @@
+optimathsat st_glmp_fp1 RETURNED True 0.146

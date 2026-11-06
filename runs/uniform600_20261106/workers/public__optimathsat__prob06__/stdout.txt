@@ -1,0 +1,1 @@
+optimathsat prob06 TIMEOUT False 600.112
